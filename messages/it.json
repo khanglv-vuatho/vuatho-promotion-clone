@@ -1,0 +1,159 @@
+{
+  "Download": {
+    "download": "Scarica Ora",
+    "download_now": "Per sperimentare la tecnologia AI più avanzata",
+    "download_appstore": "Scarica da",
+    "download_chplay": "Scarica da"
+  },
+  "Navbar": {
+    "become_employee": "Diventa un Lavoratore",
+    "find_employee": "Trova un Lavoratore",
+    "store": "Uniformi",
+    "language": "Lingua",
+    "download": "Scarica Ora",
+    "money": "Denaro"
+  },
+  "Promotion": {
+    "PromotionsHeader": {
+      "text1": "Azienda di tecnologia Vua Thợ",
+      "text2": "Social Network",
+      "text3": "Per domande relative al programma promozionale, i clienti possono contattare all'indirizzo seguente per assistenza e chiarimenti.",
+      "text4": "Numero 32/28, via 35, quartiere An Khánh, città di Thủ Đức, Ho Chi Minh City",
+      "text5": "Hotline: 0912 426 404 o Email: Social@vuatho.com",
+      "RightHeader": {
+        "title1": "Serie di fortunati vincitori di moto elettriche",
+        "title2": "Partecipa al club Vua Thợ per l'opportunità di vincere una Wave RSX",
+        "text3": "Programma promozionale",
+        "download": "Scarica l'applicazione"
+      }
+    },
+    "Hero": {
+      "text1": "Partecipa al club Vua Thợ",
+      "text1-1": "Serie di fortunati",
+      "text2": "Opportunità di vincere una Wave RSX",
+      "text2-1": "Vinci una moto elettrica",
+      "text3": "01 scooter Wave RSX F1 per ogni 1.000 Artigiani che si registrano attraverso la ruota della fortuna dal sistema",
+      "text3-1": "Gli Artigiani avranno una serie di numeri fortunati e potranno partecipare a estrazioni periodiche ogni mese",
+      "text4": "Partecipa subito",
+      "text5": "Persone già iscritte",
+      "text6": "Informazioni di partecipazione",
+      "text7": "01 Yamaha PG-1 ogni mese per gli Artigiani che si registrano attraverso la ruota della fortuna dal sistema",
+      "text8": "Vinci una moto Yamaha PG-1",
+      "text9": "Regole del programma"
+    },
+    "GuidelinesPromotion": {
+      "text0": "Nome del programma promozionale",
+      "title": "Regole del programma",
+      "text1": "Periodo promozionale:",
+      "text2": "Dal 01/12/2023 fino a nuove comunicazioni da parte di Vua Thợ.",
+      "text3": "Ambito promozionale:",
+      "text4": "Su tutto il territorio del Vietnam.",
+      "text5": "Forma di promozione:",
+      "text6": "Ruota della fortuna online.",
+      "text7": "Clienti del programma promozionale:",
+      "text8": "Applicabile a tutti gli utenti di almeno 18 anni che si registrano come Artigiani con successo sull'applicazione durante il periodo promozionale (Artigiano principale + Artigiano ausiliario)."
+    },
+    "ProtocolsPromotion": {
+      "title": "Modalità di partecipazione",
+      "desc": "Gli utenti scaricano l'app Vua Thợ su App Store o Android e procedono con la registrazione dell'account con il ruolo di Artigiano.",
+      "text1": "Dopo una registrazione riuscita, ogni account Artigiano riceverà un codice premio (anche chiamato codice di riferimento) in modo casuale e verrà automaticamente registrato nel programma della ruota della fortuna.",
+      "text2": "Il programma è diviso in diverse fasi di gioco, dopo ogni 1.000 account Artigiano registrati con successo, un rappresentante della Azienda di Tecnologia Vua Thợ procederà con il giro dei 'Codici premio' tra tutti i codici premio inviati agli account Artigiano, alla presenza di un rappresentante dell'Azienda di Tecnologia Vua Thợ, rappresentanti delle parti interessate e rappresentanti dei clienti con codici premio partecipanti al programma promozionale 'Partecipa al club Vua Thợ - Opportunità di vincere una Wave RSX'.",
+      "text3": "Il sistema eseguirà automaticamente un giro e selezionerà 03 codici premio per assegnare i premi rispettivamente Primo - Secondo - Terzo, il programma sarà annunciato pubblicamente online sui mezzi di comunicazione di Vua Thợ.",
+      "text4": "Entro 24 ore dalla determinazione dei risultati del premio, Vua Thợ contatterà l'Artigiano tramite il numero di telefono fornito per comunicare il premio e fornire istruzioni su orari, luoghi e procedure di ritiro del premio. Ogni codice premio può partecipare solo a un giro.",
+      "text5": "Per i codici premio che hanno partecipato alla fase 1 (da 0001 a 0999), il sistema li escluderà automaticamente e non potranno partecipare alla fase successiva.",
+      "text6": "Passo",
+      "text7": "Scarica subito",
+      "text8": "Assumi un artigiano, cerca lavoro con tecnologia AI",
+      "text9": "O scansiona il codice QR qui sotto",
+      "text10": "Scarica e installa",
+      "text11": "l'app Vua Thợ",
+      "text12": "Registrati come artigiano",
+      "text13": "Aspetta il risultato dell'estrazione",
+      "text14": "Struttura dei premi",
+      "text15": "Secondo premio",
+      "text16": "6 casse di birra Tiger Silver",
+      "text17": "Primo premio",
+      "text18": "1 moto Wave RSX F1",
+      "text19": "Terzo premio",
+      "text20": "3 casse di birra Tiger Silver",
+      "text21": "1 motocicletta",
+      "text22": "del valore di",
+      "text23": "100 motociclette",
+      "text24": "Esteso fino a raggiungere 1.000.000 account Artigiano",
+      "text25": "Premio",
+      "text26": "Dettagli del premio",
+      "text27": "Quantità di premi",
+      "text28": "1 moto Honda Wave RSX FI 110 del valore di 25.000.000 VND",
+      "text29": "Ogni fase 6 casse di birra Tiger Silver",
+      "text30": "Ogni fase 3 casse di birra Tiger Silver"
+    },
+    "Reward": {
+      "title": "Procedura di assegnazione dei premi:",
+      "text1": "Al momento del ritiro del premio, l'Artigiano vincitore deve seguire le seguenti procedure:",
+      "text2": "Per il vincitore del primo premio è necessario essere presente di persona presso l'Azienda di Tecnologia Vua Thợ.",
+      "text3": "Vua Thợ non accetterà premi ritirati da terzi.",
+      "text4": "I premi saranno inviati all'Artigiano vincitore entro 30 giorni dalla data di estrazione del premio. Nel caso in cui Vua Thợ non riesca a contattare l'Artigiano vincitore o se l'Artigiano vincitore non si presenta per ritirare il premio entro il periodo specificato, il premio sarà recuperato da Vua Thợ e il valore del premio sarà convertito in fondi di supporto di Vua Thợ.",
+      "text5": "L'Artigiano vincitore deve sopportare tutti i costi di spostamento e trasporto (se presenti) per il ritiro del suo premio."
+    },
+    "ConditionDetails": {
+      "title": "Dettagli delle condizioni di applicazione:",
+      "text1": "I clienti vincitori sono pregati di contattare la Hotline: 0912 426 404 o inviare un messaggio direttamente sulla Fanpage o Zalo di Vua Thợ per istruzioni sul ritiro del premio.",
+      "text2": "Il primo premio sarà consegnato presso l'Azienda di Tecnologia Vua Thợ, al numero 32/28, strada 35, quartiere An Khánh, Thủ Đức, Città di Ho Chi Minh, oppure Vua Thợ fornirà supporto per la consegna a domicilio ai clienti (al di fuori dell'area della Città di Ho Chi Minh).",
+      "text3": "L'organizzatore ha il pieno diritto di utilizzare il nome, l'immagine dei partecipanti al programma su tutti i canali informativi del programma e su altri mezzi di comunicazione.",
+      "text4": "In caso di eventuali reclami o dispute relativi a questa promozione, la Công ty TNHH Công nghệ Vua Thợ sarà responsabile della risoluzione diretta. In caso di mancato accordo sulla disputa, questa verrà trattata conformemente alle leggi vigenti.",
+      "text5": "Il personale della Công ty TNHH Công nghệ Vua Thợ e il personale dell'ufficio amministrativo-commerciale presso la Công ty TNHH Sản xuất Thương mại - Xây dựng Phố Việt non sono autorizzati a partecipare al programma.",
+      "text6": "Il programma potrebbe concludersi prima del previsto."
+    },
+    "ImportantNote": {
+      "title": "Nota importante:",
+      "text1": "Per il premio della moto Wave RSX FI 110 (non convertibile in denaro contante):",
+      "text2": "Il valore della moto (25.000.000 VND) non include tasse e spese correlate; il vincitore del premio deve pagare l'importo completo come previsto (circa 3.500.000 VND).",
+      "text3": "Il vincitore deve utilizzare la moto a nome del proprietario Vua Thợ per un periodo di 03 anni a scopo di servizio per le attività correlate ai servizi sull'applicazione Vua Thợ e non può vendere, scambiare o sostituire alcuna parte o componente tecnico della moto senza l'approvazione di Vua Thợ.",
+      "text4": "Dopo il periodo di 03 anni dalla data di ricezione della moto, il vincitore può convertire i documenti di proprietà della moto a proprio nome senza costi aggiuntivi e utilizzarli a suo piacimento per scopi diversi.",
+      "text5": "Per il premio delle casse di birra Tiger Silver (convertibile in denaro contante):",
+      "text6": "Inviare una foto di conferma del ritiro del premio a Vua Thợ (tramite Zalo Vua Thợ)."
+    },
+    "ProtocolsInvite": {
+      "title": "Cách thức tham gia",
+      "text1": "Thợ giới thiệu thành công 12 Thợ mới sẽ nhận được 6 quả banh (mỗi quả banh có 2 con số tương đương với 02 người Thợ) theo hình thức trực tuyến ngay trên ứng dụng Vua Thợ.",
+      "text2": "Một dãy số hợp lệ là dãy số bao gồm đầy đủ 6 quả banh (tương ứng với 12 người được giới thiệu).",
+      "text3": "Chương trình không giới hạn lượt giới thiệu Thợ mới, giới thiệu càng nhiều, bạn sẽ nhận được càng nhiều dãy số may mắn.",
+      "text4": "Những dãy số này sẽ theo Thợ trong suốt quá trình diễn ra và được tiếp tục tham gia vòng quay mỗi tháng các đợt tiếp theo.",
+      "text5": "Mỗi tài khoản có thể trúng giải nhiều lần trong suốt chương trình.",
+      "text6": "Tài khoản A giới thiệu anh B, anh C đăng ký Thợ thì anh A sẽ nhận được 01 trái banh có số ngẫu nhiên là 3 và 5, tạo thành cặp số 35. Cứ thế anh A giới thiệu thêm 10 người đăng ký Thợ nữa sẽ nhận được 05 trái banh có các cặp số ngẫu nhiên 44, 82, 90, 61, 95. Anh A đã hoàn thành dãy số may mắn đầu tiên của mình là “35, 44, 82, 90, 61, 95”. ",
+      "text7": "Cứ như vậy nếu anh A giới thiệu được 120 người, anh A có sẽ có 10 dãy số và không giới hạn lượt giới thiệu.",
+      "text8": "Những dãy số này sẽ theo anh A trong suốt quá trình diễn ra và được tham gia các vòng quay đợt kế tiếp. ",
+      "text9": "Chương trình sẽ được bắt đầu khi hệ thống ghi nhận được 100 dãy số may mắn đầu tiên theo định kỳ mỗi tháng, đại diện của Công ty TNHH Công nghệ Vua Thợ sẽ tiến hành vòng quay trong toàn bộ dãy số dự thưởng đã được gửi tới tài khoản Thợ giới thiệu, dưới sự chứng kiến của đại diện Công ty TNHH Công nghệ Vua Thợ, đại diện các bên liên quan và đại diện Khách hàng có mã dự thưởng tham dự chương trình khuyến mãi “Dãy số may mắn”.",
+      "text10": "Hệ thống sẽ tự động tiến hành vòng quay lần lượt và chọn ra 03 dãy số để trao giải lần lượt Nhất - Nhì - Ba, chương trình sẽ được thông báo công khai trực tuyến trên các phương tiện truyền thông của Vua Thợ.",
+      "text11": "Trong vòng 24 giờ kể từ khi có kết quả xác định trúng thưởng, Vua Thợ sẽ liên hệ để thông báo và hướng dẫn về thời gian, địa điểm, thủ tục nhận thưởng theo quy định.",
+      "text12": "Ví dụ",
+      "text13": " Tài khoản A giới thiệu anh B, anh C đăng ký Thợ thì anh A sẽ nhận được 01 trái banh có số ngẫu nhiên là 3 và 5, tạo thành cặp số 35. Cứ thế anh A giới thiệu thêm 10 người đăng ký Thợ nữa sẽ nhận được 05 trái banh có các cặp số ngẫu nhiên 44, 82, 90, 61, 95. Anh A đã hoàn thành dãy số may mắn đầu tiên của mình là “35, 44, 82, 90, 61, 95”.",
+      "text14": "Cứ như vậy nếu anh A giới thiệu được 120 người, anh A có sẽ có 10 dãy số và không giới hạn lượt giới thiệu. Những dãy số này sẽ theo anh A trong suốt quá trình diễn ra và được tham gia các vòng quay đợt kế tiếp.",
+      "text15": ".Chương trình sẽ được bắt đầu khi hệ thống ghi nhận được 100 dãy số may mắn đầu tiên theo định kỳ mỗi tháng, đại diện của Công ty TNHH Công nghệ Vua Thợ sẽ tiến hành vòng quay trong toàn bộ dãy số dự thưởng đã được gửi tới tài khoản Thợ giới thiệu, dưới sự chứng kiến của đại diện Công ty TNHH Công nghệ Vua Thợ, đại diện các bên liên quan và đại diện Thợ có mã dự thưởng tham dự chương trình khuyến mãi “Dãy số may mắn”. ",
+      "text16": "Hệ thống sẽ tự động tiến hành vòng quay lần lượt và chọn ra 03 dãy số để trao giải lần lượt Nhất - Nhì - Ba, chương trình sẽ được thông báo công khai trực tuyến trên các phương tiện truyền thông của Vua Thợ.",
+      "text17": "Trong vòng 24 giờ kể từ khi có kết quả xác định trúng thưởng, Vua Thợ sẽ liên hệ để thông báo và hướng dẫn về thời gian, địa điểm, thủ tục nhận thưởng theo quy định."
+    },
+    "menuPopup": {
+      "text1": "Elenco dei premi",
+      "text2": "Sito web Vua Thợ",
+      "text3": "Regole del programma"
+    },
+    "Toast": {
+      "text1": "Si prega di accettare le regole",
+      "text2": "Numero di telefono o codice OTP non valido",
+      "text3": "Numero di telefono o codice OTP non valido.",
+      "text4": "Si prega di inserire il numero di telefono",
+      "text5": "Numero di telefono non valido"
+    },
+    "placeHolder": {
+      "text1": "Numero di telefono",
+      "text2": "Codice OTP"
+    },
+    "Form": {
+      "text1": "Ho letto e accetto le ",
+      "text2": "regole del programma",
+      "text3": "Invia codice",
+      "text4": "Accedi"
+    }
+  }
+}

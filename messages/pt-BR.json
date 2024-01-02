@@ -1,0 +1,161 @@
+{
+  "Download": {
+    "download": "Baixar Agora",
+    "download_now": "Para experimentar a tecnologia de IA mais avançada",
+    "download_appstore": "Baixar da",
+    "download_chplay": "Baixar da"
+  },
+  "Navbar": {
+    "become_employee": "Torne-se um Trabalhador",
+    "find_employee": "Encontre um Trabalhador",
+    "store": "Uniformes",
+    "language": "Idioma",
+    "download": "Baixar Agora",
+    "money": "Dinheiro"
+  },
+  "Promotion": {
+    "PromotionsHeader": {
+      "text1": "Empresa de Tecnologia Vua Thợ",
+      "text2": "Rede social",
+      "text3": "Para qualquer dúvida relacionada ao programa de promoção, os clientes podem entrar em contato no seguinte endereço para orientação e esclarecimentos.",
+      "text4": "Rua 32/28, nº 35, bairro An Khánh, cidade Thủ Đức, Ho Chi Minh",
+      "text5": "Linha direta: 0912 426 404 ou Email: Social@vuatho.com",
+      "RightHeader": {
+        "title1": "Série de Números da Sorte para Ganhar uma Scooter Elétrica",
+        "title2": "Participe do Clube Vua Thợ e Tenha a Chance de Ganhar uma Wave RSX",
+        "text3": "Programa de Promoção",
+        "download": "Baixar o aplicativo"
+      }
+    },
+    "Hero": {
+      "text1": "Participe do Clube Vua Thợ",
+      "text1-1": "Série de Números da Sorte",
+      "text2": "Tenha a Chance de Ganhar uma Wave RSX",
+      "text2-1": "Ganhe uma Scooter Elétrica",
+      "text3": "01 scooter Wave RSX F1 para cada 1.000 Mestres registrados através da roleta de prêmios do sistema",
+      "text3-1": "Os Mestres terão uma série de números da sorte e não há limite para quantas séries podem participar do sorteio regular a cada mês",
+      "text4": "Participe agora",
+      "text5": "Pessoas que já participaram",
+      "text6": "Informações de participação",
+      "text7": "01 scooter Yamaha PG-1 a cada mês para os Mestres registrados através da roleta de prêmios do sistema",
+      "text8": "Ganhe uma scooter Yamaha PG-1",
+      "text9": "Regras do programa"
+    },
+    "GuidelinesPromotion": {
+      "text0": "Nome do programa de promoção",
+      "title": "Regras do Programa",
+      "text1": "Período de promoção:",
+      "text2": "De 01/12/2023 até novo aviso da Vua Thợ.",
+      "text3": "Abrangência da promoção:",
+      "text4": "Em todo o território do Vietnã.",
+      "text5": "Formato da promoção:",
+      "text6": "Roleta de prêmios online.",
+      "text7": "Clientes do programa de promoção:",
+      "text8": "Aplica-se a todos os usuários com 18 anos ou mais que se registrarem como Mestres com sucesso no aplicativo durante o período de promoção (Mestre principal + Aprendiz)."
+    },
+    "ProtocolsPromotion": {
+      "title": "Como Participar",
+      "desc": "Os usuários devem baixar o aplicativo Vua Thợ na App Store ou Android e realizar o registro de uma conta como Mestre.",
+      "text1": "Após o registro bem-sucedido, cada conta de Mestre receberá um código de prêmio (também conhecido como código de referência) aleatório, que será automaticamente registrado no programa de roleta.",
+      "text2": "O programa é dividido em várias rodadas de roleta, após cada 1.000 contas de Mestre registradas com sucesso, representantes da Empresa de Tecnologia Vua Thợ realizarão a roleta dos 'Códigos de Prêmio' de todas as contas de Mestre, na presença de representantes da Empresa de Tecnologia Vua Thợ, representantes de partes relacionadas e representantes dos clientes com códigos de prêmio participantes do programa promocional 'Participe do Clube Vua Thợ - Tenha a Chance de Ganhar uma Wave RSX'.",
+      "text3": "O sistema realizará automaticamente a roleta e escolherá 03 códigos de prêmio para os prêmios de Primeiro - Segundo - Terceiro lugar, e o programa será anunciado publicamente online nos meios de comunicação da Vua Thợ.",
+      "text4": "Dentro de 24 horas após a determinação dos resultados do sorteio, a Vua Thợ entrará em contato para informar os Mestres pelo número de telefone fornecido, para notificar sobre o prêmio e fornecer orientações sobre o horário, local e procedimentos de recebimento do prêmio conforme regulamentado. Cada código de prêmio só será girado uma vez.",
+      "text5": "Para os códigos de prêmio que participaram da rodada 1 (de 0001 a 0999), o sistema os excluirá automaticamente e não poderão participar da próxima rodada de roleta.",
+      "text6": "Passo",
+      "text7": "Baixar agora",
+      "text8": "Contratar ou encontrar trabalho com tecnologia AI",
+      "text9": "Ou escaneie o código QR abaixo",
+      "text10": "Baixar e instalar",
+      "text11": "o aplicativo Vua Thợ",
+      "text12": "Registrar como Mestre",
+      "text13": "Aguardar os resultados do sorteio",
+      "text14": "Estrutura de Prêmios",
+      "text15": "Segundo lugar",
+      "text16": "6 caixas de cerveja Tiger Silver",
+      "text17": "Primeiro lugar",
+      "text18": "1 scooter Wave RSX F1",
+      "text19": "Terceiro lugar",
+      "text20": "3 caixas de cerveja Tiger Silver",
+      "text21": "1 motocicleta",
+      "text22": "no valor de",
+      "text23": "100 unidades",
+      "text24": "Válido até atingir 1.000.000 contas de Mestre",
+      "text25": "Prêmio",
+      "text26": "Detalhes do Prêmio",
+      "text27": "Quantidade de Prêmios",
+      "text28": "1 motocicleta Honda Wave RSX FI 110 no valor de 25.000.000 VND",
+      "text29": "Cada rodada: 6 caixas de cerveja Tiger Silver",
+      "text30": "Cada rodada: 3 caixas de cerveja Tiger Silver"
+    },
+    "Reward": {
+      "title": "Procedimentos para Receber Prêmios:",
+      "text1": "Ao receber o prêmio, o Mestre premiado deve seguir os seguintes procedimentos:",
+      "text2": "Para o Mestre premiado em primeiro lugar, é necessário comparecer pessoalmente à Empresa de Tecnologia Vua Thợ.",
+      "text3": "A Vua Thợ não aceitará casos de retirada de prêmios por terceiros.",
+      "text4": "Os prêmios serão enviados ao Mestre premiado dentro de 30 dias a partir da data do sorteio. Se a Vua Thợ não conseguir entrar em contato com o Mestre premiado, ou se o Mestre premiado não retirar o prêmio dentro do prazo estabelecido, o prêmio será recolhido pela Vua Thợ e o valor do prêmio será convertido para os fundos de apoio da Vua Thợ.",
+      "text5": "O Mestre premiado deve arcar com todos os custos de deslocamento, despesas de transporte (se houver) para receber seu prêmio."
+    },
+
+    "ConditionDetails": {
+      "title": "Detalhes das Condições de Aplicação:",
+      "text1": "Os clientes premiados devem entrar em contato com a Linha Direta: 0912 426 404 ou enviar mensagem diretamente na Fanpage ou Zalo Vua Thợ para receber instruções sobre como receber o prêmio.",
+      "text2": "O prêmio de primeiro lugar será entregue na Empresa de Tecnologia Vua Thợ, no endereço Rua 32/28, nº 35, bairro An Khánh, cidade Thủ Đức, Ho Chi Minh, ou a Vua Thợ oferecerá suporte para entrega no domicílio do cliente (se estiver fora da área da Cidade de Ho Chi Minh).",
+      "text3": "Os organizadores têm total autoridade para usar nomes, imagens dos participantes do programa em todos os canais de informação do programa e em outros meios de comunicação.",
+      "text4": "Em caso de qualquer reclamação ou disputa relacionada a este programa promocional, a Empresa de Tecnologia Vua Thợ será responsável por resolver diretamente. Se não houver acordo na disputa, a mesma será tratada de acordo com as leis aplicáveis.",
+      "text5": "Os funcionários da Empresa de Tecnologia Vua Thợ e os funcionários da divisão administrativa - comercial da Empresa de Produção Comercial - Construção Phố Việt não estão autorizados a participar do programa.",
+      "text6": "O programa pode encerrar mais cedo do que o previsto."
+    },
+    "ImportantNote": {
+      "title": "Nota Importante:",
+      "text1": "Para o prêmio da moto Wave RSX FI 110 (não conversível em dinheiro):",
+      "text2": "O valor da moto (25.000.000 VND) não inclui taxas e encargos relacionados; o ganhador deve pagar integralmente de acordo com as regulamentações em vigor (aproximadamente 3.500.000 VND).",
+      "text3": "O ganhador deve usar a moto em nome do proprietário Vua Thợ por um período de 03 anos, para fins relacionados aos serviços no aplicativo Vua Thợ, e não está autorizado a comprar, vender, trocar ou substituir qualquer peça ou componente técnico da moto sem a permissão da Vua Thợ.",
+      "text4": "Após o período de 03 anos a partir da data de recebimento da moto, o ganhador pode transferir os documentos de propriedade do veículo para o seu nome sem custos adicionais e usar conforme desejar para outros fins.",
+      "text5": "Para o prêmio de cerveja Tiger Silver (conversível em dinheiro):",
+      "text6": "Enviar uma foto de confirmação do recebimento do prêmio para a Vua Thợ (via Zalo Vua Thợ)."
+    },
+
+    "ProtocolsInvite": {
+      "title": "Como Participar",
+      "text1": "Os Mestres que apresentarem com sucesso 12 Novos Mestres receberão 6 bolas (cada bola contém 2 números correspondentes a 02 Mestres) online no aplicativo Vua Thợ.",
+      "text2": "Uma sequência válida consiste em 6 bolas (correspondendo a 12 Mestres apresentados).",
+      "text3": "O programa não limita o número de apresentações de Novos Mestres. Quanto mais você apresentar, mais sequências de números da sorte receberá.",
+      "text4": "Essas sequências de números seguirão o Mestre durante todo o processo e continuarão participando das rodadas mensais subsequentes.",
+      "text5": "Cada conta pode ganhar o prêmio várias vezes durante o programa.",
+      "text6": "A conta A apresenta o indivíduo B, e quando o indivíduo C se registra como Mestre, a conta A receberá uma bola com números aleatórios, como 3 e 5, formando o par de números 35. Assim, a conta A apresenta mais 10 pessoas que se registram como Mestres e receberá 5 bolas com pares de números aleatórios, como 44, 82, 90, 61, 95. A conta A completou sua primeira sequência de números da sorte, que é '35, 44, 82, 90, 61, 95'.",
+      "text7": "Dessa forma, se a conta A apresentar 120 pessoas, a conta A terá 10 sequências de números e não há limite para apresentações.",
+      "text8": "Essas sequências de números seguirão a conta A durante todo o processo e participarão das próximas rodadas de sorteios.",
+      "text9": "O programa começará quando o sistema registrar as primeiras 100 sequências de números da sorte regularmente a cada mês. Os representantes da Empresa de Tecnologia Vua Thợ realizarão o sorteio entre todas as sequências de números premiadas enviadas às contas dos Mestres apresentadores, na presença de representantes da Empresa de Tecnologia Vua Thợ, representantes das partes relacionadas e representantes dos Mestres com códigos de prêmio participantes do programa promocional 'Sequências de Números da Sorte'.",
+      "text10": "O sistema realizará automaticamente as rodadas de sorteio e escolherá 03 sequências de números para os prêmios de Primeiro - Segundo - Terceiro lugar, e o programa será anunciado publicamente online nos meios de comunicação da Vua Thợ.",
+      "text11": "Dentro de 24 horas após a determinação dos resultados do sorteio, a Vua Thợ entrará em contato para informar e fornecer orientações sobre o horário, local e procedimentos de recebimento do prêmio conforme regulamentado.",
+      "text12": "Exemplo",
+      "text13": "A conta A apresenta o indivíduo B, e quando o indivíduo C se registra como Mestre, a conta A receberá uma bola com números aleatórios, como 3 e 5, formando o par de números 35. Assim, a conta A apresenta mais 10 pessoas que se registram como Mestres e receberá 5 bolas com pares de números aleatórios, como 44, 82, 90, 61, 95. A conta A completou sua primeira sequência de números da sorte, que é '35, 44, 82, 90, 61, 95'.",
+      "text14": "Dessa forma, se a conta A apresentar 120 pessoas, a conta A terá 10 sequências de números e não há limite para apresentações. Essas sequências de números seguirão a conta A durante todo o processo e participarão das próximas rodadas de sorteios.",
+      "text15": "O programa começará quando o sistema registrar as primeiras 100 sequências de números da sorte regularmente a cada mês. Os representantes da Empresa de Tecnologia Vua Thợ realizarão o sorteio entre todas as sequências de números premiadas enviadas às contas dos Mestres apresentadores, na presença de representantes da Empresa de Tecnologia Vua Thợ, representantes das partes relacionadas e representantes dos Mestres com códigos de prêmio participantes do programa promocional 'Sequências de Números da Sorte'.",
+      "text16": "O sistema realizará automaticamente as rodadas de sorteio e escolherá 03 sequências de números para os prêmios de Primeiro - Segundo - Terceiro lugar, e o programa será anunciado publicamente online nos meios de comunicação da Vua Thợ.",
+      "text17": "Dentro de 24 horas após a determinação dos resultados do sorteio, a Vua Thợ entrará em contato para informar e fornecer orientações sobre o horário, local e procedimentos de recebimento do prêmio conforme regulamentado."
+    },
+    "menuPopup": {
+      "text1": "Lista de Prêmios",
+      "text2": "Site Vua Thợ",
+      "text3": "Regulamento do Programa"
+    },
+    "Toast": {
+      "text1": "Por favor, concorde com os termos e condições",
+      "text2": "Número de telefone ou código OTP inválido",
+      "text3": "Número de telefone ou código OTP inválido",
+      "text4": "Por favor, insira o número de telefone",
+      "text5": "Número de telefone inválido"
+    },
+    "placeHolder": {
+      "text1": "Número de telefone",
+      "text2": "Código OTP"
+    },
+    "Form": {
+      "text1": "Li e concordo com ",
+      "text2": "os termos e condições do programa",
+      "text3": "Enviar código",
+      "text4": "Entrar"
+    }
+  }
+}

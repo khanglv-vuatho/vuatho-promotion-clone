@@ -1,0 +1,137 @@
+{
+  "Download": {
+    "download": "Prenesi zdaj",
+    "download_now": "Za doživetje najnaprednejše tehnologije AI",
+    "download_appstore": "Prenesite iz",
+    "download_chplay": "Prenesite iz"
+  },
+  "Navbar": {
+    "become_employee": "Postanite delavec",
+    "find_employee": "Najdite delavca",
+    "store": "Uniforme",
+    "language": "Jezik",
+    "download": "Prenesi zdaj",
+    "money": "Denar"
+  },
+  "Promotion": {
+    "PromotionsHeader": {
+      "text1": "Podjetje za informacijsko tehnologijo Vua Thợ",
+      "text2": "Družbeno omrežje",
+      "text3": "Vse morebitne zaplete v zvezi s promocijskim programom rešujejo stranke na naslovu, navedenem spodaj.",
+      "text4": "Št. 32/28, ulica 35, An Khánh, Thủ Đức, Hồ Chí Minh",
+      "text5": "Telefon: 0912 426 404 ali E-pošta: Social@vuatho.com",
+      "RightHeader": {
+        "title1": "Srečne številke za zmago v električnem skuterju",
+        "title2": "Pridružite se skupnosti Vua Thợ in osvojite Wave RSX",
+        "text3": "Promocijski program",
+        "download": "Prenesi aplikacijo"
+      }
+    },
+    "Hero": {
+      "text1": "Pridružite se skupnosti Vua Thợ ",
+      "text1-1": "Srečne številke ",
+      "text2": "Priložnost za osvojitev Wave RSX",
+      "text2-1": "Osvojite električni skuter",
+      "text3": "01 skuter Wave RSX F1 za vsakega 1.000 Thợ, ki se prijavijo prek kolesa sreče iz sistema",
+      "text3-1": "Thợ bo imel en niz srečnih številk in neomejeno število nizov, ki sodelujejo v rednih žrebanjih vsak mesec",
+      "text4": "Pridružite se zdaj",
+      "text5": "Osebe, ki so se pridružile",
+      "text6": "Informacije o sodelovanju",
+      "text7": "01 skuter Yamaha PG-1 vsak mesec Thợ, ki se prijavi prek kolesa sreče iz sistema",
+      "text8": "Osvojite skuter Yamaha PG-1",
+      "text9": "Pravila programa"
+    },
+    "GuidelinesPromotion": {
+      "text0": "Ime promocijskega programa",
+      "title": "Pravila programa",
+      "text1": "Čas promocije:",
+      "text2": "Od 01.12.2023 do preklica s strani Vua Thợ.",
+      "text3": "Obseg promocije:",
+      "text4": "Celotno ozemlje Vietnama.",
+      "text5": "Način promocije:",
+      "text6": "Spletno žrebanje na srečo.",
+      "text7": "Stranke promocijskega programa:",
+      "text8": "Velja za vse uporabnike, stare 18 let ali več, ki se uspešno registrirajo kot Thợ na aplikaciji v času promocije (osnovni Thợ + pomožni Thợ)."
+    },
+    "ProtocolsPromotion": {
+      "title": "Način sodelovanja",
+      "desc": "Uporabniki prenesejo aplikacijo Vua Thợ iz trgovine App Store ali Android in ustvarijo račun s vlogo Thợ.",
+      "text1": "Po uspešni registraciji vsak Thợ prejme naključno dodeljeno kodo za sodelovanje (tudi kodo za napotitev), ki jo sistem samodejno beleži v okviru programa kolesa sreče.",
+      "text2": "Program je razdeljen na več krogov vrtenja, po vsakih 1.000 uspešno registriranih Thợ bo predstavnik podjetja TNHH za informacijsko tehnologijo Vua Thợ izvedel vrtenje 'M-kod' v celotni skupini poslanih kod, ob prisotnosti predstavnika podjetja TNHH za informacijsko tehnologijo Vua Thợ, predstavnika vpletenih strani in predstavnika stranke s sodelujočo kodo v promociji 'Pridružite se skupnosti Vua Thợ - Priložnost za osvojitev Wave RSX'.",
+      "text3": "Sistem bo samodejno izvedel vrtenje in izbral 03 sodelujoče kode za podelitev nagrad v vrstnem redu Najprej - Drugič - Tretjič, program pa bo objavljen na spletu prek sredstev javnega obveščanja Vua Thợ.",
+      "text4": "V 24 urah po določitvi rezultatov žrebanja bo Vua Thợ stopil v stik z Thợ prek telefonske številke, ki jo je Thợ navedel, da sporoči nagrado in poda navodila o času, kraju in postopku prevzema nagrade po predpisih. Vsako sodelujočo kodo je dovoljeno vrteti le enkrat.",
+      "text5": "Za kode, ki so sodelovale v prvem krogu (od kode 0001 - 0999), jih bo sistem samodejno izločil in jih ne bo mogoče uporabiti v naslednjem krogu vrtljajev.",
+      "text6": "Koraki",
+      "text7": "Prenesi zdaj",
+      "text8": "Postanite Thợ, poiščite delo z AI tehnologijo",
+      "text9": "Ali skenirajte spodnjo QR kodo",
+      "text10": "Prenesite in namestite",
+      "text11": " aplikacijo Vua Thợ",
+      "text12": "Registrirajte se kot Thợ",
+      "text13": "Počakajte na rezultate žrebanja",
+      "text14": "Struktura nagrad",
+      "text15": "Drugo mesto",
+      "text16": "6 škatel tiger silver piva",
+      "text17": "Prvo mesto",
+      "text18": "1 motorno kolo Wave RSX F1",
+      "text19": "Tretje mesto",
+      "text20": "3 škatle tiger silver piva",
+      "text21": "1 skuter",
+      "text22": "vrednost",
+      "text23": "100 skuterjev",
+      "text24": "Traja do dosega mejnika 1.000.000 registriranih Thợ",
+      "text25": "Nagrade",
+      "text26": "Podrobnosti o nagradah",
+      "text27": "Število nagrad",
+      "text28": "1 motorno kolo Honda Wave RSX FI 110 v vrednosti 25.000.000 VND",
+      "text29": "Vsakokrat 6 škatel tiger silver piva",
+      "text30": "Vsakokrat 3 škatle tiger silver piva"
+    },
+    "Reward": {
+      "title": "Postopek prevzema nagrad:",
+      "text1": "Ob prevzemu nagrade mora Thợ prejemnik nagrade izvesti naslednje postopke:",
+      "text2": "Za zmagovalce prve nagrade je treba biti osebno prisoten v podjetju TNHH za informacijsko tehnologijo Vua Thợ.",
+      "text3": "Vua Thợ ne sprejema primerov prevzema nagrad po pošti.",
+      "text4": "Nagrade bodo Thợ prejemniku poslane v 30 dneh od datuma prejema rezultatov žrebanja. V primeru, da Vua Thợ ne more stopiti v stik s Thợ prejemnikom nagrade ali če Thợ prejemnik nagrade ne prevzame nagrade v predpisanem roku, bo Vua Thợ nagrado odvzel in vrednost nagrade bo pretvoril v sredstva za podporo Vua Thợ.",
+      "text5": "Thợ prejemnik nagrade mora kriti vse stroške potovanja in prevoza (če obstajajo) za prevzem svoje nagrade."
+    },
+    "ConditionDetails": {
+      "title": "Podrobnosti o veljavnosti pogojev:",
+      "text1": "Stranke, ki so osvojile nagrade, naj se obrnejo na telefonsko številko 0912 426 404 ali neposredno pošljejo sporočilo na stran Fanpage ali Zalo Vua Thợ za navodila o prevzemu nagrad.",
+      "text2": "Prva nagrada bo podeljena v podjetju TNHH za informacijsko tehnologijo Vua Thợ, na naslovu 32/28, cesta 35, četrt An Khánh, mestu Thủ Đức, mesto Hồ Chí Minh ali pa vam bo Vua Thợ pomagal poslati na dom (če ste zunaj območja mesta Hồ Chí Minh).",
+      "text3": "Organizatorji imajo polno pravico do uporabe imena, podobe udeležencev programa na vseh kanalih informacij o programu in drugih medijskih sredstvih.",
+      "text4": "V primeru kakršnih koli pritožb ali sporov v zvezi s to promocijo bo odgovorno podjetje TNHH za informacijsko tehnologijo Vua Thợ neposredno reševalo situacijo, če se stranke ne morejo dogovoriti, se bo spor reševal v skladu s predpisi.",
+      "text5": "Zaposleni v podjetju TNHH za informacijsko tehnologijo Vua Thợ in zaposleni v upravi - poslovnem sektorju v podjetju TNHH za proizvodnjo, trgovino - gradbeništvo Phố Việt niso upravičeni sodelovati v programu.",
+      "text6": "Program se lahko zaključi predvidoma."
+    },
+    "ImportantNote": {
+      "title": "Pomembno opozorilo:",
+      "text1": "Za nagrado motorno kolo Wave RSX FI 110 (ki je ni mogoče zamenjati za gotovino):",
+      "text2": "Vrednost motorja (25.000.000 VND) ne vključuje stroškov registracije in sorodnih pristojbin, nagrajenec mora plačati celoten znesek v skladu z veljavnimi predpisi (približno 3.500.000 VND).",
+      "text3": "Nagrajenec mora uporabljati kolo na ime lastnika Vua Thợ v treh letih za namene, povezane z aplikacijo Vua Thợ, in ni dovoljeno prodajati, menjavati ali spreminjati nobenih delov, tehničnih podrobnosti kolesa brez dovoljenja Vua Thợ.",
+      "text4": "Po preteku 3 let od datuma prejema kolesa lahko nagrajenec prenese lastništvo kolesa na svoje ime brez dodatnih stroškov in ga prosto uporablja za druge namene.",
+      "text5": "Za nagrado tiger silver piva (ki jo je mogoče zamenjati za gotovino):",
+      "text6": "Potrdilne slike o prejemu nagrade pošljite na Vua Thợ (prek Zalo Vua Thợ)."
+    },
+    "ProtocolsInvite": {
+      "title": "Način sodelovanja",
+      "text1": "Thợ, ki uspešno predstavi 12 novih Thợ, bo prejel 6 žog (vsaka žoga ima 2 števili, kar ustreza 02 Thợ) preko spleta neposredno v aplikaciji Vua Thợ.",
+      "text2": "Veljaven niz je niz, ki vsebuje celotnih 6 žog (kar ustreza 12 predstavljenim Thợ).",
+      "text3": "Program ne omejuje števila predstavljenih novih Thợ, več predstavitev, več nizov sreče boste prejeli.",
+      "text4": "Te nize bo vsak Thợ spremljal med celotnim potekom in se bo nadaljeval v vsakem naslednjem mesečnem krogu.",
+      "text5": "Vsak račun lahko večkrat osvoji nagrade med programom.",
+      "text6": "Račun A predstavi B-ja, C pa se prijavi kot Thợ, potem bo A prejel 01 žogo z naključnim številom 3 in 5, tvorita par števil 35. Tako bo A, če predstavi še 10 oseb, prejel 05 žog z naključnimi pari številk 44, 82, 90, 61, 95. A je zaključil svoj prvi niz sreče '35, 44, 82, 90, 61, 95'.",
+      "text7": "Če A predstavi 120 ljudi, bo A dobil 10 nizov brez omejitev predstavitve.",
+      "text8": "Te nize bo vsak A spremljal med celotnim potekom in se bo udeležil naslednjih krogov vrtljajev.",
+      "text9": "Program se začne, ko sistem zabeleži prvih 100 nizov sreče redno vsak mesec. Predstavnik podjetja TNHH za informacijsko tehnologijo Vua Thợ bo izvedel žreb vseh nizov nagrad, ki so bili poslani na račun predstavitelja Thợ, pod prisotnostjo predstavnika podjetja TNHH za informacijsko tehnologijo Vua Thợ, predstavnika vpletenih strani in predstavnika stranke z udeležbenim številom v promociji 'Niz sreče'.",
+      "text10": "Sistem bo samodejno izvajal vrtenje in izbiranje 03 nizov številk za nagrado Prvo - Drugo - Tretje mesto, program bo javno objavljen na spletu preko različnih medijskih sredstev Vua Thợ.",
+      "text11": "V 24 urah po določitvi rezultatov žreba bo Vua Thợ stopil v stik za obvestilo in navodila glede časa, kraja in postopka prevzema nagrade v skladu z določili.",
+      "text12": "Primer",
+      "text13": " Račun A predstavi B-ja, C pa se prijavi kot Thợ, potem bo A prejel 01 žogo z naključnim številom 3 in 5, tvorita par števil 35. Tako bo A, če predstavi še 10 oseb, prejel 05 žog z naključnimi pari številk 44, 82, 90, 61, 95. A je zaključil svoj prvi niz sreče '35, 44, 82, 90, 61, 95'.",
+      "text14": "Če A predstavi 120 ljudi, bo A dobil 10 nizov brez omejitev predstavitve. Te nize bo vsak A spremljal med celotnim potekom in se bo udeležil naslednjih krogov vrtljajev.",
+      "text15": "Program se začne, ko sistem zabeleži prvih 100 nizov sreče redno vsak mesec. Predstavnik podjetja TNHH za informacijsko tehnologijo Vua Thợ bo izvedel žreb vseh nizov nagrad, ki so bili poslani na račun predstavitelja Thợ, pod prisotnostjo predstavnika podjetja TNHH za informacijsko tehnologijo Vua Thợ, predstavnika vpletenih strani in predstavnika stranke z udeležbenim številom v promociji 'Niz sreče'.",
+      "text16": "Sistem bo samodejno izvajal vrtenje in izbiranje 03 nizov številk za nagrado Prvo - Drugo - Tretje mesto, program bo javno objavljen na spletu preko različnih medijskih sredstev Vua Thợ.",
+      "text17": "V 24 urah po določitvi rezultatov žreba bo Vua Thợ stopil v stik za obvestilo in navodila glede časa, kraja in postopka prevzema nagrade v skladu z določili."
+    }
+  }
+}

@@ -1,0 +1,159 @@
+{
+  "Download": {
+    "download": "Lejupielādēt tagad",
+    "download_now": "Lai izjustu vismodernāko AI tehnoloģiju",
+    "download_appstore": "Lejupielādēt no",
+    "download_chplay": "Lejupielādēt no"
+  },
+  "Navbar": {
+    "become_employee": "Kļūt par darbinieku",
+    "find_employee": "Atrast darbinieku",
+    "store": "Darba tērpi",
+    "language": "Valoda",
+    "download": "Lejupielādēt tagad",
+    "money": "Nauda"
+  },
+  "Promotion": {
+    "PromotionsHeader": {
+      "text1": "Vua Thợ tehnoloģiju SIA",
+      "text2": "Sociālais tīkls",
+      "text3": "Jebkuras ar akcijas programmu saistītas jautājumiem klienti var sazināties ar mums, izmantojot zemāk norādīto adresi, lai saņemtu norādījumus un atbildes.",
+      "text4": "32/28, 35. iela, An Khánh rajons, Thu Duc pilsēta, Hošimina pilsēta",
+      "text5": "Hotline: 0912 426 404 vai E-pasts: Social@vuatho.com",
+      "RightHeader": {
+        "title1": "Veiksmes numuru sērija, lai iegūtu elektrisko motociklu",
+        "title2": "Pievienojies Vua Thợ, lai iegūtu iespēju laimēt Wave RSX",
+        "text3": "Akcijas programma",
+        "download": "Lejupielādēt lietotni"
+      }
+    },
+    "Hero": {
+      "text1": "Pievienojies Vua Thợ",
+      "text1-1": "Veiksmes numuru sērija",
+      "text2": "Iespēja iegūt Wave RSX",
+      "text2-1": "Laimē elektrisko motociklu",
+      "text3": "Katram 1 000 Thō, kas reģistrējas caur sistēmas izlozi, ir iespēja laimēt 1 Wave RSX F1 motociklu",
+      "text3-1": "Katrs Thō saņems veiksmes numuru sēriju, un viņi var piedalīties ikmēneša regulārajā izlozē, neierobežojoties ar daudzām sērijām",
+      "text4": "Pievienojies tagad",
+      "text5": "Piedalījušies",
+      "text6": "Dalības informācija",
+      "text7": "Katram mēnesim katrs Thō, kas reģistrējas caur sistēmas izlozi, var laimēt 1 Yamaha PG-1 motociklu",
+      "text8": "Laimē Yamaha PG-1 motociklu",
+      "text9": "Akcijas noteikumi"
+    },
+    "GuidelinesPromotion": {
+      "text0": "Akcijas nosaukums",
+      "title": "Akcijas noteikumi",
+      "text1": "Akcijas ilgums:",
+      "text2": "No 2023. gada 1. decembra līdz jaunākajam Vua Thợ paziņojumam.",
+      "text3": "Akcijas joma:",
+      "text4": "Visā Dienvidvjetnamā.",
+      "text5": "Akcijas veids:",
+      "text6": "Tiešsaistes izloze",
+      "text7": "Akcijas dalībnieki:",
+      "text8": "Piemērojams visiem lietotājiem, kas ir vecāki par 18 gadiem un ir veiksmīgi reģistrējušies kā Thō lietotnē akcijas laikā (galvenais Thō + palīgstrādnieks)."
+    },
+    "ProtocolsPromotion": {
+      "title": "Dalības noteikumi",
+      "desc": "Lietotāji lejupielādē Vua Thợ lietotni no App Store vai Android, reģistrējas un izveido darba ņēmēja kontu.",
+      "text1": "Pēc veiksmīgas reģistrācijas katrs darba ņēmēja konts saņems nejauši izvēlētu balvu (arī iepazīšanas kodu), kas tiks automātiski iekļauts lozunga programma.",
+      "text2": "Programma ir sadalīta vairākos lozunga posmos, un pēc katru 1 000 veiksmīgi reģistrētiem darba ņēmēju kontiem Vua Thợ tehnoloģiju SIA pārstāvis veiks izlozi visiem iepazīšanas kodiem. Tas notiks Vua Thợ tehnoloģiju SIA pārstāvju, saistīto personu un klientu pārstāvju klātbūtnē, kuriem ir iepazīšanas kodi un kuri piedalās akcijas programmas “Pievienojies Vua Thợ - Iespēja iegūt Wave RSX” izlozē.",
+      "text3": "Sistēma automātiski veiks izlozi un atlasīs 03 iepazīšanas kodus, lai piešķirtu pirmo, otro un trešo vietu balvām. Programma tiks publiskota tiešsaistē uz Vua Thợ medijiem.",
+      "text4": "24 stundu laikā pēc izlozes rezultātu apstiprināšanas Vua Thợ sazināsies ar darba ņēmēju, lai paziņotu par balvas iegūšanu un sniegtu norādes par iegūšanas laiku, vietu un procedūrām, kā noteikts. Katrs iepazīšanas kods tiek iekļauts izlozē tikai vienreiz.",
+      "text5": "Attiecībā uz iepazīšanas kodiem, kas piedalījušies pirmajā posmā (no koda 0001 līdz 0999), tie tiks automātiski izslēgti un netiks piedalīti nākamajā lozunga posmā.",
+      "text6": "Soļi",
+      "text7": "Lejupielādēt tagad",
+      "text8": "Pievienojies un meklē darbu ar AI tehnoloģiju",
+      "text9": "Vai norakstiet zemāk redzamo QR kodu",
+      "text10": "Lejupielādēt un instalēt",
+      "text11": "Vua Thợ lietotni",
+      "text12": "Reģistrēties kā darba ņēmējs",
+      "text13": "Gaidīt izlozes rezultātus",
+      "text14": "Balvu struktūra",
+      "text15": "Otrā vieta",
+      "text16": "6 sudraba Tīgara alus kastes",
+      "text17": "Pirmā vieta",
+      "text18": "1 Wave RSX F1 motocikls",
+      "text19": "Trešā vieta",
+      "text20": "3 sudraba Tīgara alus kastes",
+      "text21": "1 motocikls",
+      "text22": "vērtībā",
+      "text23": "100 kastes",
+      "text24": "Turpināsies līdz sasniedz 1 000 000 darba ņēmēju kontu",
+      "text25": "Balvu struktūra",
+      "text26": "Balvas detaļas",
+      "text27": "Balvu skaits",
+      "text28": "1 Honda Wave RSX FI 110 motocikls vērtībā 25 000 000 VND",
+      "text29": "Katru posmu 6 sudraba Tīgara alus kastes",
+      "text30": "Katru posmu 3 sudraba Tīgara alus kastes"
+    },
+    "Reward": {
+      "title": "Balvu procedūra:",
+      "text1": "Saņemot balvu, darba ņēmējam jāveic šādi soļi:",
+      "text2": "Pirmajam vietējam darba ņēmējam jābūt klāt Vua Thợ tehnoloģiju SIA birojā personīgi.",
+      "text3": "Vua Thợ neuzņems balvas saņēmējus pilnvarotā personā.",
+      "text4": "Balvas tiks nosūtītas uz balvas saņēmēja norādīto adresi 30 dienu laikā no izlozes rezultātu saņemšanas dienas. Ja Vua Thợ nevar sazināties ar balvas saņēmēju vai ja balvas saņēmējs nepienākas noteiktajā laikā, balva tiks atsaukta un tās vērtība tiks pārvērsta par Vua Thợ atbalsta fondiem.",
+      "text5": "Balvas saņēmējam jāsegpilnībā nodrošina visa ceļojuma un piegādes izmaksas (ja tādas ir) savas balvas saņemšanai."
+    },
+    "ConditionDetails": {
+      "title": "Piemērošanas noteikumu detaļas:",
+      "text1": "Balvu ieguvējiem lūdzam sazināties ar Hotline: 0912 426 404 vai nosūtīt tieši ziņojumu uz Fanpage vai Zalo Vua Thợ, lai saņemtu norādes par balvas saņemšanu.",
+      "text2": "Galvenā balva tiks pasniegta Vua Thợ tehnoloģiju SIA birojā, adrese: 32/28, 35. iela, An Khánh rajons, Thu Duc pilsēta, Hošimina pilsēta, vai Vua Thợ sniegs atbalstu piegādē uz klienta mājām (ja ārpus Hošiminas pilsētas reģiona).",
+      "text3": "Pasākuma organizatori patur tiesības izmantot pasākumā piedalībās dalībnieku vārdus, attēlus informācijas par pasākumu kanālos un citos plašsaziņas līdzekļos.",
+      "text4": "Ja rodas jebkādas strīdu vai sūdzību situācijas saistībā ar šo akciju, Công ty TNHH Công nghệ Vua Thợ būs tieši atbildīgs par risinājumu. Ja strīdu nevar izšķirt, to risinās saskaņā ar likumu.",
+      "text5": "Công ty TNHH Công nghệ Vua Thợ darbiniekiem un Công ty TNHH Sản xuất Thương mại - Xây dựng Phố Việt administratīvajiem un komerciālajiem darbiniekiem nav atļauts piedalīties akcijā.",
+      "text6": "Pasākums var beigties agrāk nekā plānots."
+    },
+    "ImportantNote": {
+      "title": "Svarīgs paziņojums:",
+      "text1": "Attiecībā uz Honda Wave RSX FI 110 balvu (ko nevar mainīt pret skaidru naudu):",
+      "text2": "Automobiļa vērtība (25 000 000 VND) neietver reģistrācijas un saistīto maksu, balvas ieguvējam ir jāveic pilna apmēra samaksa saskaņā ar pašreizējiem noteikumiem (aptuveni 3 500 000 VND).",
+      "text3": "Balvas ieguvējam ir jāizmanto automašīna uz Vua Thợ īpašnieka vārda 3 gadu laikā, darbībai, kas saistīta ar pakalpojumiem Vua Thợ lietotnē, un ir aizliegts pārdot, mainīt vai veikt jebkādas automašīnas detaļas vai tehnikas komponentes bez Vua Thợ atļaujas.",
+      "text4": "Pēc 3 gadiem, saņemot automašīnu, balvas ieguvējs var pārvērst automašīnas īpašnieka dokumentus savā vārdā bez papildu izmaksām un izmantot to pēc savas izvēles citiem mērķiem.",
+      "text5": "Attiecībā uz sudraba Tīgara alus balvu (ko var mainīt pret skaidru naudu):",
+      "text6": "Nosūtiet apstiprinošu bildi par balvas saņemšanu uz Vua Thợ (izmantojot Zalo Vua Thợ)."
+    },
+    "ProtocolsInvite": {
+      "title": "Dalības noteikumi",
+      "text1": "Thợ, kas veiksmīgi iepazīstina 12 jaunus Thợ, saņems 6 futbola bumbas (katrai bumbai ir 2 cipari, kas atbilst 02 Thợ personām), tiekoties tiešsaistē Vua Thợ lietotnē.",
+      "text2": "Derīgs numuru komplekts ir komplekts, kas sastāv no pilniem 6 futbola bumbu komplektiem (atbilstoši 12 iepazīstinātajiem cilvēkiem).",
+      "text3": "Programma neierobežo jaunu Thợ iepazīstināšanas reizes; jo vairāk jūs iepazīstina, jo vairāk jūs saņemsiet veiksmīgu numuru komplektu.",
+      "text4": "Šie numuri pavados Thợ visu programmas ilgumu un turpinās piedalīties nākamajos mēneša ciklos.",
+      "text5": "Katrs konts var laimēt vairākas reizes visā programmas norises laikā.",
+      "text6": "Ja konts A iepazīstina B, un C reģistrējas kā Thợ, tad A saņems vienu futbola bumbu ar nejauši izvēlētiem skaitļiem 3 un 5, veidojot pāri 35. A turpina iepazīstināt vēl 10 cilvēkus, saņemot 5 futbola bumbas ar nejauši izvēlētiem pāriem 44, 82, 90, 61, 95. A ir izveidojis savu pirmo veiksmīgo numuru komplektu - “35, 44, 82, 90, 61, 95”.",
+      "text7": "Tāpat, ja A iepazīstina 120 cilvēkus, A iegūs 10 numuru komplektus, un iepazīstināšanas reizes nav ierobežotas.",
+      "text8": "Šie numuri pavados A visu programmas ilgumu un piedalīsies turpmākajos ciklos.",
+      "text9": "Programma sāksies, kad sistēma reģistrēs pirmos 100 veiksmīgos numuru komplektus katru mēnesi, Công ty TNHH Công nghệ Vua Thợ pārstāvis veiks izlozi, izmantojot visus iepazīstināto Thợ kontos esošos numurus, pārraugot Công ty TNHH Công nghệ Vua Thợ, saistīto pušu un klientu pārstāvju klātbūtnē, kuri piedalās akcijā “Veiksmīgo numuru komplekti”.",
+      "text10": "Sistēma automātiski veiks izlozi un izvēlēsies 3 numuru komplektus, lai pasniegtu balvas - pirmajam, otrajam un trešajam vietām. Programma tiks publiski paziņota tiešsaistē uz Vua Thợ vispārējiem plašsaziņas līdzekļiem.",
+      "text11": "24 stundu laikā no izlozes rezultātu noskaidrošanas brīža Vua Thợ sazināsies, lai paziņotu un sniegtu norādes par laiku, vietu un balvas saņemšanas procedūru saskaņā ar noteikumiem.",
+      "text12": "Piemērs",
+      "text13": "Konts A iepazīstina B, un C reģistrējas kā Thợ, tad A saņems vienu futbola bumbu ar nejauši izvēlētiem skaitļiem 3 un 5, veidojot pāri 35. A turpina iepazīstināt vēl 10 cilvēkus, saņemot 5 futbola bumbas ar nejauši izvēlētiem pāriem 44, 82, 90, 61, 95. A ir izveidojis savu pirmo veiksmīgo numuru komplektu - “35, 44, 82, 90, 61, 95”.",
+      "text14": "Tāpat, ja A iepazīstina 120 cilvēkus, A iegūs 10 numuru komplektus, un iepazīstināšanas reizes nav ierobežotas. Šie numuri pavados A visu programmas ilgumu un piedalīsies turpmākajos ciklos.",
+      "text15": "Programma sāksies, kad sistēma reģistrēs pirmos 100 veiksmīgos numuru komplektus katru mēnesi, Công ty TNHH Công nghệ Vua Thợ pārstāvis veiks izlozi, izmantojot visus iepazīstināto Thợ kontos esošos numurus, pārraugot Công ty TNHH Công nghệ Vua Thợ, saistīto pušu un klientu pārstāvju klātbūtnē, kuri piedalās akcijā “Veiksmīgo numuru komplekti”.",
+      "text16": "Sistēma automātiski veiks izlozi un izvēlēsies 3 numuru komplektus, lai pasniegtu balvas - pirmajam, otrajam un trešajam vietām. Programma tiks publiski paziņota tiešsaistē uz Vua Thợ vispārējiem plašsaziņas līdzekļiem.",
+      "text17": "24 stundu laikā no izlozes rezultātu noskaidrošanas brīža Vua Thợ sazināsies, lai paziņotu un sniegtu norādes par laiku, vietu, un balvas saņemšanas procedūru saskaņā ar noteikumiem."
+    },
+    "menuPopup": {
+      "text1": "Uzvarētāju saraksts",
+      "text2": "Vua Thợ vietne",
+      "text3": "Programmas noteikumi"
+    },
+    "Toast": {
+      "text1": "Lūdzu, piekrītiet noteikumiem",
+      "text2": "Nederīgs tālruņa numurs vai OTP kods",
+      "text3": "Nederīgs tālruņa numurs vai OTP kods",
+      "text4": "Lūdzu, ievadiet tālruņa numuru",
+      "text5": "Nederīgs tālruņa numurs"
+    },
+    "placeHolder": {
+      "text1": "Tālruņa numurs",
+      "text2": "OTP kods"
+    },
+    "Form": {
+      "text1": "Esmu izlasījis un piekrītu ",
+      "text2": " programmas noteikumiem",
+      "text3": "Nosūtīt kodu",
+      "text4": "Pierakstīties"
+    }
+  }
+}

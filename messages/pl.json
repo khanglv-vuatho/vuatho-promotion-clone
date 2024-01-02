@@ -1,0 +1,159 @@
+{
+  "Download": {
+    "download": "Pobierz Teraz",
+    "download_now": "Aby doświadczyć najnowszej technologii sztucznej inteligencji",
+    "download_appstore": "Pobierz z",
+    "download_chplay": "Pobierz z"
+  },
+  "Navbar": {
+    "become_employee": "Zostań Pracownikiem",
+    "find_employee": "Znajdź Pracownika",
+    "store": "Uniformy",
+    "language": "Język",
+    "download": "Pobierz Teraz",
+    "money": "Pieniądze"
+  },
+  "Promotion": {
+    "PromotionsHeader": {
+      "text1": "Firma Technologiczna Vua Thợ sp. z o.o.",
+      "text2": "Społeczność online",
+      "text3": "Wszelkie pytania dotyczące programu promocyjnego prosimy kierować pod poniższy adres w celu uzyskania pomocy i informacji.",
+      "text4": "Ul. 35, nr 32/28, dzielnica An Khánh, Thủ Đức, Ho Chi Minh",
+      "text5": "Infolinia: 0912 426 404 lub E-mail: Social@vuatho.com",
+      "RightHeader": {
+        "title1": "Szereg szczęśliwych numerów na wygraną elektrycznego skutera",
+        "title2": "Dołącz do Vua Thợ i zdobądź szansę na zdobycie Wave RSX",
+        "text3": "Program promocyjny",
+        "download": "Pobierz aplikację"
+      }
+    },
+    "Hero": {
+      "text1": "Dołącz do Vua Thợ ",
+      "text1-1": "Szereg szczęśliwych numerów ",
+      "text2": "Szansa na zdobycie Wave RSX",
+      "text2-1": "Wygraj elektryczny skuter",
+      "text3": "01 skuter Wave RSX F1 dla każdego 1 000 Thợ zarejestrowanych przez system w losowaniu nagród",
+      "text3-1": "Thợ otrzymają jeden szczęśliwy numer, a ilość numerów nie jest ograniczona, co pozwala na regularne udział w cotygodniowym losowaniu każdego miesiąca",
+      "text4": "Dołącz teraz",
+      "text5": "Osoby, które już dołączyły",
+      "text6": "Informacje dotyczące udziału",
+      "text7": "01 skuter Yamaha PG-1 na każdego zarejestrowanego Thợ w każdym miesiącu w losowaniu nagród",
+      "text8": "Wygraj skuter Yamaha PG-1",
+      "text9": "Zasady programu"
+    },
+    "GuidelinesPromotion": {
+      "text0": "Nazwa programu promocyjnego",
+      "title": "Zasady programu",
+      "text1": "Okres promocji:",
+      "text2": "Od 01/12/2023 do momentu otrzymania nowego komunikatu od Vua Thợ.",
+      "text3": "Zasięg promocji:",
+      "text4": "Całe terytorium Wietnamu.",
+      "text5": "Forma promocji:",
+      "text6": "Losowanie online.",
+      "text7": "Uczestnicy programu promocyjnego:",
+      "text8": "Dotyczy wszystkich użytkowników w wieku 18 lat i starszych, którzy pomyślnie zarejestrowali się jako Thợ w aplikacji w okresie promocji (Thợ główny + Thợ pomocniczy)."
+    },
+    "ProtocolsPromotion": {
+      "title": "Sposób uczestnictwa",
+      "desc": "Użytkownicy pobierają aplikację Vua Thợ ze sklepu App Store lub Androida i rejestrują konto jako Thợ.",
+      "text1": "Po udanej rejestracji każde konto Thợ otrzyma losowy kod promocyjny (również kod polecający), który zostanie automatycznie zapisany w programie obracania kołem fortuny.",
+      "text2": "Program jest podzielony na wiele rund obracania kołem, po każdych 1 000 pomyślnych rejestracjach kont Thợ, przedstawiciel spółki Vua Thợ przeprowadzi obrót we wszystkich kodach promocyjnych przypisanych do kont Thợ, przy udziale przedstawiciela spółki Vua Thợ, przedstawicieli zainteresowanych stron oraz przedstawiciela klienta z kodem promocyjnym uczestniczącego w promocji „Nhập hội Vua Thợ - Cơ hội rinh Wave RSX”.",
+      "text3": "System automatycznie przeprowadzi obrót i wybierze 03 kody promocyjne do wręczenia nagród odpowiednio Pierwsze - Drugie - Trzecie miejsce, program zostanie publicznie ogłoszony online za pośrednictwem różnych mediów Vua Thợ.",
+      "text4": "W ciągu 24 godzin od ustalenia wyników losowania, Vua Thợ skontaktuje się z Thợ za pośrednictwem podanego przez Thợ numeru telefonu, aby poinformować o wygranej i udzielić informacji na temat terminu, miejsca odbioru nagrody oraz procedury zgodnie z przepisami. Każdy kod promocyjny może wziąć udział w jednym obrocie kołem tylko raz.",
+      "text5": "Dla kodów promocyjnych uczestniczących w rundzie 1 (od kodu 0001 - 0999), system automatycznie je wykluczy i nie pozwoli im wziąć udziału w kolejnej rundzie obrotu kołem.",
+      "text6": "Kroki",
+      "text7": "Pobierz teraz",
+      "text8": "Znajdź Thợ, szukaj pracy z technologią AI",
+      "text9": "Lub zeskanuj poniższy kod QR",
+      "text10": "Pobierz i zainstaluj",
+      "text11": "aplikację Vua Thợ",
+      "text12": "Zarejestruj się jako Thợ",
+      "text13": "Czekaj na wyniki losowania",
+      "text14": "Struktura nagród",
+      "text15": "Drugie miejsce",
+      "text16": "6 beczek piwa Tiger srebrnego",
+      "text17": "Pierwsze miejsce",
+      "text18": "1 motocykl Wave RSX F1",
+      "text19": "Trzecie miejsce",
+      "text20": "3 beczki piwa Tiger srebrnego",
+      "text21": "1 motocykl",
+      "text22": "o wartości",
+      "text23": "100 sztuk",
+      "text24": "Trwa do osiągnięcia liczby 1 000 000 kont Thợ",
+      "text25": "Nagroda",
+      "text26": "Szczegóły nagrody",
+      "text27": "Liczba nagród",
+      "text28": "1 motocykl Honda Wave RSX FI 110 o wartości 25 000 000 VND",
+      "text29": "Co rundę 6 beczek piwa Tiger Srebrnego",
+      "text30": "Co rundę 3 beczki piwa Tiger Srebrnego"
+    },
+    "Reward": {
+      "title": "Procedura przyznawania nagród:",
+      "text1": "Przy odbieraniu nagrody, Thợ nagrodzony musi przeprowadzić następujące procedury:",
+      "text2": "Dla Thợ zajmującego pierwsze miejsce konieczne jest osobiste stawienie się w siedzibie spółki Vua Thợ.",
+      "text3": "Vua Thợ nie akceptuje przypadków odbierania nagrody przez przedstawicieli.",
+      "text4": "Nagroda zostanie wysłana do Thợ nagrodzonego w ciągu 30 dni od daty ogłoszenia wyników losowania. W przypadku niemożności skontaktowania się z Thợ nagrodzonym lub gdy Thợ nagrodzony nie stawi się po nagrodę w określonym czasie, nagroda zostanie wycofana przez Vua Thợ, a jej wartość zostanie przekształcona na fundusze wsparcia Vua Thợ.",
+      "text5": "Thợ nagrodzony ponosi wszystkie koszty podróży, koszty przewozu (jeśli występują) związane z odbiorem swojej nagrody."
+    },
+    "ConditionDetails": {
+      "title": "Szczegóły warunków uczestnictwa:",
+      "text1": "Zwycięzcy proszeni są o kontakt z infolinią: 0912 426 404 lub bezpośrednio wysłanie wiadomości na Fanpage lub Zalo Vua Thợ w celu uzyskania instrukcji dotyczących odbioru nagrody.",
+      "text2": "Pierwsza nagroda zostanie wręczona w siedzibie spółki TNHH Công nghệ Vua Thợ, ul. 32/28, nr 35, dzielnica An Khánh, miasto Thủ Đức, Ho Chi Minh City, lub Vua Thợ udzieli pomocy w dostarczeniu nagrody do domu klienta (jeśli poza obszarem Ho Chi Minh City).",
+      "text3": "Organizator ma pełne prawo do używania nazwiska, zdjęcia uczestnika programu na kanałach informacyjnych programu i innych środkach masowego przekazu.",
+      "text4": "W przypadku wszelkich sporów lub skarg związanych z tą promocją, TNHH Công nghệ Vua Thợ będzie odpowiedzialne za bezpośrednie rozstrzyganie. W przypadku braku porozumienia w sprawie sporu, zostanie on rozpatrzony zgodnie z przepisami prawa.",
+      "text5": "Pracownicy TNHH Công nghệ Vua Thợ oraz pracownicy bloku administracyjno-handlowego w TNHH Sản xuất Thương mại - Xây dựng Phố Việt nie mogą brać udziału w programie.",
+      "text6": "Program może zakończyć się wcześniej niż planowano."
+    },
+    "ImportantNote": {
+      "title": "Ważne informacje:",
+      "text1": "Dla nagrody motocykla Wave RSX FI 110 (niepodlegającej wymianie na gotówkę):",
+      "text2": "Wartość motocykla (25.000.000 VND) nie obejmuje opłat rejestracyjnych i innych związanych opłat. Zwycięzca nagrody musi uiścić pełną kwotę zgodnie z obowiązującymi przepisami (około 3.500.000 VND).",
+      "text3": "Osoba wygrywająca musi używać motocykla na nazwisko właściciela Vua Thợ przez okres 3 lat w celu świadczenia usług związanych z aplikacją Vua Thợ i nie może sprzedawać, wymieniać ani wymieniać żadnych części ani elementów technicznych motocykla bez zgody Vua Thợ.",
+      "text4": "Po upływie 3 lat od daty odbioru motocykla, osoba wygrywająca może przenieść prawa własności pojazdu na swoje nazwisko bez dodatkowych opłat i dowolnie go wykorzystywać w innych celach.",
+      "text5": "Dla nagrody piwa Tiger Bạc (podlegającej wymianie na gotówkę):",
+      "text6": "Zdjęcie potwierdzające odbiór nagrody należy przesłać do Vua Thợ (za pośrednictwem Zalo Vua Thợ)."
+    },
+    "ProtocolsInvite": {
+      "title": "Sposób uczestnictwa",
+      "text1": "Mistrz zaprezentujący skutecznie 12 nowych Mistrzów otrzyma 6 piłek (każda piłka ma 2 liczby, co odpowiada 02 Mistrzom) w formie online bezpośrednio w aplikacji Mistrza.",
+      "text2": "Prawidłowy ciąg liczb to taki, który zawiera pełne 6 piłek (odpowiadających 12 zaprezentowanym osobom).",
+      "text3": "Program nie ogranicza liczby nowych Mistrzów, im więcej zaprezentujesz, tym więcej otrzymasz szczęśliwych ciągów liczb.",
+      "text4": "Te liczby będą towarzyszyć Mistrzowi przez cały proces i będą uczestniczyć w kolejnych cyklach losowań co miesiąc.",
+      "text5": "Każde konto może wygrać nagrodę wielokrotnie w trakcie programu.",
+      "text6": "Konto A przedstawia B, a C rejestruje się jako Mistrz, to konto A otrzyma jedną piłkę z losowymi liczbami 3 i 5, tworząc parę liczb 35. W ten sposób, jeśli konto A przedstawi kolejne 10 osób rejestrujących się jako Mistrzowie, otrzyma 05 piłek o losowych parach liczb 44, 82, 90, 61, 95. Konto A ukończyło swój pierwszy szczęśliwy ciąg liczb „35, 44, 82, 90, 61, 95”.",
+      "text7": "W ten sposób, jeśli konto A zaprezentuje 120 osób, konto A otrzyma 10 ciągów liczb i nie ma ograniczeń co do liczby prezentacji.",
+      "text8": "Te liczby będą towarzyszyć Mistrzowi przez cały proces i będą uczestniczyć w kolejnych cyklach losowań.",
+      "text9": "Program rozpocznie się, gdy system zarejestruje 100 pierwszych szczęśliwych ciągów liczb zgodnie z regularnością co miesiąc. Przedstawiciel firmy Vua Thợ przeprowadzi losowanie we wszystkich zgłoszonych ciągach liczb, przy udziale przedstawiciela firmy Vua Thợ, przedstawiciela stron zainteresowanych i przedstawiciela klienta z numerem losowania uczestniczącego w promocji „Szczęśliwe ciągi liczb”.",
+      "text10": "System automatycznie przeprowadzi kolejne losowania i wybierze 03 ciągi liczb do nagród kolejno Pierwsze - Drugie - Trzecie miejsce. Program zostanie ogłoszony publicznie online na różnych środkach masowego przekazu Vua Thợ.",
+      "text11": "W ciągu 24 godzin od ogłoszenia wyników nagrody, Vua Thợ skontaktuje się w celu powiadomienia i udzielenia instrukcji dotyczących czasu, miejsca i procedur odbioru nagrody zgodnie z przepisami.",
+      "text12": "Przykład",
+      "text13": "Konto A przedstawia B, a C rejestruje się jako Mistrz, to konto A otrzyma jedną piłkę z losowymi liczbami 3 i 5, tworząc parę liczb 35. W ten sposób, jeśli konto A przedstawi kolejne 10 osób rejestrujących się jako Mistrzowie, otrzyma 05 piłek o losowych parach liczb 44, 82, 90, 61, 95. Konto A ukończyło swój pierwszy szczęśliwy ciąg liczb „35, 44, 82, 90, 61, 95”.",
+      "text14": "W ten sposób, jeśli konto A zaprezentuje 120 osób, konto A otrzyma 10 ciągów liczb i nie ma ograniczeń co do liczby prezentacji. Te liczby będą towarzyszyć Mistrzowi przez cały proces i będą uczestniczyć w kolejnych cyklach losowań.",
+      "text15": "Program rozpocznie się, gdy system zarejestruje 100 pierwszych szczęśliwych ciągów liczb zgodnie z regularnością co miesiąc. Przedstawiciel firmy Vua Thợ przeprowadzi losowanie we wszystkich zgłoszonych ciągach liczb, przy udziale przedstawiciela firmy Vua Thợ, przedstawiciela stron zainteresowanych i przedstawiciela Mistrza z numerem losowania uczestniczącego w promocji „Szczęśliwe ciągi liczb”.",
+      "text16": "System automatycznie przeprowadzi kolejne losowania i wybierze 03 ciągi liczb do nagród kolejno Pierwsze - Drugie - Trzecie miejsce. Program zostanie ogłoszony publicznie online na różnych środkach masowego przekazu Vua Thợ.",
+      "text17": "W ciągu 24 godzin od ogłoszenia wyników nagrody, Vua Thợ skontaktuje się w celu powiadomienia i udzielenia instrukcji dotyczących czasu, miejsca i procedur odbioru nagrody zgodnie z przepisami."
+    },
+    "menuPopup": {
+      "text1": "Lista nagród",
+      "text2": "Strona internetowa Vua Thợ",
+      "text3": "Zasady programu"
+    },
+    "Toast": {
+      "text1": "Proszę zaakceptować zasady programu",
+      "text2": "Numer telefonu lub kod OTP jest nieprawidłowy",
+      "text3": "Numer telefonu lub kod OTP jest nieprawidłowy.",
+      "text4": "Proszę wprowadzić numer telefonu",
+      "text5": "Numer telefonu jest nieprawidłowy"
+    },
+    "placeHolder": {
+      "text1": "Numer telefonu",
+      "text2": "Kod OTP"
+    },
+    "Form": {
+      "text1": "Przeczytałem/am i zgadzam się z ",
+      "text2": "zasadami programu",
+      "text3": "Wyślij kod",
+      "text4": "Zaloguj się"
+    }
+  }
+}

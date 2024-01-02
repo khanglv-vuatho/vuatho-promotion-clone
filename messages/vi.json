@@ -1,0 +1,159 @@
+{
+  "Download": {
+    "download": "Tải ngay",
+    "download_now": "Để trải nghiệm công nghệ AI tiên tiến nhất",
+    "download_appstore": "Tải từ",
+    "download_chplay": "Tải từ"
+  },
+  "Navbar": {
+    "become_employee": "Trở thành thợ",
+    "find_employee": "Tìm thợ",
+    "store": "Đồng phục",
+    "language": "Ngôn ngữ",
+    "download": "Tải ngay",
+    "money": "Tiền tệ"
+  },
+  "Promotion": {
+    "PromotionsHeader": {
+      "text1": "Công ty TNHH Công nghệ Vua Thợ",
+      "text2": "Mạng xã hội",
+      "text3": "Mọi thắc mắc liên quan đến chương trình khuyến mại, khách hàng liên hệ theo địa chỉ sau để được hướng dẫn, giải đáp.",
+      "text4": "Số 32/28, đường 35, phường An Khánh, thành phố Thủ Đức, thành phố Hồ Chí Minh",
+      "text5": "Hotline: 0912 426 404 hoặc Email: Social@vuatho.com",
+      "RightHeader": {
+        "title1": "Dãy số may mắn trúng xe máy điện",
+        "title2": "Nhập hội Vua Thợ cơ hội rinh Wave RSX",
+        "text3": "Chương trình khuyến mãi",
+        "download": "Tải ứng dụng"
+      }
+    },
+    "Hero": {
+      "text1": "Nhập hội Vua Thợ ",
+      "text1-1": "Dãy số may mắn ",
+      "text2": "Cơ hội rinh Wave RSX",
+      "text2-1": "Trúng xe máy điện",
+      "text3": "01 chiếc xe Wave RSX F1 trong mỗi 1.000 Thợ đăng ký thông qua vòng quay trúng thưởng từ hệ thống",
+      "text3-1": "Thợ sẽ có một dãy số may mắn và không giới hạn nhiều dãy số sở hữu được tham gia mở thưởng định kì vào mỗi tháng",
+      "text4": "Tham gia ngay",
+      "text5": "Người đã tham gia",
+      "text6": "Thông tin tham gia",
+      "text7": "01 chiếc xe Yamaha PG-1 trong mỗi tháng Thợ đăng ký thông qua vòng quay trúng thưởng từ hệ thống",
+      "text8": "Trúng xe máy Yamaha PG-1",
+      "text9": "Thể lệ chương trình"
+    },
+    "GuidelinesPromotion": {
+      "text0": "Tên chương trình khuyến mại",
+      "title": "Thể lệ chương trình",
+      "text1": "Thời gian khuyến mại:",
+      "text2": "Từ ngày 01/12/2023 đến khi có thông báo mới từ Vua Thợ.",
+      "text3": "Phạm vi khuyến mại:",
+      "text4": "Toàn lãnh thổ Việt Nam.",
+      "text5": "Hình thức khuyến mại:",
+      "text6": "Vòng quay trúng thưởng Online.",
+      "text7": "Khách hàng của chương trình khuyến mại:",
+      "text8": "Áp dụng cho tất cả người dùng đủ 18 tuổi trở lên và đăng ký Thợ thành công trên ứng dụng trong thời gian khuyến mại (Thợ chính + Thợ phụ)."
+    },
+    "ProtocolsPromotion": {
+      "title": "Cách thức tham gia",
+      "desc": "Người dùng tải ứng dụng Vua Thợ trên App Store hoặc Android và tiến hành đăng ký tài khoản với vai trò Thợ.",
+      "text1": "Sau khi đăng ký thành công, mỗi tài khoản Thợ sẽ nhận được một mã dự thưởng (cũng là mã giới thiệu) ngẫu nhiên và được hệ thống tự động ghi nhận vào chương trình vòng quay.",
+      "text2": "Chương trình được chia thành nhiều đợt vòng quay, sau mỗi 1.000 tài khoản Thợ đăng ký thành công, đại diện của Công ty TNHH Công nghệ Vua Thợ sẽ tiến hành vòng quay các “Mã dự thưởng” trong toàn bộ mã dự thưởng đã được gửi tới tài khoản Thợ, dưới sự chứng kiến của đại diện Công ty TNHH Công nghệ Vua Thợ, đại diện các bên liên quan và đại diện Khách hàng có mã dự thưởng tham dự chương trình khuyến mãi “Nhập hội Vua Thợ - Cơ hội rinh Wave RSX”.",
+      "text3": "Hệ thống sẽ tự động tiến hành vòng quay và chọn ra 03 mã dự thưởng để trao giải lần lượt Nhất - Nhì - Ba, chương trình sẽ được thông báo công khai trực tuyến trên các phương tiện truyền thông của Vua Thợ.",
+      "text4": "Trong vòng 24 giờ kể từ khi có kết quả xác định trúng thưởng, Vua Thợ sẽ liên hệ để thông báo cho Thợ theo số điện thoại Thợ đã cung cấp để thông báo thưởng và hướng dẫn về thời gian, địa điểm, thủ tục nhận thưởng theo quy định. Mỗi mã dự thưởng chỉ được vòng quay 1 lần duy nhất.",
+      "text5": "Đối với các mã dự thưởng đã tham gia vào đợt 1 (từ mã 0001 - 0999), hệ thống sẽ tự loại ra và không được tham gia vào vòng quay đợt tiếp theo. ",
+      "text6": "Bước",
+      "text7": "Tải ngay",
+      "text8": "Đặt thợ, tìm việc với công nghệ AI",
+      "text9": "Hoặc quét mã QR dưới đây",
+      "text10": "Tải và cài đặt",
+      "text11": " ứng dụng Vua Thợ",
+      "text12": "Đăng ký thành thợ",
+      "text13": "Chờ kết quả quay thưởng",
+      "text14": "Cơ cấu giải thưởng",
+      "text15": "Giải nhì",
+      "text16": "6 thùng bia tiger bạc",
+      "text17": "Giải nhất",
+      "text18": "1 chiếc xe Wave RSX F1",
+      "text19": "Giải ba",
+      "text20": "3 thùng bia Tiger bạc",
+      "text21": "1 xe máy",
+      "text22": "trị giá",
+      "text23": "100 chiếc",
+      "text24": "Kéo dài cho đến khi cán mốc 1.000.000 tài khoản thợ",
+      "text25": "Giải thưởng",
+      "text26": "Chi tiết giải thưởng",
+      "text27": "Số lượng giải thưởng",
+      "text28": "1 xe máy Honda Wave RSX FI 110 trị giá 25.000.000đ",
+      "text29": "Mỗi đợt 6 thùng bia Tiger Bạc",
+      "text30": "Mỗi đợt 3 thùng bia Tiger Bạc"
+    },
+    "Reward": {
+      "title": "Thủ tục trao thưởng:",
+      "text1": "Khi nhận thưởng, Thợ trúng thưởng phải thực hiện các thủ tục sau:",
+      "text2": "Đối với Thợ trúng giải nhất cần có mặt trực tiếp tại Công ty TNHH Công nghệ Vua Thợ. ",
+      "text3": "Vua Thợ không chấp nhận các trường hợp nhận giải hộ.",
+      "text4": "Giải thưởng sẽ được gửi tới Thợ trúng giải trong vòng 30 ngày kể từ ngày nhận kết quả quay thưởng. Trong trường hợp Vua Thợ không liên lạc được với Thợ trúng giải, hoặc Thợ trúng giải không đến nhận giải trong thời gian quy định, giải thưởng sẽ được Vua Thợ thu hồi và giá trị giải thưởng sẽ được quy đổi thành các quỹ hỗ trợ của Vua Thợ.",
+      "text5": "Thợ trúng thưởng phải chịu toàn bộ chi phí đi lại, chi phí vận chuyển (nếu có) cho việc nhận thưởng của mình."
+    },
+    "ConditionDetails": {
+      "title": "Chi tiết điều kiện áp dụng:",
+      "text1": "Khách hàng trúng thưởng vui lòng liên hệ Hotline: 0912 426 404 hoặc nhắn tin trực tiếp trên Fanpage hoặc Zalo Vua Thợ để được hướng dẫn nhận thưởng.",
+      "text2": "Giải nhất sẽ được trao tại Công ty TNHH Công nghệ Vua Thợ, số 32/28, đường 35, phường An Khánh, thành phố Thủ Đức, thành phố Hồ Chí Minh hoặc Vua Thợ sẽ hỗ trợ gửi về tận nhà cho khách hàng (nếu ngoài khu vực Thành phố Hồ Chí Minh).",
+      "text3": "Ban tổ chức có toàn quyền sử dụng tên tuổi, hình ảnh của người tham gia chương trình trên các kênh thông tin của chương trình & các phương tiện truyền thông khác.",
+      "text4": "Trong trường hợp có phát sinh bất kỳ khiếu nại tranh chấp nào liên quan đến chương trình khuyến mại này, Công ty TNHH Công nghệ Vua Thợ sẽ có trách nhiệm trực tiếp giải quyết, nếu không thỏa thuận được tranh chấp sẽ được xử lý theo quy định của pháp luật.",
+      "text5": "Nhân viên Công ty TNHH Công nghệ Vua Thợ và nhân viên khối hành chính - kinh doanh tại Công ty TNHH Sản xuất Thương mại - Xây dựng Phố Việt không được phép tham gia chương trình.",
+      "text6": "Chương trình có thể kết thúc sớm hơn dự kiến."
+    },
+    "ImportantNote": {
+      "title": "Lưu ý quan trọng:",
+      "text1": "Đối với giải thưởng xe Wave RSX FI 110 (không được quy đổi thành tiền mặt):",
+      "text2": "Giá trị xe (25.000.000đ) chưa bao gồm phí trước bạ và các khoản phí liên quan, Thợ trúng giải cần thanh toán đầy đủ theo quy định hiện hành (khoảng 3.500.000đ).",
+      "text3": "Người trúng thưởng phải sử dụng xe dưới tên chủ sở hữu Vua Thợ trong vòng 03 năm với mục đích phục vụ công việc liên quan đến các dịch vụ trên ứng dụng Vua Thợ và không được phép mua bán, trao đổi, thay thế bất kỳ phụ tùng, chi tiết kỹ thuật nào của xe mà chưa thông qua sự cho phép của Vua Thợ.",
+      "text4": "Sau thời gian 03 năm kể từ ngày nhận xe, người trúng thưởng có thể chuyển đổi giấy tờ sở hữu xe thành tên cá nhân của mình mà không tốn thêm bất kỳ khoản phí phát sinh nào và tùy ý sử dụng cho mục đích khác.",
+      "text5": "Đối với giải thưởng bia Tiger Bạc (có thể được quy đổi thành tiền mặt):",
+      "text6": "Chụp hình xác nhận đã nhận giải gửi về Vua Thợ (qua Zalo Vua Thợ)."
+    },
+    "ProtocolsInvite": {
+      "title": "Cách thức tham gia",
+      "text1": "Thợ giới thiệu thành công 12 Thợ mới sẽ nhận được 6 quả banh (mỗi quả banh có 2 con số tương đương với 02 người Thợ) theo hình thức trực tuyến ngay trên ứng dụng Vua Thợ.",
+      "text2": "Một dãy số hợp lệ là dãy số bao gồm đầy đủ 6 quả banh (tương ứng với 12 người được giới thiệu).",
+      "text3": "Chương trình không giới hạn lượt giới thiệu Thợ mới, giới thiệu càng nhiều, bạn sẽ nhận được càng nhiều dãy số may mắn.",
+      "text4": "Những dãy số này sẽ theo Thợ trong suốt quá trình diễn ra và được tiếp tục tham gia vòng quay mỗi tháng các đợt tiếp theo.",
+      "text5": "Mỗi tài khoản có thể trúng giải nhiều lần trong suốt chương trình.",
+      "text6": "Tài khoản A giới thiệu anh B, anh C đăng ký Thợ thì anh A sẽ nhận được 01 trái banh có số ngẫu nhiên là 3 và 5, tạo thành cặp số 35. Cứ thế anh A giới thiệu thêm 10 người đăng ký Thợ nữa sẽ nhận được 05 trái banh có các cặp số ngẫu nhiên 44, 82, 90, 61, 95. Anh A đã hoàn thành dãy số may mắn đầu tiên của mình là “35, 44, 82, 90, 61, 95”. ",
+      "text7": "Cứ như vậy nếu anh A giới thiệu được 120 người, anh A có sẽ có 10 dãy số và không giới hạn lượt giới thiệu.",
+      "text8": "Những dãy số này sẽ theo anh A trong suốt quá trình diễn ra và được tham gia các vòng quay đợt kế tiếp. ",
+      "text9": "Chương trình sẽ được bắt đầu khi hệ thống ghi nhận được 100 dãy số may mắn đầu tiên theo định kỳ mỗi tháng, đại diện của Công ty TNHH Công nghệ Vua Thợ sẽ tiến hành vòng quay trong toàn bộ dãy số dự thưởng đã được gửi tới tài khoản Thợ giới thiệu, dưới sự chứng kiến của đại diện Công ty TNHH Công nghệ Vua Thợ, đại diện các bên liên quan và đại diện Khách hàng có mã dự thưởng tham dự chương trình khuyến mãi “Dãy số may mắn”.",
+      "text10": "Hệ thống sẽ tự động tiến hành vòng quay lần lượt và chọn ra 03 dãy số để trao giải lần lượt Nhất - Nhì - Ba, chương trình sẽ được thông báo công khai trực tuyến trên các phương tiện truyền thông của Vua Thợ.",
+      "text11": "Trong vòng 24 giờ kể từ khi có kết quả xác định trúng thưởng, Vua Thợ sẽ liên hệ để thông báo và hướng dẫn về thời gian, địa điểm, thủ tục nhận thưởng theo quy định.",
+      "text12": "Ví dụ",
+      "text13": " Tài khoản A giới thiệu anh B, anh C đăng ký Thợ thì anh A sẽ nhận được 01 trái banh có số ngẫu nhiên là 3 và 5, tạo thành cặp số 35. Cứ thế anh A giới thiệu thêm 10 người đăng ký Thợ nữa sẽ nhận được 05 trái banh có các cặp số ngẫu nhiên 44, 82, 90, 61, 95. Anh A đã hoàn thành dãy số may mắn đầu tiên của mình là “35, 44, 82, 90, 61, 95”.",
+      "text14": "Cứ như vậy nếu anh A giới thiệu được 120 người, anh A có sẽ có 10 dãy số và không giới hạn lượt giới thiệu. Những dãy số này sẽ theo anh A trong suốt quá trình diễn ra và được tham gia các vòng quay đợt kế tiếp.",
+      "text15": ".Chương trình sẽ được bắt đầu khi hệ thống ghi nhận được 100 dãy số may mắn đầu tiên theo định kì mỗi tháng, đại diện của Công ty TNHH Công nghệ Vua Thợ sẽ tiến hành vòng quay trong toàn bộ dãy số dự thưởng đã được gửi tới tài khoản Thợ giới thiệu, dưới sự chứng kiến của đại diện Công ty TNHH Công nghệ Vua Thợ, đại diện các bên liên quan và đại diện Thợ có mã dự thưởng tham dự chương trình khuyến mãi “Dãy số may mắn”. ",
+      "text16": "Hệ thống sẽ tự động tiến hành vòng quay lần lượt và chọn ra 03 dãy số để trao giải lần lượt Nhất - Nhì - Ba, chương trình sẽ được thông báo công khai trực tuyến trên các phương tiện truyền thông của Vua Thợ.",
+      "text17": "Trong vòng 24 giờ kể từ khi có kết quả xác định trúng thưởng, Vua Thợ sẽ liên hệ để thông báo và hướng dẫn về thời gian, địa điểm, thủ tục nhận thưởng theo quy định."
+    },
+    "menuPopup": {
+      "text1": "Danh sách trúng thưởng",
+      "text2": "Website Vua Thợ",
+      "text3": "Thể lệ chương trình"
+    },
+    "Toast": {
+      "text1": "Vui lòng đống ý thể lệ",
+      "text2": "Số điện thoại hoặc mã OTP không hợp lệ",
+      "text3": "Số điện thoại hoặc mã OTP không hợp lệ.",
+      "text4": "Vui lòng nhập số điện thoại",
+      "text5": "Số điện thoại không hợp lệ"
+    },
+    "placeHolder": {
+      "text1": "Số điện thoại",
+      "text2": "Mã OTP"
+    },
+    "Form": {
+      "text1": "Tôi đã đọc và đồng ý với ",
+      "text2": " thể lệ của chương trình",
+      "text3": "Gửi mã",
+      "text4": "Đăng nhập"
+    }
+  }
+}

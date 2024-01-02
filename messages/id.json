@@ -1,0 +1,159 @@
+{
+  "Download": {
+    "download": "Unduh Sekarang",
+    "download_now": "Untuk mengalami teknologi AI paling canggih",
+    "download_appstore": "Unduh dari",
+    "download_chplay": "Unduh dari"
+  },
+  "Navbar": {
+    "become_employee": "Menjadi Pekerja",
+    "find_employee": "Cari Pekerja",
+    "store": "Pakaian Kerja",
+    "language": "Bahasa",
+    "download": "Unduh Sekarang",
+    "money": "Uang"
+  },
+  "Promotion": {
+    "PromotionsHeader": {
+      "text1": "Perusahaan Teknologi Vua Thợ",
+      "text2": "Jejaring Sosial",
+      "text3": "Untuk pertanyaan terkait program promosi, pelanggan dapat menghubungi alamat berikut untuk panduan dan klarifikasi.",
+      "text4": "Nomor 32/28, Jalan 35, Kelurahan An Khánh, Kota Thủ Đức, Kota Hồ Chí Minh",
+      "text5": "Hotline: 0912 426 404 atau Email: Social@vuatho.com",
+      "RightHeader": {
+        "title1": "Barisan Angka Keberuntungan untuk Memenangkan Sepeda Motor Listrik",
+        "title2": "Bergabung dengan Komunitas Vua Thợ, Kesempatan untuk Mendapatkan Wave RSX",
+        "text3": "Program Promosi",
+        "download": "Unduh Aplikasi"
+      }
+    },
+    "Hero": {
+      "text1": "Bergabung dengan Komunitas Vua Thợ",
+      "text1-1": "Barisan Angka Keberuntungan",
+      "text2": "Kesempatan untuk Mendapatkan Wave RSX",
+      "text2-1": "Memenangkan Sepeda Motor Listrik",
+      "text3": "01 unit sepeda motor Wave RSX F1 setiap 1.000 Thợ yang mendaftar melalui putaran hadiah dari sistem",
+      "text3-1": "Setiap Thợ akan mendapatkan satu barisan angka keberuntungan, dan tidak ada batasan pada jumlah barisan angka yang dapat berpartisipasi dalam undian bulanan",
+      "text4": "Bergabung Sekarang",
+      "text5": "Orang yang Telah Bergabung",
+      "text6": "Informasi Partisipasi",
+      "text7": "01 unit sepeda motor Yamaha PG-1 setiap bulan untuk setiap Thợ yang mendaftar melalui putaran hadiah dari sistem",
+      "text8": "Memenangkan Sepeda Motor Yamaha PG-1",
+      "text9": "Pedoman Program"
+    },
+    "GuidelinesPromotion": {
+      "text0": "Nama Program Promosi",
+      "title": "Aturan Program",
+      "text1": "Waktu Promosi:",
+      "text2": "Mulai dari tanggal 01/12/2023 hingga ada pemberitahuan lebih lanjut dari Vua Thợ.",
+      "text3": "Lingkup Promosi:",
+      "text4": "Seluruh wilayah Vietnam.",
+      "text5": "Metode Promosi:",
+      "text6": "Putaran hadiah Online.",
+      "text7": "Pelanggan Program Promosi:",
+      "text8": "Berlaku untuk semua pengguna yang berusia 18 tahun ke atas dan berhasil mendaftar sebagai Thợ di aplikasi selama periode promosi (Thợ utama + Thợ bantu)."
+    },
+    "ProtocolsPromotion": {
+      "title": "Cara Partisipasi",
+      "desc": "Pengguna mengunduh aplikasi Vua Thợ dari App Store atau Android dan mendaftar akun dengan peran sebagai Thợ.",
+      "text1": "Setelah berhasil mendaftar, setiap akun Thợ akan menerima sebuah kode hadiah (juga disebut sebagai kode referensi) secara acak dan secara otomatis dicatat dalam program putaran hadiah.",
+      "text2": "Program ini dibagi menjadi beberapa putaran hadiah, setiap 1.000 akun Thợ yang berhasil mendaftar, perwakilan dari Perusahaan Teknologi Vua Thợ akan melakukan putaran hadiah untuk 'Kode hadiah' di seluruh kode hadiah yang telah dikirimkan ke akun Thợ, dihadiri oleh perwakilan dari Perusahaan Teknologi Vua Thợ, perwakilan pihak terkait, dan perwakilan Pelanggan yang memiliki kode hadiah yang ikut serta dalam program promosi 'Bergabung dengan Komunitas Vua Thợ - Kesempatan untuk Mendapatkan Wave RSX'.",
+      "text3": "Sistem akan secara otomatis melakukan putaran hadiah dan memilih 03 kode hadiah untuk memberikan hadiah berturut-turut Pertama - Kedua - Ketiga, program ini akan diumumkan secara terbuka secara online di berbagai media Vua Thợ.",
+      "text4": "Dalam waktu 24 jam setelah hasil penentuan hadiah, Vua Thợ akan menghubungi Thợ melalui nomor telepon yang telah diberikan oleh Thợ untuk mengumumkan hadiah dan memberikan petunjuk mengenai waktu, tempat, dan prosedur pengambilan hadiah sesuai dengan ketentuan. Setiap kode hadiah hanya dapat mengikuti satu putaran hadiah saja.",
+      "text5": "Untuk kode hadiah yang telah berpartisipasi dalam putaran 1 (dari kode 0001 - 0999), sistem akan secara otomatis mengeluarkannya dan tidak dapat berpartisipasi dalam putaran hadiah berikutnya.",
+      "text6": "Langkah",
+      "text7": "Unduh Sekarang",
+      "text8": "Panggil Thợ, Cari Pekerjaan dengan Teknologi AI",
+      "text9": "Atau pindai kode QR di bawah ini",
+      "text10": "Unduh dan Pasang",
+      "text11": "Aplikasi Vua Thợ",
+      "text12": "Mendaftar sebagai Thợ",
+      "text13": "Tunggu hasil putaran hadiah",
+      "text14": "Struktur Hadiah",
+      "text15": "Hadiah Kedua",
+      "text16": "6 kotak bir tiger silver",
+      "text17": "Hadiah Pertama",
+      "text18": "1 sepeda motor Wave RSX F1",
+      "text19": "Hadiah Ketiga",
+      "text20": "3 kotak bir tiger silver",
+      "text21": "1 sepeda motor",
+      "text22": "senilai",
+      "text23": "100 unit",
+      "text24": "Berlangsung hingga mencapai 1.000.000 akun Thợ",
+      "text25": "Hadiah",
+      "text26": "Detail Hadiah",
+      "text27": "Jumlah Hadiah",
+      "text28": "1 sepeda motor Honda Wave RSX FI 110 senilai 25.000.000 VND",
+      "text29": "Setiap putaran 6 kotak bir Tiger Silver",
+      "text30": "Setiap putaran 3 kotak bir Tiger Silver"
+    },
+    "Reward": {
+      "title": "Prosedur Pemberian Hadiah:",
+      "text1": "Ketika menerima hadiah, Thợ yang memenangkan hadiah harus melakukan beberapa prosedur berikut:",
+      "text2": "Untuk Thợ yang memenangkan hadiah pertama, harus hadir langsung di Perusahaan Teknologi Vua Thợ.",
+      "text3": "Vua Thợ tidak menerima kasus penerimaan hadiah melalui perantara.",
+      "text4": "Hadiah akan dikirimkan kepada Thợ yang memenangkan hadiah dalam waktu 30 hari sejak tanggal pengumuman hasil putaran hadiah. Dalam kasus Vua Thợ tidak dapat menghubungi Thợ yang memenangkan hadiah, atau Thợ yang memenangkan hadiah tidak datang untuk menerima hadiah dalam batas waktu yang ditentukan, hadiah akan ditarik kembali oleh Vua Thợ dan nilai hadiah akan dikonversi menjadi dana bantuan dari Vua Thợ.",
+      "text5": "Thợ yang memenangkan hadiah harus menanggung seluruh biaya perjalanan, biaya pengiriman (jika ada) untuk menerima hadiah mereka."
+    },
+    "ConditionDetails": {
+      "title": "Rincian Persyaratan:",
+      "text1": "Pelanggan yang memenangkan hadiah diharapkan menghubungi Hotline: 0912 426 404 atau mengirim pesan langsung di Fanpage atau Zalo Vua Thợ untuk petunjuk pengambilan hadiah.",
+      "text2": "Hadiah pertama akan diserahkan di Perusahaan Teknologi Vua Thợ, nomor 32/28, Jalan 35, Kelurahan An Khánh, Kota Thủ Đức, Kota Hồ Chí Minh atau Vua Thợ akan membantu pengiriman langsung ke rumah pelanggan (jika di luar wilayah Kota Hồ Chí Minh).",
+      "text3": "Panitia memiliki hak penuh untuk menggunakan nama, gambar peserta program di saluran informasi program & media lainnya.",
+      "text4": "Dalam hal timbulnya keluhan atau sengketa apa pun terkait dengan program promosi ini, Perusahaan Teknologi Vua Thợ akan bertanggung jawab langsung untuk menyelesaikannya, jika tidak ada penyelesaian, sengketa akan diproses sesuai dengan peraturan hukum.",
+      "text5": "Karyawan Perusahaan Teknologi Vua Thợ dan karyawan di bagian administrasi - bisnis di Perusahaan Perdagangan Produksi - Konstruksi Phố Việt tidak diizinkan untuk berpartisipasi dalam program ini.",
+      "text6": "Program dapat berakhir lebih awal dari perkiraan."
+    },
+    "ImportantNote": {
+      "title": "Catatan Penting:",
+      "text1": "Untuk hadiah sepeda motor Wave RSX FI 110 (tidak dapat ditukar dengan uang tunai):",
+      "text2": "Nilai sepeda motor (25.000.000 VND) belum termasuk biaya pendaftaran dan biaya terkait lainnya, pemenang hadiah perlu membayar penuh sesuai dengan peraturan yang berlaku (sekitar 3.500.000 VND).",
+      "text3": "Pemenang hadiah harus menggunakan sepeda motor atas nama pemilik Vua Thợ dalam waktu 03 tahun untuk tujuan melayani pekerjaan terkait dengan layanan di aplikasi Vua Thợ dan tidak diizinkan untuk membeli, menjual, menukar, atau mengganti bagian atau komponen teknis apa pun dari sepeda motor tanpa izin dari Vua Thợ.",
+      "text4": "Setelah periode 03 tahun sejak tanggal penerimaan sepeda motor, pemenang hadiah dapat mengonversi dokumen kepemilikan sepeda motor menjadi nama mereka sendiri tanpa biaya tambahan dan dapat menggunakan sesuai keinginan untuk tujuan lain.",
+      "text5": "Untuk hadiah bir Tiger Silver (dapat ditukar dengan uang tunai):",
+      "text6": "Ambil foto konfirmasi penerimaan hadiah dan kirim ke Vua Thợ (melalui Zalo Vua Thợ)."
+    },
+    "ProtocolsInvite": {
+      "title": "Cara Bergabung",
+      "text1": "Montir yang berhasil memperkenalkan 12 Montir baru akan menerima 6 bola (setiap bola memiliki 2 digit yang setara dengan 02 Montir) secara online langsung di aplikasi Vua Thợ.",
+      "text2": "Suatu rangkaian digit yang valid terdiri dari 6 bola penuh (setara dengan 12 orang yang diperkenalkan).",
+      "text3": "Program ini tidak membatasi jumlah pengenalan Montir baru, semakin banyak Anda memperkenalkan, semakin banyak rangkaian digit keberuntungan yang akan Anda terima.",
+      "text4": "Rangkaian digit ini akan mengikuti Montir selama proses berlangsung dan terus ikut serta dalam putaran setiap bulan pada putaran berikutnya.",
+      "text5": "Setiap akun dapat memenangkan hadiah beberapa kali selama program berlangsung.",
+      "text6": "Akun A memperkenalkan B, C mendaftar sebagai Montir, maka A akan menerima 01 bola dengan nomor acak 3 dan 5, membentuk pasangan angka 35. Begitu pula, jika A memperkenalkan 10 orang lagi yang mendaftar sebagai Montir, ia akan menerima 05 bola dengan pasangan angka acak 44, 82, 90, 61, 95. A telah menyelesaikan rangkaian digit keberuntungannya yang pertama, yaitu “35, 44, 82, 90, 61, 95”.",
+      "text7": "Dengan cara ini, jika A berhasil memperkenalkan 120 orang, A akan memiliki 10 rangkaian digit dan tidak ada batasan dalam jumlah perkenalan.",
+      "text8": "Rangkaian digit ini akan mengikuti A selama proses berlangsung dan akan ikut serta dalam putaran berikutnya.",
+      "text9": "Program akan dimulai ketika sistem mencatat 100 rangkaian digit keberuntungan pertama secara teratur setiap bulan, perwakilan dari PT Vua Thợ Technology akan melakukan putaran di seluruh rangkaian digit hadiah yang telah dikirimkan ke akun Montir yang memperkenalkan, dihadiri oleh perwakilan dari PT Vua Thợ Technology, perwakilan pihak terkait, dan perwakilan pelanggan yang memiliki nomor undian untuk berpartisipasi dalam program promosi “Rangkaian Digit Keberuntungan”.",
+      "text10": "Sistem akan secara otomatis melakukan putaran satu per satu dan memilih 03 rangkaian digit untuk memberikan hadiah secara berturut-turut Pertama - Kedua - Ketiga, program akan diumumkan secara online di berbagai media Vua Thợ.",
+      "text11": "Dalam waktu 24 jam setelah hasil penentuan hadiah diketahui, Vua Thợ akan menghubungi untuk memberi tahu dan memberikan petunjuk tentang waktu, tempat, dan prosedur penerimaan hadiah sesuai dengan peraturan.",
+      "text12": "Contoh",
+      "text13": "Akun A memperkenalkan B, C mendaftar sebagai Montir, maka A akan menerima 01 bola dengan nomor acak 3 dan 5, membentuk pasangan angka 35. Begitu pula, jika A memperkenalkan 10 orang lagi yang mendaftar sebagai Montir, ia akan menerima 05 bola dengan pasangan angka acak 44, 82, 90, 61, 95. A telah menyelesaikan rangkaian digit keberuntungannya yang pertama, yaitu “35, 44, 82, 90, 61, 95”.",
+      "text14": "Dengan cara ini, jika A berhasil memperkenalkan 120 orang, A akan memiliki 10 rangkaian digit dan tidak ada batasan dalam jumlah perkenalan. Rangkaian digit ini akan mengikuti A selama proses berlangsung dan akan ikut serta dalam putaran berikutnya.",
+      "text15": "Program akan dimulai ketika sistem mencatat 100 rangkaian digit keberuntungan pertama secara teratur setiap bulan, perwakilan dari PT Vua Thợ Technology akan melakukan putaran di seluruh rangkaian digit hadiah yang telah dikirimkan ke akun Montir yang memperkenalkan, dihadiri oleh perwakilan dari PT Vua Thợ Technology, perwakilan pihak terkait, dan perwakilan Montir yang memiliki nomor undian untuk berpartisipasi dalam program promosi “Rangkaian Digit Keberuntungan”.",
+      "text16": "Sistem akan secara otomatis melakukan putaran satu per satu dan memilih 03 rangkaian digit untuk memberikan hadiah secara berturut-turut Pertama - Kedua - Ketiga, program akan diumumkan secara online di berbagai media Vua Thợ.",
+      "text17": "Dalam waktu 24 jam setelah hasil penentuan hadiah diketahui, Vua Thợ akan menghubungi untuk memberi tahu dan memberikan petunjuk tentang waktu, tempat, dan prosedur penerimaan hadiah sesuai dengan peraturan."
+    },
+    "menuPopup": {
+      "text1": "Daftar Hadiah",
+      "text2": "Situs web Vua Thợ",
+      "text3": "Aturan Program"
+    },
+    "Toast": {
+      "text1": "Harap setujui peraturan",
+      "text2": "Nomor telepon atau OTP tidak valid",
+      "text3": "Nomor telepon atau OTP tidak valid.",
+      "text4": "Silakan masukkan nomor telepon",
+      "text5": "Nomor telepon tidak valid"
+    },
+    "placeHolder": {
+      "text1": "Nomor telepon",
+      "text2": "Kode OTP"
+    },
+    "Form": {
+      "text1": "Saya telah membaca dan menyetujui ",
+      "text2": " aturan program ini",
+      "text3": "Kirim Kode",
+      "text4": "Masuk"
+    }
+  }
+}

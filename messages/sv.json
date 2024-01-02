@@ -1,0 +1,159 @@
+{
+  "Download": {
+    "download": "Ladda ner nu",
+    "download_now": "För att uppleva den mest avancerade AI-teknologin",
+    "download_appstore": "Ladda ner från",
+    "download_chplay": "Ladda ner från"
+  },
+  "Navbar": {
+    "become_employee": "Bli en Arbetare",
+    "find_employee": "Hitta en Arbetare",
+    "store": "Uniformer",
+    "language": "Språk",
+    "download": "Ladda ner nu",
+    "money": "Pengar"
+  },
+  "Promotion": {
+    "PromotionsHeader": {
+      "text1": "Vua Thợ Teknologi AB",
+      "text2": "Socialt nätverk",
+      "text3": "För alla frågor relaterade till kampanjprogrammet kan kunder kontakta följande adress för vägledning och svar.",
+      "text4": "Nummer 32/28, gata 35, An Khánh-kvarteret, Thủ Đức-distriktet, Ho Chi Minh-staden",
+      "text5": "Hotline: 0912 426 404 eller E-post: Social@vuatho.com",
+      "RightHeader": {
+        "title1": "Lyckonummer för att vinna elcykel",
+        "title2": "Gå med i Vua Thợ och ha chansen att vinna en Wave RSX",
+        "text3": "Kampanjprogram",
+        "download": "Ladda ner appen"
+      }
+    },
+    "Hero": {
+      "text1": "Gå med i Vua Thợ",
+      "text1-1": "Lyckonummer",
+      "text2": "Chans att vinna Wave RSX",
+      "text2-1": "Vinna en elcykel",
+      "text3": "01 Wave RSX F1-cykel för varje 1 000 Thợ som registrerar sig genom vinsthjulet från systemet",
+      "text3-1": "Thợ kommer att ha ett lyckonummer och det finns inget begränsat antal lyckonummer som får delta i regelbundna dragningar varje månad",
+      "text4": "Gå med nu",
+      "text5": "Deltagare",
+      "text6": "Deltagarinformation",
+      "text7": "01 Yamaha PG-1-cykel för varje Thợ som registrerar sig genom vinsthjulet från systemet varje månad",
+      "text8": "Vinna en Yamaha PG-1-cykel",
+      "text9": "Programregler"
+    },
+    "GuidelinesPromotion": {
+      "text0": "Namn på kampanjprogram",
+      "title": "Programregler",
+      "text1": "Kampanjperiod:",
+      "text2": "Från den 01/12/2023 tills vidare enligt nya meddelanden från Vua Thợ.",
+      "text3": "Kampanjområde:",
+      "text4": "Hela Vietnam.",
+      "text5": "Kampanjform:",
+      "text6": "Online-vinsthjul.",
+      "text7": "Kunder i kampanjprogrammet:",
+      "text8": "Gäller för alla användare över 18 år som framgångsrikt registrerar sig som Thợ i appen under kampanjperioden (Huvud-Thợ + Hjälp-Thợ)."
+    },
+    "ProtocolsPromotion": {
+      "title": "Hur man deltar",
+      "desc": "Användare laddar ner Vua Thợ-appen från App Store eller Android och registrerar sig som en arbetare.",
+      "text1": "Efter framgångsrik registrering kommer varje arbetarkonto att få en slumpmässig belöningskod (också kallad introduktionskod), som automatiskt registreras i snurrprogrammet.",
+      "text2": "Programmet är uppdelat i flera omgångar av snurrar. Efter varje 1 000 framgångsrika arbetarkonton kommer representanter från företaget Vua Thợ att genomföra en snurr av de 'Belöningskoder' som har skickats till arbetarkontona. Detta sker under övervakning av representanter från företaget Vua Thợ, representanter från berörda parter och representanter från kunder med belöningskoder som deltar i kampanjen 'Vua Thợ Entrance - Chans att vinna en Wave RSX'.",
+      "text3": "Systemet kommer automatiskt att genomföra en snurr och välja ut 03 belöningskoder för att dela ut priserna i ordningen första, andra och tredje plats. Resultaten kommer att offentliggöras online på Vua Thợ:s mediekanaler.",
+      "text4": "Inom 24 timmar efter att prisvinnarna har fastställts kommer Vua Thợ att kontakta arbetarna via det telefonnummer som arbetarna har tillhandahållit för att meddela om priset och ge anvisningar om tid, plats och procedurer för att hämta priset enligt föreskrifterna. Varje belöningskod kan bara snurras en gång.",
+      "text5": "För de belöningskoder som deltog i omgång 1 (från kod 0001 - 0999) kommer systemet automatiskt att utesluta dem och de kommer inte att delta i nästa omgångs snurr.",
+      "text6": "Steg",
+      "text7": "Ladda ner nu",
+      "text8": "Anlita arbetare, hitta jobb med AI-teknik",
+      "text9": "Eller skanna QR-koden nedan",
+      "text10": "Ladda ner och installera",
+      "text11": "Vua Thợ-appen",
+      "text12": "Registrera dig som arbetare",
+      "text13": "Vänta på snurrresultaten",
+      "text14": "Prisstruktur",
+      "text15": "Andrapris",
+      "text16": "6 silverfärgade Tiger-ölbackar",
+      "text17": "Förstapris",
+      "text18": "1 Wave RSX F1-moped",
+      "text19": "Tredjepris",
+      "text20": "3 silverfärgade Tiger-ölbackar",
+      "text21": "1 motorcykel",
+      "text22": "värde",
+      "text23": "100 stycken",
+      "text24": "Pågår tills 1 000 000 arbetarkonton har registrerats",
+      "text25": "Pris",
+      "text26": "Detaljer om priserna",
+      "text27": "Antal priser",
+      "text28": "1 Honda Wave RSX FI 110-moped värderad till 25 000 000 VND",
+      "text29": "Varje omgång 6 silverfärgade Tiger B-ölbackar",
+      "text30": "Varje omgång 3 silverfärgade Tiger B-ölbackar"
+    },
+    "Reward": {
+      "title": "Prisutdelningsförfarande:",
+      "text1": "När priset tas emot måste vinnande arbetare utföra följande procedurer:",
+      "text2": "För den som vinner förstapriset krävs det att de är närvarande personligen på företaget Vua Thợ.",
+      "text3": "Vua Thợ accepterar inte prisutdelning via ombud.",
+      "text4": "Priset kommer att skickas till prisvinnaren inom 30 dagar från dagen för snurrresultaten. Om Vua Thợ inte kan kontakta prisvinnaren eller om prisvinnaren inte hämtar priset inom den angivna tiden kommer Vua Thợ att återkalla priset och värdet av priset kommer att omvandlas till Vua Thợ:s stödfonder.",
+      "text5": "Prisvinnaren måste själv bära alla kostnader för resor och transport (om det behövs) för att hämta sitt pris."
+    },
+    "ConditionDetails": {
+      "title": "Detaljerade villkor:",
+      "text1": "Vinnande kunder ombeds vänligen kontakta Hotline: 0912 426 404 eller skicka direktmeddelanden på Fanpage eller Zalo Vua Thợ för instruktioner om att hämta priset.",
+      "text2": "Förstapriset kommer att tilldelas vid Vua Thợ Technology Co., Ltd., 32/28, väg 35, An Khánh-distriktet, Thủ Đức-staden, Ho Chi Minh-staden, eller så kommer Vua Thợ att stödja leveransen till kundens hem (om utanför Ho Chi Minh-stadens område).",
+      "text3": "Arrangören har fullständig befogenhet att använda deltagarnas namn och bilder i programkanaler och andra medier.",
+      "text4": "I händelse av några klagomål eller tvister som uppstår i samband med denna kampanj kommer Vua Thợ Technology Co., Ltd. att ha ansvar för direkt lösning. Om ingen överenskommelse nås kommer tvisten att behandlas enligt gällande lagstiftning.",
+      "text5": "Anställda på Vua Thợ Technology Co., Ltd. och anställda inom administration och försäljning vid Phố Việt Manufacturing Trade Construction Co., Ltd. får inte delta i programmet.",
+      "text6": "Programmet kan avslutas tidigare än förväntat."
+    },
+    "ImportantNote": {
+      "title": "Viktigt meddelande:",
+      "text1": "För förstapriset Honda Wave RSX FI 110 (kan inte konverteras till kontanter):",
+      "text2": "Fordonsvärdet (25.000.000 VND) inkluderar inte registreringsavgifter och relaterade avgifter. Prisvinnaren måste betala hela beloppet enligt gällande föreskrifter (ungefär 3.500.000 VND).",
+      "text3": "Vinnaren måste använda fordonet i Vua Thợ-ägarens namn i upp till 3 år för att utföra arbetsrelaterade tjänster på Vua Thợ-appen och får inte köpa, sälja, byta ut eller ändra några fordonsspecifikationer utan Vua Thợ:s tillstånd.",
+      "text4": "Efter 3 år från fordonets mottagandedatum kan prisvinnaren överföra ägandepapperet till sitt eget namn utan att påföra ytterligare avgifter och använda det för andra ändamål enligt eget önskemål.",
+      "text5": "För Tiger Silver Beer-priset (kan konverteras till kontanter):",
+      "text6": "Skicka ett bekräftelsefoto att du har mottagit priset till Vua Thợ (via Zalo Vua Thợ)."
+    },
+    "ProtocolsInvite": {
+      "title": "Så här deltar du",
+      "text1": "En framgångsrik refererande arbetare som introducerar 12 nya arbetare kommer att få 6 bollar (varje boll har 2 siffror, motsvarande 02 arbetare) online via Vua Thợ-appen.",
+      "text2": "En giltig sekvens är en sekvens som inkluderar 6 fullständiga bollar (motsvarande 12 introducerade arbetare).",
+      "text3": "Programmet har ingen begränsning för antalet introducerade nya arbetare; ju fler du introducerar, desto fler sekvenser av lyckonummer får du.",
+      "text4": "Dessa sekvenser kommer att följa arbetaren under hela programmet och kommer att fortsätta delta i varje månatlig omgång.",
+      "text5": "Varje konto kan vinna flera gånger under programmet.",
+      "text6": "Exempel:",
+      "text7": "Om konto A introducerar B och C som registrerar sig som arbetare kommer A att få en boll med slumpmässiga siffror som 3 och 5, bildar paret 35. På samma sätt kommer A att få 5 bollar med slumpmässiga par av siffror 44, 82, 90, 61, 95 när han introducerar ytterligare 10 arbetare. A har nu slutfört sin första sekvens av lyckonummer, vilket är '35, 44, 82, 90, 61, 95'.",
+      "text8": "På detta sätt, om A introducerar 120 personer kommer A att ha 10 sekvenser och ingen begränsning för introduktioner. Dessa sekvenser kommer att följa A under hela programmet och delta i kommande omgångar av snurrar.",
+      "text9": "Programmet börjar när systemet registrerar de första 100 lyckonummer enligt den planerade tidsramen varje månad. Representanter från Vua Thợ Technology Co., Ltd. kommer att genomföra en snurr av alla tilldelade lyckonummer till arbetarens referentkonto, under övervakning av representanter från Vua Thợ Technology Co., Ltd., representanter från berörda parter och representanter från kunder med deltagande belöningskoder i kampanjen 'Lyckonummer'.",
+      "text10": "Systemet kommer automatiskt att genomföra snurror i tur och ordning och välja ut 03 sekvenser för att dela ut priserna i ordningen första, andra och tredje plats. Resultaten kommer att offentliggöras online på Vua Thợ:s mediekanaler.",
+      "text11": "Inom 24 timmar efter att prisvinnarna har fastställts kommer Vua Thợ att kontakta och meddela om tid, plats och procedurer för att hämta priset enligt föreskrifterna.",
+      "text12": "Exempel:",
+      "text13": "Konto A introducerar B och C som registrerar sig som arbetare kommer A att få en boll med slumpmässiga siffror som 3 och 5, bildar paret 35. På samma sätt kommer A att få 5 bollar med slumpmässiga par av siffror 44, 82, 90, 61, 95 när han introducerar ytterligare 10 arbetare. A har nu slutfört sin första sekvens av lyckonummer, vilket är '35, 44, 82, 90, 61, 95'.",
+      "text14": "På detta sätt, om A introducerar 120 personer kommer A att ha 10 sekvenser och ingen begränsning för introduktioner. Dessa sekvenser kommer att följa A under hela programmet och delta i kommande omgångar av snurrar.",
+      "text15": "Programmet börjar när systemet registrerar de första 100 lyckonummer enligt den planerade tidsramen varje månad. Representanter från Vua Thợ Technology Co., Ltd. kommer att genomföra en snurr av alla tilldelade lyckonummer till arbetarens referentkonto, under övervakning av representanter från Vua Thợ Technology Co., Ltd., representanter från berörda parter och representanter från arbetare med deltagande belöningskoder i kampanjen 'Lyckonummer'.",
+      "text16": "Systemet kommer automatiskt att genomföra snurror i tur och ordning och välja ut 03 sekvenser för att dela ut priserna i ordningen första, andra och tredje plats. Resultaten kommer att offentliggöras online på Vua Thợ:s mediekanaler.",
+      "text17": "Inom 24 timmar efter att prisvinnarna har fastställts kommer Vua Thợ att kontakta och meddela om tid, plats och procedurer för att hämta priset enligt föreskrifterna."
+    },
+    "menuPopup": {
+      "text1": "Vinstlista",
+      "text2": "Vua Thợ-webbplatsen",
+      "text3": "Programregler"
+    },
+    "Toast": {
+      "text1": "Var god godkänn programreglerna",
+      "text2": "Ogiltigt telefonnummer eller OTP-kod",
+      "text3": "Ogiltigt telefonnummer eller OTP-kod",
+      "text4": "Vänligen ange telefonnummer",
+      "text5": "Ogiltigt telefonnummer"
+    },
+    "placeHolder": {
+      "text1": "Telefonnummer",
+      "text2": "OTP-kod"
+    },
+    "Form": {
+      "text1": "Jag har läst och godkänner ",
+      "text2": " programreglerna",
+      "text3": "Skicka kod",
+      "text4": "Logga in"
+    }
+  }
+}
