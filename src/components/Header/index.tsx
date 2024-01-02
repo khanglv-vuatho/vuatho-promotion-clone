@@ -9,17 +9,7 @@ import { twMerge } from 'tailwind-merge'
 import LangsComp from '@/components/LangsComp'
 import ImageFallback from '../ImageFallback'
 import Link from 'next/link'
-
-const Header = () => {
-  return (
-    <>
-      <HeaderWrapper>
-        <Logo />
-        <RightNav />
-      </HeaderWrapper>
-    </>
-  )
-}
+import { useSelector } from 'react-redux'
 
 export const HeaderWrapper = ({
   children,
@@ -28,7 +18,9 @@ export const HeaderWrapper = ({
   children: React.ReactNode
   style?: string
 }) => {
-  const [isWebview, sIsWebview] = useState(false)
+  const openMenu = useSelector((state: any) => state.openMenu)
+
+  const [isWebview, setIsWebview] = useState(false)
 
   const [isHeaderVisible, setHeaderVisible] = useState(true)
   const searchParams = useSearchParams()
@@ -36,7 +28,7 @@ export const HeaderWrapper = ({
 
   useEffect(() => {
     var is_uiwebview = navigator.userAgent.includes('WebView')
-    sIsWebview(is_uiwebview)
+    setIsWebview(is_uiwebview)
   }, [])
 
   useEffect(() => {
@@ -62,7 +54,9 @@ export const HeaderWrapper = ({
   if (isWebview) {
     return null
   }
+
   if (hiddenHeaderAndFooter) return null
+
   return (
     <header
       id='header'
@@ -72,7 +66,9 @@ export const HeaderWrapper = ({
     >
       <div
         className={twMerge(
-          `ct-container flex h-[70px] items-center justify-between 3xl:h-[80px]`,
+          `ct-container flex h-[70px] items-center justify-between 3xl:h-[80px] ${
+            openMenu ? 'bg-white' : 'transition'
+          }`,
           style,
         )}
       >
@@ -83,8 +79,8 @@ export const HeaderWrapper = ({
 }
 
 export const Logo = () => {
-  const router = useRouter()
-  const locale = useLocale()
+  const openMenu = useSelector((state: any) => state.openMenu)
+
   return (
     <button
       title='button'
@@ -102,26 +98,10 @@ export const Logo = () => {
         alt='Logo nav'
         width={256}
         height={176}
-        className={`pointer-events-none h-[60px] w-auto object-contain rounded-[15px] overflow-hidden shadow-[0px_8px_16px_0px_rgba(0,0,0,0.16)]`}
+        className={`pointer-events-none h-[60px] w-auto object-contain rounded-[15px] overflow-hidden ${
+          openMenu ? '' : 'shadow-[0px_8px_16px_0px_rgba(0,0,0,0.16)]'
+        }`}
       />
     </button>
   )
 }
-
-const RightNav = () => {
-  return (
-    <>
-      <div className='bg-white rounded-full px-2'>
-        <Link href='/' className='bg-primary-yellow px-5 py-2'>
-          Nhập hội Vua Thợ
-        </Link>
-        <Link href='/invite' className='bg-[#F8F8F8] px-5 py-2'>
-          Dãy số may mắn
-        </Link>
-        <LangsComp />
-      </div>
-    </>
-  )
-}
-
-export default Header

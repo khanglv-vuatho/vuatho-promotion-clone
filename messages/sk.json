@@ -19,7 +19,7 @@
       "text2": "Sociálna sieť",
       "text3": "Všetky otázky týkajúce sa promočného programu riešte kontaktovaním zákazníckeho servisu na nasledujúcej adrese a získajte usmernenia a odpovede.",
       "text4": "Č. 32/28, ulica 35, obvod An Khánh, mesto Thủ Đức, mesto Ho Či Min",
-      "text5": "Hotline: 0912 426 404 alebo Email: Social@vuatho.com",
+      "text5": "0912 426 404 alebo Email: Social@vuatho.com",
       "RightHeader": {
         "title1": "Rada šťastných čísel pre výhru elektrického skútra",
         "title2": "Zapojte sa do skupiny Vua Thợ a máte šancu vyhrať skúter Wave RSX",
@@ -143,7 +143,8 @@
       "text2": "Neplatné telefónne číslo alebo OTP kód",
       "text3": "Neplatné telefónne číslo alebo OTP kód.",
       "text4": "Zadajte prosím telefónne číslo",
-      "text5": "Neplatné telefónne číslo"
+      "text5": "Neplatné telefónne číslo",
+      "text6": "OTP kód bol odoslaný vám"
     },
     "placeHolder": {
       "text1": "Telefónne číslo",

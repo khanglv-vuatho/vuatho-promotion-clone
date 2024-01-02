@@ -3,13 +3,13 @@ import type { Metadata } from 'next'
 import { redirect } from 'next/navigation'
 import { NextIntlClientProvider, useLocale } from 'next-intl'
 import { Lexend } from 'next/font/google'
+import { ToastContainer } from 'react-toastify'
 
 import { locales } from '@/constants'
+import { PromotionsFooter, PromotionsHeader } from '.'
 
 import './globals.css'
-import { PromotionsFooter, PromotionsHeader } from '.'
-import { ToastContainer } from 'react-toastify'
-import { Logo } from '@/components/Header'
+import Providers from '@/components/Providers'
 
 const lexend = Lexend({
   subsets: ['latin'],
@@ -49,9 +49,11 @@ export default async function RootLayout({
       <body className={lexend.className}>
         <ToastContainer />
         <NextIntlClientProvider locale={locale} messages={messages} timeZone={timeZone}>
-          <PromotionsHeader />
-          {children}
-          <PromotionsFooter />
+          <Providers>
+            <PromotionsHeader />
+            {children}
+            <PromotionsFooter />
+          </Providers>
         </NextIntlClientProvider>
       </body>
     </html>

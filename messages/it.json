@@ -143,7 +143,8 @@
       "text2": "Numero di telefono o codice OTP non valido",
       "text3": "Numero di telefono o codice OTP non valido.",
       "text4": "Si prega di inserire il numero di telefono",
-      "text5": "Numero di telefono non valido"
+      "text5": "Numero di telefono non valido",
+      "text6": "Il codice OTP è stato inviato a te"
     },
     "placeHolder": {
       "text1": "Numero di telefono",

@@ -13,5 +13,147 @@
     "download": "Şimdi İndir",
     "money": "Para"
   },
-  "Promotion": {}
+  "Promotion": {
+    "PromotionsHeader": {
+      "text1": "Vua Thợ Teknoloji AŞ",
+      "text2": "Sosyal Medya",
+      "text3": "Kampanya ile ilgili herhangi bir sorunuz varsa, müşteriler aşağıdaki adres üzerinden bilgi alabilirler.",
+      "text4": "35. Cadde, An Khánh Mahallesi, Thủ Đức şehri, Hồ Chí Minh şehri, Vietnam",
+      "text5": "Hotline: 0912 426 404 veya E-posta: Social@vuatho.com",
+      "RightHeader": {
+        "title1": "Elektrikli Motosiklet Kazanma Şanslı Numaralar",
+        "title2": "Vua Thợ Kulübü'ne Katıl, Wave RSX Kazanma Şansı",
+        "text3": "Kampanya Bilgisi",
+        "download": "Uygulamayı İndir"
+      }
+    },
+    "Hero": {
+      "text1": "Vua Thợ Kulübü'ne Katıl",
+      "text1-1": "Şanslı Numaralar",
+      "text2": "Wave RSX Kazanma Şansı",
+      "text2-1": "Elektrikli Motosiklet Kazanma",
+      "text3": "Her 1.000 Usta için, çekiliş tekerleği aracılığıyla 1 adet Wave RSX F1 kazanma şansı",
+      "text3-1": "Ustalar her ay düzenlenen çekilişe katılarak sınırsız sayıda şanslı numara elde edebilirler",
+      "text4": "Hemen Katıl",
+      "text5": "Katılanlar",
+      "text6": "Katılım Bilgisi",
+      "text7": "Her ay, çekiliş tekerleği aracılığıyla kayıt olan her 1.000 Usta için 1 adet Yamaha PG-1 kazanma şansı",
+      "text8": "Yamaha PG-1 Motosiklet Kazanma",
+      "text9": "Kampanya Kuralları"
+    },
+    "GuidelinesPromotion": {
+      "text0": "Kampanya Adı",
+      "title": "Kampanya Kuralları",
+      "text1": "Kampanya Süresi:",
+      "text2": "01/12/2023 tarihinden Vua Thợ'dan yeni bir duyuru yapılana kadar.",
+      "text3": "Kampanya Kapsamı:",
+      "text4": "Vietnam genelinde geçerlidir.",
+      "text5": "Kampanya Türü:",
+      "text6": "Online Çekiliş Tekerleği.",
+      "text7": "Kampanya Katılımcıları:",
+      "text8": "18 yaş ve üstü tüm kullanıcılara uygundur ve kampanya süresince başvuruları başarılı bir şekilde tamamlanan Usta (Ana Usta + Yardımcı Usta) kullanıcıları için geçerlidir."
+    },
+    "ProtocolsPromotion": {
+      "title": "Katılım Kuralları",
+      "desc": "Kullanıcılar Vua Thợ uygulamasını App Store veya Android'den indirir ve Usta rolüyle bir hesap kaydeder.",
+      "text1": "Başarılı bir kayıt sonrasında her Usta hesabı rastgele bir çekiliş kodu (aynı zamanda referans kodu) alacak ve sistem otomatik olarak bu çekiliş kodunu çekiliş programına kaydedecektir.",
+      "text2": "Program, her 1.000 başarılı Usta kaydından sonra, Vua Thợ Teknoloji AŞ temsilcisi, tüm ustalara gönderilen çekiliş kodlarının tamamını içeren bir çekiliş yapacaktır. Bu çekiliş, Vua Thợ Teknoloji AŞ temsilcisi, ilgili tarafların temsilcisi ve çekiliş kodu olan müşteri temsilcisi huzurunda gerçekleşecektir. Bu çekiliş, 'Vua Thợ Kulübü - Wave RSX Kazanma Şansı' kampanyasına katılan çekiliş kodları üzerinden yapılacaktır.",
+      "text3": "Sistem otomatik olarak çekilişi yapacak ve ödül olarak verilecek olan 3 çekiliş kodunu sırasıyla Birinci - İkinci - Üçüncü olarak seçecektir. Programın sonuçları Vua Thợ'nun medya kanallarında online olarak duyurulacaktır.",
+      "text4": "Çekiliş sonuçları belirlendikten sonra 24 saat içinde, Vua Thợ kazanan Ustaları telefon numarası üzerinden bilgilendirerek ödül hakkında yönlendirme ve ödül alma süreçleri hakkında bilgi verecektir. Her çekiliş kodu sadece bir kez çekilişe katılma hakkına sahiptir.",
+      "text5": "Daha önceki çekilişe katılan kodlar (0001 - 0999 arası kodlar) için, sistem otomatik olarak bunları eleyecek ve bir sonraki çekilişe katılmalarına izin vermeyecektir.",
+      "text6": "Adım",
+      "text7": "Hemen İndir",
+      "text8": "Usta Bul, İşi Bul AI Teknolojisi ile",
+      "text9": "Veya aşağıdaki QR kodunu taratın",
+      "text10": "Uygulamayı İndir ve Yükle",
+      "text11": "Usta olarak Kaydol",
+      "text12": "Çekiliş Sonuçlarını Bekle",
+      "text14": "Ödül Yapısı",
+      "text15": "İkinci Ödül",
+      "text16": "6 gümüş Tiger bira kutusu",
+      "text17": "Birinci Ödül",
+      "text18": "1 adet Wave RSX F1 motosikleti",
+      "text19": "Üçüncü Ödül",
+      "text20": "3 gümüş Tiger bira kutusu",
+      "text21": "1 motosiklet",
+      "text22": "değerinde",
+      "text23": "100 adet",
+      "text24": "1.000.000 Usta kaydına ulaşılıncaya kadar devam edecektir",
+      "text25": "Ödül Bilgileri",
+      "text26": "Ödül Ayrıntıları",
+      "text27": "Ödül Miktarı",
+      "text28": "1 adet Honda Wave RSX FI 110 motosiklet, 25.000.000₫ değerinde",
+      "text29": "Her biri için 6 gümüş Tiger bira kutusu",
+      "text30": "Her biri için 3 gümüş Tiger bira kutusu"
+    },
+    "Reward": {
+      "title": "Ödül Prosedürü:",
+      "text1": "Ödül alan Usta, ödülü almak için aşağıdaki prosedürleri takip etmelidir:",
+      "text2": "Birinci ödülü kazanan Usta, ödülü bizzat Vua Thợ Teknoloji AŞ ofisine gitmelidir.",
+      "text3": "Vua Thợ, ödül alma konusunda temsilci kabul etmeyecektir.",
+      "text4": "Ödül, çekiliş sonuçlarının açıklanmasından itibaren 30 gün içinde kazanan Ustaya gönderilecektir. Vua Thợ, kazanan Usta ile iletişim kuramazsa veya kazanan Usta belirtilen süre içinde ödülü almak üzere gelmezse, ödülü Vua Thợ tarafından geri alınacak ve ödülün değeri Vua Thợ'nun destek fonlarına dönüştürülecektir.",
+      "text5": "Ödül kazanan Usta, ödülünü almak için tüm seyahat masraflarını ve (varsa) nakliye masraflarını kendisi karşılamalıdır."
+    },
+    "ConditionDetails": {
+      "title": "Uygulanabilir Koşulların Detayları:",
+      "text1": "Kazanan müşteriler lütfen Hotline: 0912 426 404 numarasını arayın veya doğrudan Vua Thợ Fanpage veya Zalo üzerinden mesaj gönderin, ödül alma konusunda yönlendirmeleri alın.",
+      "text2": "Birinci ödül, Vua Thợ Teknoloji AŞ şirketinde (An Khánh Mahallesi, Thủ Đức şehri, Hồ Chí Minh şehri, Vietnam) verilecek veya Vua Thợ, müşterilere evlerine (Hồ Chí Minh Şehri dışındaki bölgeler için) gönderim konusunda yardımcı olacaktır.",
+      "text3": "Organizatör, programın ve diğer iletişim araçlarının kanallarında kampanyaya katılan kişilerin adlarını, resimlerini kullanma hakkına sahiptir.",
+      "text4": "Bu promosyon programına ilişkin herhangi bir şikayet veya anlaşmazlık durumunda, Vua Thợ Teknoloji AŞ doğrudan çözümleme sorumluluğuna sahiptir. Anlaşmazlık çözülemezse, mevzuat hükümlerine göre işlem yapılacaktır.",
+      "text5": "Vua Thợ Teknoloji AŞ ve Phố Việt Üretim Ticaret İnşaat Limited Şirketi personeli promosyon programına katılamaz.",
+      "text6": "Program, beklenenden önce sona erebilir."
+    },
+    "ImportantNote": {
+      "title": "Önemli Not:",
+      "text1": "Honda Wave RSX FI 110 ödülü için (nakde çevrilemez):",
+      "text2": "Araç değeri (25.000.000₫), vergi ve ilgili diğer ücretleri içermez, ödül kazanan Usta mevcut düzenlemelere göre tam miktarı ödemelidir (yaklaşık 3.500.000₫).",
+      "text3": "Ödül kazanan kişi, aracı Vua Thợ'nun sahibi olarak 3 yıl boyunca işle ilgili hizmetleri sunmak amacıyla kullanmalıdır ve aracın parçalarını, teknik detaylarını Vua Thợ'nun izni olmadan değiştirmek, satmak, takas etmek veya başka bir amaçla kullanmak yasaktır.",
+      "text4": "3 yıl içinde, araç sahibi belgesini kişisel adına ücretsiz olarak değiştirebilir ve başka amaçlar için kullanabilir.",
+      "text5": "Gümüş Tiger bira ödülü için (nakde çevrilebilir):",
+      "text6": "Ödül alındığına dair bir fotoğraf çekilip Vua Thợ'ya (Zalo üzerinden) gönderilmelidir."
+    },
+    "ProtocolsInvite": {
+      "title": "Katılım Kuralları",
+      "text1": "Herhangi bir Usta 12 Yeni Usta başarıyla tanıttığında, çevrimiçi olarak Vua Thợ uygulamasında 6 top alacaktır (her top, 2 Usta'ya karşılık gelen 2 rakam içerir).",
+      "text2": "Geçerli bir dizi, tam 6 topu içermelidir (12 tanıtılan kişiye karşılık gelir).",
+      "text3": "Program, Yeni Usta tanıtma sayısını sınırlamaz; ne kadar çok tanıtırsanız, o kadar çok şanslı dizi alırsınız.",
+      "text4": "Bu diziler, süreç boyunca Usta ile birlikte hareket edecek ve gelecek ayların her birinde devam eden çekilişlere katılacaktır.",
+      "text5": "Her hesap, program süresince birçok kez ödül kazanabilir.",
+      "text6": "Hesap A, kişi B'yi tanıttığında ve kişi C Usta olarak kaydolduğunda, A kişisi rastgele olarak 3 ve 5 sayılarına sahip bir top alacaktır, 35 sayı çiftini oluşturur. Aynı şekilde, A kişisi başka 10 Usta daha tanıttığında, 44, 82, 90, 61, 95 sayılarına sahip 5 top alacaktır. A, ilk şanslı dizisini tamamlamış olacaktır, yani “35, 44, 82, 90, 61, 95”.",
+      "text7": "Bu şekilde, A kişisi 120 kişiyi tanıttığında, 10 şanslı diziye sahip olacak ve tanıtım sınırlaması olmayacaktır.",
+      "text8": "Bu diziler, süreç boyunca A kişisiyle birlikte hareket edecek ve gelecek çekilişlere katılacaktır.",
+      "text9": "Program, her ay düzenli olarak kaydedilen ilk 100 şanslı diziyi belirlediğinde başlayacaktır. Vua Thợ Teknoloji AŞ'nin temsilcisi, çekilişi yapmak için tanıtılan Usta hesaplarına gönderilen tüm dizilerin tamamında, Vua Thợ Teknoloji AŞ temsilcisi, ilgili tarafların temsilcisi ve müşteri temsilcisini gözetiminde çekilişi yapacaktır.",
+      "text10": "Sistem, sırayla çekilişi otomatik olarak gerçekleştirecek ve sırasıyla Birinci - İkinci - Üçüncü olarak belirlenen 03 diziyi seçecektir. Program, Vua Thợ'nun tüm iletişim kanallarında çevrimiçi olarak açıklanacaktır.",
+      "text11": "Ödül kazanan sonuçların belirlendiği tarihten itibaren 24 saat içinde Vua Thợ, kazananlara ödül alımı konusunda bilgi vermek ve talimatlar vermek üzere iletişime geçecektir.",
+      "text12": "Örnek",
+      "text13": "Hesap A, kişi B'yi tanıttığında ve kişi C Usta olarak kaydolduğunda, A kişisi rastgele olarak 3 ve 5 sayılarına sahip bir top alacaktır, 35 sayı çiftini oluşturur. Aynı şekilde, A kişisi başka 10 Usta daha tanıttığında, 44, 82, 90, 61, 95 sayılarına sahip 5 top alacaktır. A, ilk şanslı dizisini tamamlamış olacaktır, yani “35, 44, 82, 90, 61, 95”.",
+      "text14": "Bu şekilde, A kişisi 120 kişiyi tanıttığında, 10 şanslı diziye sahip olacak ve tanıtım sınırlaması olmayacaktır. Bu diziler, süreç boyunca A kişisiyle birlikte hareket edecek ve gelecek çekilişlere katılacaktır.",
+      "text15": "Program, her ay düzenli olarak kaydedilen ilk 100 şanslı diziyi belirlediğinde başlayacaktır. Vua Thợ Teknoloji AŞ'nin temsilcisi, çekilişi yapmak için tanıtılan Usta hesaplarına gönderilen tüm dizilerin tamamında, Vua Thợ Teknoloji AŞ temsilcisi, ilgili tarafların temsilcisi ve müşteri temsilcisini gözetiminde çekilişi yapacaktır.",
+      "text16": "Sistem, sırayla çekilişi otomatik olarak gerçekleştirecek ve sırasıyla Birinci - İkinci - Üçüncü olarak belirlenen 03 diziyi seçecektir. Program, Vua Thợ'nun tüm iletişim kanallarında çevrimiçi olarak açıklanacaktır.",
+      "text17": "Ödül kazanan sonuçların belirlendiği tarihten itibaren 24 saat içinde Vua Thợ, kazananlara ödül alımı konusunda bilgi vermek ve talimatlar vermek üzere iletişime geçecektir."
+    },
+    "menuPopup": {
+      "text1": "Kazananlar Listesi",
+      "text2": "Vua Thợ Websitesi",
+      "text3": "Program Kuralları"
+    },
+    "Toast": {
+      "text1": "Lütfen program kurallarını kabul edin",
+      "text2": "Geçersiz telefon numarası veya OTP kodu",
+      "text3": "Geçersiz telefon numarası veya OTP kodu.",
+      "text4": "Lütfen telefon numarasını girin",
+      "text5": "Geçersiz telefon numarası",
+      "text6": "OTP kodu size gönderildi"
+    },
+    "placeHolder": {
+      "text1": "Telefon Numarası",
+      "text2": "OTP Kodu"
+    },
+    "Form": {
+      "text1": "Ben şartları okudum ve kabul ediyorum ",
+      "text2": " programının",
+      "text3": "Kodu Gönder",
+      "text4": "Giriş Yap"
+    }
+  }
 }

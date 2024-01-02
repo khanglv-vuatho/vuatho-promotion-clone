@@ -1,12 +1,5 @@
 import { useTranslations } from 'next-intl'
-import {
-  ConditionDetails,
-  GuidelinesPromotion,
-  Hero,
-  ImportantNote,
-  ProtocolsPromotion,
-  Reward,
-} from '.'
+import { GuidelinesPromotion, Hero, ProtocolsPromotion } from '.'
 
 function Promotion() {
   const t = useTranslations('Promotion.Hero')

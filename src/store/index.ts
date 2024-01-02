@@ -6,7 +6,7 @@ const DefaultValueState: any = {
 
 function counterReducer(state: any = DefaultValueState, action: any) {
   switch (action.type) {
-    case 'openMenu':
+    case 'toggle_menu':
       return { ...state, openMenu: !action.payload }
     default:
       return state

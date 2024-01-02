@@ -141,7 +141,8 @@
       "text2": "Invalid phone number or OTP",
       "text3": "Invalid phone number or OTP.",
       "text4": "Please enter your phone number",
-      "text5": "Invalid phone number"
+      "text5": "Invalid phone number",
+      "text6": "OTP code has been sent to you"
     },
     "placeHolder": {
       "text1": "Phone Number",

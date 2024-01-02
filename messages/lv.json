@@ -143,7 +143,8 @@
       "text2": "Nederīgs tālruņa numurs vai OTP kods",
       "text3": "Nederīgs tālruņa numurs vai OTP kods",
       "text4": "Lūdzu, ievadiet tālruņa numuru",
-      "text5": "Nederīgs tālruņa numurs"
+      "text5": "Nederīgs tālruņa numurs",
+      "text6": "OTP kods ir nosūtīts jums"
     },
     "placeHolder": {
       "text1": "Tālruņa numurs",

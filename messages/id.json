@@ -143,7 +143,8 @@
       "text2": "Nomor telepon atau OTP tidak valid",
       "text3": "Nomor telepon atau OTP tidak valid.",
       "text4": "Silakan masukkan nomor telepon",
-      "text5": "Nomor telepon tidak valid"
+      "text5": "Nomor telepon tidak valid",
+      "text6": "Kode OTP telah dikirimkan kepada Anda"
     },
     "placeHolder": {
       "text1": "Nomor telepon",

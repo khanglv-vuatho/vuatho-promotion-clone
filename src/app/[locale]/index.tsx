@@ -2,7 +2,7 @@
 
 import { useLocale, useTranslations } from 'next-intl'
 import { usePathname, useRouter } from 'next/navigation'
-import { useEffect, useRef, useState } from 'react'
+import { useEffect, useState } from 'react'
 
 import {
   Button,
@@ -17,8 +17,6 @@ import { AnimatePresence, motion } from 'framer-motion'
 import {
   Add,
   Add as AddIcon,
-  Apple as AppleIcon,
-  GooglePlay as GooglePlayIcon,
   HambergerMenu,
   Location as LocationIcon,
   Sms as MailIcon,
@@ -29,7 +27,6 @@ import {
 import { FacebookIcon, LinkedinIcon, YoutubeIcon } from '@/components/Icons'
 import ImageFallback from '@/components/ImageFallback'
 // import LangsComp from '@/components/LangsComp'
-import { useUnfocusItem } from '@/hook'
 
 import { AndroidBtn, IosBtn } from '@/components/Download'
 import { HeaderWrapper, Logo } from '@/components/Header'
@@ -38,8 +35,9 @@ import LangsComp from '@/components/LangsComp'
 import { DefaultModal } from '@/components/Modal'
 import { ToastComponent } from '@/components/Toast'
 import instance from '@/services/axiosConfig'
-import Link from 'next/link'
 import './promotion.css'
+import Link from 'next/link'
+import { useDispatch, useSelector } from 'react-redux'
 
 export const PromotionsHeader = () => {
   return (
@@ -131,19 +129,19 @@ const RightHeader = () => {
   const td = useTranslations('Promotion.PromotionsHeader.RightHeader')
   const tt = useTranslations('Promotion.menuPopup')
   const t = useTranslations('Promotion.Hero')
+
   const locale = useLocale()
+
+  const openMenu = useSelector((state: any) => state.openMenu)
+
+  const dispatch = useDispatch()
 
   const pathName = usePathname()
   const router = useRouter()
 
   const [isOpen, setIsOpen] = useState(false)
 
-  const [toggleMenu, setToggleMenu] = useState(false)
-  const [currentKey, setCurrentKey] = useState<any>([])
-
   const isInvite = pathName.includes('invite')
-
-  const exclusionRef = useRef(null)
 
   type TPromotions = {
     id: number
@@ -156,10 +154,13 @@ const RightHeader = () => {
     { id: 2, title: td('title2'), url: `/${locale}` },
   ]
 
-  const menuPopup: { title: string; url: string }[] = [
-    { title: tt('text1'), url: '/' },
-    { title: tt('text2'), url: 'https://vuatho.com' },
+  type TMenuPopup = { title: string; url: string; id: number }
+
+  const menuPopup: TMenuPopup[] = [
+    { id: 1, title: tt('text1'), url: '/' },
+    { id: 2, title: tt('text2'), url: 'https://vuatho.com' },
     {
+      id: 3,
       title: tt('text3'),
       url: isInvite ? 'invite/rule' : 'rule',
     },
@@ -184,26 +185,24 @@ const RightHeader = () => {
       },
     },
   }
-
-  const _HandleToggleMenu = () => setToggleMenu(!toggleMenu)
-
-  const _HandleChangePromotion = (e: any, item: TPromotions) => {
-    setIsOpen(false)
-    router.replace(item.url)
+  const _HandleToggleMenu = () => {
+    dispatch({ type: 'toggle_menu', payload: openMenu })
   }
 
   const _HandleClickMenuMobile = (item: TPromotions) => {
     _HandleToggleMenu()
-    router.replace(`/${locale}/${item.url}`)
+    router.replace(`${item.url}`)
   }
 
   const _HandleScroll = () => {
     setIsOpen(false)
   }
 
-  const itemRef = useUnfocusItem(() => {
+  const _HandleNavigate = (item: TMenuPopup) => {
     setIsOpen(false)
-  }, exclusionRef)
+    console.log(item.url)
+    router.replace(`/${locale}/${item.url}`)
+  }
 
   useEffect(() => {
     window.addEventListener('scroll', _HandleScroll)
@@ -214,24 +213,20 @@ const RightHeader = () => {
   }, [])
 
   useEffect(() => {
-    toggleMenu
+    openMenu
       ? (document.body.style.overflow = 'hidden')
       : (document.body.style.overflow = 'auto')
-  }, [toggleMenu])
-
-  useEffect(() => {
-    setCurrentKey([pathName.toString()])
-  }, [pathName])
+  }, [openMenu])
 
   return (
     <>
       <div className='bg-white rounded-full px-[10px] py-2 lg:flex gap-5 items-center shadow-[0px_8px_16px_0px_rgba(0,0,0,0.16)] hidden'>
         <Link
           replace
-          href={'/'}
+          href={`/${locale}`}
           className={`${
             !isInvite ? 'bg-primary-yellow' : 'bg-[#F8F8F8]'
-          }  px-5 py-2 rounded-full flex items-center justify-center font-semibold`}
+          } px-5 py-2 rounded-full flex items-center justify-center font-semibold`}
         >
           {t('text1')}
         </Link>
@@ -240,7 +235,7 @@ const RightHeader = () => {
           href={`${locale}/invite`}
           className={`${
             isInvite ? 'bg-primary-yellow' : 'bg-[#F8F8F8]'
-          }  px-5 py-2 rounded-full flex items-center justify-center font-semibold`}
+          } px-5 py-2 rounded-full flex items-center justify-center font-semibold`}
         >
           {t('text1-1')}
         </Link>
@@ -262,17 +257,27 @@ const RightHeader = () => {
           </PopoverTrigger>
           <PopoverContent>
             <div className='rounded-[20px] bg-white flex flex-col items-end'>
-              {menuPopup.map((item) => (
-                <Link
-                  key={item.title}
-                  href={item.url}
-                  replace
-                  className='w-full text-end'
-                  onClick={() => setIsOpen(false)}
-                >
-                  <div className='p-5'>{item.title}</div>
-                </Link>
-              ))}
+              {menuPopup.map((item) => {
+                if (item.id === 2) {
+                  return (
+                    <div className='w-full p-5 text-end' key={item.id}>
+                      <Link href={item.url} target='_blank' rel='noopener noreferrer'>
+                        {item.title}
+                      </Link>
+                    </div>
+                  )
+                } else {
+                  return (
+                    <div
+                      key={item.id}
+                      className='w-full text-end cursor-pointer'
+                      onClick={() => _HandleNavigate(item)}
+                    >
+                      <div className='p-5'>{item.title}</div>
+                    </div>
+                  )
+                }
+              })}
               <div className='p-5 flex flex-col gap-2 items-end'>
                 <div className='flex items-center justify-between gap-2'>
                   <p className=''>0912 426 404</p>
@@ -304,7 +309,7 @@ const RightHeader = () => {
         className='menu-mobile block transition lg:hidden '
         onClick={_HandleToggleMenu}
       >
-        {toggleMenu ? (
+        {openMenu ? (
           <AddIcon size={32} className='rotate-45 cursor-pointer text-text transition' />
         ) : (
           <div className='flex items-center gap-2 md:gap-5'>
@@ -313,7 +318,7 @@ const RightHeader = () => {
         )}
       </div>
       <AnimatePresence>
-        {toggleMenu && (
+        {openMenu && (
           <motion.div
             initial='initial'
             animate='animate'
@@ -438,7 +443,7 @@ export const Hero: React.FC<THero> = ({
     } catch (error) {
       console.log(error)
       ToastComponent({
-        message: 'Mã OTP đã được gửi cho bạn',
+        message: td('text6'),
         type: 'warning',
       })
     } finally {
@@ -472,7 +477,7 @@ export const Hero: React.FC<THero> = ({
   return (
     <>
       <h3 className='ct-text-border text-primaryYellow text-2xl md:text-4xl uppercase font-bold px-2 md:px-0 md:text-center mt-10 md:hidden'>
-        {tt('title2')}
+        {inviteText ? tt('title1') : tt('title2')}
       </h3>
       <CustomSlider thumb1={thumb1} thumb2={thumb2} thumb3={thumb3} />
       <div className='ct-container flex-col gap-10'>
