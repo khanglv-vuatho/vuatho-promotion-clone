@@ -26,7 +26,7 @@ export const BodyRule = () => {
             <InviteRule
               primaryText='text-white'
               step6={Step6()}
-              bottomText='text-white'
+              bottomText='text-white font-semibold'
             />
             <div className='w-full'>
               <ImageFallback

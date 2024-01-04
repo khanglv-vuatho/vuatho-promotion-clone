@@ -17,7 +17,7 @@
     "PromotionsHeader": {
       "text1": "Công ty TNHH Công nghệ Vua Thợ",
       "text2": "Mạng xã hội",
-      "text3": "Mọi thắc mắc liên quan đến chương trình khuyến mại, khách hàng liên hệ theo địa chỉ sau để được hướng dẫn, giải đáp.",
+      "text3": "Mọi thắc mắc liên quan đến chương trình khuyến mại, khách hàng liên hệ theo địa chỉ sau để được hướng dẫn, giải đáp:",
       "text4": "Số 32/28, đường 35, phường An Khánh, thành phố Thủ Đức, thành phố Hồ Chí Minh",
       "text5": "Hotline: 0912 426 404 hoặc Email: Social@vuatho.com",
       "RightHeader": {
@@ -55,7 +55,7 @@
     },
     "ProtocolsPromotion": {
       "title": "Cách thức tham gia",
-      "desc": "Người dùng tải ứng dụng Vua Thợ trên App Store hoặc Android và tiến hành đăng ký tài khoản với vai trò Thợ.",
+      "desc": "Người dùng tải ứng dụng Vua Thợ trên App Store hoặc Google Play và tiến hành đăng ký tài khoản với vai trò Thợ.",
       "text1": "Sau khi đăng ký thành công, mỗi tài khoản Thợ sẽ nhận được một mã dự thưởng (cũng là mã giới thiệu) ngẫu nhiên và được hệ thống tự động ghi nhận vào chương trình vòng quay.",
       "text2": "Chương trình được chia thành nhiều đợt vòng quay, sau mỗi 1.000 tài khoản Thợ đăng ký thành công, đại diện của Công ty TNHH Công nghệ Vua Thợ sẽ tiến hành vòng quay các “Mã dự thưởng” trong toàn bộ mã dự thưởng đã được gửi tới tài khoản Thợ, dưới sự chứng kiến của đại diện Công ty TNHH Công nghệ Vua Thợ, đại diện các bên liên quan và đại diện Khách hàng có mã dự thưởng tham dự chương trình khuyến mãi “Nhập hội Vua Thợ - Cơ hội rinh Wave RSX”.",
       "text3": "Hệ thống sẽ tự động tiến hành vòng quay và chọn ra 03 mã dự thưởng để trao giải lần lượt Nhất - Nhì - Ba, chương trình sẽ được thông báo công khai trực tuyến trên các phương tiện truyền thông của Vua Thợ.",
@@ -71,7 +71,7 @@
       "text13": "Chờ kết quả quay thưởng",
       "text14": "Cơ cấu giải thưởng",
       "text15": "Giải nhì",
-      "text16": "6 thùng bia tiger bạc",
+      "text16": "6 thùng bia Tiger bạc",
       "text17": "Giải nhất",
       "text18": "1 chiếc xe Wave RSX F1",
       "text19": "Giải ba",
@@ -107,6 +107,7 @@
     "ImportantNote": {
       "title": "Lưu ý quan trọng:",
       "text1": "Đối với giải thưởng xe Wave RSX FI 110 (không được quy đổi thành tiền mặt):",
+      "text1-1": "Đối với giải thưởng xe Yamaha PG-1 (không được quy đổi thành tiền mặt):",
       "text2": "Giá trị xe (25.000.000đ) chưa bao gồm phí trước bạ và các khoản phí liên quan, Thợ trúng giải cần thanh toán đầy đủ theo quy định hiện hành (khoảng 3.500.000đ).",
       "text3": "Người trúng thưởng phải sử dụng xe dưới tên chủ sở hữu Vua Thợ trong vòng 03 năm với mục đích phục vụ công việc liên quan đến các dịch vụ trên ứng dụng Vua Thợ và không được phép mua bán, trao đổi, thay thế bất kỳ phụ tùng, chi tiết kỹ thuật nào của xe mà chưa thông qua sự cho phép của Vua Thợ.",
       "text4": "Sau thời gian 03 năm kể từ ngày nhận xe, người trúng thưởng có thể chuyển đổi giấy tờ sở hữu xe thành tên cá nhân của mình mà không tốn thêm bất kỳ khoản phí phát sinh nào và tùy ý sử dụng cho mục đích khác.",

@@ -17,7 +17,7 @@
     "PromotionsHeader": {
       "text1": "Perusahaan Teknologi Vua Thợ",
       "text2": "Jejaring Sosial",
-      "text3": "Untuk pertanyaan terkait program promosi, pelanggan dapat menghubungi alamat berikut untuk panduan dan klarifikasi.",
+      "text3": "Untuk pertanyaan terkait program promosi, pelanggan dapat menghubungi alamat berikut untuk panduan dan klarifikasi:",
       "text4": "Nomor 32/28, Jalan 35, Kelurahan An Khánh, Kota Thủ Đức, Kota Hồ Chí Minh",
       "text5": "Hotline: 0912 426 404 atau Email: Social@vuatho.com",
       "RightHeader": {
@@ -55,7 +55,7 @@
     },
     "ProtocolsPromotion": {
       "title": "Cara Partisipasi",
-      "desc": "Pengguna mengunduh aplikasi Vua Thợ dari App Store atau Android dan mendaftar akun dengan peran sebagai Thợ.",
+      "desc": "Pengguna mengunduh aplikasi Vua Thợ dari App Store atau Google Play dan mendaftar akun dengan peran sebagai Thợ.",
       "text1": "Setelah berhasil mendaftar, setiap akun Thợ akan menerima sebuah kode hadiah (juga disebut sebagai kode referensi) secara acak dan secara otomatis dicatat dalam program putaran hadiah.",
       "text2": "Program ini dibagi menjadi beberapa putaran hadiah, setiap 1.000 akun Thợ yang berhasil mendaftar, perwakilan dari Perusahaan Teknologi Vua Thợ akan melakukan putaran hadiah untuk 'Kode hadiah' di seluruh kode hadiah yang telah dikirimkan ke akun Thợ, dihadiri oleh perwakilan dari Perusahaan Teknologi Vua Thợ, perwakilan pihak terkait, dan perwakilan Pelanggan yang memiliki kode hadiah yang ikut serta dalam program promosi 'Bergabung dengan Komunitas Vua Thợ - Kesempatan untuk Mendapatkan Wave RSX'.",
       "text3": "Sistem akan secara otomatis melakukan putaran hadiah dan memilih 03 kode hadiah untuk memberikan hadiah berturut-turut Pertama - Kedua - Ketiga, program ini akan diumumkan secara terbuka secara online di berbagai media Vua Thợ.",
@@ -107,6 +107,7 @@
     "ImportantNote": {
       "title": "Catatan Penting:",
       "text1": "Untuk hadiah sepeda motor Wave RSX FI 110 (tidak dapat ditukar dengan uang tunai):",
+      "text1-1": "Untuk hadiah sepeda Yamaha PG-1 (tidak dapat ditukar dengan uang tunai):",
       "text2": "Nilai sepeda motor (25.000.000 VND) belum termasuk biaya pendaftaran dan biaya terkait lainnya, pemenang hadiah perlu membayar penuh sesuai dengan peraturan yang berlaku (sekitar 3.500.000 VND).",
       "text3": "Pemenang hadiah harus menggunakan sepeda motor atas nama pemilik Vua Thợ dalam waktu 03 tahun untuk tujuan melayani pekerjaan terkait dengan layanan di aplikasi Vua Thợ dan tidak diizinkan untuk membeli, menjual, menukar, atau mengganti bagian atau komponen teknis apa pun dari sepeda motor tanpa izin dari Vua Thợ.",
       "text4": "Setelah periode 03 tahun sejak tanggal penerimaan sepeda motor, pemenang hadiah dapat mengonversi dokumen kepemilikan sepeda motor menjadi nama mereka sendiri tanpa biaya tambahan dan dapat menggunakan sesuai keinginan untuk tujuan lain.",

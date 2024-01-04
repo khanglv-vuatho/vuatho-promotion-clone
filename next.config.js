@@ -1,4 +1,4 @@
-const withNextIntl = require('next-intl/plugin')()
+const withNextIntl = require('next-intl/plugin')();
 
 module.exports = withNextIntl({
   images: {
@@ -13,4 +13,4 @@ module.exports = withNextIntl({
       { protocol: 'http', hostname: '192.168.1.72' },
     ],
   },
-})
+});

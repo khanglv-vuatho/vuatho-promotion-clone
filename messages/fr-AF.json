@@ -17,7 +17,7 @@
     "PromotionsHeader": {
       "text1": "Société par actions simplifiée Vua Thợ",
       "text2": "Réseau social",
-      "text3": "Pour toute question liée au programme promotionnel, les clients peuvent contacter à l'adresse suivante pour obtenir des instructions et des réponses.",
+      "text3": "Pour toute question liée au programme promotionnel, les clients peuvent contacter à l'adresse suivante pour obtenir des instructions et des réponses:",
       "text4": "32/28, rue 35, quartier An Khánh, ville Thủ Đức, Hô-Chi-Minh-Ville",
       "text5": "Hotline : 0912 426 404 ou Email : Social@vuatho.com",
       "RightHeader": {
@@ -55,7 +55,7 @@
     },
     "ProtocolsPromotion": {
       "title": "Comment participer",
-      "desc": "Les utilisateurs téléchargent l'application Vua Thợ sur l'App Store ou Android et procèdent à l'inscription en tant qu'artisan.",
+      "desc": "Les utilisateurs téléchargent l'application Vua Thợ sur l'App Store ou Google Play et procèdent à l'inscription en tant qu'artisan.",
       "text1": "Après une inscription réussie, chaque compte d'artisan recevra un code de tirage au sort (également appelé code de parrainage) attribué de manière aléatoire et automatiquement enregistré dans le programme de la roue de la fortune.",
       "text2": "Le programme est divisé en plusieurs sessions de tirage au sort. Après chaque inscription réussie de 1 000 comptes artisans, un représentant de la Société par actions simplifiée Vua Thợ procédera au tirage des 'Codes de tirage au sort' dans tous les codes de tirage au sort qui ont été attribués aux comptes artisans. Cela se fera en présence d'un représentant de la Société par actions simplifiée Vua Thợ, de représentants des parties concernées et d'un représentant du client ayant un code de tirage au sort participant au programme promotionnel 'Rejoignez la communauté Vua Thợ - Ayez la chance de gagner une Wave RSX'.",
       "text3": "Le système effectuera automatiquement le tirage au sort et sélectionnera 03 codes de tirage au sort pour attribuer les prix respectifs Premier - Deuxième - Troisième. Le programme sera annoncé publiquement en ligne sur les médias de Vua Thợ.",
@@ -107,6 +107,7 @@
     "ImportantNote": {
       "title": "Note importante",
       "text1": "Pour le prix de la moto Wave RSX FI 110 (non convertible en espèces) :",
+      "text1-1": "Pour le prix de la moto Yamaha PG-1 (non convertible en espèces) :",
       "text2": "La valeur de la moto (25 000 000 VND) n'inclut pas les taxes et autres frais connexes. Le gagnant doit payer intégralement conformément aux réglementations en vigueur (environ 3 500 000 VND).",
       "text3": "Le gagnant doit utiliser la moto au nom du propriétaire Vua Thợ pendant 03 ans à des fins professionnelles liées aux services sur l'application Vua Thợ et n'est pas autorisé à acheter, vendre, échanger ou remplacer des pièces ou des détails techniques de la moto sans l'autorisation de Vua Thợ.",
       "text4": "Après 03 ans à compter de la date de réception de la moto, le gagnant peut convertir la propriété du véhicule à son nom sans frais supplémentaires et l'utiliser librement à d'autres fins.",

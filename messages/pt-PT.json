@@ -17,7 +17,7 @@
     "PromotionsHeader": {
       "text1": "Empresa de Tecnologia Vua Thợ",
       "text2": "Rede social",
-      "text3": "Para qualquer dúvida relacionada ao programa de promoção, os clientes podem entrar em contato no seguinte endereço para orientação e esclarecimentos.",
+      "text3": "Para qualquer dúvida relacionada ao programa de promoção, os clientes podem entrar em contato no seguinte endereço para orientação e esclarecimentos:",
       "text4": "Rua 32/28, nº 35, bairro An Khánh, cidade Thủ Đức, Ho Chi Minh",
       "text5": "Linha direta: 0912 426 404 ou Email: Social@vuatho.com",
       "RightHeader": {
@@ -55,7 +55,7 @@
     },
     "ProtocolsPromotion": {
       "title": "Como Participar",
-      "desc": "Os usuários devem baixar o aplicativo Vua Thợ na App Store ou Android e realizar o registro de uma conta como Mestre.",
+      "desc": "Os usuários devem baixar o aplicativo Vua Thợ na App Store ou Google Play e realizar o registro de uma conta como Mestre.",
       "text1": "Após o registro bem-sucedido, cada conta de Mestre receberá um código de prêmio (também conhecido como código de referência) aleatório, que será automaticamente registrado no programa de roleta.",
       "text2": "O programa é dividido em várias rodadas de roleta, após cada 1.000 contas de Mestre registradas com sucesso, representantes da Empresa de Tecnologia Vua Thợ realizarão a roleta dos 'Códigos de Prêmio' de todas as contas de Mestre, na presença de representantes da Empresa de Tecnologia Vua Thợ, representantes de partes relacionadas e representantes dos clientes com códigos de prêmio participantes do programa promocional 'Participe do Clube Vua Thợ - Tenha a Chance de Ganhar uma Wave RSX'.",
       "text3": "O sistema realizará automaticamente a roleta e escolherá 03 códigos de prêmio para os prêmios de Primeiro - Segundo - Terceiro lugar, e o programa será anunciado publicamente online nos meios de comunicação da Vua Thợ.",
@@ -108,6 +108,7 @@
     "ImportantNote": {
       "title": "Nota Importante:",
       "text1": "Para o prêmio da moto Wave RSX FI 110 (não conversível em dinheiro):",
+      "text1-1": "Para el premio de la motocicleta Yamaha PG-1 (no convertible a efectivo):",
       "text2": "O valor da moto (25.000.000 VND) não inclui taxas e encargos relacionados; o ganhador deve pagar integralmente de acordo com as regulamentações em vigor (aproximadamente 3.500.000 VND).",
       "text3": "O ganhador deve usar a moto em nome do proprietário Vua Thợ por um período de 03 anos, para fins relacionados aos serviços no aplicativo Vua Thợ, e não está autorizado a comprar, vender, trocar ou substituir qualquer peça ou componente técnico da moto sem a permissão da Vua Thợ.",
       "text4": "Após o período de 03 anos a partir da data de recebimento da moto, o ganhador pode transferir os documentos de propriedade do veículo para o seu nome sem custos adicionais e usar conforme desejar para outros fins.",

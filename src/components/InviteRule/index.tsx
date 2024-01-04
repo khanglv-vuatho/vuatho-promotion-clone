@@ -84,7 +84,7 @@ function InviteRule({
               <p>{tt('text3')}</p>
               <p>{tt('text4')}</p>
               <p>{tt('text5')}</p>
-              <p className='underline font-semibold'>{tt('12')}:</p>
+              <p className='underline font-semibold'>{tt('text12')}:</p>
               <p>{tt('text13')}</p>
               <p>{tt('text14')}</p>
               <p>{tt('text15')}</p>
@@ -120,24 +120,24 @@ function InviteRule({
           <p> {tc('text6')}</p>
         </div>
         <div className={primaryText + ' *:font-light'}>
-          <p className='!font-semibold'>10. {t('title')}</p>
-          <p>{t('text1')}</p>
+          <p className='!font-semibold'>10. {ti('title')}</p>
+          <p>{isInvite ? ti('text1-1') : ti('text1')} </p>
           <ul className='list-inside list-disc'>
-            <li>{t('text2')}</li>
-            <li>{t('text3')}</li>
-            <li>{t('text4')}</li>
+            <li>{ti('text2')}</li>
+            <li>{ti('text3')}</li>
+            <li>{ti('text4')}</li>
           </ul>
-          <p>{t('text5')}</p>
-          <p>{t('text6')}</p>
+          <p>{ti('text5')}</p>
+          <p>{ti('text6')}</p>
         </div>
-      </div>
-      <div className={bottomText}>
-        <p className={twMerge('text-[#969696] font-semibold', bottomText)}>
-          {tph('text3')}
-        </p>
-        <p className='font-light'>{tph('text1')}</p>
-        <p className='font-light'>{tph('text4')}</p>
-        <p className='font-light'>{tph('text5')}</p>
+        <div className={bottomText}>
+          <p className={twMerge('text-[#969696] font-light ', bottomText)}>
+            {tph('text3')}
+          </p>
+          <p className='font-light'>{tph('text1')}</p>
+          <p className='font-light'>{tph('text4')}</p>
+          <p className='font-light'>{tph('text5')}</p>
+        </div>
       </div>
     </>
   )

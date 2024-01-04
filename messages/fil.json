@@ -17,7 +17,7 @@
     "PromotionsHeader": {
       "text1": "Kumpanya ng TNHH Công nghệ Vua Thợ",
       "text2": "Social Media",
-      "text3": "Para sa anumang mga katanungan tungkol sa programa ng promosyon, mangyaring makipag-ugnay ang mga customer sa sumusunod na address para sa gabay at pagsagot.",
+      "text3": "Para sa anumang mga katanungan tungkol sa programa ng promosyon, mangyaring makipag-ugnay ang mga customer sa sumusunod na address para sa gabay at pagsagot:",
       "text4": "Blg. 32/28, kalsada 35, Barangay An Khánh, Thành phố Thủ Đức, Thành phố Hồ Chí Minh",
       "text5": "Hotline: 0912 426 404 o Email: Social@vuatho.com",
       "RightHeader": {
@@ -55,7 +55,7 @@
     },
     "ProtocolsPromotion": {
       "title": "Paano Sumali",
-      "desc": "Ang mga gumagamit ay nag-download ng Vua Thợ app sa App Store o Android at nagparehistro ng isang account bilang Thợ.",
+      "desc": "Ang mga gumagamit ay nag-download ng Vua Thợ app sa App Store o Google Play at nagparehistro ng isang account bilang Thợ.",
       "text1": "Pagkatapos ng matagumpay na pagpaparehistro, bawat account ng Thợ ay tatanggap ng isang random na code (o referral code) at awtomatikong isasali sa sistema ng programa ng spin.",
       "text2": "Ang programa ay nahahati sa iba't ibang spins, matapos ang bawat 1,000 na mga account ng Thợ na matagumpay na nagparehistro, isasagawa ng kinatawan ng Kumpanya ng TNHH Công nghệ Vua Thợ ang spin para sa mga 'Referral Codes' sa lahat ng mga 'Referral Codes' na ipinadala sa account ng Thợ, sa harap ng kinatawan ng Kumpanya ng TNHH Công nghệ Vua Thợ, kinatawan ng mga kalahok, at kinatawan ng mga customer na may 'Referral Code' na kasali sa promosyon na 'Sumali sa Vua Thợ - Pagkakataon Manalo ng Wave RSX'.",
       "text3": "Ang sistema ay awtomatikong magpapatuloy sa spin at pipili ng 03 'Referral Codes' para sa bawat spin upang ipamahagi ang mga premyo na nauunang, pangalawa, at pangatlo. Ang programa ay ipapahayag nang pampubliko online sa mga media outlet ng Vua Thợ.",
@@ -106,6 +106,7 @@
     "ImportantNote": {
       "title": "Mahalagang Paalala:",
       "text1": "Para sa premyong Honda Wave RSX FI 110 (hindi maaring palitan ng pera):",
+      "text1-1": "Para sa premyo ng Yamaha PG-1 (hindi maaaring palitan ng cash):",
       "text2": "Ang halaga ng motorsiklo (25.000.000đ) ay hindi kasama ang buwis at iba't ibang mga singil, kaya't ang nanalong Thợ ay kinakailangang bayaran ang buong halaga ayon sa kasalukuyang regulasyon (humigit kumulang 3.500.000đ).",
       "text3": "Ang nanalong tao ay dapat gamitin ang motorsiklo sa ilalim ng pangalan ng may-ari ng Vua Thợ sa loob ng 03 taon para sa layuning kaugnay sa mga serbisyong inaalok ng Vua Thợ sa app at hindi pinapayagan ang pagbili, pagpalit, o pagpapalit ng anumang bahagi o teknikal na detalye ng motorsiklo nang walang pahintulot mula sa Vua Thợ.",
       "text4": "Pagkatapos ng 03 taon mula sa petsa ng pagtanggap ng motorsiklo, ang nanalong tao ay maaaring i-convert ang mga dokumento ng pagmamay-ari ng sasakyan sa kanyang sariling pangalan nang walang karagdagang bayad at maaaring gamitin ito ayon sa kanyang nais.",

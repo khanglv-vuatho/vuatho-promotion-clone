@@ -17,7 +17,7 @@
     "PromotionsHeader": {
       "text1": "Vua Thợ Teknologi AB",
       "text2": "Socialt nätverk",
-      "text3": "För alla frågor relaterade till kampanjprogrammet kan kunder kontakta följande adress för vägledning och svar.",
+      "text3": "För alla frågor relaterade till kampanjprogrammet kan kunder kontakta följande adress för vägledning och svar:",
       "text4": "Nummer 32/28, gata 35, An Khánh-kvarteret, Thủ Đức-distriktet, Ho Chi Minh-staden",
       "text5": "Hotline: 0912 426 404 eller E-post: Social@vuatho.com",
       "RightHeader": {
@@ -55,7 +55,7 @@
     },
     "ProtocolsPromotion": {
       "title": "Hur man deltar",
-      "desc": "Användare laddar ner Vua Thợ-appen från App Store eller Android och registrerar sig som en arbetare.",
+      "desc": "Användare laddar ner Vua Thợ-appen från App Store eller Google Play och registrerar sig som en arbetare.",
       "text1": "Efter framgångsrik registrering kommer varje arbetarkonto att få en slumpmässig belöningskod (också kallad introduktionskod), som automatiskt registreras i snurrprogrammet.",
       "text2": "Programmet är uppdelat i flera omgångar av snurrar. Efter varje 1 000 framgångsrika arbetarkonton kommer representanter från företaget Vua Thợ att genomföra en snurr av de 'Belöningskoder' som har skickats till arbetarkontona. Detta sker under övervakning av representanter från företaget Vua Thợ, representanter från berörda parter och representanter från kunder med belöningskoder som deltar i kampanjen 'Vua Thợ Entrance - Chans att vinna en Wave RSX'.",
       "text3": "Systemet kommer automatiskt att genomföra en snurr och välja ut 03 belöningskoder för att dela ut priserna i ordningen första, andra och tredje plats. Resultaten kommer att offentliggöras online på Vua Thợ:s mediekanaler.",
@@ -107,6 +107,7 @@
     "ImportantNote": {
       "title": "Viktigt meddelande:",
       "text1": "För förstapriset Honda Wave RSX FI 110 (kan inte konverteras till kontanter):",
+      "text1-1": "För Yamaha PG-1-priset (kan inte omvandlas till kontanter):",
       "text2": "Fordonsvärdet (25.000.000 VND) inkluderar inte registreringsavgifter och relaterade avgifter. Prisvinnaren måste betala hela beloppet enligt gällande föreskrifter (ungefär 3.500.000 VND).",
       "text3": "Vinnaren måste använda fordonet i Vua Thợ-ägarens namn i upp till 3 år för att utföra arbetsrelaterade tjänster på Vua Thợ-appen och får inte köpa, sälja, byta ut eller ändra några fordonsspecifikationer utan Vua Thợ:s tillstånd.",
       "text4": "Efter 3 år från fordonets mottagandedatum kan prisvinnaren överföra ägandepapperet till sitt eget namn utan att påföra ytterligare avgifter och använda det för andra ändamål enligt eget önskemål.",

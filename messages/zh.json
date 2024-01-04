@@ -3,7 +3,7 @@
     "download": "立即下載",
     "download_now": "體驗最先進的AI技術",
     "download_appstore": "從App Store下載",
-    "download_chplay": "從Google Play下載"
+    "download_chplay": "從Google Play 下載"
   },
   "Navbar": {
     "become_employee": "成為員工",
@@ -17,7 +17,7 @@
     "PromotionsHeader": {
       "text1": "Vua Thợ科技有限公司",
       "text2": "社交网络",
-      "text3": "有关促销活动的任何疑问，请联系以下地址进行咨询和解答。",
+      "text3": "有关促销活动的任何疑问，请联系以下地址进行咨询和解答:",
       "text4": "地址：胡志明市阿岗区安康区35号32/28路",
       "text5": "热线电话：0912 426 404或电子邮件：Social@vuatho.com",
       "RightHeader": {
@@ -108,6 +108,7 @@
     "ImportantNote": {
       "title": "重要注意事项：",
       "text1": "对于Wave RSX FI 110摩托车奖品（不可兑换为现金）：",
+      "text1-1": "对于Yamaha PG-1摩托车奖品（不可兑换为现金）：",
       "text2": "车辆价值（25,000,000越南盾）不包括预先登记费和相关费用，中奖技工需要按照当前规定支付全额（约3,500,000越南盾）。",
       "text3": "中奖者必须在3年内以Vua Thợ的所有者名义使用车辆，以服务Vua Thợ应用程序上的相关服务，不得购买、交换或更换车辆的任何零件或技术细节，未经Vua Thợ的许可。",
       "text4": "在收到车辆后的3年内，中奖者可以将车辆所有权文件转为自己的名字，无需支付额外费用，并可自由用于其他用途。",

@@ -9,10 +9,6 @@ export default createMiddleware({
 
 export const config = {
   // Match only internationalized pathnames
-  runtime: 'experimental-edge',
-  unstable_allowDynamic: [
-    '/node_modules/lodash.*/**', // use a glob to allow anything in the function-bind 3rd party module
-  ],
 
   //matcher không thể viết xuống dòng nó sẽ hiểu sai => crash app
   matcher: [

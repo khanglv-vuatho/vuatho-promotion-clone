@@ -17,7 +17,7 @@
     "PromotionsHeader": {
       "text1": "Spoločnosť s ručením obmedzeným pre technológiu Vua Thợ",
       "text2": "Sociálna sieť",
-      "text3": "Všetky otázky týkajúce sa promočného programu riešte kontaktovaním zákazníckeho servisu na nasledujúcej adrese a získajte usmernenia a odpovede.",
+      "text3": "Všetky otázky týkajúce sa promočného programu riešte kontaktovaním zákazníckeho servisu na nasledujúcej adrese a získajte usmernenia a odpovede:",
       "text4": "Č. 32/28, ulica 35, obvod An Khánh, mesto Thủ Đức, mesto Ho Či Min",
       "text5": "0912 426 404 alebo Email: Social@vuatho.com",
       "RightHeader": {
@@ -55,7 +55,7 @@
     },
     "ProtocolsPromotion": {
       "title": "Sposob účasti",
-      "desc": "Používatelia si stiahnu aplikáciu Vua Thợ z App Store alebo Android a zaregistrujú sa ako pracovníci.",
+      "desc": "Používatelia si stiahnu aplikáciu Vua Thợ z App Store alebo Google Play a zaregistrujú sa ako pracovníci.",
       "text1": "Po úspešnej registrácii každý účet pracovníka obdrží náhodné registračné číslo (rovnaké ako kód odporúčania) a systém automaticky zaznamená tento kód do kolieskového programu.",
       "text2": "Program je rozdelený do viacerých kolies, po každých 1 000 úspešných registráciách pracovníkov, zástupca spoločnosti TNHH Công nghệ Vua Thợ bude realizovať žrebovanie „Registračné kódy“ v celom súbore registrovaných kódov pre účty pracovníkov, za účasti zástupcu spoločnosti TNHH Công nghệ Vua Thợ, zástupcu príslušných strán a zástupcu zákazníkov s registračným kódom zúčastneným v promočnom programe „Zapojte sa do skupiny Vua Thợ - Šanca na výhru Wave RSX“.",
       "text3": "Systém automaticky uskutoční žrebovanie a vyberie 03 registračné kódy na udelenie ceny postupne pre Prvé - Druhé - Tretie miesto, program bude verejne oznámený online na médiách Vua Thợ.",
@@ -107,6 +107,7 @@
     "ImportantNote": {
       "title": "Dôležité upozornenie:",
       "text1": "Pre výhru skútra Wave RSX FI 110 (nie je možné ju vymeniť za hotovosť):",
+      "text1-1": "Pre víťazstvo v súťaži na motocykel Yamaha PG-1 (nemožno vymeniť za hotovosť):",
       "text2": "Hodnota skútra (25.000.000 VND) nezahŕňa daň z premávky a prípadné ďalšie poplatky, víťaz musí uhradiť plnú sumu podľa platných predpisov (približne 3.500.000 VND).",
       "text3": "Víťaz musí používať skúter na účely súvisiace s poskytovaním služieb na aplikácii Vua Thợ a nie je mu povolené kúpiť, predať alebo vymeniť akékoľvek súčiastky alebo technické časti skútra bez súhlasu Vua Thợ.",
       "text4": "Počas troch rokov od prevzatia skútra môže víťaz zmeniť vlastníctvo skútra na svoje meno bez ďalších poplatkov a použiť ho podľa vlastného uváženia na iné účely.",

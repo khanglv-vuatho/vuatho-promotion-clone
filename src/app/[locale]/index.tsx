@@ -222,7 +222,6 @@ const RightHeader = () => {
     <>
       <div className='bg-white rounded-full px-[10px] py-2 lg:flex gap-5 items-center shadow-[0px_8px_16px_0px_rgba(0,0,0,0.16)] hidden'>
         <Link
-          replace
           href={`/${locale}`}
           className={`${
             !isInvite ? 'bg-primary-yellow' : 'bg-[#F8F8F8]'
@@ -231,8 +230,7 @@ const RightHeader = () => {
           {t('text1')}
         </Link>
         <Link
-          replace
-          href={`${locale}/invite`}
+          href={`/${locale}/invite`}
           className={`${
             isInvite ? 'bg-primary-yellow' : 'bg-[#F8F8F8]'
           } px-5 py-2 rounded-full flex items-center justify-center font-semibold`}
@@ -258,9 +256,13 @@ const RightHeader = () => {
           <PopoverContent>
             <div className='rounded-[20px] bg-white flex flex-col items-end'>
               {menuPopup.map((item) => {
-                if (item.id === 2) {
+                if (item.url.includes('http')) {
                   return (
-                    <div className='w-full p-5 text-end' key={item.id}>
+                    <div
+                      onClick={() => setIsOpen(false)}
+                      className='w-full p-5 text-end'
+                      key={item.id}
+                    >
                       <Link href={item.url} target='_blank' rel='noopener noreferrer'>
                         {item.title}
                       </Link>
@@ -268,13 +270,15 @@ const RightHeader = () => {
                   )
                 } else {
                   return (
-                    <div
+                    <Link
+                      href={`/${locale}/${item.url}`}
                       key={item.id}
                       className='w-full text-end cursor-pointer'
-                      onClick={() => _HandleNavigate(item)}
                     >
-                      <div className='p-5'>{item.title}</div>
-                    </div>
+                      <div onClick={() => setIsOpen(false)} className='p-5'>
+                        {item.title}
+                      </div>
+                    </Link>
                   )
                 }
               })}
@@ -371,6 +375,9 @@ export const Hero: React.FC<THero> = ({
   const tt = useTranslations('Promotion.PromotionsHeader.RightHeader')
 
   const { isOpen, onOpenChange, onOpen, onClose } = useDisclosure()
+
+  const pathName = usePathname()
+  const isInvite = pathName.includes('invite')
 
   const initalInfoCustomer = {
     phone: '',
@@ -568,10 +575,11 @@ export const Hero: React.FC<THero> = ({
                           </Button>
                           <div className='flex flex-col gap-2 w-[80%] md:w-auto'>
                             <h3 className='text-primary-blue text-lg md:text-2xl font-bold'>
-                              Thể lệ chương trình
+                              {t('text9')}
                             </h3>
                             <p className='text-[#FCB713] text-lg md:text-2xl font-bold'>
-                              Nhập hội Vua Thợ - Cơ hội rinh Wave RSX
+                              {isInvite ? t('text1-1') : t('text1')} -{' '}
+                              {isInvite ? t('text2-1') : t('text2')}
                             </p>
                           </div>
                           <div className='h-full overflow-auto'>
@@ -705,6 +713,10 @@ export const ProtocolsPromotion = () => {
 
 export const GuidelinesPromotion = () => {
   const t = useTranslations('Promotion.ProtocolsPromotion')
+
+  const pathName = usePathname()
+  const isInvite = pathName.includes('invite')
+
   return (
     <div className='ct-container flex flex-col gap-5 pb-20'>
       <h3 className='ct-text-border text-primary-blue uppercase text-2xl md:text-4xl font-bold'>
@@ -736,7 +748,7 @@ export const GuidelinesPromotion = () => {
           </div>
           <div className=''>
             <ImageFallback
-              src={'/promotion/number1.png'}
+              src={isInvite ? '/promotion/invite-number1.png' : '/promotion/number1.png'}
               alt=''
               width={300}
               height={340}
