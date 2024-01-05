@@ -43,7 +43,8 @@ export const WinderList = ({ data, onLoading }: { data: any; onLoading: boolean 
                   className='rounded-[20px] bg-white p-5 flex flex-col gap-5 min-h-[300px] max-w-[400px] min-w-[90%] md:min-w-full md:max-w-none mx-auto'
                 >
                   <h4 className='text-primary-blue text-2xl font-bold'>
-                    Đợt {item?.time?.round} - Ngày {item?.time?.public_at}
+                    {t('text31')} {item?.time?.round} - {t('text32')}{' '}
+                    {item?.time?.public_at}
                   </h4>
                   <div className='flex flex-col gap-10'>
                     {item?.listUserWinners?.map((item: any, index: number) => (

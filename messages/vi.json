@@ -38,7 +38,8 @@
       "text5": "Người đã tham gia",
       "text6": "Thông tin tham gia",
       "text7": "01 chiếc xe Yamaha PG-1 trong mỗi tháng Thợ đăng ký thông qua vòng quay trúng thưởng từ hệ thống",
-      "text8": "Trúng xe máy Yamaha PG-1",
+      "text8": "Trúng xe máy Yamaha PG-1.",
+      "text8-1": "Trúng xe máy Wave RSX FI 110.",
       "text9": "Thể lệ chương trình"
     },
     "GuidelinesPromotion": {
@@ -85,8 +86,12 @@
       "text26": "Chi tiết giải thưởng",
       "text27": "Số lượng giải thưởng",
       "text28": "1 xe máy Honda Wave RSX FI 110 trị giá 25.000.000đ",
+      "text28-1": "1 Xe máy Yamaha PG-1 trị giá 35.000.000đ",
       "text29": "Mỗi đợt 6 thùng bia Tiger Bạc",
-      "text30": "Mỗi đợt 3 thùng bia Tiger Bạc"
+      "text30": "Mỗi đợt 3 thùng bia Tiger Bạc",
+      "text31": "Đợt",
+      "text32": "Ngày",
+      "text8-1": "Trúng xe máy Wave RSX FI 110."
     },
     "Reward": {
       "title": "Thủ tục trao thưởng:",
@@ -110,6 +115,7 @@
       "text1": "Đối với giải thưởng xe Wave RSX FI 110 (không được quy đổi thành tiền mặt):",
       "text1-1": "Đối với giải thưởng xe Yamaha PG-1 (không được quy đổi thành tiền mặt):",
       "text2": "Giá trị xe (25.000.000đ) chưa bao gồm phí trước bạ và các khoản phí liên quan, Thợ trúng giải cần thanh toán đầy đủ theo quy định hiện hành (khoảng 3.500.000đ).",
+      "text2-1": "Giá trị xe (35.000.000đ) chưa bao gồm phí trước bạ và các khoản phí liên quan, Thợ trúng giải cần thanh toán đầy đủ theo quy định hiện hành (khoảng 3.500.000đ).",
       "text3": "Người trúng thưởng phải sử dụng xe dưới tên chủ sở hữu Vua Thợ trong vòng 03 năm với mục đích phục vụ công việc liên quan đến các dịch vụ trên ứng dụng Vua Thợ và không được phép mua bán, trao đổi, thay thế bất kỳ phụ tùng, chi tiết kỹ thuật nào của xe mà chưa thông qua sự cho phép của Vua Thợ.",
       "text4": "Sau thời gian 03 năm kể từ ngày nhận xe, người trúng thưởng có thể chuyển đổi giấy tờ sở hữu xe thành tên cá nhân của mình mà không tốn thêm bất kỳ khoản phí phát sinh nào và tùy ý sử dụng cho mục đích khác.",
       "text5": "Đối với giải thưởng bia Tiger Bạc (có thể được quy đổi thành tiền mặt):",

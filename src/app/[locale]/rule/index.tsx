@@ -17,7 +17,7 @@ export const BodyRule = () => {
             <h3 className='md:text-4xl text-2xl text-white font-bold text-center'>
               {t('text9')}
             </h3>
-            <div className='bg-gradient-to-br from-[#F4BF2B] to-[#FFF27E] w-full rounded-full px-3 py-2 md:px-6 md:py-4 text-center text-2xl md:text-4xl text-primary-blue'>
+            <div className='bg-gradient-to-br from-[#F4BF2B] to-[#FFF27E] w-full rounded-full px-4 py-2 md:px-6 md:py-4 text-center text-2xl md:text-4xl text-primary-blue'>
               <span>{isInvite ? t('text1-1') : t('text1')}</span>
               <span className='font-bold'>
                 {isInvite ? `- ${t('text8')} ` : `- ${t('text2')}`}
@@ -30,7 +30,7 @@ export const BodyRule = () => {
             />
             <div className='w-full'>
               <ImageFallback
-                src={'/promotion/invite1.png'}
+                src={isInvite ? '/promotion/invite.png' : '/promotion/invite1.png'}
                 alt=''
                 width={2100}
                 height={500}
@@ -46,8 +46,11 @@ export const BodyRule = () => {
 
 export const Step6 = () => {
   const t = useTranslations('Promotion.ProtocolsPromotion')
+  const pathName = usePathname()
+  const isInvite = pathName.includes('invite')
+
   return (
-    <div className='mt-10 border-1 border-[#0D6DDE] rounded-xl overflow-hidden divide-y-1 divide-[#0D6DDE]'>
+    <div className='mt-10 border-1 border-[#0D6DDE] rounded-xl overflow-hidden divide-y-1 divide-[#0D6DDE] hidden md:block'>
       <div className='grid grid-cols-3 overflow-hidden *:text-primary-blue *:p-4 text-center bg-gradient-to-r from-[#F4BF2B] via-[#FFF07B] to-[#FFF27E] divide-x-1 divide-[#0D6DDE]'>
         <div className=''>
           <p className='font-bold text-xl uppercase'>{t('text25')}</p>
@@ -100,7 +103,7 @@ export const Step6 = () => {
         </div>
         <div className='divide-y-1 divide-[#0D6DDE] *:h-1/3 *:flex *:gap-3 *:justify-center *:items-center *:p-4'>
           <div className=''>
-            <p>{t('text28')}</p>
+            <p>{isInvite ? t('text28-1') : t('text28')}</p>
           </div>
           <div className=''>
             <p>{t('text29')}</p>

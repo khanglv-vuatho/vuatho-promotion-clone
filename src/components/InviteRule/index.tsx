@@ -27,12 +27,12 @@ function InviteRule({
 
   return (
     <>
-      <div className='flex flex-col gap-10'>
+      <div className='flex flex-col gap-4 md:gap-10'>
         <p className={`${primaryText} font-semibold`}>
           1. {t('text0')}:{' '}
           <span className='font-light'>
             {isInvite ? td('text1-1') : td('text1')}
-            {isInvite ? `- ${t('text8')}` : '- Cơ hội rinh Wave RSX FI '}
+            {isInvite ? `- ${td('text8')}` : `- ${td('text8-1')}`}
           </span>
         </p>
         <p className={`${primaryText} font-semibold`}>

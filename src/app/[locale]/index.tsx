@@ -37,6 +37,7 @@ import instance from '@/services/axiosConfig'
 import './promotion.css'
 import Link from 'next/link'
 import { useDispatch, useSelector } from 'react-redux'
+import { twMerge } from 'tailwind-merge'
 
 export const PromotionsHeader = () => {
   return (
@@ -131,8 +132,6 @@ const RightHeader = () => {
 
   const locale = useLocale()
 
-  const [isLogin, setIsLogin] = useState(false)
-
   const openMenu = useSelector((state: any) => state.openMenu)
   const infoUser = useSelector((state: any) => state.infoUser)
 
@@ -157,12 +156,6 @@ const RightHeader = () => {
 
   type TMenuPopup = { title: string; url: string; id: number }
 
-  const menuItemLogined = {
-    id: 4,
-    title: 'Đăng xuất',
-    url: '/',
-  }
-
   const menuPopup: TMenuPopup[] = [
     {
       id: 1,
@@ -175,7 +168,6 @@ const RightHeader = () => {
       title: tt('text3'),
       url: isInvite ? 'invite/rule' : 'rule',
     },
-    ...(!!infoUser.id ? [menuItemLogined] : []),
   ]
 
   const menuVariants = {
@@ -206,10 +198,8 @@ const RightHeader = () => {
     setIsOpen(false)
   }
 
-  const _HandleLogout = () => {
-    dispatch({ type: 'logout' })
-    setIsOpen(false)
-    localStorage.removeItem('access_token')
+  const _HandleCloseMenuMoblie = () => {
+    dispatch({ type: 'toggle_menu', payload: true })
   }
 
   useEffect(() => {
@@ -283,17 +273,6 @@ const RightHeader = () => {
           <PopoverContent>
             <div className='rounded-[20px] bg-white flex flex-col items-end'>
               {menuPopup.map((item) => {
-                if (item.id === 4) {
-                  return (
-                    <div
-                      onClick={_HandleLogout}
-                      className='w-full p-5 text-end cursor-pointer'
-                      key={item.id}
-                    >
-                      <div>{item.title}</div>
-                    </div>
-                  )
-                }
                 if (item.url.includes('http')) {
                   return (
                     <div
@@ -379,6 +358,58 @@ const RightHeader = () => {
                 {item.title}
               </Link>
             ))}
+            <div className='flex flex-col w-full'>
+              {menuPopup.map((item) => {
+                if (item.url.includes('http')) {
+                  return (
+                    <div
+                      onClick={_HandleCloseMenuMoblie}
+                      className='w-full py-3 text-lg'
+                      key={item.id}
+                    >
+                      <Link href={item.url} target='_blank' rel='noopener noreferrer'>
+                        {item.title}
+                      </Link>
+                    </div>
+                  )
+                } else {
+                  return (
+                    <Link
+                      href={`/${locale}/${item.url}`}
+                      key={item.id}
+                      className='w-full cursor-pointer'
+                    >
+                      <div onClick={_HandleCloseMenuMoblie} className='py-3 text-lg'>
+                        {item.title}
+                      </div>
+                    </Link>
+                  )
+                }
+              })}
+              <div className='py-3 flex flex-col gap-2'>
+                <div className='flex items-center gap-2'>
+                  <p className='text-lg'>0912 426 404</p>
+                  <div className=''>
+                    <ImageFallback
+                      alt='zalo'
+                      src={'/logo/zalo.png'}
+                      width={24}
+                      height={24}
+                      className='size-6 pointer-events-none select-none'
+                    />
+                  </div>
+                </div>
+                <div className='hidden lg:block'>
+                  <ImageFallback
+                    src={'/promotion/qr-zalo.png'}
+                    alt='qr-zalo'
+                    height={80}
+                    width={80}
+                    className='size-20 pointer-events-none select-none'
+                  />
+                </div>
+              </div>
+            </div>
             <LangsComp />
           </motion.div>
         )}
@@ -486,9 +517,9 @@ export const Hero: React.FC<THero> = ({
           phone: infoCustomer.phone,
           id: '3',
           listNumber: [
-            [12, 31, 45, 21, 42, 44],
-            [12, 31, 45, 21, 42, 44],
-            [12, 31, 45, 21, 42, 44],
+            ['12', '31', '45', '21', '42', '44'],
+            ['12', '32', '35', '98', '33', '75'],
+            ['12', '32', '12', '94', '86', '64'],
           ],
           code: '123456',
         },
@@ -550,11 +581,16 @@ export const Hero: React.FC<THero> = ({
       <h3 className='ct-text-border text-primaryYellow text-2xl md:text-4xl uppercase font-bold px-2 md:px-0 md:text-center mt-10 md:hidden'>
         {inviteText ? tt('title1') : tt('title2')}
       </h3>
-      <CustomSlider thumb1={thumb1} thumb2={thumb2} thumb3={thumb3} />
+      <CustomSlider
+        thumb1={thumb1}
+        thumb2={thumb2}
+        thumb3={thumb3}
+        style='md:flex lg:hidden'
+      />
       <div className='ct-container flex-col gap-10'>
         <div className='grid grid-cols-5 gap-10 items-center'>
-          <div className='hidden md:flex md:col-span-3 px-10 flex-col gap-5 col-span-5'>
-            <h3 className='ct-text-border text-primaryYellow text-2xl md:text-4xl uppercase font-bold text-center hidden mt-10 md:block'>
+          <div className='hidden lg:flex lg:col-span-3 px-10 flex-col gap-5 col-span-5'>
+            <h3 className='ct-text-border text-primaryYellow text-2xl lg:text-4xl uppercase font-bold text-center hidden mt-10 lg:block'>
               {inviteText ? tt('title1') : tt('title2')}
             </h3>
             <ImageFallback
@@ -568,7 +604,7 @@ export const Hero: React.FC<THero> = ({
               {inviteText ? inviteText : t('text3')}
             </p>
           </div>
-          <div className='md:col-span-2 col-span-5 md:justify-end md:flex'>
+          <div className='lg:col-span-2 col-span-5 lg:justify-end lg:flex'>
             {!!infoUser.id ? (
               <div className='bg-white p-4 flex flex-col gap-5 rounded-[20px] lg:min-w-[400px]'>
                 <h3 className='text-2xl text-primary-blue font-semibold'>{t('text6')}</h3>
@@ -911,13 +947,20 @@ export const CustomSlider = ({
   thumb1,
   thumb2,
   thumb3,
+  style,
 }: {
   thumb1: string
   thumb2: string
   thumb3: string
+  style?: string
 }) => {
   return (
-    <div className='relative col-span-5 mt-[40px] flex min-h-[400px] justify-center overflow-x-hidden md:hidden pb-20 md:pb-0'>
+    <div
+      className={twMerge(
+        'relative top-20 md:top-32 col-span-5 mt-[40px] flex min-h-[360px] justify-center overflow-x-hidden md:hidden pb-0 md:pb-0',
+        style,
+      )}
+    >
       <div className='rank1 absolute'>
         <ImageFallback
           src={thumb1}
