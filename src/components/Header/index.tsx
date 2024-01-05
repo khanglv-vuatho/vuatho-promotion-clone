@@ -3,7 +3,7 @@
 import { useLocale } from 'next-intl'
 import React, { useEffect, useState } from 'react'
 
-import { useRouter, useSearchParams } from 'next/navigation'
+import { usePathname, useRouter, useSearchParams } from 'next/navigation'
 import { twMerge } from 'tailwind-merge'
 
 import LangsComp from '@/components/LangsComp'
@@ -81,27 +81,23 @@ export const HeaderWrapper = ({
 export const Logo = () => {
   const openMenu = useSelector((state: any) => state.openMenu)
 
+  const locale = useLocale()
+
+  const pathName = usePathname()
+
+  const isInvite = pathName.includes('invite')
+
   return (
-    <button
-      title='button'
-      type='button'
-      onClick={() => {
-        window.scrollTo({
-          top: 0,
-          behavior: 'smooth',
-        })
-      }}
-      className='block'
-    >
+    <Link href={isInvite ? `/${locale}/invite` : `/${locale}`} className='block'>
       <ImageFallback
         src='/logo/textLogo.png'
         alt='Logo nav'
         width={256}
         height={176}
-        className={`pointer-events-none h-[60px] w-auto object-contain rounded-[15px] overflow-hidden ${
+        className={`pointer-events-none h-[60px] w-auto object-contain rounded-[15px] pointer-events-none select-none overflow-hidden ${
           openMenu ? '' : 'shadow-[0px_8px_16px_0px_rgba(0,0,0,0.16)]'
         }`}
       />
-    </button>
+    </Link>
   )
 }

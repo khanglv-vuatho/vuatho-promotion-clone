@@ -32,12 +32,12 @@
       "text1-1": "Lyckonummer",
       "text2": "Chans att vinna Wave RSX",
       "text2-1": "Vinna en elcykel",
-      "text3": "01 Wave RSX F1-cykel för varje 1 000 Thợ som registrerar sig genom vinsthjulet från systemet",
-      "text3-1": "Thợ kommer att ha ett lyckonummer och det finns inget begränsat antal lyckonummer som får delta i regelbundna dragningar varje månad",
+      "text3": "01 Wave RSX F1-cykel för varje 1 000 som registrerar sig genom vinsthjulet från systemet",
+      "text3-1": "kommer att ha ett lyckonummer och det finns inget begränsat antal lyckonummer som får delta i regelbundna dragningar varje månad",
       "text4": "Gå med nu",
       "text5": "Deltagare",
       "text6": "Deltagarinformation",
-      "text7": "01 Yamaha PG-1-cykel för varje Thợ som registrerar sig genom vinsthjulet från systemet varje månad",
+      "text7": "01 Yamaha PG-1-cykel för varje som registrerar sig genom vinsthjulet från systemet varje månad",
       "text8": "Vinna en Yamaha PG-1-cykel",
       "text9": "Programregler"
     },
@@ -51,7 +51,7 @@
       "text5": "Kampanjform:",
       "text6": "Online-vinsthjul.",
       "text7": "Kunder i kampanjprogrammet:",
-      "text8": "Gäller för alla användare över 18 år som framgångsrikt registrerar sig som Thợ i appen under kampanjperioden (Huvud-Thợ + Hjälp-Thợ)."
+      "text8": "Gäller för alla användare över 18 år som framgångsrikt registrerar sig som i appen under kampanjperioden (Huvud + Hjälp)."
     },
     "ProtocolsPromotion": {
       "title": "Hur man deltar",
@@ -74,6 +74,7 @@
       "text16": "6 silverfärgade Tiger-ölbackar",
       "text17": "Förstapris",
       "text18": "1 Wave RSX F1-moped",
+      "text18-1": "1 Yamaha PG-1-moped",
       "text19": "Tredjepris",
       "text20": "3 silverfärgade Tiger-ölbackar",
       "text21": "1 motorcykel",
@@ -112,6 +113,7 @@
       "text3": "Vinnaren måste använda fordonet i Vua Thợ-ägarens namn i upp till 3 år för att utföra arbetsrelaterade tjänster på Vua Thợ-appen och får inte köpa, sälja, byta ut eller ändra några fordonsspecifikationer utan Vua Thợ:s tillstånd.",
       "text4": "Efter 3 år från fordonets mottagandedatum kan prisvinnaren överföra ägandepapperet till sitt eget namn utan att påföra ytterligare avgifter och använda det för andra ändamål enligt eget önskemål.",
       "text5": "För Tiger Silver Beer-priset (kan konverteras till kontanter):",
+      "text5-1": "Priset tilldelas till vinnarens Mästarkonto eller överförs motsvarande penningbelopp till Mästarens plånbok i Vua Thợ-appen.",
       "text6": "Skicka ett bekräftelsefoto att du har mottagit priset till Vua Thợ (via Zalo Vua Thợ)."
     },
     "ProtocolsInvite": {

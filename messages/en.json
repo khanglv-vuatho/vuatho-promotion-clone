@@ -28,7 +28,7 @@
       }
     },
     "Hero": {
-      "text1": "Join the Vua Thợ Guild ",
+      "text1": "Join the Vua Thợ",
       "text1-1": "Lucky Number Sequence ",
       "text2": "Chance to Win Wave RSX",
       "text2-1": "Win an Electric Motorcycle",
@@ -73,12 +73,13 @@
       "text15": "Second Prize",
       "text16": "6 silver Tiger beer crates",
       "text17": "First Prize",
-      "text18": "1 Yamaha Wave RSX F1 bike",
+      "text18": "1 Wave RSX F1 motorbike",
+      "text18-1": "1 Yamaha PG-1 motorbike",
       "text19": "Third Prize",
       "text20": "3 silver Tiger beer crates",
       "text21": "1 motorbike",
       "text22": "valued at",
-      "text23": "100 bikes",
+      "text23": "100 motorbikes",
       "text24": "Lasts until reaching 1,000,000 Service Provider accounts",
       "text25": "Prizes",
       "text26": "Prize details",
@@ -89,11 +90,11 @@
     },
     "Reward": {
       "title": "Prize awarding procedure:",
-      "text1": "Upon receiving the prize, the winning Thợ must follow these procedures:",
+      "text1": "Upon receiving the prize, the winning must follow these procedures:",
       "text2": "For the First Prize winner, they must be present directly at Vua Thợ Technology Company Limited.",
       "text3": "Vua Thợ does not accept proxy prize acceptance.",
-      "text4": "Prizes will be sent to the prize-winning Thợ within 30 days from the date of receiving the prize draw result. In case Vua Thợ cannot contact the prize-winning Thợ, or the prize-winning Thợ does not come to receive the prize within the specified time, the prize will be revoked by Vua Thợ, and the prize value will be converted into Vua Thợ's support funds.",
-      "text5": "The prize-winning Thợ must bear all travel expenses, transportation costs (if any) for receiving their prize."
+      "text4": "Prizes will be sent to the prize-winning within 30 days from the date of receiving the prize draw result. In case Vua Thợ cannot contact the prize-winning Thợ, or the prize-winning does not come to receive the prize within the specified time, the prize will be revoked by Vua Thợ, and the prize value will be converted into Vua Thợ's support funds.",
+      "text5": "The prize-winning must bear all travel expenses, transportation costs (if any) for receiving their prize."
     },
     "ConditionDetails": {
       "title": "Details of applicable conditions:",
@@ -108,10 +109,11 @@
       "title": "Important notes:",
       "text1": "For the Wave RSX FI 110 prize (not convertible into cash):",
       "text1-1": "For the Yamaha PG-1 motorcycle prize (not convertible to cash):",
-      "text2": "The vehicle value (25,000,000 VND) does not include registration fees and related fees; the prize-winning Thợ needs to pay the full amount according to current regulations (about 3,500,000 VND).",
+      "text2": "The vehicle value (25,000,000 VND) does not include registration fees and related fees; the prize-winning needs to pay the full amount according to current regulations (about 3,500,000 VND).",
       "text3": "The prize winner must use the vehicle under the name of the Vua Thợ owner within 03 years for purposes related to services on the Vua Thợ application and is not allowed to buy, sell, exchange, or replace any vehicle parts or technical details without Vua Thợ's permission.",
       "text4": "After 03 years from the date of receiving the vehicle, the prize winner can convert the vehicle ownership documents to their personal name without incurring any additional fees and can use it for other purposes.",
       "text5": "For the Tiger Silver beer prize (can be converted into cash):",
+      "text5-1": "Award prizes to the account of the winning Artisan or transfer the equivalent amount of the prize value to the Artisan's wallet on the Vua Thợ app.",
       "text6": "Take a confirmation photo of receiving the prize and send it to Vua Thợ (via Zalo Vua Thợ)."
     },
     "ProtocolsInvite": {

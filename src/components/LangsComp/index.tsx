@@ -103,7 +103,7 @@ function LangsComp() {
                   startContent={<SearchNormal1 size={24} className='text-[#C9C9C9]' />}
                   classNames={{
                     base: 'w-full',
-                    input: 'text-sm text-[#C9C9C9]',
+                    input: 'text-lg text-[#C9C9C9]',
                     inputWrapper: 'h-[40px] pl-[12px]',
                     innerWrapper: 'gap-[4px]',
                   }}
@@ -152,7 +152,7 @@ function LangsComp() {
               startContent={<SearchNormal1 size={24} className='text-[#C9C9C9]' />}
               classNames={{
                 base: 'w-full',
-                input: 'text-[1.4rem] text-[#C9C9C9]',
+                input: 'text-lg text-[#C9C9C9]',
                 inputWrapper: 'h-[40px] pl-[12px]',
                 innerWrapper: 'gap-[4px]',
               }}

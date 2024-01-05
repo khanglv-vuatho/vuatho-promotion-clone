@@ -128,6 +128,7 @@ function InviteRule({
             <li>{ti('text4')}</li>
           </ul>
           <p>{ti('text5')}</p>
+          <p>{ti('text5-1')}</p>
           <p>{ti('text6')}</p>
         </div>
         <div className={bottomText}>

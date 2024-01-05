@@ -34,7 +34,7 @@ export const BodyRule = () => {
                 alt=''
                 width={2100}
                 height={500}
-                className='w-full'
+                className='w-full pointer-events-none select-none'
               />
             </div>
           </div>
@@ -68,6 +68,7 @@ export const Step6 = () => {
                 alt='rank1'
                 width={45}
                 height={54}
+                className='pointer-events-none select-none'
               />
             </div>
             <p>{t('text17')}</p>
@@ -79,6 +80,7 @@ export const Step6 = () => {
                 alt='rank2'
                 width={45}
                 height={54}
+                className='pointer-events-none select-none'
               />
             </div>
             <p>{t('text15')}</p>
@@ -90,6 +92,7 @@ export const Step6 = () => {
                 alt='rank3'
                 width={45}
                 height={54}
+                className='pointer-events-none select-none'
               />
             </div>
             <p>{t('text19')}</p>

@@ -74,6 +74,7 @@
       "text16": "6 zabojčkov tiger piva",
       "text17": "Prvo mesto",
       "text18": "1 kolo Wave RSX F1",
+      "text18-1": "1 kolo Yamaha PG-1",
       "text19": "Tretje mesto",
       "text20": "3 zabojčki tiger piva",
       "text21": "1 kolo",
@@ -98,10 +99,10 @@
     "ConditionDetails": {
       "title": "Podrobnosti o uporabniških pogojih:",
       "text1": "Stranke, ki so prejele nagrado, naj pokličejo na telefonsko številko: 0912 426 404 ali pošljejo neposredno sporočilo na Fanpage ali Zalo Vua Tho za navodila o prevzemu nagrade.",
-      "text2": "Prva nagrada bo izročena v podjetju TNHH Công nghệ Vua Tho, številka 32/28, ulica 35, četrt An Khanh, mesto Thu Duc, Ho Chi Minh City, ali Vua Tho bo pomagal pri dostavi do doma stranke (če je izven območja mesta Ho Chi Minh).",
+      "text2": "Prva nagrada bo izročena v podjetju   Vua Tho, številka 32/28, ulica 35, četrt An Khanh, mesto Thu Duc, Ho Chi Minh City, ali Vua Tho bo pomagal pri dostavi do doma stranke (če je izven območja mesta Ho Chi Minh).",
       "text3": "Organizator si pridržuje pravico do uporabe imena, slike udeležencev programa na vseh informacijskih kanalih programa in drugih medijskih sredstvih.",
-      "text4": "V primeru kakršnih koli pritožb ali sporov, povezanih s to promocijsko akcijo, bo podjetje TNHH Công nghệ Vua Tho odgovorno za neposredno reševanje. Če se spor ne reši, bo obravnavan v skladu z zakonodajo.",
-      "text5": "Zaposleni v podjetju TNHH Công nghệ Vua Tho in zaposleni v administrativno-poslovnem oddelku podjetja TNHH Sản xuất Thương mại - Xây dựng Phố Việt niso upravičeni do sodelovanja v programu.",
+      "text4": "V primeru kakršnih koli pritožb ali sporov, povezanih s to promocijsko akcijo, bo podjetje   Vua Tho odgovorno za neposredno reševanje. Če se spor ne reši, bo obravnavan v skladu z zakonodajo.",
+      "text5": "Zaposleni v podjetju   Vua Tho in zaposleni v administrativno-poslovnem oddelku podjetja TNHH Sản xuất Thương mại - Xây dựng Phố Việt niso upravičeni do sodelovanja v programu.",
       "text6": "Program se lahko konča predvidoma."
     },
     "ImportantNote": {
@@ -112,6 +113,7 @@
       "text3": "Nagrajenec mora uporabljati kolo na ime lastnika Vua Tho v roku 3 let za namene, povezane z dejavnostmi na aplikaciji Vua Tho, in ni dovoljeno kupovati, prodajati, menjavati ali zamenjevati katerih koli delov ali tehničnih podrobnosti kolesa brez dovoljenja Vua Tho.",
       "text4": "Po 3 letih od prevzema kolesa lahko nagrajenec brez dodatnih stroškov prenese lastništvo kolesa na svoje ime in ga po želji uporablja za druge namene.",
       "text5": "Za nagrado Tiger Silver (ki jo je mogoče zamenjati za gotovino):",
+      "text5-1": "Nagrada se izroči zmagovalnemu mojstru prek njegovega računa ali se znesek nagrade prenese v mojstrski denarnici na aplikaciji Vua Thợ.",
       "text6": "Posnetek potrdila o prejemu nagrade pošljite na Vua Tho (prek Zalo Vua Tho)."
     },
     "ProtocolsInvite": {

@@ -1,7 +1,7 @@
 'use client'
 
 import { useLocale, useTranslations } from 'next-intl'
-import { usePathname, useRouter } from 'next/navigation'
+import { usePathname } from 'next/navigation'
 import { useEffect, useState } from 'react'
 
 import {
@@ -26,7 +26,6 @@ import {
 
 import { FacebookIcon, LinkedinIcon, YoutubeIcon } from '@/components/Icons'
 import ImageFallback from '@/components/ImageFallback'
-// import LangsComp from '@/components/LangsComp'
 
 import { AndroidBtn, IosBtn } from '@/components/Download'
 import { HeaderWrapper, Logo } from '@/components/Header'
@@ -54,7 +53,7 @@ export const PromotionsFooter = () => {
     {
       id: 'Youtube',
       icon: <YoutubeIcon size={24} />,
-      link: 'https://www.youtube.com/@Vuatho.official/',
+      link: 'https://www.youtube.com/@Vuatho.official',
     },
     {
       id: 'Facebook',
@@ -69,12 +68,12 @@ export const PromotionsFooter = () => {
     // {
     //   id: 'Instagram',
     //   icon: <InstaIcon size={24} />,
-    //   link: 'https://www.instagram.com/vuatho.official/',
+    //   link: 'https://www.instagram.com/vuatho.official',
     // },
     {
       id: 'Linkedin',
       icon: <LinkedinIcon size={20} />,
-      link: 'https://www.linkedin.com/company/vuatho-vn/',
+      link: 'https://www.linkedin.com/company/vuatho-vn',
     },
   ]
   return (
@@ -87,7 +86,7 @@ export const PromotionsFooter = () => {
               alt='textLogo.webp'
               width={84}
               height={60}
-              className='h-[60px] w-[84px]'
+              className='h-[60px] w-[84px] pointer-events-none select-none'
             />
           </div>
           <p className='font-light text-base-black-1'>{t('text1')}</p>
@@ -132,12 +131,14 @@ const RightHeader = () => {
 
   const locale = useLocale()
 
+  const [isLogin, setIsLogin] = useState(false)
+
   const openMenu = useSelector((state: any) => state.openMenu)
+  const infoUser = useSelector((state: any) => state.infoUser)
 
   const dispatch = useDispatch()
 
   const pathName = usePathname()
-  const router = useRouter()
 
   const [isOpen, setIsOpen] = useState(false)
 
@@ -156,14 +157,25 @@ const RightHeader = () => {
 
   type TMenuPopup = { title: string; url: string; id: number }
 
+  const menuItemLogined = {
+    id: 4,
+    title: 'Đăng xuất',
+    url: '/',
+  }
+
   const menuPopup: TMenuPopup[] = [
-    { id: 1, title: tt('text1'), url: '/' },
+    {
+      id: 1,
+      title: tt('text1'),
+      url: isInvite ? 'invite/winners-list' : 'winners-list',
+    },
     { id: 2, title: tt('text2'), url: 'https://vuatho.com' },
     {
       id: 3,
       title: tt('text3'),
       url: isInvite ? 'invite/rule' : 'rule',
     },
+    ...(!!infoUser.id ? [menuItemLogined] : []),
   ]
 
   const menuVariants = {
@@ -185,23 +197,19 @@ const RightHeader = () => {
       },
     },
   }
+
   const _HandleToggleMenu = () => {
     dispatch({ type: 'toggle_menu', payload: openMenu })
-  }
-
-  const _HandleClickMenuMobile = (item: TPromotions) => {
-    _HandleToggleMenu()
-    router.replace(`${item.url}`)
   }
 
   const _HandleScroll = () => {
     setIsOpen(false)
   }
 
-  const _HandleNavigate = (item: TMenuPopup) => {
+  const _HandleLogout = () => {
+    dispatch({ type: 'logout' })
     setIsOpen(false)
-    console.log(item.url)
-    router.replace(`/${locale}/${item.url}`)
+    localStorage.removeItem('access_token')
   }
 
   useEffect(() => {
@@ -217,6 +225,15 @@ const RightHeader = () => {
       ? (document.body.style.overflow = 'hidden')
       : (document.body.style.overflow = 'auto')
   }, [openMenu])
+
+  useEffect(() => {
+    const token = localStorage.getItem('access_token')
+    if (!!token?.length) {
+      console.log('co token')
+    } else {
+      console.log('khong co token')
+    }
+  }, [])
 
   return (
     <>
@@ -250,12 +267,33 @@ const RightHeader = () => {
         >
           <PopoverTrigger>
             <div className='size-[60px] rounded-full bg-white flex items-center justify-center shadow-[0px_8px_16px_0px_rgba(0,0,0,0.16)] cursor-pointer'>
-              <HambergerMenu />
+              {!!infoUser.id ? (
+                <ImageFallback
+                  src={infoUser.thumb}
+                  alt={`avatar-${infoUser.name}`}
+                  height={58}
+                  width={58}
+                  className='size-[90%] rounded-full pointer-events-none select-none'
+                />
+              ) : (
+                <HambergerMenu />
+              )}
             </div>
           </PopoverTrigger>
           <PopoverContent>
             <div className='rounded-[20px] bg-white flex flex-col items-end'>
               {menuPopup.map((item) => {
+                if (item.id === 4) {
+                  return (
+                    <div
+                      onClick={_HandleLogout}
+                      className='w-full p-5 text-end cursor-pointer'
+                      key={item.id}
+                    >
+                      <div>{item.title}</div>
+                    </div>
+                  )
+                }
                 if (item.url.includes('http')) {
                   return (
                     <div
@@ -291,7 +329,7 @@ const RightHeader = () => {
                       src={'/logo/zalo.png'}
                       width={24}
                       height={24}
-                      className='size-6'
+                      className='size-6 pointer-events-none select-none'
                     />
                   </div>
                 </div>
@@ -301,7 +339,7 @@ const RightHeader = () => {
                     alt='qr-zalo'
                     height={80}
                     width={80}
-                    className='size-20'
+                    className='size-20 pointer-events-none select-none'
                   />
                 </div>
               </div>
@@ -310,14 +348,15 @@ const RightHeader = () => {
         </Popover>
       </div>
       <div
-        className='menu-mobile block transition lg:hidden '
+        className='menu-mobile flex items-center gap-4 transition lg:hidden '
         onClick={_HandleToggleMenu}
       >
+        <>{infoUser ? '' : ''}</>
         {openMenu ? (
           <AddIcon size={32} className='rotate-45 cursor-pointer text-text transition' />
         ) : (
           <div className='flex items-center gap-2 md:gap-5'>
-            <MenuIcon size={32} className='cursor-pointer text-text transition' />
+            <MenuIcon size={32} className='cursor-pointer text-white transition' />
           </div>
         )}
       </div>
@@ -331,13 +370,14 @@ const RightHeader = () => {
             className='fixed bottom-0 left-0 right-0 top-[60px] z-10 flex h-[calc(100vh-60px)] origin-top flex-col items-start gap-1 bg-bg p-6'
           >
             {promotions.map((item) => (
-              <div
-                onClick={() => _HandleClickMenuMobile(item)}
+              <Link
+                href={`${item.url}`}
                 className='w-full cursor-pointer py-3 text-lg text-base-black-1'
                 key={item.id}
+                onClick={() => dispatch({ type: 'toggle_menu', payload: openMenu })}
               >
                 {item.title}
-              </div>
+              </Link>
             ))}
             <LangsComp />
           </motion.div>
@@ -394,6 +434,10 @@ export const Hero: React.FC<THero> = ({
   const [onSending, setOnSending] = useState(false)
   const [onFetchingOtp, setOnFetchingOtp] = useState(false)
 
+  const infoUser = useSelector((state: any) => state.infoUser)
+
+  const dispatch = useDispatch()
+
   const _HandleChangeValue = (type: string, value: any) => {
     setInfoCustomer({ ...infoCustomer, [type]: value?.target?.value })
   }
@@ -406,7 +450,6 @@ export const Hero: React.FC<THero> = ({
       checked: !isSelected,
     }
     console.log(checkError)
-
     setErrorInfocustomer(checkError)
 
     if (checkError.checked === true) {
@@ -422,17 +465,37 @@ export const Hero: React.FC<THero> = ({
     } else {
       //send api
       setOnSending(true)
+      setErrorInfocustomer(initalErrorInfoCustomer)
     }
   }
 
   const _HandeSending = async () => {
     try {
       // const { data } = await instance.post('/login', infoCustomer)
+      // if (data.status === 200) {
       setInfoCustomer(initalInfoCustomer)
       setIsSelected(false)
+      // dispatch({ type: 'login', payload: data.payload })
+
+      localStorage.setItem('access_token', '123')
+      dispatch({
+        type: 'login',
+        payload: {
+          thumb: '/promotion/number1.png',
+          name: 'Lương Vĩ Khang',
+          phone: infoCustomer.phone,
+          id: '3',
+          listNumber: [
+            [12, 31, 45, 21, 42, 44],
+            [12, 31, 45, 21, 42, 44],
+            [12, 31, 45, 21, 42, 44],
+          ],
+          code: '123456',
+        },
+      })
+      // }
     } catch (error) {
       console.log(error)
-
       ToastComponent({
         message: td('text3'),
         type: 'error',
@@ -473,6 +536,7 @@ export const Hero: React.FC<THero> = ({
       setOnFetchingOtp(true)
     }
   }
+
   useEffect(() => {
     onFetchingOtp && _HandleGetOtp()
   }, [onFetchingOtp])
@@ -498,108 +562,172 @@ export const Hero: React.FC<THero> = ({
               alt=''
               width={773}
               height={491}
-              className='object-contain'
+              className='object-contain pointer-events-none select-none'
             />
             <p className='text-center text-xl text-base-black-1 font-medium'>
               {inviteText ? inviteText : t('text3')}
             </p>
           </div>
-          <div className='md:col-span-2 col-span-5'>
-            <form
-              onSubmit={(e) => _HandleSubmit(e)}
-              className='bg-white p-4 flex flex-col gap-5 rounded-[20px]'
-            >
-              <h5 className=''>{t('text6')}</h5>
-              <div>
-                <Input
-                  variant='bordered'
-                  value={infoCustomer.phone}
-                  onChange={(e: any) => _HandleChangeValue('phone', e)}
-                  placeholder={th('text1')}
-                  classNames={{
-                    inputWrapper:
-                      'border-[#E1E1E1] data-[hover=true]:border-[#E1E1E1] group-data-[focus=true]:border-[#E1E1E1] border-1 h-[44px] pl-[16px]',
-                  }}
-                />
-              </div>
-              <div className='flex items-center gap-2'>
-                <Input
-                  variant='bordered'
-                  value={infoCustomer.otp}
-                  onChange={(e: any) => _HandleChangeValue('otp', e)}
-                  placeholder={th('text2')}
-                  classNames={{
-                    inputWrapper:
-                      'border-[#E1E1E1] data-[hover=true]:border-[#E1E1E1] group-data-[focus=true]:border-[#E1E1E1] border-1 h-[44px] pl-[16px]',
-                  }}
-                />
-                <Button className='bg-primary-blue text-white h-11' onPress={_HandleOtp}>
-                  {tf('text3')}
-                </Button>
-              </div>
-              <div className='border-1 border-[#E1E1E1] rounded-2xl p-4 flex items-center gap-4'>
-                <Checkbox
-                  isSelected={isSelected}
-                  onValueChange={setIsSelected}
-                  classNames={{
-                    base: 'p-0 pl-2',
-                    icon: 'khang1',
-                    label: 'khang2',
-                    wrapper: 'after:bg-[#FCB713]',
-                  }}
-                >
+          <div className='md:col-span-2 col-span-5 md:justify-end md:flex'>
+            {!!infoUser.id ? (
+              <div className='bg-white p-4 flex flex-col gap-5 rounded-[20px] lg:min-w-[400px]'>
+                <h3 className='text-2xl text-primary-blue font-semibold'>{t('text6')}</h3>
+                <div className='flex items-center gap-2 py-2'>
                   <div className=''>
-                    {tf('text1')}{' '}
-                    <span
-                      className='underline font-semibold cursor-pointer'
-                      onClick={() => onOpen()}
-                    >
-                      {tf('text2')}
-                    </span>
-                    <DefaultModal
-                      isOpen={isOpen}
-                      onOpenChange={onOpenChange}
-                      hiddenHeader
-                      hiddenCloseBtn
-                      className=''
-                      modalBody={
-                        <div className='flex flex-col rounded-[20px] gap-4 md:gap-10 p-4 md:p-10 relative h-[80dvh]'>
-                          <Button
-                            isIconOnly
-                            radius='full'
-                            onPress={onClose}
-                            variant='light'
-                            className=' absolute right-[3%] top-[3%] h-[48px] flex-shrink-0 w-[48px] min-w-[unset]'
-                          >
-                            <Add className='rotate-45 text-base-black-1 ' size={32} />
-                          </Button>
-                          <div className='flex flex-col gap-2 w-[80%] md:w-auto'>
-                            <h3 className='text-primary-blue text-lg md:text-2xl font-bold'>
-                              {t('text9')}
-                            </h3>
-                            <p className='text-[#FCB713] text-lg md:text-2xl font-bold'>
-                              {isInvite ? t('text1-1') : t('text1')} -{' '}
-                              {isInvite ? t('text2-1') : t('text2')}
-                            </p>
-                          </div>
-                          <div className='h-full overflow-auto'>
-                            <InviteRule primaryText='text-base-black-1' />
-                          </div>
-                        </div>
-                      }
+                    <ImageFallback
+                      src={infoUser.thumb}
+                      alt={`avtar-${infoUser.id}`}
+                      height={44}
+                      width={44}
+                      className='size-[44px] rounded-full pointer-events-none select-none'
                     />
                   </div>
-                </Checkbox>
+                  <p className='font-light'>{infoUser?.name}</p>
+                </div>
+
+                <div className='flex flex-col gap-4 '>
+                  <p className='text-[#969696]'>
+                    {isInvite ? 'Dãy số của bạn:' : 'Mã dự thưởng:'}
+                  </p>
+                  {isInvite ? (
+                    <div className='flex flex-col gap-4'>
+                      {!!infoUser?.listNumber?.length ? (
+                        infoUser?.listNumber?.map((listnumber: any, index: number) => (
+                          <div className='flex justify-between gap-4' key={index}>
+                            {listnumber?.map((number: any) => (
+                              <div
+                                className='bg-[#F8F8F8] size-[46px] flex items-center justify-center rounded-full text-primary-blue font-semibold'
+                                key={number}
+                              >
+                                {number}
+                              </div>
+                            ))}
+                          </div>
+                        ))
+                      ) : (
+                        <div className='rounded-[10px] bg-[#F8F8F8] h-[236px] flex items-center justify-center'>
+                          <div className='flex flex-col gap-2 items-center'>
+                            <p className=''>Bạn chưa có dãy số nào</p>
+                            <Button
+                              className='bg-[#FCB713] font-semibold w-fit px-5 py-2'
+                              radius='full'
+                              onPress={() => {
+                                onOpen()
+                              }}
+                            >
+                              Đọc thể lệ
+                            </Button>
+                          </div>
+                        </div>
+                      )}
+                    </div>
+                  ) : (
+                    <div className='bg-[#F8F8F8] text-primary-blue text-4xl px-5 py-3 rounded-[10px]'>
+                      {infoUser?.code}
+                    </div>
+                  )}
+                </div>
               </div>
-              <Button
-                className='bg-primaryYellow p-4'
-                onClick={(e) => _HandleSubmit(e)}
-                type='submit'
+            ) : (
+              <form
+                onSubmit={(e) => _HandleSubmit(e)}
+                className='bg-white p-4 flex flex-col gap-5 rounded-[20px]'
               >
-                {tf('text4')}
-              </Button>
-            </form>
+                <h5 className='text-primary-blue text-2xl font-semibold'>{t('text6')}</h5>
+                <div className='flex items-center gap-2'>
+                  <Input
+                    value={infoCustomer.phone}
+                    onChange={(e: any) => _HandleChangeValue('phone', e)}
+                    placeholder={th('text1')}
+                    classNames={{
+                      inputWrapper:
+                        'bg-[#F8F8F8] data-[hover=true]:bg-[#F8F8F8] group-data-[focus=true]:bg-[#F8F8F8] h-[44px] pl-[16px] ',
+                      input: 'placeholder:font-light text-[#969696]',
+                    }}
+                  />
+                  <Button
+                    className='bg-primary-blue text-white h-11'
+                    onPress={_HandleOtp}
+                  >
+                    {tf('text3')}
+                  </Button>
+                </div>
+                <div>
+                  <Input
+                    value={infoCustomer.otp}
+                    onChange={(e: any) => _HandleChangeValue('otp', e)}
+                    placeholder={th('text2')}
+                    classNames={{
+                      inputWrapper:
+                        'bg-[#F8F8F8] data-[hover=true]:bg-[#F8F8F8] group-data-[focus=true]:bg-[#F8F8F8] h-[44px] pl-[16px]',
+                      input: 'placeholder:font-light text-[#969696]',
+                    }}
+                  />
+                </div>
+                <div className='border-1 border-[#E1E1E1] rounded-2xl p-4 flex items-center gap-4'>
+                  <Checkbox
+                    isSelected={isSelected}
+                    onValueChange={setIsSelected}
+                    classNames={{
+                      base: 'p-0 pl-2',
+                      icon: 'khang1',
+                      label: 'khang2',
+                      wrapper: 'after:bg-[#FCB713]',
+                    }}
+                  >
+                    <div className=''>
+                      {tf('text1')}{' '}
+                      <span
+                        className='underline font-semibold cursor-pointer'
+                        onClick={() => onOpen()}
+                      >
+                        {tf('text2')}
+                      </span>
+                    </div>
+                  </Checkbox>
+                </div>
+                <Button
+                  className='bg-primaryYellow p-4'
+                  onClick={(e) => _HandleSubmit(e)}
+                  type='submit'
+                >
+                  {tf('text4')}
+                </Button>
+              </form>
+            )}
           </div>
+          <DefaultModal
+            isOpen={isOpen}
+            onOpenChange={onOpenChange}
+            hiddenHeader
+            hiddenCloseBtn
+            className=''
+            modalBody={
+              <div className='flex flex-col rounded-[20px] gap-4 md:gap-10 p-4 md:p-10 relative h-[80dvh]'>
+                <Button
+                  isIconOnly
+                  radius='full'
+                  onPress={onClose}
+                  variant='light'
+                  className=' absolute right-[3%] top-[3%] h-[48px] flex-shrink-0 w-[48px] min-w-[unset]'
+                >
+                  <Add className='rotate-45 text-base-black-1 ' size={32} />
+                </Button>
+                <div className='flex flex-col gap-2 w-[80%] md:w-auto'>
+                  <h3 className='text-primary-blue text-lg md:text-2xl font-bold'>
+                    {t('text9')}
+                  </h3>
+                  <p className='text-[#FCB713] text-lg md:text-2xl font-bold'>
+                    {isInvite ? t('text1-1') : t('text1')} -{' '}
+                    {isInvite ? t('text2-1') : t('text2')}
+                  </p>
+                </div>
+                <div className='h-full overflow-auto'>
+                  <InviteRule primaryText='text-base-black-1' />
+                </div>
+              </div>
+            }
+          />
         </div>
       </div>
     </>
@@ -657,7 +785,7 @@ export const ProtocolsPromotion = () => {
                 alt='ProtocolsPromotion1'
                 width={360}
                 height={360}
-                className='w-full'
+                className='w-full pointer-events-none select-none'
               />
             </div>
           </div>
@@ -699,7 +827,7 @@ export const ProtocolsPromotion = () => {
                     alt='QR'
                     width={326}
                     height={326}
-                    className='w-full'
+                    className='w-full pointer-events-none select-none'
                   />
                 </div>
               </div>
@@ -736,6 +864,7 @@ export const GuidelinesPromotion = () => {
               alt=''
               width={300}
               height={112}
+              className='pointer-events-none select-none'
             />
           </div>
         </div>
@@ -744,7 +873,7 @@ export const GuidelinesPromotion = () => {
             <h4 className='font-bold text-xl md:text-3xl text-primaryYellow'>
               {t('text17')}
             </h4>
-            <p className=''>{t('text18')}</p>
+            <p className=''>{isInvite ? t('text18-1') : t('text18')}</p>
           </div>
           <div className=''>
             <ImageFallback
@@ -752,6 +881,7 @@ export const GuidelinesPromotion = () => {
               alt=''
               width={300}
               height={340}
+              className='pointer-events-none select-none'
             />
           </div>
         </div>
@@ -768,6 +898,7 @@ export const GuidelinesPromotion = () => {
               alt=''
               width={300}
               height={112}
+              className='pointer-events-none select-none'
             />
           </div>
         </div>
@@ -786,14 +917,14 @@ export const CustomSlider = ({
   thumb3: string
 }) => {
   return (
-    <div className='relative col-span-5 mt-[40px] flex min-h-[300px] justify-center overflow-hidden md:hidden'>
+    <div className='relative col-span-5 mt-[40px] flex min-h-[400px] justify-center overflow-x-hidden md:hidden pb-20 md:pb-0'>
       <div className='rank1 absolute'>
         <ImageFallback
           src={thumb1}
           alt='number1'
           width={300}
           height={310}
-          className='h-auto w-72'
+          className='h-auto w-72 pointer-events-none select-none'
         />
       </div>
       <div className='rank2 absolute'>
@@ -802,7 +933,7 @@ export const CustomSlider = ({
           alt='number1'
           width={300}
           height={310}
-          className='h-auto w-72'
+          className='h-auto w-72 pointer-events-none select-none'
         />
       </div>
       <div className='rank3 absolute'>
@@ -811,7 +942,7 @@ export const CustomSlider = ({
           alt='number1'
           width={300}
           height={310}
-          className='h-auto w-72'
+          className='h-auto w-72 pointer-events-none select-none'
         />
       </div>
     </div>
