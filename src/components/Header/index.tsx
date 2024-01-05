@@ -20,16 +20,7 @@ export const HeaderWrapper = ({
 }) => {
   const openMenu = useSelector((state: any) => state.openMenu)
 
-  const [isWebview, setIsWebview] = useState(false)
-
   const [isHeaderVisible, setHeaderVisible] = useState(true)
-  const searchParams = useSearchParams()
-  const hiddenHeaderAndFooter = searchParams.get('hideHeaderAndFooter')
-
-  useEffect(() => {
-    var is_uiwebview = navigator.userAgent.includes('WebView')
-    setIsWebview(is_uiwebview)
-  }, [])
 
   useEffect(() => {
     let prevScrollPos = window.scrollY
@@ -50,12 +41,6 @@ export const HeaderWrapper = ({
       window.removeEventListener('scroll', handleScroll)
     }
   }, [])
-
-  if (isWebview) {
-    return null
-  }
-
-  if (hiddenHeaderAndFooter) return null
 
   return (
     <header

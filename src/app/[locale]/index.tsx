@@ -141,11 +141,21 @@ const RightHeader = () => {
   const pathName = usePathname()
 
   const [isOpen, setIsOpen] = useState(false)
+  const [isWebView, setIsWebview] = useState(false)
 
   const isInvite = pathName.includes('invite')
 
-  const token = allQueryParams?.token
-  const urlHaveToken = token ? `?token=${token}` : ''
+  const _handleCheckWebView = () => {
+    const queryString = Object.keys(allQueryParams)
+      .map(
+        (key) => `${encodeURIComponent(key)}=${encodeURIComponent(allQueryParams[key])}`,
+      )
+      .join('&')
+
+    const finalUrl = queryString !== null ? `?${queryString}` : ''
+
+    return finalUrl
+  }
 
   type TPromotions = {
     id: number
@@ -157,7 +167,7 @@ const RightHeader = () => {
     {
       id: 1,
       title: td('title1'),
-      url: `/${locale}/invite${urlHaveToken}`,
+      url: `/${locale}/invite${_handleCheckWebView()}`,
     },
     { id: 2, title: td('title2'), url: `/${locale}` },
   ]
@@ -224,11 +234,19 @@ const RightHeader = () => {
       : (document.body.style.overflow = 'auto')
   }, [openMenu])
 
+  useEffect(() => {
+    var is_uiwebview = navigator.userAgent.includes('WebView')
+    setIsWebview(is_uiwebview)
+  }, [])
+
+  if (isWebView) {
+    return null
+  }
   return (
     <>
       <div className='bg-white rounded-full px-[10px] py-2 lg:flex gap-5 items-center shadow-[0px_8px_16px_0px_rgba(0,0,0,0.16)] hidden'>
         <Link
-          href={`/${locale}${urlHaveToken}`}
+          href={`/${locale}${_handleCheckWebView()}`}
           className={`${
             !isInvite ? 'bg-primary-yellow' : 'bg-[#F8F8F8]'
           } px-5 py-2 rounded-full flex items-center justify-center font-semibold`}
@@ -236,7 +254,7 @@ const RightHeader = () => {
           {t('text1')}
         </Link>
         <Link
-          href={`/${locale}/invite${urlHaveToken}`}
+          href={`/${locale}/invite${_handleCheckWebView()}`}
           className={`${
             isInvite ? 'bg-primary-yellow' : 'bg-[#F8F8F8]'
           } px-5 py-2 rounded-full flex items-center justify-center font-semibold`}
@@ -456,6 +474,8 @@ export const Hero: React.FC<THero> = ({
   const infoUser = useSelector((state: any) => state.infoUser)
   const token = allQueryParams?.token
 
+  const isWebView = allQueryParams?.token && allQueryParams?.hideHeaderAndFooter
+
   const _HandleFetching = async () => {
     try {
       // const { data } = await instance.get('/promotion/info', {
@@ -514,10 +534,10 @@ export const Hero: React.FC<THero> = ({
         style='md:flex lg:hidden'
       />
       <div className='ct-container flex-col gap-10'>
-        <div className={`${!!token ? 'grid grid-cols-5' : ''}  gap-10 items-center`}>
+        <div className={`${!!isWebView ? 'grid grid-cols-5' : ''}  gap-10 items-center`}>
           <div
             className={`hidden lg:flex lg:col-span-3 px-10 flex-col gap-5 col-span-5 ${
-              !!token ? '' : 'items-center'
+              !!isWebView ? '' : 'items-center'
             }`}
           >
             <h3 className='ct-text-border text-primaryYellow text-2xl lg:text-4xl uppercase font-bold text-center hidden mt-10 lg:block'>
@@ -534,7 +554,7 @@ export const Hero: React.FC<THero> = ({
               {inviteText ? inviteText : t('text3')}
             </p>
           </div>
-          {!!token && (
+          {!!isWebView && (
             <div className='lg:col-span-2 col-span-5 lg:justify-end lg:flex'>
               {onLoading ? (
                 <div className='bg-white p-4 flex flex-col gap-5 rounded-[20px] lg:min-w-[400px] min-h-[300px] animate-pulse' />
