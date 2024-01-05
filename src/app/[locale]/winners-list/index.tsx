@@ -34,7 +34,7 @@ export const WinderList = ({ data, onFetching }: { data: any; onFetching: boolea
   }, [onFetching])
 
   return (
-    <div className='py-[110px] 3xl:py-[120px] bg-[url("/promotion/bg.png")] bg-cover bg-no-repeat bg-center'>
+    <div className='py-[110px] 3xl:py-[120px] bg-[url("/promotion/bg.webp")] bg-cover bg-no-repeat bg-center'>
       <div className='ct-container'>
         <h3 className='ct-text-border text-[#FF4343] text-2xl md:text-4xl uppercase text-center font-bold'>
           danh sách trúng thưởng

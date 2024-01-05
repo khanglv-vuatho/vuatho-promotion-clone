@@ -10,7 +10,7 @@ export const BodyRule = () => {
   const t = useTranslations('Promotion.Hero')
 
   return (
-    <div className='py-[110px] 3xl:py-[120px] bg-[url("/promotion/bg.png")] bg-cover bg-no-repeat bg-center'>
+    <div className='py-[110px] 3xl:py-[120px] bg-[url("/promotion/bg.webp")] bg-cover bg-no-repeat bg-center'>
       <div className='ct-container'>
         <div className='p-4 md:p-10 rounded-[20px] bg-gradient-to-b from-[#0D6DDE] to-[#A0CCFF]'>
           <div className='flex flex-col gap-5'>

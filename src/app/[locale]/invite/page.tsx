@@ -4,7 +4,7 @@ import { GuidelinesPromotion, Hero, ProtocolsPromotion } from '..'
 function InviteServiceProviders() {
   const t = useTranslations('Promotion.Hero')
   return (
-    <div className='flex flex-col gap-[40px] py-[70px] md:gap-[100px] 3xl:pt-[80px] bg-[url("/promotion/bg.png")] bg-cover bg-no-repeat bg-center'>
+    <div className='flex flex-col gap-[40px] py-[70px] md:gap-[100px] 3xl:pt-[80px] bg-[url("/promotion/bg.webp")] bg-cover bg-no-repeat bg-center'>
       <Hero
         title1={t('text1-1')}
         title2={t('text2-1')}
