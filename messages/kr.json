@@ -39,8 +39,11 @@
       "text5": "参加者情報",
       "text6": "ガイドライン",
       "text7": " 시스템에서 행운권 추첨을 통해 등록한 서비스 제공업체를 위해 매월 Yamaha PG-1 오토바이 1대",
-      "text8": "Yamaha PG-1を手に入れよう",
-      "text9": "プログラムの規定"
+      "text8": "Yamaha PG-1を手に入れよう.",
+      "text8-1": "Wave RSX FI 110を手に入れよう.",
+      "text9": "プログラムの規定",
+      "text10": "아직 번호가 없습니다",
+      "text11": "규정 읽기"
     },
     "GuidelinesPromotion": {
       "text0": "プロモーションプログラム名",
@@ -72,12 +75,12 @@
       "text13": "추첨 결과 기다리기",
       "text14": "보상 구조",
       "text15": "2 등상",
-      "text16": "6 상자의 Tiger Silver Beer",
+      "text16": "6 상자의",
       "text17": "1 등상",
       "text18": "1 대의 Wave RSX F1",
       "text18-1": "1 대의 Yamaha PG-1",
       "text19": "3 등상",
-      "text20": "3 상자의 Tiger Silver Beer",
+      "text20": "3 상자의",
       "text21": "1 대의 자전거",
       "text22": "가격",
       "text23": "100 대",
@@ -86,8 +89,10 @@
       "text26": "상세 보상",
       "text27": "상금 수",
       "text28": "25,000,000 VND 상당의 Honda Wave RSX FI 110 자전거 1 대",
-      "text29": "매 회 6 상자의 Tiger Silver Beer",
-      "text30": "매 회 3 상자의 Tiger Silver Beer"
+      "text29": "매 회 6 상자의",
+      "text30": "매 회 3 상자의",
+      "text31": "기간",
+      "text32": "날짜"
     },
     "Reward": {
       "title": "상금 수령 절차:",

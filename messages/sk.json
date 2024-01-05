@@ -38,8 +38,11 @@
       "text5": "Ľudia, ktorí sa už zapojili",
       "text6": "Informácie o účasti",
       "text7": "01 skúter Yamaha PG-1 v každom mesiaci pre pracovníkov, ktorí sa zaregistrovali cez žrebovanie zo systému",
-      "text8": "Vyhrajte skúter Yamaha PG-1",
-      "text9": "Podmienky programu"
+      "text8": "Vyhrajte skúter Yamaha PG-1.",
+      "text8-1": "Vyhrajte skúter Wave RSX FI 110.",
+      "text9": "Podmienky programu",
+      "text10": "Zatiaľ nemáte žiadne čísla.",
+      "text11": "Prečítajte si pravidlá."
     },
     "GuidelinesPromotion": {
       "text0": "Názov promočného programu",
@@ -86,7 +89,9 @@
       "text27": "Počet cien",
       "text28": "1 motocykel Honda Wave RSX FI 110 v hodnote 25 000 000 VND",
       "text29": "Každý z 6 sľúžok Tiger Silver každý kolobeh",
-      "text30": "Každý z 3 sľúžok Tiger Silver každý kolobeh"
+      "text30": "Každý z 3 sľúžok Tiger Silver každý kolobeh",
+      "text31": "Obdobie",
+      "text32": "Dátum"
     },
     "Reward": {
       "title": "Postup udelenia cien:",

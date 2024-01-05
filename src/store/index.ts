@@ -18,8 +18,6 @@ function counterReducer(state: any = DefaultValueState, action: any) {
       return { ...state, openMenu: !action.payload }
     case 'login':
       return { ...state, infoUser: action.payload }
-    case 'logout':
-      return { ...state, infoUser: '' }
     default:
       return state
   }

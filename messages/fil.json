@@ -38,8 +38,11 @@
       "text5": "Ang mga nakasali na",
       "text6": "Impormasyon sa pagsali",
       "text7": "01 Yamaha PG-1 motor kada buwan para sa bawat na nagrehistro sa pamamagitan ng spin sa sistema",
-      "text8": "Manalo ng Yamaha PG-1 motorcycle",
-      "text9": "Mga alituntunin ng programa"
+      "text8": "Manalo ng Yamaha PG-1 motorcycle.",
+      "text8-1": "Manalo ng Wave RSX FI 110 motorcycle.",
+      "text9": "Mga alituntunin ng programa",
+      "text10": "Wala kang anumang serye ng numero",
+      "text11": "Basahin ang mga alituntunin"
     },
     "GuidelinesPromotion": {
       "text0": "Pangalan ng programa ng promosyon",
@@ -86,7 +89,9 @@
       "text27": "Bilang ng mga Premyo",
       "text28": "1 unit ng Honda Wave RSX FI 110 motorcycle na may halagang 25,000,000đ",
       "text29": "Bawat spin may 6 na lata ng Tiger Silver beer",
-      "text30": "Bawat spin may 3 na lata ng Tiger Silver beer"
+      "text30": "Bawat spin may 3 na lata ng Tiger Silver beer",
+      "text31": "Batch",
+      "text32": "Araw"
     },
     "Reward": {
       "title": "Proseso ng Pag-award:",

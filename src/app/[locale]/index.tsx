@@ -38,6 +38,7 @@ import './promotion.css'
 import Link from 'next/link'
 import { useDispatch, useSelector } from 'react-redux'
 import { twMerge } from 'tailwind-merge'
+import { useGetAllQueryParams } from '@/hooks/useGetAllQueryParams'
 
 export const PromotionsHeader = () => {
   return (
@@ -131,17 +132,20 @@ const RightHeader = () => {
   const t = useTranslations('Promotion.Hero')
 
   const locale = useLocale()
+  const allQueryParams: any = useGetAllQueryParams()
 
   const openMenu = useSelector((state: any) => state.openMenu)
   const infoUser = useSelector((state: any) => state.infoUser)
 
   const dispatch = useDispatch()
-
   const pathName = usePathname()
 
   const [isOpen, setIsOpen] = useState(false)
 
   const isInvite = pathName.includes('invite')
+
+  const token = allQueryParams?.token
+  const urlHaveToken = token ? `?token=${token}` : ''
 
   type TPromotions = {
     id: number
@@ -150,7 +154,11 @@ const RightHeader = () => {
   }
 
   const promotions: TPromotions[] = [
-    { id: 1, title: td('title1'), url: `/${locale}/invite` },
+    {
+      id: 1,
+      title: td('title1'),
+      url: `/${locale}/invite${urlHaveToken}`,
+    },
     { id: 2, title: td('title2'), url: `/${locale}` },
   ]
 
@@ -216,20 +224,11 @@ const RightHeader = () => {
       : (document.body.style.overflow = 'auto')
   }, [openMenu])
 
-  useEffect(() => {
-    const token = localStorage.getItem('access_token')
-    if (!!token?.length) {
-      console.log('co token')
-    } else {
-      console.log('khong co token')
-    }
-  }, [])
-
   return (
     <>
       <div className='bg-white rounded-full px-[10px] py-2 lg:flex gap-5 items-center shadow-[0px_8px_16px_0px_rgba(0,0,0,0.16)] hidden'>
         <Link
-          href={`/${locale}`}
+          href={`/${locale}${urlHaveToken}`}
           className={`${
             !isInvite ? 'bg-primary-yellow' : 'bg-[#F8F8F8]'
           } px-5 py-2 rounded-full flex items-center justify-center font-semibold`}
@@ -237,7 +236,7 @@ const RightHeader = () => {
           {t('text1')}
         </Link>
         <Link
-          href={`/${locale}/invite`}
+          href={`/${locale}/invite${urlHaveToken}`}
           className={`${
             isInvite ? 'bg-primary-yellow' : 'bg-[#F8F8F8]'
           } px-5 py-2 rounded-full flex items-center justify-center font-semibold`}
@@ -440,9 +439,6 @@ export const Hero: React.FC<THero> = ({
   inviteText,
 }) => {
   const t = useTranslations('Promotion.Hero')
-  const td = useTranslations('Promotion.Toast')
-  const tf = useTranslations('Promotion.Form')
-  const th = useTranslations('Promotion.placeHolder')
   const tt = useTranslations('Promotion.PromotionsHeader.RightHeader')
 
   const { isOpen, onOpenChange, onOpen, onClose } = useDisclosure()
@@ -450,71 +446,31 @@ export const Hero: React.FC<THero> = ({
   const pathName = usePathname()
   const isInvite = pathName.includes('invite')
 
-  const initalInfoCustomer = {
-    phone: '',
-    otp: '',
-  }
-
-  const initalErrorInfoCustomer = { phone: false, otp: false }
-
-  const [infoCustomer, setInfoCustomer] = useState(initalInfoCustomer)
-  const [errorInfoCustomer, setErrorInfocustomer] = useState(initalErrorInfoCustomer)
-
-  const [isSelected, setIsSelected] = useState(false)
-
-  const [onSending, setOnSending] = useState(false)
-  const [onFetchingOtp, setOnFetchingOtp] = useState(false)
-
-  const infoUser = useSelector((state: any) => state.infoUser)
+  const allQueryParams: any = useGetAllQueryParams()
 
   const dispatch = useDispatch()
 
-  const _HandleChangeValue = (type: string, value: any) => {
-    setInfoCustomer({ ...infoCustomer, [type]: value?.target?.value })
-  }
+  const [onFetching, setOnFetching] = useState(false)
+  const [onLoading, setOnLoading] = useState(true)
 
-  const _HandleSubmit = (e: any) => {
-    e.preventDefault()
-    const checkError = {
-      phone: infoCustomer.phone === '',
-      otp: infoCustomer.otp === '',
-      checked: !isSelected,
-    }
-    console.log(checkError)
-    setErrorInfocustomer(checkError)
+  const infoUser = useSelector((state: any) => state.infoUser)
+  const token = allQueryParams?.token
 
-    if (checkError.checked === true) {
-      ToastComponent({
-        message: td('text1'),
-        type: 'error',
-      })
-    } else if (Object.values(checkError).some((item) => item === true)) {
-      ToastComponent({
-        message: td('text2'),
-        type: 'error',
-      })
-    } else {
-      //send api
-      setOnSending(true)
-      setErrorInfocustomer(initalErrorInfoCustomer)
-    }
-  }
-
-  const _HandeSending = async () => {
+  const _HandleFetching = async () => {
     try {
-      // const { data } = await instance.post('/login', infoCustomer)
-      // if (data.status === 200) {
-      setInfoCustomer(initalInfoCustomer)
-      setIsSelected(false)
-      // dispatch({ type: 'login', payload: data.payload })
+      // const { data } = await instance.get('/promotion/info', {
+      //   params: {
+      //     token,
+      //   },
+      // })
+      console.log('123')
 
-      localStorage.setItem('access_token', '123')
       dispatch({
         type: 'login',
         payload: {
           thumb: '/promotion/number1.png',
           name: 'Lương Vĩ Khang',
-          phone: infoCustomer.phone,
+          phone: '0932456789',
           id: '3',
           listNumber: [
             ['12', '31', '45', '21', '42', '44'],
@@ -524,57 +480,27 @@ export const Hero: React.FC<THero> = ({
           code: '123456',
         },
       })
-      // }
     } catch (error) {
       console.log(error)
-      ToastComponent({
-        message: td('text3'),
-        type: 'error',
-      })
     } finally {
-      setOnSending(false)
-    }
-  }
-
-  const _HandleGetOtp = async () => {
-    try {
-      const { data } = await instance.post('/otp', {
-        phone: infoCustomer.phone,
-      })
-    } catch (error) {
-      console.log(error)
-      ToastComponent({
-        message: td('text6'),
-        type: 'warning',
-      })
-    } finally {
-      setOnFetchingOtp(false)
-    }
-  }
-
-  const _HandleOtp = async () => {
-    if (infoCustomer.phone === '') {
-      ToastComponent({
-        message: td('text4'),
-        type: 'error',
-      })
-    } else if (infoCustomer.phone.length !== 10) {
-      ToastComponent({
-        message: td('text5'),
-        type: 'error',
-      })
-    } else {
-      setOnFetchingOtp(true)
+      setOnFetching(false)
+      setOnLoading(false)
     }
   }
 
   useEffect(() => {
-    onFetchingOtp && _HandleGetOtp()
-  }, [onFetchingOtp])
+    onFetching && _HandleFetching()
+  }, [onFetching])
 
   useEffect(() => {
-    onSending && _HandeSending()
-  }, [onSending])
+    if (!token) {
+      console.log('465')
+      setOnLoading(false)
+      return
+    }
+
+    setOnFetching(true)
+  }, [token])
 
   return (
     <>
@@ -588,8 +514,12 @@ export const Hero: React.FC<THero> = ({
         style='md:flex lg:hidden'
       />
       <div className='ct-container flex-col gap-10'>
-        <div className='grid grid-cols-5 gap-10 items-center'>
-          <div className='hidden lg:flex lg:col-span-3 px-10 flex-col gap-5 col-span-5'>
+        <div className={`${!!token ? 'grid grid-cols-5' : ''}  gap-10 items-center`}>
+          <div
+            className={`hidden lg:flex lg:col-span-3 px-10 flex-col gap-5 col-span-5 ${
+              !!token ? '' : 'items-center'
+            }`}
+          >
             <h3 className='ct-text-border text-primaryYellow text-2xl lg:text-4xl uppercase font-bold text-center hidden mt-10 lg:block'>
               {inviteText ? tt('title1') : tt('title2')}
             </h3>
@@ -604,134 +534,73 @@ export const Hero: React.FC<THero> = ({
               {inviteText ? inviteText : t('text3')}
             </p>
           </div>
-          <div className='lg:col-span-2 col-span-5 lg:justify-end lg:flex'>
-            {!!infoUser.id ? (
-              <div className='bg-white p-4 flex flex-col gap-5 rounded-[20px] lg:min-w-[400px]'>
-                <h3 className='text-2xl text-primary-blue font-semibold'>{t('text6')}</h3>
-                <div className='flex items-center gap-2 py-2'>
-                  <div className=''>
-                    <ImageFallback
-                      src={infoUser.thumb}
-                      alt={`avtar-${infoUser.id}`}
-                      height={44}
-                      width={44}
-                      className='size-[44px] rounded-full pointer-events-none select-none'
-                    />
-                  </div>
-                  <p className='font-light'>{infoUser?.name}</p>
-                </div>
-
-                <div className='flex flex-col gap-4 '>
-                  <p className='text-[#969696]'>
-                    {isInvite ? 'Dãy số của bạn:' : 'Mã dự thưởng:'}
-                  </p>
-                  {isInvite ? (
-                    <div className='flex flex-col gap-4'>
-                      {!!infoUser?.listNumber?.length ? (
-                        infoUser?.listNumber?.map((listnumber: any, index: number) => (
-                          <div className='flex justify-between gap-4' key={index}>
-                            {listnumber?.map((number: any) => (
-                              <div
-                                className='bg-[#F8F8F8] size-[46px] flex items-center justify-center rounded-full text-primary-blue font-semibold'
-                                key={number}
-                              >
-                                {number}
-                              </div>
-                            ))}
-                          </div>
-                        ))
-                      ) : (
-                        <div className='rounded-[10px] bg-[#F8F8F8] h-[236px] flex items-center justify-center'>
-                          <div className='flex flex-col gap-2 items-center'>
-                            <p className=''>Bạn chưa có dãy số nào</p>
-                            <Button
-                              className='bg-[#FCB713] font-semibold w-fit px-5 py-2'
-                              radius='full'
-                              onPress={() => {
-                                onOpen()
-                              }}
-                            >
-                              Đọc thể lệ
-                            </Button>
-                          </div>
-                        </div>
-                      )}
-                    </div>
-                  ) : (
-                    <div className='bg-[#F8F8F8] text-primary-blue text-4xl px-5 py-3 rounded-[10px]'>
-                      {infoUser?.code}
-                    </div>
-                  )}
-                </div>
-              </div>
-            ) : (
-              <form
-                onSubmit={(e) => _HandleSubmit(e)}
-                className='bg-white p-4 flex flex-col gap-5 rounded-[20px]'
-              >
-                <h5 className='text-primary-blue text-2xl font-semibold'>{t('text6')}</h5>
-                <div className='flex items-center gap-2'>
-                  <Input
-                    value={infoCustomer.phone}
-                    onChange={(e: any) => _HandleChangeValue('phone', e)}
-                    placeholder={th('text1')}
-                    classNames={{
-                      inputWrapper:
-                        'bg-[#F8F8F8] data-[hover=true]:bg-[#F8F8F8] group-data-[focus=true]:bg-[#F8F8F8] h-[44px] pl-[16px] ',
-                      input: 'placeholder:font-light text-[#969696]',
-                    }}
-                  />
-                  <Button
-                    className='bg-primary-blue text-white h-11'
-                    onPress={_HandleOtp}
-                  >
-                    {tf('text3')}
-                  </Button>
-                </div>
-                <div>
-                  <Input
-                    value={infoCustomer.otp}
-                    onChange={(e: any) => _HandleChangeValue('otp', e)}
-                    placeholder={th('text2')}
-                    classNames={{
-                      inputWrapper:
-                        'bg-[#F8F8F8] data-[hover=true]:bg-[#F8F8F8] group-data-[focus=true]:bg-[#F8F8F8] h-[44px] pl-[16px]',
-                      input: 'placeholder:font-light text-[#969696]',
-                    }}
-                  />
-                </div>
-                <div className='border-1 border-[#E1E1E1] rounded-2xl p-4 flex items-center gap-4'>
-                  <Checkbox
-                    isSelected={isSelected}
-                    onValueChange={setIsSelected}
-                    classNames={{
-                      base: 'p-0 pl-2',
-                      icon: 'khang1',
-                      label: 'khang2',
-                      wrapper: 'after:bg-[#FCB713]',
-                    }}
-                  >
+          {!!token && (
+            <div className='lg:col-span-2 col-span-5 lg:justify-end lg:flex'>
+              {onLoading ? (
+                <div className='bg-white p-4 flex flex-col gap-5 rounded-[20px] lg:min-w-[400px] min-h-[300px] animate-pulse' />
+              ) : (
+                <div className='bg-white p-4 flex flex-col gap-5 rounded-[20px] lg:min-w-[400px]'>
+                  <h3 className='text-2xl text-primary-blue font-semibold'>
+                    {t('text6')}
+                  </h3>
+                  <div className='flex items-center gap-2 py-2'>
                     <div className=''>
-                      {tf('text1')}{' '}
-                      <span
-                        className='underline font-semibold cursor-pointer'
-                        onClick={() => onOpen()}
-                      >
-                        {tf('text2')}
-                      </span>
+                      <ImageFallback
+                        src={infoUser.thumb}
+                        alt={`avtar-${infoUser.id}`}
+                        height={44}
+                        width={44}
+                        className='size-[44px] rounded-full pointer-events-none select-none'
+                      />
                     </div>
-                  </Checkbox>
+                    <p className='font-light'>{infoUser?.name}</p>
+                  </div>
+                  <div className='flex flex-col gap-4 '>
+                    <p className='text-[#969696]'>
+                      {isInvite ? 'Dãy số của bạn:' : 'Mã dự thưởng:'}
+                    </p>
+                    {isInvite ? (
+                      <div className='flex flex-col gap-4'>
+                        {!!infoUser?.listNumber?.length ? (
+                          infoUser?.listNumber?.map((listnumber: any, index: number) => (
+                            <div className='flex justify-between gap-4' key={index}>
+                              {listnumber?.map((number: any) => (
+                                <div
+                                  className='bg-[#F8F8F8] size-[46px] flex items-center justify-center rounded-full text-primary-blue font-semibold'
+                                  key={number}
+                                >
+                                  {number}
+                                </div>
+                              ))}
+                            </div>
+                          ))
+                        ) : (
+                          <div className='rounded-[10px] bg-[#F8F8F8] h-[236px] flex items-center justify-center'>
+                            <div className='flex flex-col gap-2 items-center'>
+                              <p className=''>{t('text10')}</p>
+                              <Button
+                                className='bg-[#FCB713] font-semibold w-fit px-5 py-2'
+                                radius='full'
+                                onPress={() => {
+                                  onOpen()
+                                }}
+                              >
+                                {t('text11')}
+                              </Button>
+                            </div>
+                          </div>
+                        )}
+                      </div>
+                    ) : (
+                      <div className='bg-[#F8F8F8] text-primary-blue text-4xl px-5 py-3 rounded-[10px]'>
+                        {infoUser?.code}
+                      </div>
+                    )}
+                  </div>
                 </div>
-                <Button
-                  className='bg-primaryYellow p-4'
-                  onClick={(e) => _HandleSubmit(e)}
-                  type='submit'
-                >
-                  {tf('text4')}
-                </Button>
-              </form>
-            )}
-          </div>
+              )}
+            </div>
+          )}
           <DefaultModal
             isOpen={isOpen}
             onOpenChange={onOpenChange}

@@ -38,8 +38,11 @@
       "text5": "Osoby, które już dołączyły",
       "text6": "Informacje dotyczące udziału",
       "text7": "01 skuter Yamaha PG-1 na każdego zarejestrowanego w każdym miesiącu w losowaniu nagród",
-      "text8": "Wygraj skuter Yamaha PG-1",
-      "text9": "Zasady programu"
+      "text8": "Wygraj skuter Yamaha PG-1.",
+      "text8-1": "Wygraj skuter Wave RSX FI 110.",
+      "text9": "Zasady programu",
+      "text10": "Nie masz jeszcze żadnego numeru.",
+      "text11": "Przeczytaj regulamin"
     },
     "GuidelinesPromotion": {
       "text0": "Nazwa programu promocyjnego",
@@ -86,7 +89,9 @@
       "text27": "Liczba nagród",
       "text28": "1 motocykl Honda Wave RSX FI 110 o wartości 25 000 000 VND",
       "text29": "Co rundę 6 beczek piwa Tiger Srebrnego",
-      "text30": "Co rundę 3 beczki piwa Tiger Srebrnego"
+      "text30": "Co rundę 3 beczki piwa Tiger Srebrnego",
+      "text31": "Okres",
+      "text32": "Dzień"
     },
     "Reward": {
       "title": "Procedura przyznawania nagród:",

@@ -7,7 +7,7 @@ import { useEffect, useState } from 'react'
 import { Button, Input, Popover, PopoverContent, PopoverTrigger } from '@nextui-org/react'
 import { Add, Global, SearchNormal1 } from 'iconsax-react'
 
-import { useGetAllQueryParams } from '@/hook/useGetAllQueryParams'
+import { useGetAllQueryParams } from '@/hooks/useGetAllQueryParams'
 import { normalizeKeyword } from '@/utils'
 import { langs } from '@/constants'
 

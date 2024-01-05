@@ -38,8 +38,11 @@
       "text5": "Piedalījušies",
       "text6": "Dalības informācija",
       "text7": "Katram mēnesim katrs Thō, kas reģistrējas caur sistēmas izlozi, var laimēt 1 Yamaha PG-1 motociklu",
-      "text8": "Laimē Yamaha PG-1 motociklu",
-      "text9": "Akcijas noteikumi"
+      "text8": "Laimē Yamaha PG-1 motociklu.",
+      "text8-1": "Laimē Wave RSX FI 110 motociklu.",
+      "text9": "Akcijas noteikumi",
+      "text10": "Jums nav neviena numura rindas",
+      "text11": "Iepazīsties ar noteikumiem"
     },
     "GuidelinesPromotion": {
       "text0": "Akcijas nosaukums",
@@ -86,7 +89,9 @@
       "text27": "Balvu skaits",
       "text28": "1 Honda Wave RSX FI 110 motocikls vērtībā 25 000 000 VND",
       "text29": "Katru posmu 6 sudraba Tīgara alus kastes",
-      "text30": "Katru posmu 3 sudraba Tīgara alus kastes"
+      "text30": "Katru posmu 3 sudraba Tīgara alus kastes",
+      "text31": "Posms",
+      "text32": "Diena"
     },
     "Reward": {
       "title": "Balvu procedūra:",

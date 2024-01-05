@@ -4,6 +4,8 @@ import React, { useEffect, useState } from 'react'
 
 import WinderList from '../../winners-list'
 import { useLocale } from 'next-intl'
+import { useGetAllQueryParams } from '@/hooks/useGetAllQueryParams'
+import instance from '@/services/axiosConfig'
 
 const WinnerListInvitePage = () => {
   const [onFetching, setOnFetching] = useState(false)
@@ -81,10 +83,11 @@ const WinnerListInvitePage = () => {
   const [dataInviteWinnerList, setDataInviteWinnerList] = useState([{}])
 
   const locale = useLocale()
+  const allQueryParams: any = useGetAllQueryParams()
 
   const _HandleFetching = async () => {
     try {
-      //   const { data } = await instance.get('/promotion/bingo')
+      // const { data } = await instance.get('/promotion/bingo')
       setDataInviteWinnerList(invite)
     } catch (error) {
       console.log(error)
@@ -101,7 +104,7 @@ const WinnerListInvitePage = () => {
     setOnFetching(true)
   }, [])
 
-  return <WinderList data={dataInviteWinnerList} onLoading={onFetching} />
+  return <WinderList data={dataInviteWinnerList} onFetching={onFetching} />
 }
 
 export default WinnerListInvitePage

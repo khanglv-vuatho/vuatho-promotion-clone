@@ -4,9 +4,12 @@ import React, { useEffect, useState } from 'react'
 
 import WinderList from '.'
 import instance from '@/services/axiosConfig'
+import { useGetAllQueryParams } from '@/hooks/useGetAllQueryParams'
 
 const WinnerListPage = () => {
   const [onFetching, setOnFetching] = useState(false)
+  const [dataWinnerList, setDataWinnerList] = useState([{}])
+
   const join = [
     {
       listUserWinners: [
@@ -78,7 +81,8 @@ const WinnerListPage = () => {
       },
     },
   ]
-  const [dataWinnerList, setDataWinnerList] = useState([{}])
+
+  const allQueryParams: any = useGetAllQueryParams()
 
   const _HandleFetching = async () => {
     try {
@@ -99,7 +103,7 @@ const WinnerListPage = () => {
     setOnFetching(true)
   }, [])
 
-  return <WinderList data={dataWinnerList} onLoading={onFetching} />
+  return <WinderList data={dataWinnerList} onFetching={onFetching} />
 }
 
 export default WinnerListPage

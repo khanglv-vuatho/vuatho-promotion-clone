@@ -123,7 +123,7 @@ function InviteRule({
           <p className='!font-semibold'>10. {ti('title')}</p>
           <p>{isInvite ? ti('text1-1') : ti('text1')} </p>
           <ul className='list-inside list-disc'>
-            <li>{ti('text2')}</li>
+            <li>{isInvite ? ti('text2-1') : ti('text2')} </li>
             <li>{ti('text3')}</li>
             <li>{ti('text4')}</li>
           </ul>

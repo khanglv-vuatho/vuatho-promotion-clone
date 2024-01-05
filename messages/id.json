@@ -38,8 +38,11 @@
       "text5": "Orang yang Telah Bergabung",
       "text6": "Informasi Partisipasi",
       "text7": "01 unit sepeda motor Yamaha PG-1 setiap bulan untuk setiap Thợ yang mendaftar melalui putaran hadiah dari sistem",
-      "text8": "Memenangkan Sepeda Motor Yamaha PG-1",
-      "text9": "Pedoman Program"
+      "text8": "Memenangkan Sepeda Motor Yamaha PG-1.",
+      "text8-1": "Memenangkan Sepeda Motor Wave RSX FI 110.",
+      "text9": "Pedoman Program",
+      "text10": "Anda belum memiliki rangkaian nomor apa pun",
+      "text11": "Baca peraturan"
     },
     "GuidelinesPromotion": {
       "text0": "Nama Program Promosi",
@@ -86,7 +89,9 @@
       "text27": "Jumlah Hadiah",
       "text28": "1 sepeda motor Honda Wave RSX FI 110 senilai 25.000.000 VND",
       "text29": "Setiap putaran 6 kotak bir Tiger Silver",
-      "text30": "Setiap putaran 3 kotak bir Tiger Silver"
+      "text30": "Setiap putaran 3 kotak bir Tiger Silver",
+      "text31": "Periode",
+      "text32": "Hari"
     },
     "Reward": {
       "title": "Prosedur Pemberian Hadiah:",

@@ -6,8 +6,11 @@ import { useLocale, useTranslations } from 'next-intl'
 import ImageFallback from '@/components/ImageFallback'
 import { usePathname } from 'next/navigation'
 
-export const WinderList = ({ data, onLoading }: { data: any; onLoading: boolean }) => {
+export const WinderList = ({ data, onFetching }: { data: any; onFetching: boolean }) => {
   const t = useTranslations('Promotion.ProtocolsPromotion')
+
+  const [onLoading, setOnLoading] = useState(true)
+
   const pathName = usePathname()
   const isInvite = pathName.includes('invite')
 
@@ -26,6 +29,10 @@ export const WinderList = ({ data, onLoading }: { data: any; onLoading: boolean 
     },
   ]
 
+  useEffect(() => {
+    !onFetching && setOnLoading(false)
+  }, [onFetching])
+
   return (
     <div className='py-[110px] 3xl:py-[120px] bg-[url("/promotion/bg.png")] bg-cover bg-no-repeat bg-center'>
       <div className='ct-container'>
@@ -33,7 +40,7 @@ export const WinderList = ({ data, onLoading }: { data: any; onLoading: boolean 
           danh sách trúng thưởng
         </h3>
         {onLoading && !!data.length ? (
-          <div className='rounded-[20px] bg-white animate-pulse min-h-[300px]' />
+          <div className='rounded-[20px] bg-white animate-pulse min-h-[300px] mt-5' />
         ) : (
           <div className='mt-5 flex flex-col gap-5'>
             {!!data.length ? (

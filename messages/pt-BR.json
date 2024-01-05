@@ -38,8 +38,11 @@
       "text5": "Pessoas que já participaram",
       "text6": "Informações de participação",
       "text7": "01 scooter Yamaha PG-1 a cada mês para os Mestres registrados através da roleta de prêmios do sistema",
-      "text8": "Ganhe uma scooter Yamaha PG-1",
-      "text9": "Regras do programa"
+      "text8": "Ganhe uma scooter Yamaha PG-1.",
+      "text8-1": "Ganhe uma scooter Wave FI 110.",
+      "text9": "Regras do programa",
+      "text10": "Você ainda não possui nenhum número.",
+      "text11": "Leia as regras."
     },
     "GuidelinesPromotion": {
       "text0": "Nome do programa de promoção",
@@ -86,7 +89,9 @@
       "text27": "Quantidade de Prêmios",
       "text28": "1 motocicleta Honda Wave RSX FI 110 no valor de 25.000.000 VND",
       "text29": "Cada rodada: 6 caixas de cerveja Tiger Silver",
-      "text30": "Cada rodada: 3 caixas de cerveja Tiger Silver"
+      "text30": "Cada rodada: 3 caixas de cerveja Tiger Silver",
+      "text31": "Período",
+      "text32": "Data"
     },
     "Reward": {
       "title": "Procedimentos para Receber Prêmios:",

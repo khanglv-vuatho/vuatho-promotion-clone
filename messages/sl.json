@@ -38,8 +38,11 @@
       "text5": "Udeleženci",
       "text6": "Informacije o sodelovanju",
       "text7": "01 kolo Yamaha PG-1 za vsak mesec mojstrov, ki se prijavijo prek vrtljivega kolesa v sistemu",
-      "text8": "Zmaga z Yamaha PG-1",
-      "text9": "Pravila programa"
+      "text8": "Zmaga z Yamaha PG-1.",
+      "text8-1": "Zmaga z Wave RSX FI 110.",
+      "text9": "Pravila programa",
+      "text10": "Še nimate nobenega zaporedja številk",
+      "text11": "Preberite pravila"
     },
     "GuidelinesPromotion": {
       "text0": "Ime promocijskega programa",
@@ -86,7 +89,9 @@
       "text27": "Število nagrad",
       "text28": "1 kolo Honda Wave RSX FI 110 v vrednosti 25.000.000 VND",
       "text29": "Vsakokrat 6 zabojčkov tiger piva",
-      "text30": "Vsakokrat 3 zabojčki tiger piva"
+      "text30": "Vsakokrat 3 zabojčki tiger piva",
+      "text31": "Obdobje",
+      "text32": "Datum"
     },
     "Reward": {
       "title": "Postopek podeljevanja nagrad:",

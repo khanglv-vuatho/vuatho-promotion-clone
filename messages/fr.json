@@ -39,7 +39,10 @@
       "text6": "Informations de participation",
       "text7": "01 moto Yamaha PG-1 chaque mois pour les artisans inscrits via la roue de la fortune du système",
       "text8": "Gagnez une moto Yamaha PG-1",
-      "text9": "Règles du programme"
+      "text8-1": "Gagnez une moto Wave RSX FI 110.",
+      "text9": "Règles du programme",
+      "text10": "Vous n'avez pas encore de numéro de série",
+      "text11": "Lire le règlement"
     },
     "GuidelinesPromotion": {
       "text0": "Nom du programme promotionnel",
@@ -86,7 +89,9 @@
       "text27": "Quantité de récompenses",
       "text28": "1 moto Honda Wave RSX FI 110 d'une valeur de 25 000 000 VND",
       "text29": "6 caisses de bière Tiger argentée à chaque session",
-      "text30": "3 caisses de bière Tiger argentée à chaque session"
+      "text30": "3 caisses de bière Tiger argentée à chaque session",
+      "text31": "Période",
+      "text32": "Jour"
     },
     "Reward": {
       "title": "Procédure de remise des prix",

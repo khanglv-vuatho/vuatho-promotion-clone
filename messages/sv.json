@@ -38,8 +38,11 @@
       "text5": "Deltagare",
       "text6": "Deltagarinformation",
       "text7": "01 Yamaha PG-1-cykel för varje som registrerar sig genom vinsthjulet från systemet varje månad",
-      "text8": "Vinna en Yamaha PG-1-cykel",
-      "text9": "Programregler"
+      "text8": "Vinna en Yamaha PG-1-cykel.",
+      "text8-1": "Vinna en Wave RSX FI 110-cykel.",
+      "text9": "Programregler",
+      "text10": "Du har inga serienummer än",
+      "text11": "Läs reglerna"
     },
     "GuidelinesPromotion": {
       "text0": "Namn på kampanjprogram",
@@ -86,7 +89,9 @@
       "text27": "Antal priser",
       "text28": "1 Honda Wave RSX FI 110-moped värderad till 25 000 000 VND",
       "text29": "Varje omgång 6 silverfärgade Tiger B-ölbackar",
-      "text30": "Varje omgång 3 silverfärgade Tiger B-ölbackar"
+      "text30": "Varje omgång 3 silverfärgade Tiger B-ölbackar",
+      "text31": "Period",
+      "text32": "Dag"
     },
     "Reward": {
       "title": "Prisutdelningsförfarande:",

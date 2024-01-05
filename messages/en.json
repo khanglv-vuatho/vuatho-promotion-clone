@@ -38,8 +38,11 @@
       "text5": "People who have participated",
       "text6": "Participation Information",
       "text7": "1 Yamaha PG-1 motorcycle every month for Service Provider who register through the lucky draw from the system",
-      "text8": "Win a Yamaha PG-1 motorcycle",
-      "text9": "Program Rules"
+      "text8": "Win a Yamaha PG-1 motorcycle.",
+      "text8-1": "Win a Wave RSX FI 110 motorcycle.",
+      "text9": "Program Rules",
+      "text10": "You haven't entered any numbers yet",
+      "text11": "Read the rules"
     },
     "GuidelinesPromotion": {
       "text0": "Promotion Program Name",
@@ -86,7 +89,9 @@
       "text27": "Number of prizes",
       "text28": "1 Honda Wave RSX FI 110 motorbike valued at 25,000,000 VND per draw",
       "text29": "6 silver Tiger Beer crates per draw",
-      "text30": "3 silver Tiger Beer crates per draw"
+      "text30": "3 silver Tiger Beer crates per draw",
+      "text31": "Batch",
+      "text32": "Date"
     },
     "Reward": {
       "title": "Prize awarding procedure:",
