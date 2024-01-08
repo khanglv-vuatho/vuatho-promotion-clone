@@ -79,7 +79,7 @@ export const Logo = () => {
         alt='Logo nav'
         width={256}
         height={176}
-        className={`pointer-events-none h-[60px] w-auto object-contain rounded-[15px] pointer-events-none select-none overflow-hidden ${
+        className={`h-[60px] w-auto object-contain rounded-[15px] pointer-events-none select-none overflow-hidden ${
           openMenu ? '' : 'shadow-[0px_8px_16px_0px_rgba(0,0,0,0.16)]'
         }`}
       />
