@@ -146,7 +146,8 @@
     "menuPopup": {
       "text1": "Liste des prix",
       "text2": "Site Web Vua Thợ",
-      "text3": "Règlement du programme"
+      "text3": "Règlement du programme",
+      "fanpage": "Page de fan"
     },
     "Toast": {
       "text1": "Veuillez accepter les règles",

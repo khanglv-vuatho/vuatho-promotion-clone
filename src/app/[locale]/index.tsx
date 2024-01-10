@@ -15,6 +15,7 @@ import {
 import { AnimatePresence, motion } from 'framer-motion'
 import {
   Add as AddIcon,
+  Call as CallIcon,
   HambergerMenu,
   Location as LocationIcon,
   Sms as MailIcon,
@@ -166,19 +167,70 @@ const RightHeader = () => {
     { id: 2, title: td('title2'), url: `/${locale}` },
   ]
 
-  type TMenuPopup = { title: string; url: string; id: number }
+  type TMenuPopup = { title: string | React.ReactNode; url: string; id: number }
 
   const menuPopup: TMenuPopup[] = [
     {
       id: 1,
       title: tt('text1'),
-      url: isInvite ? 'invite/winners-list' : 'winners-list',
+      url: isInvite ? `/${locale}/invite/winners-list` : `/${locale}/winners-list`,
     },
     { id: 2, title: tt('text2'), url: 'https://vuatho.com' },
     {
       id: 3,
       title: tt('text3'),
-      url: isInvite ? 'invite/rule' : 'rule',
+      url: isInvite ? `/${locale}/invite/rule` : `/${locale}/rule`,
+    },
+    {
+      id: 4,
+      title: (
+        <div className='flex items-center lg:justify-end gap-2 w-full'>
+          <p className='text-semibold'>{tt('fanpage')} Vua Thợ</p>
+          <div className='hidden lg:block'>
+            <ImageFallback
+              alt='fb'
+              src={'/logo/fb.png'}
+              width={24}
+              height={24}
+              className='size-6 pointer-events-none select-none'
+            />
+          </div>
+        </div>
+      ),
+      url: 'https://zalo.me/622166130485793859',
+    },
+    {
+      id: 5,
+      title: (
+        <div className='flex items-center lg:justify-end gap-2 w-full'>
+          <p className='text-semibold'>Zalo Vua Thợ</p>
+          <div className='hidden lg:block'>
+            <ImageFallback
+              alt='zalo'
+              src={'/logo/zalo.png'}
+              width={24}
+              height={24}
+              className='size-6 pointer-events-none select-none'
+            />
+          </div>
+        </div>
+      ),
+      url: 'https://zalo.me/622166130485793859',
+    },
+    {
+      id: 5,
+      title: (
+        <div className='flex items-center lg:justify-end gap-2 w-full'>
+          <p className='text-semibold'>0912 426 404</p>
+          <div className='hidden lg:block'>
+            <CallIcon
+              variant='Bold'
+              className='size-6 pointer-events-none select-none text-primaryYellow'
+            />
+          </div>
+        </div>
+      ),
+      url: 'https://zalo.me/622166130485793859',
     },
   ]
 
@@ -287,55 +339,14 @@ const RightHeader = () => {
           <PopoverContent>
             <div className='rounded-[20px] bg-white flex flex-col items-end'>
               {menuPopup.map((item) => {
-                if (item.url.includes('http')) {
-                  return (
-                    <div
-                      onClick={() => setIsOpen(false)}
-                      className='w-full p-5 text-end'
-                      key={item.id}
-                    >
-                      <Link href={item.url} target='_blank' rel='noopener noreferrer'>
-                        {item.title}
-                      </Link>
-                    </div>
-                  )
-                } else {
-                  return (
-                    <Link
-                      href={`/${locale}/${item.url}`}
-                      key={item.id}
-                      className='w-full text-end cursor-pointer'
-                    >
-                      <div onClick={() => setIsOpen(false)} className='p-5'>
-                        {item.title}
-                      </div>
-                    </Link>
-                  )
-                }
-              })}
-              <div className='p-5 flex flex-col gap-2 items-end'>
-                <div className='flex items-center justify-between gap-2'>
-                  <p className=''>0912 426 404</p>
-                  <div className=''>
-                    <ImageFallback
-                      alt='zalo'
-                      src={'/logo/zalo.png'}
-                      width={24}
-                      height={24}
-                      className='size-6 pointer-events-none select-none'
-                    />
-                  </div>
-                </div>
-                <div>
-                  <ImageFallback
-                    src={'/promotion/qr-zalo.png'}
-                    alt='qr-zalo'
-                    height={80}
-                    width={80}
-                    className='size-20 pointer-events-none select-none'
+                return (
+                  <LinkItem
+                    key={item.id}
+                    item={item}
+                    handleClick={_HandleCloseMenuMoblie}
                   />
-                </div>
-              </div>
+                )
+              })}
             </div>
           </PopoverContent>
         </Popover>
@@ -367,64 +378,23 @@ const RightHeader = () => {
             {promotions.map((item) => (
               <Link
                 href={`${item.url}`}
-                className='w-full cursor-pointer py-3 text-lg  '
+                className='w-full cursor-pointer py-3 text-lg'
                 key={item.id}
-                onClick={() => dispatch({ type: 'toggle_menu', payload: openMenu })}
+                onClick={_HandleCloseMenuMoblie}
               >
                 {item.title}
               </Link>
             ))}
             <div className='flex flex-col w-full'>
               {menuPopup.map((item) => {
-                if (item.url.includes('http')) {
-                  return (
-                    <div
-                      onClick={_HandleCloseMenuMoblie}
-                      className='w-full py-3 text-lg'
-                      key={item.id}
-                    >
-                      <Link href={item.url} target='_blank' rel='noopener noreferrer'>
-                        {item.title}
-                      </Link>
-                    </div>
-                  )
-                } else {
-                  return (
-                    <Link
-                      href={`/${locale}/${item.url}`}
-                      key={item.id}
-                      className='w-full cursor-pointer'
-                    >
-                      <div onClick={_HandleCloseMenuMoblie} className='py-3 text-lg'>
-                        {item.title}
-                      </div>
-                    </Link>
-                  )
-                }
-              })}
-              <div className='py-3 flex flex-col gap-2'>
-                <div className='flex items-center gap-2'>
-                  <p className='text-lg'>0912 426 404</p>
-                  <div className=''>
-                    <ImageFallback
-                      alt='zalo'
-                      src={'/logo/zalo.png'}
-                      width={24}
-                      height={24}
-                      className='size-6 pointer-events-none select-none'
-                    />
-                  </div>
-                </div>
-                <div className='hidden lg:block'>
-                  <ImageFallback
-                    src={'/promotion/qr-zalo.png'}
-                    alt='qr-zalo'
-                    height={80}
-                    width={80}
-                    className='size-20 pointer-events-none select-none'
+                return (
+                  <LinkItem
+                    key={item.id}
+                    item={item}
+                    handleClick={_HandleCloseMenuMoblie}
                   />
-                </div>
-              </div>
+                )
+              })}
             </div>
             <LangsComp />
           </motion.div>
@@ -524,7 +494,7 @@ export const Hero: React.FC<THero> = ({
 
   return (
     <>
-      <h3 className='ct-text-border text-primaryYellow text-2xl md:text-4xl uppercase font-bold px-2 md:px-0 md:text-center mt-10 md:hidden'>
+      <h3 className='ct-text-border text-primaryYellow text-2xl md:text-4xl uppercase font-bold px-2 md:px-0 md:text-center mt-10 lg:hidden'>
         {inviteText ? tt('title1') : tt('title2')}
       </h3>
       <CustomSlider
@@ -894,5 +864,20 @@ export const CustomSlider = ({
         />
       </div>
     </div>
+  )
+}
+
+const LinkItem = ({ item, handleClick }: { item: any; handleClick: any }) => {
+  return (
+    <Link
+      href={item.url}
+      key={item.id}
+      className='w-full cursor-pointer'
+      target={item.url.includes('http') ? '_blank' : ''}
+      rel='noopener noreferrer'
+      onClick={handleClick}
+    >
+      <div className='py-3 text-lg'>{item.title}</div>
+    </Link>
   )
 }
