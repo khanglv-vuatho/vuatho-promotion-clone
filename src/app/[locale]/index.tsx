@@ -197,7 +197,7 @@ const RightHeader = () => {
           </div>
         </div>
       ),
-      url: 'https://zalo.me/622166130485793859',
+      url: 'https://www.facebook.com/vuathovietnam',
     },
     {
       id: 5,
