@@ -1,15 +1,14 @@
 'use client'
 
 import { useLocale } from 'next-intl'
+import Link from 'next/link'
 import React, { useEffect, useState } from 'react'
+import { useSelector } from 'react-redux'
 
-import { usePathname, useRouter, useSearchParams } from 'next/navigation'
+import { usePathname } from 'next/navigation'
 import { twMerge } from 'tailwind-merge'
 
-import LangsComp from '@/components/LangsComp'
 import ImageFallback from '../ImageFallback'
-import Link from 'next/link'
-import { useSelector } from 'react-redux'
 
 export const HeaderWrapper = ({
   children,

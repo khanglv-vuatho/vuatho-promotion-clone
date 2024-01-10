@@ -83,7 +83,6 @@ const WinnerListInvitePage = () => {
   const [dataInviteWinnerList, setDataInviteWinnerList] = useState([{}])
 
   const locale = useLocale()
-  const allQueryParams: any = useGetAllQueryParams()
 
   const _HandleFetching = async () => {
     try {

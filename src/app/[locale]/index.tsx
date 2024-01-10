@@ -3,11 +3,10 @@
 import { useLocale, useTranslations } from 'next-intl'
 import { usePathname } from 'next/navigation'
 import { useEffect, useState } from 'react'
+import QRCode from 'react-qr-code'
 
 import {
   Button,
-  Checkbox,
-  Input,
   Popover,
   PopoverContent,
   PopoverTrigger,
@@ -15,7 +14,6 @@ import {
 } from '@nextui-org/react'
 import { AnimatePresence, motion } from 'framer-motion'
 import {
-  Add,
   Add as AddIcon,
   HambergerMenu,
   Location as LocationIcon,
@@ -32,13 +30,11 @@ import { HeaderWrapper, Logo } from '@/components/Header'
 import InviteRule from '@/components/InviteRule'
 import LangsComp from '@/components/LangsComp'
 import { DefaultModal } from '@/components/Modal'
-import { ToastComponent } from '@/components/Toast'
-import instance from '@/services/axiosConfig'
-import './promotion.css'
+import { useGetAllQueryParams } from '@/hooks/useGetAllQueryParams'
 import Link from 'next/link'
 import { useDispatch, useSelector } from 'react-redux'
 import { twMerge } from 'tailwind-merge'
-import { useGetAllQueryParams } from '@/hooks/useGetAllQueryParams'
+import './promotion.css'
 
 export const PromotionsHeader = () => {
   return (
@@ -91,23 +87,23 @@ export const PromotionsFooter = () => {
               className='h-[60px] w-[84px] pointer-events-none select-none'
             />
           </div>
-          <p className='font-light text-base-black-1'>{t('text1')}</p>
+          <p className='font-light'>{t('text1')}</p>
         </div>
         <div className='flex flex-col gap-5'>
-          <p className='font-light text-base-black-1'>{t('text2')}</p>
+          <p className='font-light'>{t('text2')}</p>
           <div className='flex w-full items-center justify-between gap-5 md:justify-normal'>
             {socialNetworkList.map((e) => (
               <a rel='noopener' key={e.id} href={e.link} target='_blank' title={e.id}>
                 <div className='flex items-center gap-2'>
                   <span>{e.icon}</span>
-                  <span className='font-light text-base-black-1'>{e.id}</span>
+                  <span className='font-light  '>{e.id}</span>
                 </div>
               </a>
             ))}
           </div>
         </div>
       </div>
-      <div className='col-span-1 flex flex-col gap-[14px] font-light text-base-black-1 lg:col-span-3'>
+      <div className='col-span-1 flex flex-col gap-[14px] font-light   lg:col-span-3'>
         <p className='text-[#969696] '>{t('text3')}</p>
         <div className='flex items-center gap-4'>
           <LocationIcon className='text-primary-blue' variant='Bold' />
@@ -152,9 +148,7 @@ const RightHeader = () => {
       )
       .join('&')
 
-    const finalUrl = queryString !== null ? `?${queryString}` : ''
-
-    return finalUrl
+    return queryString !== null ? `?${queryString}` : ''
   }
 
   type TPromotions = {
@@ -242,6 +236,7 @@ const RightHeader = () => {
   if (isWebView) {
     return null
   }
+
   return (
     <>
       <div className='bg-white rounded-full px-[10px] py-2 lg:flex gap-5 items-center shadow-[0px_8px_16px_0px_rgba(0,0,0,0.16)] hidden'>
@@ -263,6 +258,8 @@ const RightHeader = () => {
         </Link>
         <LangsComp />
       </div>
+
+      {/* menu route */}
       <div className='lg:block hidden'>
         <Popover
           placement='bottom-end'
@@ -343,6 +340,8 @@ const RightHeader = () => {
           </PopoverContent>
         </Popover>
       </div>
+      {/* menu mobile */}
+
       <div
         className='menu-mobile flex items-center gap-4 transition lg:hidden '
         onClick={_HandleToggleMenu}
@@ -368,7 +367,7 @@ const RightHeader = () => {
             {promotions.map((item) => (
               <Link
                 href={`${item.url}`}
-                className='w-full cursor-pointer py-3 text-lg text-base-black-1'
+                className='w-full cursor-pointer py-3 text-lg  '
                 key={item.id}
                 onClick={() => dispatch({ type: 'toggle_menu', payload: openMenu })}
               >
@@ -459,6 +458,10 @@ export const Hero: React.FC<THero> = ({
   const t = useTranslations('Promotion.Hero')
   const tt = useTranslations('Promotion.PromotionsHeader.RightHeader')
 
+  const [onFetching, setOnFetching] = useState(false)
+  const [onLoading, setOnLoading] = useState(true)
+  const [isVisible, setIsVisible] = useState(false)
+
   const { isOpen, onOpenChange, onOpen, onClose } = useDisclosure()
 
   const pathName = usePathname()
@@ -468,11 +471,7 @@ export const Hero: React.FC<THero> = ({
 
   const dispatch = useDispatch()
 
-  const [onFetching, setOnFetching] = useState(false)
-  const [onLoading, setOnLoading] = useState(true)
-
   const infoUser = useSelector((state: any) => state.infoUser)
-  const token = allQueryParams?.token
 
   const isWebView = allQueryParams?.token && allQueryParams?.hideHeaderAndFooter
 
@@ -480,28 +479,29 @@ export const Hero: React.FC<THero> = ({
     try {
       // const { data } = await instance.get('/promotion/info', {
       //   params: {
-      //     token,
+      //     allQueryParams?.token,
       //   },
       // })
-      console.log('123')
 
-      dispatch({
-        type: 'login',
-        payload: {
-          thumb: '/promotion/number1.png',
-          name: 'Lương Vĩ Khang',
-          phone: '0932456789',
-          id: '3',
-          listNumber: [
-            ['12', '31', '45', '21', '42', '44'],
-            ['12', '32', '35', '98', '33', '75'],
-            ['12', '32', '12', '94', '86', '64'],
-          ],
-          code: '123456',
-        },
-      })
+      // dispatch({
+      //   type: 'login',
+      //   payload: {
+      //     thumb: '/promotion/number1.png',
+      //     name: 'Lương Vĩ Khang',
+      //     phone: '0932456789',
+      //     id: '3',
+      //     listNumber: [
+      //       ['12', '31', '45', '21', '42', '44'],
+      //       ['12', '32', '35', '98', '33', '75'],
+      //       ['12', '32', '12', '94', '86', '64'],
+      //     ],
+      //     code: '123456',
+      //   },
+      // })
+      setIsVisible(isWebView)
     } catch (error) {
       console.log(error)
+      setIsVisible(false)
     } finally {
       setOnFetching(false)
       setOnLoading(false)
@@ -512,15 +512,15 @@ export const Hero: React.FC<THero> = ({
     onFetching && _HandleFetching()
   }, [onFetching])
 
+  // check exits token to call api
   useEffect(() => {
-    if (!token) {
-      console.log('465')
+    if (!isWebView) {
       setOnLoading(false)
       return
     }
 
     setOnFetching(true)
-  }, [token])
+  }, [isWebView])
 
   return (
     <>
@@ -534,10 +534,10 @@ export const Hero: React.FC<THero> = ({
         style='md:flex lg:hidden'
       />
       <div className='ct-container flex-col gap-10'>
-        <div className={`${!!isWebView ? 'grid grid-cols-5' : ''}  gap-10 items-center`}>
+        <div className={`${!!isVisible ? 'grid grid-cols-5' : ''}  gap-10 items-center`}>
           <div
             className={`hidden lg:flex lg:col-span-3 px-10 flex-col gap-5 col-span-5 ${
-              !!isWebView ? '' : 'items-center'
+              !!isVisible ? '' : 'items-center'
             }`}
           >
             <h3 className='ct-text-border text-primaryYellow text-2xl lg:text-4xl uppercase font-bold text-center hidden mt-10 lg:block'>
@@ -550,11 +550,11 @@ export const Hero: React.FC<THero> = ({
               height={491}
               className='object-contain pointer-events-none select-none'
             />
-            <p className='text-center text-xl text-base-black-1 font-medium'>
+            <p className='text-center text-xl   font-medium'>
               {inviteText ? inviteText : t('text3')}
             </p>
           </div>
-          {!!isWebView && (
+          {!!isVisible && (
             <div className='lg:col-span-2 col-span-5 lg:justify-end lg:flex'>
               {onLoading ? (
                 <div className='bg-white p-4 flex flex-col gap-5 rounded-[20px] lg:min-w-[400px] min-h-[300px] animate-pulse' />
@@ -636,7 +636,7 @@ export const Hero: React.FC<THero> = ({
                   variant='light'
                   className=' absolute right-[3%] top-[3%] h-[48px] flex-shrink-0 w-[48px] min-w-[unset]'
                 >
-                  <Add className='rotate-45 text-base-black-1 ' size={32} />
+                  <AddIcon className='rotate-45   ' size={32} />
                 </Button>
                 <div className='flex flex-col gap-2 w-[80%] md:w-auto'>
                   <h3 className='text-primary-blue text-lg md:text-2xl font-bold'>
@@ -648,7 +648,7 @@ export const Hero: React.FC<THero> = ({
                   </p>
                 </div>
                 <div className='h-full overflow-auto'>
-                  <InviteRule primaryText='text-base-black-1' />
+                  <InviteRule primaryText=' ' />
                 </div>
               </div>
             }
@@ -662,15 +662,33 @@ export const Hero: React.FC<THero> = ({
 export const ProtocolsPromotion = () => {
   const t = useTranslations('Promotion.ProtocolsPromotion')
   const { isOpen, onOpenChange, onOpen, onClose } = useDisclosure()
+  const [isMobile, setIsMobile] = useState(false)
+
+  useEffect(() => {
+    const handleResize = () => {
+      setIsMobile(window.innerWidth < 768)
+    }
+
+    handleResize()
+
+    window.addEventListener('resize', handleResize)
+
+    return () => {
+      window.removeEventListener('resize', handleResize)
+    }
+  }, [])
+
+  const _HandleOpen = () => {
+    isMobile
+      ? window.open('https://vuatho.com/vi/qrcode-download-app', '_blank')
+      : onOpen()
+  }
 
   const listProtocols = [
     {
       desc: (
         <div className='md:text-xl'>
-          <span
-            className='underline font-semibold cursor-pointer'
-            onClick={() => onOpen()}
-          >
+          <span className='underline font-semibold cursor-pointer' onClick={_HandleOpen}>
             {t('text10')}
           </span>{' '}
           {t('text11')}
@@ -723,7 +741,7 @@ export const ProtocolsPromotion = () => {
         hiddenHeader
         className='max-w-[380px] md:max-w-[685px] p-6 pb-6'
         modalBody={
-          <div className='text-base-black-1 flex flex-col gap-5 relative'>
+          <div className='  flex flex-col gap-5 relative'>
             <Button
               isIconOnly
               radius='full'
@@ -731,7 +749,7 @@ export const ProtocolsPromotion = () => {
               variant='light'
               className=' absolute right-0 top-0 h-[48px] flex-shrink-0 w-[48px] min-w-[unset]'
             >
-              <Add className='rotate-45 text-base-black-1 ' size={32} />
+              <AddIcon className='rotate-45   ' size={32} />
             </Button>
             <h3 className='uppercase text-primary-blue text-2xl md:text-4xl font-semibold'>
               {t('text7')}
@@ -744,15 +762,13 @@ export const ProtocolsPromotion = () => {
                   <IosBtn style={'max-w-none'} />
                 </div>
               </div>
-              <div className='mt-5 md:block hidden'>
+              <div className='md:block hidden'>
                 <p>{t('text9')}</p>
-                <div className='w-full'>
-                  <ImageFallback
-                    src={'/promotion/QR.png'}
-                    alt='QR'
-                    width={326}
-                    height={326}
-                    className='w-full pointer-events-none select-none'
+                <div className='max-w-[250px] max-h-[250px] size-[250px] p-2'>
+                  <QRCode
+                    value='https://vuatho.com/vi/qrcode-download-app'
+                    size={250}
+                    className='max-w-[250px] max-h-[250px] size-[250px]'
                   />
                 </div>
               </div>

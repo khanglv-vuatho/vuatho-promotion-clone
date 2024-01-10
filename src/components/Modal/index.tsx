@@ -68,7 +68,7 @@ export const DefaultModal: React.FC<DefaultModal> = ({
                       variant='light'
                       className='absolute right-[1%] top-[10%] h-[48px] w-[48px] min-w-[unset] cursor-pointer'
                     >
-                      <Add className='rotate-45 text-base-black-1' size={32} />
+                      <Add className='rotate-45  ' size={32} />
                     </Button>
                   )}
                 </ModalHeader>

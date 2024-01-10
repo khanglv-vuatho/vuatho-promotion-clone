@@ -86,7 +86,7 @@ function LangsComp() {
               variant='light'
               className='absolute right-0 top-0 h-[48px] w-[56px]'
             >
-              <Add className='rotate-45 text-base-black-1' size={24} />
+              <Add className='rotate-45  ' size={24} />
             </Button>
             <div className='col-span-1 flex flex-col gap-[8px]'>
               <div className='flex flex-col justify-between gap-[16px]'>

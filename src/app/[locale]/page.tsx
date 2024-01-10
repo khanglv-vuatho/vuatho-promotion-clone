@@ -1,4 +1,5 @@
 import { useTranslations } from 'next-intl'
+
 import { GuidelinesPromotion, Hero, ProtocolsPromotion } from '.'
 
 function Promotion() {
