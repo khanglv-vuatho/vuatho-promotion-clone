@@ -337,7 +337,7 @@ const RightHeader = () => {
             </div>
           </PopoverTrigger>
           <PopoverContent>
-            <div className='rounded-[20px] bg-white flex flex-col items-end'>
+            <div className='rounded-[20px] bg-white py-2 flex flex-col items-end min-w-[240px]'>
               {menuPopup.map((item) => {
                 return (
                   <LinkItem
@@ -495,7 +495,17 @@ export const Hero: React.FC<THero> = ({
   return (
     <>
       <h3 className='ct-text-border text-primaryYellow text-2xl md:text-4xl uppercase font-bold px-2 md:px-0 md:text-center mt-10 lg:hidden'>
-        {inviteText ? tt('title1') : tt('title2')}
+        {inviteText ? (
+          <>
+            <span>{t('text1-1')} - </span>
+            <span>{t('text2-1')}</span>
+          </>
+        ) : (
+          <>
+            <span>{t('text1')} - </span>
+            <span>{t('text2')}</span>
+          </>
+        )}
       </h3>
       <CustomSlider
         thumb1={thumb1}
@@ -511,7 +521,17 @@ export const Hero: React.FC<THero> = ({
             }`}
           >
             <h3 className='ct-text-border text-primaryYellow text-2xl lg:text-4xl uppercase font-bold text-center hidden mt-10 lg:block'>
-              {inviteText ? tt('title1') : tt('title2')}
+              {inviteText ? (
+                <>
+                  <span>{t('text1-1')} - </span>
+                  <span>{t('text2-1')}</span>
+                </>
+              ) : (
+                <>
+                  <span>{t('text1')} - </span>
+                  <span>{t('text2')}</span>
+                </>
+              )}
             </h3>
             <ImageFallback
               src={thumb}
@@ -872,12 +892,12 @@ const LinkItem = ({ item, handleClick }: { item: any; handleClick: any }) => {
     <Link
       href={item.url}
       key={item.id}
-      className='w-full cursor-pointer'
+      className='w-full cursor-pointer text-lg lg:text-base lg:text-right'
       target={item.url.includes('http') ? '_blank' : ''}
       rel='noopener noreferrer'
       onClick={handleClick}
     >
-      <div className='py-3 text-lg'>{item.title}</div>
+      <div className='py-3 lg:pr-4'>{item.title}</div>
     </Link>
   )
 }
