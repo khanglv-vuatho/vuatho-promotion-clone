@@ -1,7 +1,7 @@
 'use client'
 
 import { useRouter } from 'next/navigation'
-import { useEffect } from 'react'
+import { memo, useEffect } from 'react'
 
 const Default = () => {
   const router = useRouter()
@@ -34,4 +34,4 @@ const Default = () => {
   return <div className='pt-[80px]'>Redirecting to Mobile Store...</div>
 }
 
-export default Default
+export default memo(Default)

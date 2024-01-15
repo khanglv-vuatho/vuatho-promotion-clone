@@ -2,7 +2,7 @@
 
 import { useLocale, useTranslations } from 'next-intl'
 import { usePathname } from 'next/navigation'
-import { memo, useEffect, useState } from 'react'
+import { memo, useCallback, useEffect, useState } from 'react'
 import QRCode from 'react-qr-code'
 
 import {
@@ -37,16 +37,16 @@ import { useDispatch, useSelector } from 'react-redux'
 import { twMerge } from 'tailwind-merge'
 import './promotion.css'
 
-export const PromotionsHeader = () => {
+export const PromotionsHeader = memo(() => {
   return (
     <HeaderWrapper>
       <Logo />
       <RightHeader />
     </HeaderWrapper>
   )
-}
+})
 
-export const PromotionsFooter = () => {
+export const PromotionsFooter = memo(() => {
   const t = useTranslations('Promotion.PromotionsHeader')
   const socialNetworkList = [
     {
@@ -79,7 +79,7 @@ export const PromotionsFooter = () => {
     <footer className='ct-container grid grid-cols-1 gap-[40px] py-10 lg:grid-cols-5 lg:py-20 bg-white'>
       <div className='col-span-1 flex flex-col gap-5 lg:col-span-2'>
         <div className='flex flex-col'>
-          <div className=''>
+          <div>
             <ImageFallback
               src={'/logo/textLogo.webp'}
               alt='textLogo.webp'
@@ -108,25 +108,24 @@ export const PromotionsFooter = () => {
         <p className='text-[#969696] '>{t('text3')}</p>
         <div className='flex items-center gap-4'>
           <LocationIcon className='text-primary-blue' variant='Bold' />
-          <span className=''>{t('text4')}</span>
+          <span>{t('text4')}</span>
         </div>
         <div className='flex items-center gap-4'>
           <PhoneIcon className='text-primary-blue' variant='Bold' />
-          <span className=''>0912 426 404</span>
+          <span>0912 426 404</span>
         </div>
         <div className='flex items-center gap-4'>
           <MailIcon className='text-primary-blue' variant='Bold' />
-          <span className=''>admin@vuatho.com</span>
+          <span>admin@vuatho.com</span>
         </div>
       </div>
     </footer>
   )
-}
+})
 
-const RightHeader = () => {
+const RightHeader = memo(() => {
   const td = useTranslations('Promotion.PromotionsHeader.RightHeader')
   const tt = useTranslations('Promotion.menuPopup')
-  const t = useTranslations('Promotion.Hero')
 
   const locale = useLocale()
   const allQueryParams: any = useGetAllQueryParams()
@@ -142,7 +141,7 @@ const RightHeader = () => {
 
   const isInvite = pathName.includes('invite')
 
-  const _handleCheckWebView = () => {
+  const _handleCheckWebView = useCallback(() => {
     const queryString = Object.keys(allQueryParams)
       .map(
         (key) => `${encodeURIComponent(key)}=${encodeURIComponent(allQueryParams[key])}`,
@@ -150,7 +149,7 @@ const RightHeader = () => {
       .join('&')
 
     return queryString !== null ? `?${queryString}` : ''
-  }
+  }, [allQueryParams])
 
   type TPromotions = {
     id: number
@@ -254,23 +253,23 @@ const RightHeader = () => {
     },
   }
 
-  const _HandleToggleMenu = () => {
+  const _HandleToggleMenu = useCallback(() => {
     dispatch({ type: 'toggle_menu', payload: openMenu })
-  }
+  }, [openMenu, dispatch])
 
-  const _HandleScroll = () => {
+  const HandleCloseMenuMoblie = useCallback(() => {
     setIsOpen(false)
-  }
+  }, [])
 
-  const _HandleCloseMenuMoblie = () => {
-    setIsOpen(false)
-  }
+  const handleOpen = useCallback((open: any) => {
+    setIsOpen(open)
+  }, [])
 
   useEffect(() => {
-    window.addEventListener('scroll', _HandleScroll)
+    window.addEventListener('scroll', HandleCloseMenuMoblie)
 
     return () => {
-      window.removeEventListener('scroll', _HandleScroll)
+      window.removeEventListener('scroll', HandleCloseMenuMoblie)
     }
   }, [])
 
@@ -291,79 +290,18 @@ const RightHeader = () => {
 
   return (
     <>
-      <div className='bg-white rounded-full px-[10px] py-2 lg:flex gap-5 items-center shadow-[0px_8px_16px_0px_rgba(0,0,0,0.16)] hidden'>
-        <Link
-          href={`/${locale}${_handleCheckWebView()}`}
-          className={`${
-            !isInvite ? 'bg-primary-yellow' : 'bg-[#F8F8F8]'
-          } px-5 py-2 rounded-full flex items-center justify-center font-semibold`}
-        >
-          {t('text1')}
-        </Link>
-        <Link
-          href={`/${locale}/invite${_handleCheckWebView()}`}
-          className={`${
-            isInvite ? 'bg-primary-yellow' : 'bg-[#F8F8F8]'
-          } px-5 py-2 rounded-full flex items-center justify-center font-semibold`}
-        >
-          {t('text1-1')}
-        </Link>
-        <LangsComp />
-      </div>
-
+      <HeaderCenter />
       {/* menu route */}
-      <div className='lg:block hidden'>
-        <Popover
-          placement='bottom-end'
-          isOpen={isOpen}
-          onOpenChange={(open: any) => setIsOpen(open)}
-          classNames={{
-            content: 'rounded-[20px] p-0',
-          }}
-        >
-          <PopoverTrigger>
-            <div className='size-[60px] rounded-full bg-white flex items-center justify-center shadow-[0px_8px_16px_0px_rgba(0,0,0,0.16)] cursor-pointer'>
-              {!!infoUser.id ? (
-                <ImageFallback
-                  src={infoUser.thumb}
-                  alt={`avatar-${infoUser.name}`}
-                  height={58}
-                  width={58}
-                  className='size-[90%] rounded-full pointer-events-none select-none'
-                />
-              ) : (
-                <HambergerMenu />
-              )}
-            </div>
-          </PopoverTrigger>
-          <PopoverContent>
-            <div className='rounded-[20px] bg-white py-2 flex flex-col items-end min-w-[240px]'>
-              {menuPopup.map((item) => {
-                return (
-                  <LinkItem
-                    key={item.id}
-                    item={item}
-                    handleClick={_HandleCloseMenuMoblie}
-                  />
-                )
-              })}
-            </div>
-          </PopoverContent>
-        </Popover>
-      </div>
+      <MenuOptions infoUser={infoUser} menuPopup={menuPopup} />
       {/* menu mobile */}
-
       <div
         className='menu-mobile flex items-center gap-4 transition lg:hidden '
         onClick={_HandleToggleMenu}
       >
-        <>{infoUser ? '' : ''}</>
         {openMenu ? (
           <AddIcon size={32} className='rotate-45 cursor-pointer text-text transition' />
         ) : (
-          <div className='flex items-center gap-2 md:gap-5'>
-            <MenuIcon size={32} className='cursor-pointer text-white transition' />
-          </div>
+          <MenuIcon size={32} className='cursor-pointer text-white transition' />
         )}
       </div>
       <AnimatePresence>
@@ -380,7 +318,7 @@ const RightHeader = () => {
                 href={`${item.url}`}
                 className='w-full cursor-pointer py-3 text-lg'
                 key={item.id}
-                onClick={_HandleCloseMenuMoblie}
+                onClick={HandleCloseMenuMoblie}
               >
                 {item.title}
               </Link>
@@ -391,7 +329,7 @@ const RightHeader = () => {
                   <LinkItem
                     key={item.id}
                     item={item}
-                    handleClick={_HandleCloseMenuMoblie}
+                    handleClick={HandleCloseMenuMoblie}
                   />
                 )
               })}
@@ -402,7 +340,50 @@ const RightHeader = () => {
       </AnimatePresence>
     </>
   )
-}
+})
+
+const HeaderCenter = memo(() => {
+  const t = useTranslations('Promotion.Hero')
+
+  const locale = useLocale()
+
+  const pathName = usePathname()
+  const isInvite = pathName.includes('invite')
+
+  const allQueryParams: any = useGetAllQueryParams()
+
+  const _handleCheckWebView = useCallback(() => {
+    const queryString = Object.keys(allQueryParams)
+      .map(
+        (key) => `${encodeURIComponent(key)}=${encodeURIComponent(allQueryParams[key])}`,
+      )
+      .join('&')
+
+    return queryString !== null ? `?${queryString}` : ''
+  }, [allQueryParams])
+
+  return (
+    <div className='bg-white rounded-full px-[10px] py-2 lg:flex gap-5 items-center shadow-[0px_8px_16px_0px_rgba(0,0,0,0.16)] hidden'>
+      <Link
+        href={`/${locale}${_handleCheckWebView()}`}
+        className={`${
+          !isInvite ? 'bg-primary-yellow' : 'bg-[#F8F8F8]'
+        } px-5 py-2 rounded-full flex items-center justify-center font-semibold`}
+      >
+        {t('text1')}
+      </Link>
+      <Link
+        href={`/${locale}/invite${_handleCheckWebView()}`}
+        className={`${
+          isInvite ? 'bg-primary-yellow' : 'bg-[#F8F8F8]'
+        } px-5 py-2 rounded-full flex items-center justify-center font-semibold`}
+      >
+        {t('text1-1')}
+      </Link>
+      <LangsComp />
+    </div>
+  )
+})
 
 type THero = {
   thumb: string
@@ -526,13 +507,19 @@ export const Hero: React.FC<THero> = memo(
                   </>
                 )}
               </h3>
-              <ImageFallback
-                src={thumb}
-                alt=''
-                width={773}
-                height={491}
-                className='object-contain pointer-events-none select-none'
-              />
+              <motion.div
+                initial={{ y: 100, opacity: 0 }}
+                animate={{ y: 0, opacity: 1 }}
+                transition={{ duration: 0.2, delay: 0.1 }}
+              >
+                <ImageFallback
+                  src={thumb}
+                  alt=''
+                  width={773}
+                  height={491}
+                  className='object-contain pointer-events-none select-none'
+                />
+              </motion.div>
               <p className='text-center text-xl   font-medium'>
                 {inviteText ? inviteText : t('text3')}
               </p>
@@ -547,7 +534,7 @@ export const Hero: React.FC<THero> = memo(
                       {t('text6')}
                     </h3>
                     <div className='flex items-center gap-2 py-2'>
-                      <div className=''>
+                      <div>
                         <ImageFallback
                           src={infoUser.thumb}
                           alt={`avtar-${infoUser.id}`}
@@ -582,7 +569,7 @@ export const Hero: React.FC<THero> = memo(
                           ) : (
                             <div className='rounded-[10px] bg-[#F8F8F8] h-[236px] flex items-center justify-center'>
                               <div className='flex flex-col gap-2 items-center'>
-                                <p className=''>{t('text10')}</p>
+                                <p>{t('text10')}</p>
                                 <Button
                                   className='bg-[#FCB713] font-semibold w-fit px-5 py-2'
                                   radius='full'
@@ -611,7 +598,6 @@ export const Hero: React.FC<THero> = memo(
               onOpenChange={onOpenChange}
               hiddenHeader
               hiddenCloseBtn
-              className=''
               modalBody={
                 <div className='flex flex-col rounded-[20px] gap-4 md:gap-10 p-4 md:p-10 relative h-[80dvh]'>
                   <Button
@@ -664,11 +650,11 @@ export const ProtocolsPromotion = memo(() => {
     }
   }, [])
 
-  const _HandleOpen = () => {
+  const _HandleOpen = useCallback(() => {
     isMobile
       ? window.open('https://vuatho.com/vi/qrcode-download-app', '_blank')
       : onOpen()
-  }
+  }, [isMobile, onOpen])
 
   const listProtocols = [
     {
@@ -699,7 +685,11 @@ export const ProtocolsPromotion = memo(() => {
       </h4>
       <div className='grid grid-cols-1 md:grid-cols-3 gap-5'>
         {listProtocols.map((item, index) => (
-          <div
+          <motion.div
+            initial={{ x: 100 * (index + 1), opacity: 0 }}
+            whileInView={{ x: 0, opacity: 1 }}
+            transition={{ duration: 0.3, delay: 0.5 + (index + 1) * 0.1 }}
+            viewport={{ once: true }}
             className='rounded-[20px] p-5 bg-white flex flex-col gap-4 md:gap-10'
             key={index}
           >
@@ -709,7 +699,7 @@ export const ProtocolsPromotion = memo(() => {
               </h5>
               {item.desc}
             </div>
-            <div className=''>
+            <div>
               <ImageFallback
                 src={`/promotion/${item.thumb}`}
                 alt='ProtocolsPromotion1'
@@ -718,7 +708,7 @@ export const ProtocolsPromotion = memo(() => {
                 className='w-full pointer-events-none select-none'
               />
             </div>
-          </div>
+          </motion.div>
         ))}
       </div>
       <DefaultModal
@@ -742,7 +732,7 @@ export const ProtocolsPromotion = memo(() => {
               {t('text7')}
             </h3>
             <div className='grid grid-cols-1 md:grid-cols-2 gap-10'>
-              <div className=''>
+              <div>
                 <p className='text-lg'>{t('text8')}</p>
                 <div className='flex  gap-4 flex-col mt-2'>
                   <AndroidBtn style={'max-w-none'} />
@@ -778,15 +768,21 @@ export const GuidelinesPromotion = memo(() => {
       <h3 className='ct-text-border text-primary-blue uppercase text-2xl md:text-4xl font-bold'>
         {t('text14')}
       </h3>
-      <div className='flex justify-between items-center md:flex-row flex-col gap-10'>
+      <motion.div
+        initial={{ y: 100, opacity: 0 }}
+        whileInView={{ y: 0, opacity: 1 }}
+        transition={{ duration: 0.3, delay: 0.1 }}
+        viewport={{ once: true }}
+        className='flex justify-between items-center md:flex-row flex-col gap-10'
+      >
         <div className='flex flex-col gap-10 order-2 md:order-1'>
           <div className='bg-white p-2 md:p-5 flex flex-col gap-2 items-center rounded-[10px]'>
             <h4 className='font-bold text-xl md:text-3xl text-primary-blue'>
               {t('text15')}
             </h4>
-            <p className=''>{t('text16')}</p>
+            <p>{t('text16')}</p>
           </div>
-          <div className=''>
+          <div>
             <ImageFallback
               src={'/promotion/number2.png'}
               alt=''
@@ -801,9 +797,9 @@ export const GuidelinesPromotion = memo(() => {
             <h4 className='font-bold text-xl md:text-3xl text-primaryYellow'>
               {t('text17')}
             </h4>
-            <p className=''>{isInvite ? t('text18-1') : t('text18')}</p>
+            <p>{isInvite ? t('text18-1') : t('text18')}</p>
           </div>
-          <div className=''>
+          <div>
             <ImageFallback
               src={isInvite ? '/promotion/invite-number1.png' : '/promotion/number1.png'}
               alt=''
@@ -818,9 +814,9 @@ export const GuidelinesPromotion = memo(() => {
             <h4 className='font-bold text-xl md:text-3xl text-[#FF9D76]'>
               {t('text19')}
             </h4>
-            <p className=''>{t('text20')}</p>
+            <p>{t('text20')}</p>
           </div>
-          <div className=''>
+          <div>
             <ImageFallback
               src={'/promotion/number3.png'}
               alt=''
@@ -830,7 +826,7 @@ export const GuidelinesPromotion = memo(() => {
             />
           </div>
         </div>
-      </div>
+      </motion.div>
     </div>
   )
 })
@@ -847,8 +843,6 @@ export const CustomSlider = memo(
     thumb3: string
     style?: string
   }) => {
-    console.log('render')
-
     return (
       <div
         className={twMerge(
@@ -900,5 +894,63 @@ const LinkItem = memo(({ item, handleClick }: { item: any; handleClick: any }) =
     >
       <div className='py-3 lg:pr-4'>{item.title}</div>
     </Link>
+  )
+})
+
+const MenuOptions = memo(({ infoUser, menuPopup }: { infoUser: any; menuPopup: any }) => {
+  const [isOpen, setIsOpen] = useState(false)
+
+  const HandleCloseMenuMoblie = useCallback(() => {
+    setIsOpen(false)
+  }, [])
+
+  const handleOpen = useCallback((open: any) => {
+    setIsOpen(open)
+  }, [])
+
+  useEffect(() => {
+    window.addEventListener('scroll', HandleCloseMenuMoblie)
+
+    return () => {
+      window.removeEventListener('scroll', HandleCloseMenuMoblie)
+    }
+  }, [])
+
+  return (
+    <div className='lg:block hidden'>
+      <Popover
+        placement='bottom-end'
+        isOpen={isOpen}
+        onOpenChange={handleOpen}
+        classNames={{
+          content: 'rounded-[20px] p-0',
+        }}
+      >
+        <PopoverTrigger>
+          <div className='size-[60px] rounded-full bg-white flex items-center justify-center shadow-[0px_8px_16px_0px_rgba(0,0,0,0.16)] cursor-pointer'>
+            {!!infoUser.id ? (
+              <ImageFallback
+                src={infoUser.thumb}
+                alt={`avatar-${infoUser.name}`}
+                height={58}
+                width={58}
+                className='size-[90%] rounded-full pointer-events-none select-none'
+              />
+            ) : (
+              <HambergerMenu />
+            )}
+          </div>
+        </PopoverTrigger>
+        <PopoverContent>
+          <div className='rounded-[20px] bg-white py-2 flex flex-col items-end min-w-[240px]'>
+            {menuPopup.map((item: any) => {
+              return (
+                <LinkItem key={item.id} item={item} handleClick={HandleCloseMenuMoblie} />
+              )
+            })}
+          </div>
+        </PopoverContent>
+      </Popover>
+    </div>
   )
 })

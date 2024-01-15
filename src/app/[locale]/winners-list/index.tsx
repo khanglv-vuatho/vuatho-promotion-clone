@@ -1,5 +1,6 @@
 'use client'
 
+import { motion } from 'framer-motion'
 import { memo, useEffect, useState } from 'react'
 import { useTranslations } from 'next-intl'
 import { usePathname } from 'next/navigation'
@@ -45,8 +46,11 @@ export const WinderList = ({ data, onFetching }: { data: any; onFetching: boolea
         ) : (
           <div className='mt-5 flex flex-col gap-5'>
             {!!data.length ? (
-              data?.map((item: any) => (
-                <div
+              data?.map((item: any, index: number) => (
+                <motion.div
+                  initial={{ y: 100 * (index + 1), opacity: 0 }}
+                  animate={{ y: 0, opacity: 1 }}
+                  transition={{ duration: 0.3, delay: 0.5 + (index + 1) * 0.1 }}
                   key={item?.time?.public_at}
                   className='rounded-[20px] bg-white p-5 flex flex-col gap-5 min-h-[300px] max-w-[400px] min-w-[90%] md:min-w-full md:max-w-none mx-auto'
                 >
@@ -86,7 +90,7 @@ export const WinderList = ({ data, onFetching }: { data: any; onFetching: boolea
                             ))
                           ) : (
                             <div className='w-full py-3 text-xl bg-primaryYellow text-center rounded-full md:max-w-[70%] mx-auto'>
-                              0986
+                              <p>{item?.bingo}</p>
                             </div>
                           )}
                         </div>
@@ -107,7 +111,7 @@ export const WinderList = ({ data, onFetching }: { data: any; onFetching: boolea
                       </div>
                     ))}
                   </div>
-                </div>
+                </motion.div>
               ))
             ) : (
               <div className='rounded-[20px] bg-white animate-pulse min-h-[300px]' />

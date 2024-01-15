@@ -1,5 +1,6 @@
 'use client'
 
+import { memo } from 'react'
 import { BodyRule } from '../../rule'
 
 function Rule() {
@@ -10,4 +11,4 @@ function Rule() {
   )
 }
 
-export default Rule
+export default memo(Rule)

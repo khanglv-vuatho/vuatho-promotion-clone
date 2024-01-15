@@ -15,17 +15,17 @@ const WinnerListPage = () => {
         {
           rank: 1,
           name: 'Lâm Hoài Bảo',
-          bingo: ['42', '12', '23', '45', '44', '63'],
+          bingo: '0123',
         },
         {
           rank: 2,
-          name: 'Trần Tấn Tính',
-          bingo: ['12', '45', '11', '54', '42', '54'],
+          name: 'Trần',
+          bingo: '3213',
         },
         {
           rank: 3,
-          name: 'Nguyễn Trà Thanh Huy',
-          bingo: ['63', '54', '12', '65', '23', '45'],
+          name: 'Nguyễn Trà ',
+          bingo: '4231',
         },
       ],
       time: {
@@ -37,18 +37,18 @@ const WinnerListPage = () => {
       listUserWinners: [
         {
           rank: 1,
-          name: 'Lâm Hoài Bảo',
-          bingo: ['42', '12', '23', '45', '44', '63'],
+          name: ' Hoài Bảo',
+          bingo: '1235',
         },
         {
           rank: 2,
-          name: 'Trần Tấn Tính',
-          bingo: ['12', '45', '11', '54', '42', '54'],
+          name: 'Tính',
+          bingo: '6453',
         },
         {
           rank: 3,
-          name: 'Nguyễn Trà Thanh Huy',
-          bingo: ['63', '54', '12', '65', '23', '45'],
+          name: 'Nguyễn Tranh Huy',
+          bingo: '6531',
         },
       ],
       time: {
@@ -60,18 +60,18 @@ const WinnerListPage = () => {
       listUserWinners: [
         {
           rank: 1,
-          name: 'Lâm Hoài Bảo',
-          bingo: ['42', '12', '23', '45', '44', '63'],
+          name: 'Lâm  Bảo',
+          bingo: '5231',
         },
         {
           rank: 2,
-          name: 'Trần Tấn Tính',
-          bingo: ['12', '45', '11', '54', '42', '54'],
+          name: 'Trần Tấn',
+          bingo: '8776',
         },
         {
           rank: 3,
-          name: 'Nguyễn Trà Thanh Huy',
-          bingo: ['63', '54', '12', '65', '23', '45'],
+          name: 'Nguyễn Trà Tuy',
+          bingo: '4521',
         },
       ],
       time: {

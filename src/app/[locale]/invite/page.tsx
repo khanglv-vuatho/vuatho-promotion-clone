@@ -1,5 +1,8 @@
+'use client'
+
 import { useTranslations } from 'next-intl'
 import { GuidelinesPromotion, Hero, ProtocolsPromotion } from '..'
+import { memo } from 'react'
 
 function InviteServiceProviders() {
   const t = useTranslations('Promotion.Hero')
@@ -18,4 +21,4 @@ function InviteServiceProviders() {
   )
 }
 
-export default InviteServiceProviders
+export default memo(InviteServiceProviders)

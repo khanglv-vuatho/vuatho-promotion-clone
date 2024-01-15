@@ -1,8 +1,11 @@
+'use client'
+
 import { Apple as AppleIcon, GooglePlay as GooglePlayIcon } from 'iconsax-react'
 import { useTranslations } from 'next-intl'
+import { memo } from 'react'
 import { twMerge } from 'tailwind-merge'
 
-export const AndroidBtn: React.FC<{ style?: any }> = ({ style }) => {
+export const AndroidBtn: React.FC<{ style?: any }> = memo(({ style }) => {
   const t = useTranslations('Download')
 
   return (
@@ -23,9 +26,9 @@ export const AndroidBtn: React.FC<{ style?: any }> = ({ style }) => {
       <div className='absolute -right-1/2 top-0 h-full w-1/2 -skew-x-[30deg] bg-white/10 transition group-hover:-translate-x-1/2' />
     </a>
   )
-}
+})
 
-export const IosBtn: React.FC<{ style?: any }> = ({ style }) => {
+export const IosBtn: React.FC<{ style?: any }> = memo(({ style }) => {
   const t = useTranslations('Download')
 
   return (
@@ -46,4 +49,4 @@ export const IosBtn: React.FC<{ style?: any }> = ({ style }) => {
       <div className='absolute -right-1/2 top-0 h-full w-1/2 -skew-x-[30deg] bg-white/10 transition group-hover:-translate-x-1/2' />
     </a>
   )
-}
+})

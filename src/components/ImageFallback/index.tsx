@@ -37,6 +37,4 @@ const ImageFallback = forwardRef(
   },
 )
 
-ImageFallback.displayName = 'Image'
-
 export default ImageFallback

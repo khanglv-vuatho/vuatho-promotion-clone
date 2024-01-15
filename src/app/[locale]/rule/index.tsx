@@ -52,7 +52,7 @@ export const Step6 = () => {
   return (
     <div className='mt-10 border-1 border-[#0D6DDE] rounded-xl overflow-hidden divide-y-1 divide-[#0D6DDE] hidden md:block'>
       <div className='grid grid-cols-3 overflow-hidden *:text-primary-blue *:p-4 text-center bg-gradient-to-r from-[#F4BF2B] via-[#FFF07B] to-[#FFF27E] divide-x-1 divide-[#0D6DDE]'>
-        <div className=''>
+        <div>
           <p className='font-bold text-xl uppercase'>{t('text25')}</p>
         </div>
         <div className='font-bold text-xl uppercase'>
@@ -64,8 +64,8 @@ export const Step6 = () => {
       </div>
       <div className='grid grid-cols-3 text-center divide-x-1 divide-[#0D6DDE] *:bg-white *:text-primary-blue *:font-bold '>
         <div className='divide-y-1 divide-[#0D6DDE] *:h-1/3 *:flex *:gap-3 *:justify-center *:items-center *:p-4'>
-          <div className=''>
-            <div className=''>
+          <div>
+            <div>
               <ImageFallback
                 src='/promotion/rank1.png'
                 alt='rank1'
@@ -76,8 +76,8 @@ export const Step6 = () => {
             </div>
             <p>{t('text17')}</p>
           </div>
-          <div className=''>
-            <div className=''>
+          <div>
+            <div>
               <ImageFallback
                 src='/promotion/rank2.png'
                 alt='rank2'
@@ -89,7 +89,7 @@ export const Step6 = () => {
             <p>{t('text15')}</p>
           </div>
           <div className='rounded-bl-xl'>
-            <div className=''>
+            <div>
               <ImageFallback
                 src='/promotion/rank3.png'
                 alt='rank3'
@@ -102,21 +102,21 @@ export const Step6 = () => {
           </div>
         </div>
         <div className='divide-y-1 divide-[#0D6DDE] *:h-1/3 *:flex *:gap-3 *:justify-center *:items-center *:p-4'>
-          <div className=''>
+          <div>
             <p>{isInvite ? t('text28-1') : t('text28')}</p>
           </div>
-          <div className=''>
+          <div>
             <p>{t('text29')}</p>
           </div>
-          <div className=''>
+          <div>
             <p>{t('text30')}</p>
           </div>
         </div>
         <div className='divide-y-1 divide-[#0D6DDE] *:h-1/3 *:flex *:gap-3 *:justify-center *:items-center *:p-4'>
-          <div className=''>
+          <div>
             <p>{t('text23')}</p>
           </div>
-          <div className=''>
+          <div>
             <p>{t('text24')}</p>
           </div>
           <div className='rounded-br-xl'>

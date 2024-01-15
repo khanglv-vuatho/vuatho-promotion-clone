@@ -2,7 +2,7 @@
 
 import { useLocale, useTranslations } from 'next-intl'
 import { usePathname, useRouter } from 'next/navigation'
-import { useEffect, useState } from 'react'
+import { memo, useEffect, useState } from 'react'
 
 import { Button, Input, Popover, PopoverContent, PopoverTrigger } from '@nextui-org/react'
 import { Add, Global, SearchNormal1 } from 'iconsax-react'
@@ -187,4 +187,4 @@ function LangsComp() {
   )
 }
 
-export default LangsComp
+export default memo(LangsComp)

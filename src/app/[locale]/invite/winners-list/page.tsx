@@ -36,17 +36,17 @@ const WinnerListInvitePage = () => {
       listUserWinners: [
         {
           rank: 1,
-          name: 'Lâm Hoài Bảo',
+          name: 'Lâm  Bảo',
           bingo: ['42', '12', '23', '45', '44', '63'],
         },
         {
           rank: 2,
-          name: 'Trần Tấn Tính',
+          name: 'Trần Tấn ',
           bingo: ['12', '45', '11', '54', '42', '54'],
         },
         {
           rank: 3,
-          name: 'Nguyễn Trà Thanh Huy',
+          name: 'Nguyễn Huy',
           bingo: ['63', '54', '12', '65', '23', '45'],
         },
       ],
@@ -59,17 +59,17 @@ const WinnerListInvitePage = () => {
       listUserWinners: [
         {
           rank: 1,
-          name: 'Lâm Hoài Bảo',
+          name: 'Lâm',
           bingo: ['42', '12', '23', '45', '44', '63'],
         },
         {
           rank: 2,
-          name: 'Trần Tấn Tính',
+          name: 'Tính',
           bingo: ['12', '45', '11', '54', '42', '54'],
         },
         {
           rank: 3,
-          name: 'Nguyễn Trà Thanh Huy',
+          name: 'Nguyễn',
           bingo: ['63', '54', '12', '65', '23', '45'],
         },
       ],

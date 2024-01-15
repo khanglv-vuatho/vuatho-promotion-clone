@@ -2,7 +2,7 @@
 
 import { useLocale } from 'next-intl'
 import Link from 'next/link'
-import React, { useEffect, useState } from 'react'
+import { memo, useEffect, useState } from 'react'
 import { useSelector } from 'react-redux'
 
 import { usePathname } from 'next/navigation'
@@ -10,59 +10,55 @@ import { twMerge } from 'tailwind-merge'
 
 import ImageFallback from '../ImageFallback'
 
-export const HeaderWrapper = ({
-  children,
-  style,
-}: {
-  children: React.ReactNode
-  style?: string
-}) => {
-  const openMenu = useSelector((state: any) => state.openMenu)
+export const HeaderWrapper = memo(
+  ({ children, style }: { children: React.ReactNode; style?: string }) => {
+    const openMenu = useSelector((state: any) => state.openMenu)
 
-  const [isHeaderVisible, setHeaderVisible] = useState(true)
+    const [isHeaderVisible, setHeaderVisible] = useState(true)
 
-  useEffect(() => {
-    let prevScrollPos = window.scrollY
-    const handleScroll = () => {
-      const currentScrollPos = window.scrollY
+    useEffect(() => {
+      let prevScrollPos = window.scrollY
+      const handleScroll = () => {
+        const currentScrollPos = window.scrollY
 
-      if (currentScrollPos > prevScrollPos && currentScrollPos > 60) {
-        setHeaderVisible(false)
-      } else {
-        setHeaderVisible(true)
+        if (currentScrollPos > prevScrollPos && currentScrollPos > 60) {
+          setHeaderVisible(false)
+        } else {
+          setHeaderVisible(true)
+        }
+        prevScrollPos = currentScrollPos
       }
-      prevScrollPos = currentScrollPos
-    }
 
-    window.addEventListener('scroll', handleScroll)
+      window.addEventListener('scroll', handleScroll)
 
-    return () => {
-      window.removeEventListener('scroll', handleScroll)
-    }
-  }, [])
+      return () => {
+        window.removeEventListener('scroll', handleScroll)
+      }
+    }, [])
 
-  return (
-    <header
-      id='header'
-      className={`header fixed left-0 right-0 z-[11] w-full transition ${
-        isHeaderVisible ? 'translate-y-0' : '-translate-y-[100%]'
-      }`}
-    >
-      <div
-        className={twMerge(
-          `ct-container flex h-[70px] items-center justify-between 3xl:h-[80px] ${
-            openMenu ? 'bg-white' : 'transition'
-          }`,
-          style,
-        )}
+    return (
+      <header
+        id='header'
+        className={`header fixed left-0 right-0 z-[11] w-full transition ${
+          isHeaderVisible ? 'translate-y-0' : '-translate-y-[100%]'
+        }`}
       >
-        {children}
-      </div>
-    </header>
-  )
-}
+        <div
+          className={twMerge(
+            `ct-container flex h-[70px] items-center justify-between 3xl:h-[80px] ${
+              openMenu ? 'bg-white' : 'transition'
+            }`,
+            style,
+          )}
+        >
+          {children}
+        </div>
+      </header>
+    )
+  },
+)
 
-export const Logo = () => {
+export const Logo = memo(() => {
   const openMenu = useSelector((state: any) => state.openMenu)
 
   const locale = useLocale()
@@ -84,4 +80,4 @@ export const Logo = () => {
       />
     </Link>
   )
-}
+})

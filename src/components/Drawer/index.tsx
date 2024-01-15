@@ -1,9 +1,10 @@
-import React, { useEffect, useState } from 'react'
+'use client'
+
+import React, { memo, useEffect } from 'react'
 
 import { Add as AddIcon } from 'iconsax-react'
 //@ts-ignore
 import { Button } from '@nextui-org/react'
-import Image from 'next/image'
 
 type DrawerType = {
   isOpen: boolean
@@ -56,9 +57,9 @@ const Drawer: React.FC<DrawerType> = ({
           <AddIcon className='rotate-45 text-white' />
         </Button>
       </div>
-      <div className=''>{children}</div>
+      <div>{children}</div>
     </div>
   )
 }
 
-export default Drawer
+export default memo(Drawer)
