@@ -167,5 +167,9 @@
       "text3": "Odeslat kód",
       "text4": "Přihlásit se"
     }
+  },
+  "NotFound": {
+    "text": "Stránka nenalezena!",
+    "button": "ZPĚT NA DOMOVSKOU STRÁNKU"
   }
 }

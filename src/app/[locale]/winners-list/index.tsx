@@ -1,13 +1,14 @@
 'use client'
-import { useEffect, useState } from 'react'
 
-import instance from '@/services/axiosConfig'
-import { useLocale, useTranslations } from 'next-intl'
-import ImageFallback from '@/components/ImageFallback'
+import { memo, useEffect, useState } from 'react'
+import { useTranslations } from 'next-intl'
 import { usePathname } from 'next/navigation'
+
+import ImageFallback from '@/components/ImageFallback'
 
 export const WinderList = ({ data, onFetching }: { data: any; onFetching: boolean }) => {
   const t = useTranslations('Promotion.ProtocolsPromotion')
+  const td = useTranslations('Promotion.menuPopup')
 
   const [onLoading, setOnLoading] = useState(true)
 
@@ -37,7 +38,7 @@ export const WinderList = ({ data, onFetching }: { data: any; onFetching: boolea
     <div className='py-[110px] 3xl:py-[120px] bg-[url("/promotion/bg.webp")] bg-cover bg-no-repeat bg-center'>
       <div className='ct-container'>
         <h3 className='ct-text-border text-[#FF4343] text-2xl md:text-4xl uppercase text-center font-bold'>
-          danh sách trúng thưởng
+          {td('text1')}
         </h3>
         {onLoading && !!data.length ? (
           <div className='rounded-[20px] bg-white animate-pulse min-h-[300px] mt-5' />
@@ -118,4 +119,4 @@ export const WinderList = ({ data, onFetching }: { data: any; onFetching: boolea
   )
 }
 
-export default WinderList
+export default memo(WinderList)

@@ -2,6 +2,7 @@
 
 import { useTranslations } from 'next-intl'
 import { usePathname } from 'next/navigation'
+import { memo } from 'react'
 import { twMerge } from 'tailwind-merge'
 
 function InviteRule({
@@ -144,4 +145,4 @@ function InviteRule({
   )
 }
 
-export default InviteRule
+export default memo(InviteRule)

@@ -166,5 +166,9 @@
       "text3": "Kodu Gönder",
       "text4": "Giriş Yap"
     }
+  },
+  "NotFound": {
+    "text": "Sayfa bulunamadı!",
+    "button": "ANA SAYFAYA DÖN"
   }
 }

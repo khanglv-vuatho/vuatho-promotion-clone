@@ -167,5 +167,9 @@
       "text3": "Pošlji kodo",
       "text4": "Prijava"
     }
+  },
+  "NotFound": {
+    "text": "Stran ni najdena!",
+    "button": "NAZAJ NA DOMOV"
   }
 }

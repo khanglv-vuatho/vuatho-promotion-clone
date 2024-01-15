@@ -1,10 +1,9 @@
 'use client'
 
-import React, { useEffect, useState } from 'react'
+import { memo, useEffect, useState } from 'react'
 
 import WinderList from '../../winners-list'
 import { useLocale } from 'next-intl'
-import { useGetAllQueryParams } from '@/hooks/useGetAllQueryParams'
 import instance from '@/services/axiosConfig'
 
 const WinnerListInvitePage = () => {
@@ -106,4 +105,4 @@ const WinnerListInvitePage = () => {
   return <WinderList data={dataInviteWinnerList} onFetching={onFetching} />
 }
 
-export default WinnerListInvitePage
+export default memo(WinnerListInvitePage)

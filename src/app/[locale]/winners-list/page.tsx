@@ -1,10 +1,9 @@
 'use client'
 
-import React, { useEffect, useState } from 'react'
+import { useEffect, useState } from 'react'
 
 import WinderList from '.'
 import instance from '@/services/axiosConfig'
-import { useGetAllQueryParams } from '@/hooks/useGetAllQueryParams'
 
 const WinnerListPage = () => {
   const [onFetching, setOnFetching] = useState(false)
@@ -81,8 +80,6 @@ const WinnerListPage = () => {
       },
     },
   ]
-
-  const allQueryParams: any = useGetAllQueryParams()
 
   const _HandleFetching = async () => {
     try {

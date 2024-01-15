@@ -169,5 +169,9 @@
       "text3": "Enviar código",
       "text4": "Entrar"
     }
+  },
+  "NotFound": {
+    "text": "Página não encontrada!",
+    "button": "VOLTAR PARA A PÁGINA INICIAL"
   }
 }

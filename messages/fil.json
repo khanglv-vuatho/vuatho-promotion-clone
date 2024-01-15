@@ -166,5 +166,9 @@
       "text3": "Ipadala ang OTP",
       "text4": "Mag-log in"
     }
+  },
+  "NotFound": {
+    "text": "Hindi Maipagpalagay ang Pahina!",
+    "button": "BALIK SA TAHANAN"
   }
 }

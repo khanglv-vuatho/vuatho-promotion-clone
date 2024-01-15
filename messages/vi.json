@@ -167,5 +167,9 @@
       "text3": "Gửi mã",
       "text4": "Đăng nhập"
     }
+  },
+  "NotFound": {
+    "text": "Không tìm thấy trang bạn cần tìm !",
+    "button": "VỀ TRANG CHỦ"
   }
 }

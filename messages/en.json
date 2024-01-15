@@ -166,5 +166,9 @@
       "text3": "Send Code",
       "text4": "Log In"
     }
+  },
+  "NotFound": {
+    "text": "Page not found!",
+    "button": "BACK TO HOME"
   }
 }

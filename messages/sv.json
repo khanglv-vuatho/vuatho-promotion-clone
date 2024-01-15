@@ -167,5 +167,9 @@
       "text3": "Skicka kod",
       "text4": "Logga in"
     }
+  },
+  "NotFound": {
+    "text": "Sidan hittades inte!",
+    "button": "TILLBAKA TILL STARTSIDA"
   }
 }

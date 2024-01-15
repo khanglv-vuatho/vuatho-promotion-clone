@@ -167,5 +167,9 @@
       "text3": "Odoslať kód",
       "text4": "Prihlásiť sa"
     }
+  },
+  "NotFound": {
+    "text": "Stránka sa nenašla!",
+    "button": "SPÄŤ NA HLAVNÚ STRÁNKU"
   }
 }

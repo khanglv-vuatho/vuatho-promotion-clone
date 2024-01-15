@@ -167,5 +167,9 @@
       "text3": "Envoyer le code",
       "text4": "Se connecter"
     }
+  },
+  "NotFound": {
+    "text": "Page non trouvée !",
+    "button": "RETOUR À LA PAGE D'ACCUEIL"
   }
 }

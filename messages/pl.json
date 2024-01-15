@@ -167,5 +167,9 @@
       "text3": "Wyślij kod",
       "text4": "Zaloguj się"
     }
+  },
+  "NotFound": {
+    "text": "Strona nie znaleziona!",
+    "button": "WRÓĆ NA STRONĘ GŁÓWNĄ"
   }
 }

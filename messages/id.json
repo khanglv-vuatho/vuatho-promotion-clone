@@ -167,5 +167,9 @@
       "text3": "Kirim Kode",
       "text4": "Masuk"
     }
+  },
+  "NotFound": {
+    "text": "Halaman tidak ditemukan!",
+    "button": "KEMBALI KE HALAMAN UTAMA"
   }
 }

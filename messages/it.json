@@ -167,5 +167,9 @@
       "text3": "Invia codice",
       "text4": "Accedi"
     }
+  },
+  "NotFound": {
+    "text": "Pagina non trovata!",
+    "button": "TORNA ALLA HOMEPAGE"
   }
 }

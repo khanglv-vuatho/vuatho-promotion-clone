@@ -167,5 +167,9 @@
       "text3": "Nosūtīt kodu",
       "text4": "Pierakstīties"
     }
+  },
+  "NotFound": {
+    "text": "Lapa nav atrasta!",
+    "button": "ATPAKAĻ UZ SĀKUMU"
   }
 }

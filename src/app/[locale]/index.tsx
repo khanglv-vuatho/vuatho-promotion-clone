@@ -2,7 +2,7 @@
 
 import { useLocale, useTranslations } from 'next-intl'
 import { usePathname } from 'next/navigation'
-import { useEffect, useState } from 'react'
+import { memo, useEffect, useState } from 'react'
 import QRCode from 'react-qr-code'
 
 import {
@@ -116,7 +116,7 @@ export const PromotionsFooter = () => {
         </div>
         <div className='flex items-center gap-4'>
           <MailIcon className='text-primary-blue' variant='Bold' />
-          <span className=''>info@vuatho.com</span>
+          <span className=''>admin@vuatho.com</span>
         </div>
       </div>
     </footer>
@@ -263,7 +263,7 @@ const RightHeader = () => {
   }
 
   const _HandleCloseMenuMoblie = () => {
-    dispatch({ type: 'toggle_menu', payload: true })
+    setIsOpen(false)
   }
 
   useEffect(() => {
@@ -405,9 +405,6 @@ const RightHeader = () => {
 }
 
 type THero = {
-  title1: string
-  title2: string
-  desc: string
   thumb: string
   thumb1: string
   thumb2: string
@@ -415,241 +412,240 @@ type THero = {
   inviteText?: string
 }
 
-export const Hero: React.FC<THero> = ({
-  title1,
-  title2,
-  desc,
-  thumb,
-  thumb1,
-  thumb2,
-  thumb3,
-  inviteText,
-}) => {
-  const t = useTranslations('Promotion.Hero')
-  const tt = useTranslations('Promotion.PromotionsHeader.RightHeader')
+export const Hero: React.FC<THero> = memo(
+  ({ thumb, thumb1, thumb2, thumb3, inviteText }) => {
+    const t = useTranslations('Promotion.Hero')
+    const tt = useTranslations('Promotion.PromotionsHeader.RightHeader')
 
-  const [onFetching, setOnFetching] = useState(false)
-  const [onLoading, setOnLoading] = useState(true)
-  const [isVisible, setIsVisible] = useState(false)
+    const [onFetching, setOnFetching] = useState(false)
+    const [onLoading, setOnLoading] = useState(true)
+    const [isVisible, setIsVisible] = useState(false)
 
-  const { isOpen, onOpenChange, onOpen, onClose } = useDisclosure()
+    const { isOpen, onOpenChange, onOpen, onClose } = useDisclosure()
 
-  const pathName = usePathname()
-  const isInvite = pathName.includes('invite')
+    const pathName = usePathname()
+    const isInvite = pathName.includes('invite')
 
-  const allQueryParams: any = useGetAllQueryParams()
+    const allQueryParams: any = useGetAllQueryParams()
 
-  const dispatch = useDispatch()
+    const dispatch = useDispatch()
 
-  const infoUser = useSelector((state: any) => state.infoUser)
+    const infoUser = useSelector((state: any) => state.infoUser)
 
-  const isWebView = allQueryParams?.token && allQueryParams?.hideHeaderAndFooter
+    const isWebView = allQueryParams?.token && allQueryParams?.hideHeaderAndFooter
 
-  const _HandleFetching = async () => {
-    try {
-      // const { data } = await instance.get('/promotion/info', {
-      //   params: {
-      //     allQueryParams?.token,
-      //   },
-      // })
+    const _HandleFetching = async () => {
+      try {
+        // const { data } = await instance.get('/promotion/info', {
+        //   params: {
+        //     allQueryParams?.token,
+        //   },
+        // })
 
-      // dispatch({
-      //   type: 'login',
-      //   payload: {
-      //     thumb: '/promotion/number1.png',
-      //     name: 'Lương Vĩ Khang',
-      //     phone: '0932456789',
-      //     id: '3',
-      //     listNumber: [
-      //       ['12', '31', '45', '21', '42', '44'],
-      //       ['12', '32', '35', '98', '33', '75'],
-      //       ['12', '32', '12', '94', '86', '64'],
-      //     ],
-      //     code: '123456',
-      //   },
-      // })
-      setIsVisible(isWebView)
-    } catch (error) {
-      console.log(error)
-      setIsVisible(false)
-    } finally {
-      setOnFetching(false)
-      setOnLoading(false)
-    }
-  }
-
-  useEffect(() => {
-    onFetching && _HandleFetching()
-  }, [onFetching])
-
-  // check exits token to call api
-  useEffect(() => {
-    if (!isWebView) {
-      setOnLoading(false)
-      return
+        // dispatch({
+        //   type: 'login',
+        //   payload: {
+        //     thumb: '/promotion/number1.png',
+        //     name: 'Lương Vĩ Khang',
+        //     phone: '0932456789',
+        //     id: '3',
+        //     listNumber: [
+        //       ['12', '31', '45', '21', '42', '44'],
+        //       ['12', '32', '35', '98', '33', '75'],
+        //       ['12', '32', '12', '94', '86', '64'],
+        //     ],
+        //     code: '123456',
+        //   },
+        // })
+        setIsVisible(isWebView)
+      } catch (error) {
+        console.log(error)
+        setIsVisible(false)
+      } finally {
+        setOnFetching(false)
+        setOnLoading(false)
+      }
     }
 
-    setOnFetching(true)
-  }, [isWebView])
+    useEffect(() => {
+      onFetching && _HandleFetching()
+    }, [onFetching])
 
-  return (
-    <>
-      <h3 className='ct-text-border text-primaryYellow text-2xl md:text-4xl uppercase font-bold px-2 md:px-0 md:text-center mt-10 lg:hidden'>
-        {inviteText ? (
-          <>
-            <span>{t('text1-1')} - </span>
-            <span>{t('text2-1')}</span>
-          </>
-        ) : (
-          <>
-            <span>{t('text1')} - </span>
-            <span>{t('text2')}</span>
-          </>
-        )}
-      </h3>
-      <CustomSlider
-        thumb1={thumb1}
-        thumb2={thumb2}
-        thumb3={thumb3}
-        style='md:flex lg:hidden'
-      />
-      <div className='ct-container flex-col gap-10'>
-        <div className={`${!!isVisible ? 'grid grid-cols-5' : ''}  gap-10 items-center`}>
-          <div
-            className={`hidden lg:flex lg:col-span-3 px-10 flex-col gap-5 col-span-5 ${
-              !!isVisible ? '' : 'items-center'
-            }`}
-          >
-            <h3 className='ct-text-border text-primaryYellow text-2xl lg:text-4xl uppercase font-bold text-center hidden mt-10 lg:block'>
-              {inviteText ? (
-                <>
-                  <span>{t('text1-1')} - </span>
-                  <span>{t('text2-1')}</span>
-                </>
-              ) : (
-                <>
-                  <span>{t('text1')} - </span>
-                  <span>{t('text2')}</span>
-                </>
-              )}
-            </h3>
-            <ImageFallback
-              src={thumb}
-              alt=''
-              width={773}
-              height={491}
-              className='object-contain pointer-events-none select-none'
-            />
-            <p className='text-center text-xl   font-medium'>
-              {inviteText ? inviteText : t('text3')}
-            </p>
-          </div>
-          {!!isVisible && (
-            <div className='lg:col-span-2 col-span-5 lg:justify-end lg:flex'>
-              {onLoading ? (
-                <div className='bg-white p-4 flex flex-col gap-5 rounded-[20px] lg:min-w-[400px] min-h-[300px] animate-pulse' />
-              ) : (
-                <div className='bg-white p-4 flex flex-col gap-5 rounded-[20px] lg:min-w-[400px]'>
-                  <h3 className='text-2xl text-primary-blue font-semibold'>
-                    {t('text6')}
-                  </h3>
-                  <div className='flex items-center gap-2 py-2'>
-                    <div className=''>
-                      <ImageFallback
-                        src={infoUser.thumb}
-                        alt={`avtar-${infoUser.id}`}
-                        height={44}
-                        width={44}
-                        className='size-[44px] rounded-full pointer-events-none select-none'
-                      />
-                    </div>
-                    <p className='font-light'>{infoUser?.name}</p>
-                  </div>
-                  <div className='flex flex-col gap-4 '>
-                    <p className='text-[#969696]'>
-                      {isInvite ? 'Dãy số của bạn:' : 'Mã dự thưởng:'}
-                    </p>
-                    {isInvite ? (
-                      <div className='flex flex-col gap-4'>
-                        {!!infoUser?.listNumber?.length ? (
-                          infoUser?.listNumber?.map((listnumber: any, index: number) => (
-                            <div className='flex justify-between gap-4' key={index}>
-                              {listnumber?.map((number: any) => (
-                                <div
-                                  className='bg-[#F8F8F8] size-[46px] flex items-center justify-center rounded-full text-primary-blue font-semibold'
-                                  key={number}
-                                >
-                                  {number}
-                                </div>
-                              ))}
-                            </div>
-                          ))
-                        ) : (
-                          <div className='rounded-[10px] bg-[#F8F8F8] h-[236px] flex items-center justify-center'>
-                            <div className='flex flex-col gap-2 items-center'>
-                              <p className=''>{t('text10')}</p>
-                              <Button
-                                className='bg-[#FCB713] font-semibold w-fit px-5 py-2'
-                                radius='full'
-                                onPress={() => {
-                                  onOpen()
-                                }}
-                              >
-                                {t('text11')}
-                              </Button>
-                            </div>
-                          </div>
-                        )}
-                      </div>
-                    ) : (
-                      <div className='bg-[#F8F8F8] text-primary-blue text-4xl px-5 py-3 rounded-[10px]'>
-                        {infoUser?.code}
-                      </div>
-                    )}
-                  </div>
-                </div>
-              )}
-            </div>
+    // check exits token to call api
+    useEffect(() => {
+      if (!isWebView) {
+        setOnLoading(false)
+        return
+      }
+
+      setOnFetching(true)
+    }, [isWebView])
+
+    return (
+      <>
+        <h3 className='ct-text-border text-primaryYellow text-2xl md:text-4xl uppercase font-bold px-2 md:px-0 md:text-center mt-10 lg:hidden'>
+          {inviteText ? (
+            <>
+              <span>{t('text1-1')} - </span>
+              <span>{t('text2-1')}</span>
+            </>
+          ) : (
+            <>
+              <span>{t('text1')} - </span>
+              <span>{t('text2')}</span>
+            </>
           )}
-          <DefaultModal
-            isOpen={isOpen}
-            onOpenChange={onOpenChange}
-            hiddenHeader
-            hiddenCloseBtn
-            className=''
-            modalBody={
-              <div className='flex flex-col rounded-[20px] gap-4 md:gap-10 p-4 md:p-10 relative h-[80dvh]'>
-                <Button
-                  isIconOnly
-                  radius='full'
-                  onPress={onClose}
-                  variant='light'
-                  className=' absolute right-[3%] top-[3%] h-[48px] flex-shrink-0 w-[48px] min-w-[unset]'
-                >
-                  <AddIcon className='rotate-45   ' size={32} />
-                </Button>
-                <div className='flex flex-col gap-2 w-[80%] md:w-auto'>
-                  <h3 className='text-primary-blue text-lg md:text-2xl font-bold'>
-                    {t('text9')}
-                  </h3>
-                  <p className='text-[#FCB713] text-lg md:text-2xl font-bold'>
-                    {isInvite ? t('text1-1') : t('text1')} -{' '}
-                    {isInvite ? t('text2-1') : t('text2')}
-                  </p>
-                </div>
-                <div className='h-full overflow-auto'>
-                  <InviteRule primaryText=' ' />
-                </div>
-              </div>
-            }
+        </h3>
+        <div className='lg:hidden'>
+          <CustomSlider
+            thumb1={thumb1}
+            thumb2={thumb2}
+            thumb3={thumb3}
+            style='md:flex lg:hidden'
           />
         </div>
-      </div>
-    </>
-  )
-}
+        <div className='ct-container flex-col gap-10'>
+          <div
+            className={`${!!isVisible ? 'grid grid-cols-5' : ''}  gap-10 items-center`}
+          >
+            <div
+              className={`hidden lg:flex lg:col-span-3 px-10 flex-col gap-5 col-span-5 ${
+                !!isVisible ? '' : 'items-center'
+              }`}
+            >
+              <h3 className='ct-text-border text-primaryYellow text-2xl lg:text-4xl uppercase font-bold text-center hidden mt-10 lg:block'>
+                {inviteText ? (
+                  <>
+                    <span>{t('text1-1')} - </span>
+                    <span>{t('text2-1')}</span>
+                  </>
+                ) : (
+                  <>
+                    <span>{t('text1')} - </span>
+                    <span>{t('text2')}</span>
+                  </>
+                )}
+              </h3>
+              <ImageFallback
+                src={thumb}
+                alt=''
+                width={773}
+                height={491}
+                className='object-contain pointer-events-none select-none'
+              />
+              <p className='text-center text-xl   font-medium'>
+                {inviteText ? inviteText : t('text3')}
+              </p>
+            </div>
+            {!!isVisible && (
+              <div className='lg:col-span-2 col-span-5 lg:justify-end lg:flex'>
+                {onLoading ? (
+                  <div className='bg-white p-4 flex flex-col gap-5 rounded-[20px] lg:min-w-[400px] min-h-[300px] animate-pulse' />
+                ) : (
+                  <div className='bg-white p-4 flex flex-col gap-5 rounded-[20px] lg:min-w-[400px]'>
+                    <h3 className='text-2xl text-primary-blue font-semibold'>
+                      {t('text6')}
+                    </h3>
+                    <div className='flex items-center gap-2 py-2'>
+                      <div className=''>
+                        <ImageFallback
+                          src={infoUser.thumb}
+                          alt={`avtar-${infoUser.id}`}
+                          height={44}
+                          width={44}
+                          className='size-[44px] rounded-full pointer-events-none select-none'
+                        />
+                      </div>
+                      <p className='font-light'>{infoUser?.name}</p>
+                    </div>
+                    <div className='flex flex-col gap-4 '>
+                      <p className='text-[#969696]'>
+                        {isInvite ? 'Dãy số của bạn:' : 'Mã dự thưởng:'}
+                      </p>
+                      {isInvite ? (
+                        <div className='flex flex-col gap-4'>
+                          {!!infoUser?.listNumber?.length ? (
+                            infoUser?.listNumber?.map(
+                              (listnumber: any, index: number) => (
+                                <div className='flex justify-between gap-4' key={index}>
+                                  {listnumber?.map((number: any) => (
+                                    <div
+                                      className='bg-[#F8F8F8] size-[46px] flex items-center justify-center rounded-full text-primary-blue font-semibold'
+                                      key={number}
+                                    >
+                                      {number}
+                                    </div>
+                                  ))}
+                                </div>
+                              ),
+                            )
+                          ) : (
+                            <div className='rounded-[10px] bg-[#F8F8F8] h-[236px] flex items-center justify-center'>
+                              <div className='flex flex-col gap-2 items-center'>
+                                <p className=''>{t('text10')}</p>
+                                <Button
+                                  className='bg-[#FCB713] font-semibold w-fit px-5 py-2'
+                                  radius='full'
+                                  onPress={() => {
+                                    onOpen()
+                                  }}
+                                >
+                                  {t('text11')}
+                                </Button>
+                              </div>
+                            </div>
+                          )}
+                        </div>
+                      ) : (
+                        <div className='bg-[#F8F8F8] text-primary-blue text-4xl px-5 py-3 rounded-[10px]'>
+                          {infoUser?.code}
+                        </div>
+                      )}
+                    </div>
+                  </div>
+                )}
+              </div>
+            )}
+            <DefaultModal
+              isOpen={isOpen}
+              onOpenChange={onOpenChange}
+              hiddenHeader
+              hiddenCloseBtn
+              className=''
+              modalBody={
+                <div className='flex flex-col rounded-[20px] gap-4 md:gap-10 p-4 md:p-10 relative h-[80dvh]'>
+                  <Button
+                    isIconOnly
+                    radius='full'
+                    onPress={onClose}
+                    variant='light'
+                    className=' absolute right-[3%] top-[3%] h-[48px] flex-shrink-0 w-[48px] min-w-[unset]'
+                  >
+                    <AddIcon className='rotate-45   ' size={32} />
+                  </Button>
+                  <div className='flex flex-col gap-2 w-[80%] md:w-auto'>
+                    <h3 className='text-primary-blue text-lg md:text-2xl font-bold'>
+                      {t('text9')}
+                    </h3>
+                    <p className='text-[#FCB713] text-lg md:text-2xl font-bold'>
+                      {isInvite ? t('text1-1') : t('text1')} -{' '}
+                      {isInvite ? t('text2-1') : t('text2')}
+                    </p>
+                  </div>
+                  <div className='h-full overflow-auto'>
+                    <InviteRule primaryText=' ' />
+                  </div>
+                </div>
+              }
+            />
+          </div>
+        </div>
+      </>
+    )
+  },
+)
 
-export const ProtocolsPromotion = () => {
+export const ProtocolsPromotion = memo(() => {
   const t = useTranslations('Promotion.ProtocolsPromotion')
   const { isOpen, onOpenChange, onOpen, onClose } = useDisclosure()
   const [isMobile, setIsMobile] = useState(false)
@@ -695,6 +691,7 @@ export const ProtocolsPromotion = () => {
       thumb: 'ProtocolsPromotion3.png',
     },
   ]
+
   return (
     <div className='ct-container flex flex-col gap-5'>
       <h4 className='ct-text-border text-primaryYellow font-bold text-2xl md:text-4xl uppercase'>
@@ -768,9 +765,9 @@ export const ProtocolsPromotion = () => {
       />
     </div>
   )
-}
+})
 
-export const GuidelinesPromotion = () => {
+export const GuidelinesPromotion = memo(() => {
   const t = useTranslations('Promotion.ProtocolsPromotion')
 
   const pathName = usePathname()
@@ -836,58 +833,62 @@ export const GuidelinesPromotion = () => {
       </div>
     </div>
   )
-}
+})
 
-export const CustomSlider = ({
-  thumb1,
-  thumb2,
-  thumb3,
-  style,
-}: {
-  thumb1: string
-  thumb2: string
-  thumb3: string
-  style?: string
-}) => {
-  return (
-    <div
-      className={twMerge(
-        'relative top-20 md:top-32 col-span-5 mt-[40px] flex min-h-[360px] justify-center overflow-x-hidden md:hidden pb-0 md:pb-0',
-        style,
-      )}
-    >
-      <div className='rank1 absolute'>
-        <ImageFallback
-          src={thumb1}
-          alt='number1'
-          width={300}
-          height={310}
-          className='h-auto w-72 pointer-events-none select-none'
-        />
-      </div>
-      <div className='rank2 absolute'>
-        <ImageFallback
-          src={thumb3}
-          alt='number1'
-          width={300}
-          height={310}
-          className='h-auto w-72 pointer-events-none select-none'
-        />
-      </div>
-      <div className='rank3 absolute'>
-        <ImageFallback
-          src={thumb2}
-          alt='number1'
-          width={300}
-          height={310}
-          className='h-auto w-72 pointer-events-none select-none'
-        />
-      </div>
-    </div>
-  )
-}
+export const CustomSlider = memo(
+  ({
+    thumb1,
+    thumb2,
+    thumb3,
+    style,
+  }: {
+    thumb1: string
+    thumb2: string
+    thumb3: string
+    style?: string
+  }) => {
+    console.log('render')
 
-const LinkItem = ({ item, handleClick }: { item: any; handleClick: any }) => {
+    return (
+      <div
+        className={twMerge(
+          'relative top-20 md:top-32 col-span-5 mt-[40px] flex min-h-[360px] justify-center overflow-x-hidden md:hidden pb-0 md:pb-0',
+          style,
+        )}
+      >
+        <div className='rank1 absolute'>
+          <ImageFallback
+            src={thumb1}
+            alt='number1'
+            width={300}
+            height={310}
+            className='h-auto w-72 pointer-events-none select-none'
+          />
+        </div>
+        <div className='rank2 absolute'>
+          <ImageFallback
+            src={thumb3}
+            alt='number3'
+            width={300}
+            height={310}
+            className='h-auto w-72 pointer-events-none select-none'
+          />
+        </div>
+        <div className='rank3 absolute'>
+          <ImageFallback
+            src={thumb2}
+            alt='number2'
+            width={300}
+            height={310}
+            className='h-auto w-72 pointer-events-none select-none'
+          />
+        </div>
+      </div>
+    )
+  },
+)
+
+const LinkItem = memo(({ item, handleClick }: { item: any; handleClick: any }) => {
   return (
     <Link
       href={item.url}
@@ -900,4 +901,4 @@ const LinkItem = ({ item, handleClick }: { item: any; handleClick: any }) => {
       <div className='py-3 lg:pr-4'>{item.title}</div>
     </Link>
   )
-}
+})
