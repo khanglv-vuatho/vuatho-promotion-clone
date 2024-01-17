@@ -261,10 +261,6 @@ const RightHeader = memo(() => {
     setIsOpen(false)
   }, [])
 
-  const handleOpen = useCallback((open: any) => {
-    setIsOpen(open)
-  }, [])
-
   useEffect(() => {
     window.addEventListener('scroll', HandleCloseMenuMoblie)
 
@@ -295,7 +291,7 @@ const RightHeader = memo(() => {
       <MenuOptions infoUser={infoUser} menuPopup={menuPopup} />
       {/* menu mobile */}
       <div
-        className='menu-mobile flex items-center gap-4 transition lg:hidden '
+        className='menu-mobile flex items-center gap-4 transition lg:hidden'
         onClick={_HandleToggleMenu}
       >
         {openMenu ? (
