@@ -476,32 +476,34 @@ export const Hero: React.FC<THero> = memo(
             style='md:flex lg:hidden'
           />
         </div>
-        <div className='ct-container flex-col gap-10'>
+        <div className='ct-container flex-col gap-10 hidden mt-10 md:block'>
           <div
             className={`${!!isWebView ? 'grid grid-cols-5' : ''}  gap-10 items-center`}
           >
-            <div
-              className={`hidden lg:flex lg:col-span-3 px-10 flex-col gap-5 col-span-5 ${
-                !!isWebView ? '' : 'items-center'
-              }`}
-            >
-              <h3 className='ct-text-border text-primaryYellow text-2xl lg:text-4xl uppercase font-bold text-center hidden mt-10 lg:block'>
-                {inviteText ? (
-                  <>
-                    <span>{t('text1-1')} - </span>
-                    <span>{t('text2-1')}</span>
-                  </>
-                ) : (
-                  <>
-                    <span>{t('text1')} - </span>
-                    <span>{t('text2')}</span>
-                  </>
-                )}
-              </h3>
+            <div className={`col-span-5 ${!!isWebView ? '' : 'items-center'}`}>
+              <div className='flex flex-col gap-[10px] items-center'>
+                <h3 className='ct-text-border text-primaryYellow text-2xl lg:text-4xl uppercase font-bold text-center '>
+                  {inviteText ? (
+                    <>
+                      <span>{t('text1-1')} - </span>
+                      <span>{t('text2-1')}</span>
+                    </>
+                  ) : (
+                    <>
+                      <span>{t('text1')} - </span>
+                      <span>{t('text2')}</span>
+                    </>
+                  )}
+                </h3>
+                <p className='text-center text-xl font-medium text-white'>
+                  {inviteText ? inviteText : t('text3')}
+                </p>
+              </div>
               <motion.div
                 initial={{ y: 100, opacity: 0 }}
                 animate={{ y: 0, opacity: 1 }}
                 transition={{ duration: 0.2, delay: 0.1 }}
+                className='flex flex-col items-center'
               >
                 <ImageFallback
                   src={thumb}
@@ -511,9 +513,6 @@ export const Hero: React.FC<THero> = memo(
                   className='object-contain pointer-events-none select-none'
                 />
               </motion.div>
-              <p className='text-center text-xl   font-medium'>
-                {inviteText ? inviteText : t('text3')}
-              </p>
             </div>
             {!!isWebView && (
               <div className='lg:col-span-2 col-span-5 lg:justify-end lg:flex'>
