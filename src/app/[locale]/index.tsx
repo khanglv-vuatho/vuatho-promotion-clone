@@ -392,11 +392,9 @@ type THero = {
 export const Hero: React.FC<THero> = memo(
   ({ thumb, thumb1, thumb2, thumb3, inviteText }) => {
     const t = useTranslations('Promotion.Hero')
-    const tt = useTranslations('Promotion.PromotionsHeader.RightHeader')
 
     const [onFetching, setOnFetching] = useState(false)
     const [onLoading, setOnLoading] = useState(true)
-    const [isVisible, setIsVisible] = useState(false)
 
     const { isOpen, onOpenChange, onOpen, onClose } = useDisclosure()
 
@@ -418,26 +416,23 @@ export const Hero: React.FC<THero> = memo(
         //     allQueryParams?.token,
         //   },
         // })
-
-        // dispatch({
-        //   type: 'login',
-        //   payload: {
-        //     thumb: '/promotion/number1.png',
-        //     name: 'Lương Vĩ Khang',
-        //     phone: '0932456789',
-        //     id: '3',
-        //     listNumber: [
-        //       ['12', '31', '45', '21', '42', '44'],
-        //       ['12', '32', '35', '98', '33', '75'],
-        //       ['12', '32', '12', '94', '86', '64'],
-        //     ],
-        //     code: '123456',
-        //   },
-        // })
-        setIsVisible(isWebView)
+        dispatch({
+          type: 'login',
+          payload: {
+            thumb: '/promotion/number1.png',
+            name: 'Lương Vĩ Khang',
+            phone: '0932456789',
+            id: '3',
+            listNumber: [
+              ['12', '31', '45', '21', '42', '44'],
+              ['12', '32', '35', '98', '33', '75'],
+              ['12', '32', '12', '94', '86', '64'],
+            ],
+            code: '123456',
+          },
+        })
       } catch (error) {
         console.log(error)
-        setIsVisible(false)
       } finally {
         setOnFetching(false)
         setOnLoading(false)
@@ -483,11 +478,11 @@ export const Hero: React.FC<THero> = memo(
         </div>
         <div className='ct-container flex-col gap-10'>
           <div
-            className={`${!!isVisible ? 'grid grid-cols-5' : ''}  gap-10 items-center`}
+            className={`${!!isWebView ? 'grid grid-cols-5' : ''}  gap-10 items-center`}
           >
             <div
               className={`hidden lg:flex lg:col-span-3 px-10 flex-col gap-5 col-span-5 ${
-                !!isVisible ? '' : 'items-center'
+                !!isWebView ? '' : 'items-center'
               }`}
             >
               <h3 className='ct-text-border text-primaryYellow text-2xl lg:text-4xl uppercase font-bold text-center hidden mt-10 lg:block'>
@@ -520,7 +515,7 @@ export const Hero: React.FC<THero> = memo(
                 {inviteText ? inviteText : t('text3')}
               </p>
             </div>
-            {!!isVisible && (
+            {!!isWebView && (
               <div className='lg:col-span-2 col-span-5 lg:justify-end lg:flex'>
                 {onLoading ? (
                   <div className='bg-white p-4 flex flex-col gap-5 rounded-[20px] lg:min-w-[400px] min-h-[300px] animate-pulse' />
@@ -679,12 +674,12 @@ export const ProtocolsPromotion = memo(() => {
       <h4 className='ct-text-border text-primaryYellow font-bold text-2xl md:text-4xl uppercase'>
         {t('title')}
       </h4>
-      <div className='grid grid-cols-1 md:grid-cols-3 gap-5'>
+      <div className='grid grid-cols-1 md:grid-cols-3 gap-5 overflow-hidden'>
         {listProtocols.map((item, index) => (
           <motion.div
-            initial={{ x: 100 * (index + 1), opacity: 0 }}
+            initial={{ x: 40, opacity: 0 }}
             whileInView={{ x: 0, opacity: 1 }}
-            transition={{ duration: 0.3, delay: 0.5 + (index + 1) * 0.1 }}
+            transition={{ duration: 0.3, delay: 0.2 + (index + 1) * 0.1 }}
             viewport={{ once: true }}
             className='rounded-[20px] p-5 bg-white flex flex-col gap-4 md:gap-10'
             key={index}

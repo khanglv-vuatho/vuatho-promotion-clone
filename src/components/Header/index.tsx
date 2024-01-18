@@ -13,7 +13,6 @@ import ImageFallback from '../ImageFallback'
 export const HeaderWrapper = memo(
   ({ children, style }: { children: React.ReactNode; style?: string }) => {
     const openMenu = useSelector((state: any) => state.openMenu)
-
     const [isHeaderVisible, setHeaderVisible] = useState(true)
 
     useEffect(() => {
@@ -39,14 +38,14 @@ export const HeaderWrapper = memo(
     return (
       <header
         id='header'
-        className={`header fixed left-0 right-0 z-[11] w-full transition ${
+        className={`header fixed top-0 left-0 right-0 z-[11] transition ${
           isHeaderVisible ? 'translate-y-0' : '-translate-y-[100%]'
         }`}
       >
         <div
           className={twMerge(
-            `ct-container flex h-[70px] items-center justify-between 3xl:h-[80px] ${
-              openMenu ? 'bg-white' : 'transition'
+            `ct-container flex h-[70px] items-center justify-between 3xl:h-[80px] transition ${
+              openMenu ? 'bg-white ' : ''
             }`,
             style,
           )}
