@@ -46,7 +46,8 @@ function InviteRule({
           4. {t('text5')} <span className='font-light'>{t('text6')}</span>
         </p>
         <p className={`${primaryText} font-semibold`}>
-          5. {t('text7')} <span className='font-light'>{t('text8')}</span>
+          5. {t('text7')}{' '}
+          <span className='font-light'>{isInvite ? t('text8-1') : t('text8')}</span>
         </p>
 
         <div className={primaryText}>

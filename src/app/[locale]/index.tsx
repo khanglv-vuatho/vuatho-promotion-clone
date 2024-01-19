@@ -346,6 +346,13 @@ const HeaderCenter = memo(() => {
   const pathName = usePathname()
   const isInvite = pathName.includes('invite')
 
+  const _handlePathName = useCallback(() => {
+    const arr = pathName.split('/')
+    const index = arr.indexOf('invite')
+    index !== -1 ? arr.splice(index, 1) : arr.splice(arr.indexOf(locale) + 1, 0, 'invite')
+    return arr.join('/')
+  }, [pathName, locale])
+
   const allQueryParams: any = useGetAllQueryParams()
 
   const _handleCheckWebView = useCallback(() => {
@@ -358,10 +365,12 @@ const HeaderCenter = memo(() => {
     return queryString !== null ? `?${queryString}` : ''
   }, [allQueryParams])
 
+  console.log(pathName)
+
   return (
     <div className='bg-white rounded-full px-[10px] py-2 lg:flex gap-5 items-center shadow-[0px_8px_16px_0px_rgba(0,0,0,0.16)] hidden'>
       <Link
-        href={`/${locale}${_handleCheckWebView()}`}
+        href={`${!isInvite ? pathName : _handlePathName() + _handleCheckWebView()}`}
         className={`${
           !isInvite ? 'bg-primary-yellow' : 'bg-[#F8F8F8]'
         } px-5 py-2 rounded-full flex items-center justify-center font-semibold`}
@@ -369,7 +378,7 @@ const HeaderCenter = memo(() => {
         {t('text1')}
       </Link>
       <Link
-        href={`/${locale}/invite${_handleCheckWebView()}`}
+        href={`${isInvite ? pathName : _handlePathName() + _handleCheckWebView()}`}
         className={`${
           isInvite ? 'bg-primary-yellow' : 'bg-[#F8F8F8]'
         } px-5 py-2 rounded-full flex items-center justify-center font-semibold`}
@@ -480,7 +489,11 @@ export const Hero: React.FC<THero> = memo(
           <div
             className={`${!!isWebView ? 'grid grid-cols-5' : ''}  gap-10 items-center`}
           >
-            <div className={`col-span-5 ${!!isWebView ? '' : 'items-center'}`}>
+            <div
+              className={`col-span-5  lg:col-span-3 ${
+                !!isWebView ? '' : ' items-center'
+              }`}
+            >
               <div className='flex flex-col gap-[10px] items-center'>
                 <h3 className='ct-text-border text-primaryYellow text-2xl lg:text-4xl uppercase font-bold text-center '>
                   {inviteText ? (

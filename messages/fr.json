@@ -38,7 +38,7 @@
       "text5": "Personnes ayant déjà participé",
       "text6": "Informations de participation",
       "text7": "01 moto Yamaha PG-1 chaque mois pour les artisans inscrits via la roue de la fortune du système",
-      "text8": "Gagnez une moto Yamaha PG-1",
+      "text8": "Gagnez une moto Yamaha PG-1.",
       "text8-1": "Gagnez une moto Wave RSX FI 110.",
       "text9": "Règles du programme",
       "text10": "Vous n'avez pas encore de numéro de série",
@@ -54,7 +54,8 @@
       "text5": "Forme de promotion:",
       "text6": "Roue de la fortune en ligne.",
       "text7": "Clients du programme promotionnel:",
-      "text8": "Applicable à tous les utilisateurs de 18 ans et plus, enregistrés en tant qu'artisans avec succès sur l'application pendant la période promotionnelle (Artisans principaux + Artisans assistants)."
+      "text8": "Applicable à tous les utilisateurs de 18 ans et plus, enregistrés en tant qu'artisans avec succès sur l'application pendant la période promotionnelle (Artisans principaux + Artisans assistants).",
+      "text8-1": "Les comptes Artisans ont réussi à parrainer avec succès 12 Artisans principaux et assistants ou plus."
     },
     "ProtocolsPromotion": {
       "title": "Comment participer",

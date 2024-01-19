@@ -52,15 +52,9 @@ export const Step6 = () => {
   return (
     <div className='mt-10 border-1 border-[#0D6DDE] rounded-xl overflow-hidden divide-y-1 divide-[#0D6DDE] hidden md:block'>
       <div className='grid grid-cols-3 overflow-hidden *:text-primary-blue *:p-4 text-center bg-gradient-to-r from-[#F4BF2B] via-[#FFF07B] to-[#FFF27E] divide-x-1 divide-[#0D6DDE]'>
-        <div>
-          <p className='font-bold text-xl uppercase'>{t('text25')}</p>
-        </div>
-        <div className='font-bold text-xl uppercase'>
-          <p className='font-bold text-xl uppercase'>{t('text26')}</p>
-        </div>
-        <div className='font-bold text-xl uppercase '>
-          <p className='font-bold text-xl uppercase '>{t('text27')}</p>
-        </div>
+        <p className='font-bold text-xl uppercase'>{t('text25')}</p>
+        <p className='font-bold text-xl uppercase'>{t('text26')}</p>
+        <p className='font-bold text-xl uppercase '>{t('text27')}</p>
       </div>
       <div className='grid grid-cols-3 text-center divide-x-1 divide-[#0D6DDE] *:bg-white *:text-primary-blue *:font-bold '>
         <div className='divide-y-1 divide-[#0D6DDE] *:h-1/3 *:flex *:gap-3 *:justify-center *:items-center *:p-4'>
