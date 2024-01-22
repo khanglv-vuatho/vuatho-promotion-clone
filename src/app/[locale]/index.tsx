@@ -136,7 +136,6 @@ const RightHeader = memo(() => {
   const dispatch = useDispatch()
   const pathName = usePathname()
 
-  const [isOpen, setIsOpen] = useState(false)
   const [isWebView, setIsWebview] = useState(false)
 
   const isInvite = pathName.includes('invite')
@@ -258,7 +257,7 @@ const RightHeader = memo(() => {
   }, [openMenu, dispatch])
 
   const HandleCloseMenuMoblie = useCallback(() => {
-    setIsOpen(false)
+    dispatch({ type: 'toggle_menu', payload: true })
   }, [])
 
   useEffect(() => {
@@ -364,8 +363,6 @@ const HeaderCenter = memo(() => {
 
     return queryString !== null ? `?${queryString}` : ''
   }, [allQueryParams])
-
-  console.log(pathName)
 
   return (
     <div className='bg-white rounded-full px-[10px] py-2 lg:flex gap-5 items-center shadow-[0px_8px_16px_0px_rgba(0,0,0,0.16)] hidden'>
@@ -729,7 +726,7 @@ export const ProtocolsPromotion = memo(() => {
               variant='light'
               className=' absolute right-0 top-0 h-[48px] flex-shrink-0 w-[48px] min-w-[unset]'
             >
-              <AddIcon className='rotate-45   ' size={32} />
+              <AddIcon className='rotate-45' size={32} />
             </Button>
             <h3 className='uppercase text-primary-blue text-2xl md:text-4xl font-semibold'>
               {t('text7')}
@@ -849,7 +846,7 @@ export const CustomSlider = memo(
     return (
       <div
         className={twMerge(
-          'relative top-20 md:top-32 col-span-5 mt-[40px] flex min-h-[360px] justify-center overflow-x-hidden md:hidden pb-0 md:pb-0',
+          'relative top-[-40px] md:top-32 col-span-5 mt-[40px] flex min-h-[360px] justify-center overflow-x-hidden md:hidden pb-0 md:pb-0',
           style,
         )}
       >

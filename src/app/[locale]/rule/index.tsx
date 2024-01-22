@@ -1,9 +1,13 @@
-import ImageFallback from '@/components/ImageFallback'
-import InviteRule from '@/components/InviteRule'
+'use client'
+
 import { useTranslations } from 'next-intl'
 import { usePathname } from 'next/navigation'
+import { memo } from 'react'
 
-export const BodyRule = () => {
+import ImageFallback from '@/components/ImageFallback'
+import InviteRule from '@/components/InviteRule'
+
+export const BodyRule = memo(() => {
   const pathName = usePathname()
   const isInvite = pathName.includes('invite')
 
@@ -42,7 +46,7 @@ export const BodyRule = () => {
       </div>
     </div>
   )
-}
+})
 
 export const Step6 = () => {
   const t = useTranslations('Promotion.ProtocolsPromotion')

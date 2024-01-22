@@ -44,6 +44,7 @@ export default async function RootLayout({
   } catch (error) {
     console.log(error)
   }
+
   return (
     <html lang={locale}>
       <body className={lexend.className}>

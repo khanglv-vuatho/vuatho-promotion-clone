@@ -48,9 +48,9 @@ export const WinderList = ({ data, onFetching }: { data: any; onFetching: boolea
             {!!data.length ? (
               data?.map((item: any, index: number) => (
                 <motion.div
-                  initial={{ y: 100 * (index + 1), opacity: 0 }}
+                  initial={{ y: 100, opacity: 0 }}
                   animate={{ y: 0, opacity: 1 }}
-                  transition={{ duration: 0.3, delay: 0.5 + (index + 1) * 0.1 }}
+                  transition={{ duration: 0.3, delay: 0.2 + (index + 1) * 0.1 }}
                   key={item?.time?.public_at}
                   className='rounded-[20px] bg-white p-5 flex flex-col gap-5 min-h-[300px] max-w-[400px] min-w-[90%] md:min-w-full md:max-w-none mx-auto'
                 >
@@ -94,7 +94,7 @@ export const WinderList = ({ data, onFetching }: { data: any; onFetching: boolea
                             </div>
                           )}
                         </div>
-                        <div className='!items-start md:!items-center'>
+                        <div className='!items-center'>
                           <p className='block md:hidden lg:block'>
                             {listRank[index].title}
                           </p>

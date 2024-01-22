@@ -71,13 +71,14 @@ function InviteRule({
           <p className={`font-semibold`}>
             {tp('text19')}: <span className='font-light'>0{tp('text20')}</span>
             <span className={twMerge('font-light text-[#969696]', bottomText)}>
+              {' '}
               ({tp('text24')}).
             </span>
           </p>
           {step6 && step6}
         </div>
 
-        <div className={primaryText + ' *:font-light'}>
+        <div className={primaryText + '*:font-light'}>
           <p className=' !font-semibold'>7. {tt('title')}:</p>
           {isInvite ? (
             <>
@@ -89,7 +90,7 @@ function InviteRule({
               <p className='underline font-semibold'>{tt('text12')}:</p>
               <p>{tt('text13')}</p>
               <p>{tt('text14')}</p>
-              <p>{tt('text15')}</p>
+              <p>{tt('text9')}</p>
               <p>{tt('text16')}</p>
               <p>{tt('text17')}</p>
             </>

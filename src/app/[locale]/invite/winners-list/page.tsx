@@ -3,7 +3,6 @@
 import { memo, useEffect, useState } from 'react'
 
 import WinderList from '../../winners-list'
-import { useLocale } from 'next-intl'
 import instance from '@/services/axiosConfig'
 
 const WinnerListInvitePage = () => {
@@ -80,8 +79,6 @@ const WinnerListInvitePage = () => {
     },
   ]
   const [dataInviteWinnerList, setDataInviteWinnerList] = useState([{}])
-
-  const locale = useLocale()
 
   const _HandleFetching = async () => {
     try {

@@ -133,7 +133,7 @@
       "text5": "Mỗi tài khoản có thể trúng giải nhiều lần trong suốt chương trình.",
       "text6": "Tài khoản A giới thiệu anh B, anh C đăng ký Thợ thì anh A sẽ nhận được 01 trái banh có số ngẫu nhiên là 3 và 5, tạo thành cặp số 35. Cứ thế anh A giới thiệu thêm 10 người đăng ký Thợ nữa sẽ nhận được 05 trái banh có các cặp số ngẫu nhiên 44, 82, 90, 61, 95. Anh A đã hoàn thành dãy số may mắn đầu tiên của mình là “35, 44, 82, 90, 61, 95”. ",
       "text7": "Cứ như vậy nếu anh A giới thiệu được 120 người, anh A có sẽ có 10 dãy số và không giới hạn lượt giới thiệu.",
-      "text8": "Những dãy số này sẽ theo anh A trong suốt quá trình diễn ra và được tham gia các vòng quay đợt kế tiếp. ",
+      "text8": "Những dãy số này sẽ theo anh A trong suốt quá trình diễn ra và được tham gia các vòng quay đợt kế tiếp.",
       "text9": "Chương trình sẽ được bắt đầu khi hệ thống ghi nhận được 100 dãy số may mắn đầu tiên theo định kỳ mỗi tháng, đại diện của Công ty TNHH Công nghệ Vua Thợ sẽ tiến hành vòng quay trong toàn bộ dãy số dự thưởng đã được gửi tới tài khoản Thợ giới thiệu, dưới sự chứng kiến của đại diện Công ty TNHH Công nghệ Vua Thợ, đại diện các bên liên quan và đại diện Khách hàng có mã dự thưởng tham dự chương trình khuyến mãi “Dãy số may mắn”.",
       "text10": "Hệ thống sẽ tự động tiến hành vòng quay lần lượt và chọn ra 03 dãy số để trao giải lần lượt Nhất - Nhì - Ba, chương trình sẽ được thông báo công khai trực tuyến trên các phương tiện truyền thông của Vua Thợ.",
       "text11": "Trong vòng 24 giờ kể từ khi có kết quả xác định trúng thưởng, Vua Thợ sẽ liên hệ để thông báo và hướng dẫn về thời gian, địa điểm, thủ tục nhận thưởng theo quy định.",
