@@ -61,39 +61,39 @@ export const Step6 = () => {
         <p className='font-bold text-xl uppercase '>{t('text27')}</p>
       </div>
       <div className='grid grid-cols-3 text-center divide-x-1 divide-[#0D6DDE] *:bg-white *:text-primary-blue *:font-bold '>
-        <div className='divide-y-1 divide-[#0D6DDE] *:h-1/3 *:flex *:gap-3 *:justify-center *:items-center *:p-4'>
-          <div>
+        <div className='divide-y-1 divide-[#0D6DDE] *:h-1/3 *:p-4'>
+          <div className='flex items-center gap-2 !pl-14'>
             <div>
               <ImageFallback
                 src='/promotion/rank1.png'
                 alt='rank1'
                 width={45}
                 height={54}
-                className='pointer-events-none select-none'
+                className='pointer-events-none select-none h-[55px] w-[45px] max-h-[55px] max-w-[45px] min-h-[55px] min-w-[45px]'
               />
             </div>
             <p>{t('text17')}</p>
           </div>
-          <div>
+          <div className='flex items-center gap-2 !pl-14'>
             <div>
               <ImageFallback
                 src='/promotion/rank2.png'
                 alt='rank2'
                 width={45}
                 height={54}
-                className='pointer-events-none select-none'
+                className='pointer-events-none select-none h-[55px] w-[45px] max-h-[55px] max-w-[45px] min-h-[55px] min-w-[45px]'
               />
             </div>
             <p>{t('text15')}</p>
           </div>
-          <div className='rounded-bl-xl'>
-            <div>
+          <div className='rounded-bl-xl flex items-center gap-2 !pl-14'>
+            <div className=''>
               <ImageFallback
                 src='/promotion/rank3.png'
                 alt='rank3'
                 width={45}
                 height={54}
-                className='pointer-events-none select-none'
+                className='pointer-events-none select-none h-[55px] w-[45px] max-h-[55px] max-w-[45px] min-h-[55px] min-w-[45px]'
               />
             </div>
             <p>{t('text19')}</p>

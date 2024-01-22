@@ -6,6 +6,8 @@ import { memo, useCallback, useEffect, useState } from 'react'
 import QRCode from 'react-qr-code'
 
 import {
+  Accordion,
+  AccordionItem,
   Button,
   Popover,
   PopoverContent,
@@ -165,20 +167,48 @@ const RightHeader = memo(() => {
     { id: 2, title: td('title2'), url: `/${locale}` },
   ]
 
-  type TMenuPopup = { title: string | React.ReactNode; url: string; id: number }
+  type TMenuPopup = {
+    title: string | React.ReactNode
+    url?: string
+    id: number
+    type?: string
+    childrenTitle?: { title: string; url: string }[]
+  }
 
   const menuPopup: TMenuPopup[] = [
     {
       id: 1,
       title: tt('text1'),
+      type: 'accordion',
       url: isInvite ? `/${locale}/invite/winners-list` : `/${locale}/winners-list`,
+      childrenTitle: [
+        {
+          title: td('title2'),
+          url: `/${locale}/winners-list`,
+        },
+        {
+          title: td('title1'),
+          url: `/${locale}/invite/winners-list`,
+        },
+      ],
     },
-    { id: 2, title: tt('text2'), url: 'https://vuatho.com' },
     {
       id: 3,
       title: tt('text3'),
+      type: 'accordion',
       url: isInvite ? `/${locale}/invite/rule` : `/${locale}/rule`,
+      childrenTitle: [
+        {
+          title: td('title2'),
+          url: `/${locale}/rule`,
+        },
+        {
+          title: td('title1'),
+          url: `/${locale}/invite/rule`,
+        },
+      ],
     },
+    { id: 2, title: tt('text2'), url: 'https://vuatho.com' },
     {
       id: 4,
       title: (
@@ -306,7 +336,7 @@ const RightHeader = memo(() => {
             animate='animate'
             exit='exit'
             variants={menuVariants}
-            className='fixed bottom-0 left-0 right-0 top-[60px] z-10 flex h-[calc(100vh-60px)] origin-top flex-col items-start gap-1 bg-bg p-6'
+            className='fixed bottom-0 left-0 right-0 top-[60px] z-10 flex h-[calc(100vh-60px)] origin-top flex-col items-start gap-1 bg-bg p-6 pt-0'
           >
             {promotions.map((item) => (
               <Link
@@ -320,6 +350,30 @@ const RightHeader = memo(() => {
             ))}
             <div className='flex flex-col w-full'>
               {menuPopup.map((item) => {
+                if (item.type === 'accordion')
+                  return (
+                    <Accordion className='p-0'>
+                      <AccordionItem
+                        key={item.id}
+                        aria-label={`Accordion ${item.id}`}
+                        title={item.title}
+                      >
+                        <div className='flex flex-col gap-4'>
+                          {item?.childrenTitle?.map((itemChild) => (
+                            <Link
+                              key={itemChild.title}
+                              href={itemChild.url}
+                              className='flex min-h-[40px] items-center'
+                              onClick={HandleCloseMenuMoblie}
+                            >
+                              {itemChild.title}
+                            </Link>
+                          ))}
+                        </div>
+                      </AccordionItem>
+                    </Accordion>
+                  )
+
                 return (
                   <LinkItem
                     key={item.id}
@@ -887,12 +941,12 @@ const LinkItem = memo(({ item, handleClick }: { item: any; handleClick: any }) =
     <Link
       href={item.url}
       key={item.id}
-      className='w-full cursor-pointer text-lg lg:text-base lg:text-right'
-      target={item.url.includes('http') ? '_blank' : ''}
+      className='w-full cursor-pointer text-lg lg:text-base lg:text-right py-3 lg:pr-4'
+      target={item?.url?.includes('http') ? '_blank' : ''}
       rel='noopener noreferrer'
       onClick={handleClick}
     >
-      <div className='py-3 lg:pr-4'>{item.title}</div>
+      {item.title}
     </Link>
   )
 })

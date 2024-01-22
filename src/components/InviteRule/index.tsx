@@ -78,7 +78,7 @@ function InviteRule({
           {step6 && step6}
         </div>
 
-        <div className={primaryText + '*:font-light'}>
+        <div className={primaryText + ' *:font-light'}>
           <p className=' !font-semibold'>7. {tt('title')}:</p>
           {isInvite ? (
             <>

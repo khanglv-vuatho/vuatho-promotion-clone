@@ -10,6 +10,7 @@ import { Add, Global, SearchNormal1 } from 'iconsax-react'
 import { useGetAllQueryParams } from '@/hooks/useGetAllQueryParams'
 import { normalizeKeyword } from '@/utils'
 import { langs } from '@/constants'
+import { useDispatch } from 'react-redux'
 
 function LangsComp() {
   const t = useTranslations('Navbar')
@@ -18,6 +19,7 @@ function LangsComp() {
   const router = useRouter()
   const pathName = usePathname()
   const allQueryParams: any = useGetAllQueryParams()
+  const dispatch = useDispatch()
 
   const [isOpen, setIsOpen] = useState(false)
   const [lang, setLang] = useState<any>(langs.find((i) => i.code === locale))
@@ -28,6 +30,8 @@ function LangsComp() {
     setLang(value)
 
     setIsOpen(false)
+
+    dispatch({ type: 'toggle_menu', payload: true })
 
     const arrayUrl = pathName?.split('/')
     const urlReplace = arrayUrl

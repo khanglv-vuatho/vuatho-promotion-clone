@@ -69,9 +69,9 @@ export const WinderList = ({ data, onFetching }: { data: any; onFetching: boolea
                             <ImageFallback
                               src={`/promotion/rank${item.rank}.png`}
                               alt={`image-${item.rank}`}
-                              height={38}
-                              width={30}
-                              className='h-[38px] w-[30px] pointer-events-none select-none'
+                              height={100}
+                              width={100}
+                              className='h-[55px] w-[45px] pointer-events-none select-none'
                             />
                           </div>
                           <p className='text-xl font-normal max-w-none md:max-w-[150px] lg:max-w-none'>
