@@ -52,7 +52,7 @@ export const WinderList = ({ data, onFetching }: { data: any; onFetching: boolea
                   animate={{ y: 0, opacity: 1 }}
                   transition={{ duration: 0.3, delay: 0.2 + (index + 1) * 0.1 }}
                   key={item?.time?.public_at}
-                  className='rounded-[20px] bg-white p-5 flex flex-col gap-5 min-h-[300px] max-w-[400px] min-w-[90%] md:min-w-full md:max-w-none mx-auto'
+                  className='rounded-[20px] bg-white p-3 md:p-5 flex flex-col gap-5 min-h-[300px] max-w-[400px] min-w-[90%] md:max-w-[820px] mx-auto'
                 >
                   <h4 className='text-primary-blue text-2xl font-bold'>
                     {t('text31')} {item?.time?.round} - {t('text32')}{' '}
@@ -60,53 +60,92 @@ export const WinderList = ({ data, onFetching }: { data: any; onFetching: boolea
                   </h4>
                   <div className='flex flex-col gap-10'>
                     {item?.listUserWinners?.map((item: any, index: number) => (
-                      <div
-                        key={item.name}
-                        className='flex flex-col items-center justify-between md:grid md:grid-cols-3 gap-4 *:flex *:flex-col *:md:flex-row *:w-full *:md:h-[72px] *:items-center *:gap-2 last:*:md:justify-end first:*:flex-row'
-                      >
-                        <div>
-                          <div>
-                            <ImageFallback
-                              src={`/promotion/rank${item.rank}.png`}
-                              alt={`image-${item.rank}`}
-                              height={100}
-                              width={100}
-                              className='h-[55px] w-[45px] pointer-events-none select-none'
-                            />
+                      <div key={item.name} className='flex flex-col gap-2'>
+                        <div className='flex items-center justify-between md:grid md:grid-cols-3 gap-4 '>
+                          <div className='flex items-center gap-2'>
+                            <div>
+                              <ImageFallback
+                                src={`/promotion/rank${item.rank}.png`}
+                                alt={`image-${item.rank}`}
+                                height={100}
+                                width={100}
+                                className='h-[45px] w-[35px] pointer-events-none select-none'
+                              />
+                            </div>
+                            <p className='md:text-xl font-normal max-w-none md:max-w-[140px] lg:max-w-none'>
+                              {item.name}
+                            </p>
                           </div>
-                          <p className='text-xl font-normal max-w-none md:max-w-[150px] lg:max-w-none'>
-                            {item.name}
-                          </p>
+                          <div className='w-full hidden md:flex items-center justify-center'>
+                            <div className='items-center justify-center flex gap-4'>
+                              {isInvite ? (
+                                item.bingo.map((item: any) => (
+                                  <div
+                                    key={item}
+                                    className='items-center justify-center flex gap-4'
+                                  >
+                                    <p className='size-[40px] bg-[#F8F8F8] flex items-center justify-center rounded-full text-[#405AB7] font-semibold'>
+                                      {item}
+                                    </p>
+                                  </div>
+                                ))
+                              ) : (
+                                <div className='px-4 py-2 border-1 border-primaryYellow rounded-lg flex items-center'>
+                                  <p className='text-xl font-semibold'>{item?.bingo}</p>
+                                </div>
+                              )}
+                            </div>
+                          </div>
+                          <div className='flex items-center gap-2 justify-end'>
+                            <p className={`${!isInvite && 'hidden md:block'}`}>
+                              {listRank[index].title}
+                            </p>
+                            <div className='hidden lg:block'>
+                              <ImageFallback
+                                src={listRank[index].thumb}
+                                alt=''
+                                height={'72'}
+                                width={'100'}
+                                className='md:max-w-[100px] md:max-h-[80px] pointer-events-none select-none'
+                              />
+                            </div>
+                          </div>
                         </div>
-                        <div className='justify-start md:justify-center !flex-row'>
-                          {isInvite ? (
-                            item.bingo.map((item: any) => (
-                              <div
-                                key={item}
-                                className='size-[40px] lg:size-[48px] flex-shrink-0 rounded-full bg-primaryYellow text-xl flex items-center justify-center'
-                              >
-                                {item}
+                        <div
+                          className={`md:hidden flex items-center justify-center gap-4`}
+                        >
+                          <div className='items-center justify-center flex gap-4'>
+                            {isInvite ? (
+                              item.bingo.map((item: any) => (
+                                <div
+                                  key={item}
+                                  className='items-center justify-center flex gap-4'
+                                >
+                                  <p className='size-[40px] bg-[#F8F8F8] flex items-center justify-center rounded-full text-[#405AB7] font-semibold'>
+                                    {item}
+                                  </p>
+                                </div>
+                              ))
+                            ) : (
+                              <div className='px-4 py-2 border-1 border-primaryYellow rounded-lg flex items-center'>
+                                <p className='text-xl font-semibold'>{item?.bingo}</p>
                               </div>
-                            ))
-                          ) : (
-                            <div className='w-full py-3 text-xl bg-primaryYellow text-center rounded-full md:max-w-[70%] mx-auto'>
-                              <p>{item?.bingo}</p>
+                            )}
+                          </div>
+                          {!isInvite && (
+                            <div className='flex items-center gap-2 justify-end'>
+                              <p>{listRank[index].title}</p>
+                              <div className='hidden lg:block'>
+                                <ImageFallback
+                                  src={listRank[index].thumb}
+                                  alt=''
+                                  height={'72'}
+                                  width={'100'}
+                                  className='md:max-w-[100px] md:max-h-[80px] pointer-events-none select-none'
+                                />
+                              </div>
                             </div>
                           )}
-                        </div>
-                        <div className='!items-center'>
-                          <p className='block md:hidden lg:block'>
-                            {listRank[index].title}
-                          </p>
-                          <div>
-                            <ImageFallback
-                              src={listRank[index].thumb}
-                              alt=''
-                              height={'72'}
-                              width={'100'}
-                              className='md:max-w-[100px] md:max-h-[80px] pointer-events-none select-none'
-                            />
-                          </div>
                         </div>
                       </div>
                     ))}

@@ -24,7 +24,7 @@ export const BodyRule = memo(() => {
             <div className='bg-gradient-to-br from-[#F4BF2B] to-[#FFF27E] w-full rounded-full px-4 py-2 md:px-6 md:py-4 text-center text-2xl md:text-4xl text-primary-blue'>
               <span>{isInvite ? t('text1-1') : t('text1')}</span>
               <span className='font-bold'>
-                {isInvite ? `- ${t('text8')} ` : `- ${t('text2')}`}
+                {isInvite ? ` - ${t('text8')} ` : ` - ${t('text2')}`}
               </span>
             </div>
             <InviteRule
@@ -87,7 +87,7 @@ export const Step6 = () => {
             <p>{t('text15')}</p>
           </div>
           <div className='rounded-bl-xl flex items-center gap-2 !pl-14'>
-            <div className=''>
+            <div>
               <ImageFallback
                 src='/promotion/rank3.png'
                 alt='rank3'

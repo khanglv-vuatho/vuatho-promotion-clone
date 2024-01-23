@@ -326,7 +326,9 @@ const RightHeader = memo(() => {
         {openMenu ? (
           <AddIcon size={32} className='rotate-45 cursor-pointer text-text transition' />
         ) : (
-          <MenuIcon size={32} className='cursor-pointer text-white transition' />
+          <div className='flex flex-col bg-white rounded-full p-3 shadow-[0px_8px_16px_0px_rgba(0,0,0,0.16)]'>
+            <MenuIcon size={24} className='cursor-pointer text-base-black-1 transition' />
+          </div>
         )}
       </div>
       <AnimatePresence>
@@ -480,15 +482,15 @@ export const Hero: React.FC<THero> = memo(
           type: 'login',
           payload: {
             thumb: '/promotion/number1.png',
-            name: 'Lương Vĩ Khang',
-            phone: '0932456789',
+            name: '-----------',
+            phone: '0000000',
             id: '3',
             listNumber: [
               ['12', '31', '45', '21', '42', '44'],
               ['12', '32', '35', '98', '33', '75'],
               ['12', '32', '12', '94', '86', '64'],
             ],
-            code: '123456',
+            code: '000000',
           },
         })
       } catch (error) {
@@ -515,20 +517,20 @@ export const Hero: React.FC<THero> = memo(
 
     return (
       <>
-        <h3 className='ct-text-border text-primaryYellow text-2xl md:text-4xl uppercase font-bold px-2 md:px-0 md:text-center mt-10 lg:hidden'>
-          {inviteText ? (
-            <>
-              <span>{t('text1-1')} - </span>
-              <span>{t('text2-1')}</span>
-            </>
-          ) : (
-            <>
-              <span>{t('text1')} - </span>
-              <span>{t('text2')}</span>
-            </>
-          )}
-        </h3>
-        <div className='lg:hidden'>
+        <div>
+          <h3 className='ct-text-border text-primaryYellow text-2xl md:text-4xl uppercase font-bold px-2 md:px-0 md:text-center mt-10 lg:hidden'>
+            {inviteText ? (
+              <>
+                <span>{t('text1-1')} - </span>
+                <span>{t('text2-1')}</span>
+              </>
+            ) : (
+              <>
+                <span>{t('text1')} - </span>
+                <span>{t('text2')}</span>
+              </>
+            )}
+          </h3>
           <CustomSlider
             thumb1={thumb1}
             thumb2={thumb2}
@@ -536,7 +538,7 @@ export const Hero: React.FC<THero> = memo(
             style='md:flex lg:hidden'
           />
         </div>
-        <div className='ct-container flex-col gap-10 hidden mt-10 md:block'>
+        <div className='ct-container flex-col gap-10 hidden mt-10 lg:block'>
           <div
             className={`${!!isWebView ? 'grid grid-cols-5' : ''}  gap-10 items-center`}
           >
@@ -744,7 +746,7 @@ export const ProtocolsPromotion = memo(() => {
             whileInView={{ x: 0, opacity: 1 }}
             transition={{ duration: 0.3, delay: 0.2 + (index + 1) * 0.1 }}
             viewport={{ once: true }}
-            className='rounded-[20px] p-5 bg-white flex flex-col gap-4 md:gap-10'
+            className='rounded-[20px] p-5 bg-white flex flex-col justify-between gap-4 md:gap-10 max-w-none xs:max-w-[70%] md:max-w-none mx-auto'
             key={index}
           >
             <div className='flex flex-col gap-2'>
@@ -900,7 +902,7 @@ export const CustomSlider = memo(
     return (
       <div
         className={twMerge(
-          'relative top-[-40px] md:top-32 col-span-5 mt-[40px] flex min-h-[360px] justify-center overflow-x-hidden md:hidden pb-0 md:pb-0',
+          'relative md:top-32 col-span-5 mt-[40px] flex min-h-[420px] justify-center overflow-x-hidden md:hidden pb-0 md:pb-0',
           style,
         )}
       >
@@ -991,7 +993,7 @@ const MenuOptions = memo(({ infoUser, menuPopup }: { infoUser: any; menuPopup: a
                 className='size-[90%] rounded-full pointer-events-none select-none'
               />
             ) : (
-              <HambergerMenu />
+              <HambergerMenu className='text-base-black-1' />
             )}
           </div>
         </PopoverTrigger>

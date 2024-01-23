@@ -10,6 +10,7 @@
   },
   "dependencies": {
     "@nextui-org/react": "^2.2.9",
+    "@tinymce/tinymce-react": "^4.3.2",
     "axios": "^1.6.3",
     "framer-motion": "^10.16.16",
     "howler": "^2.2.4",

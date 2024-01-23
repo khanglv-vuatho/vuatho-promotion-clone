@@ -7,6 +7,7 @@ import instance from '@/services/axiosConfig'
 
 const WinnerListInvitePage = () => {
   const [onFetching, setOnFetching] = useState(false)
+
   const invite = [
     {
       listUserWinners: [
@@ -78,6 +79,7 @@ const WinnerListInvitePage = () => {
       },
     },
   ]
+
   const [dataInviteWinnerList, setDataInviteWinnerList] = useState([{}])
 
   const _HandleFetching = async () => {
