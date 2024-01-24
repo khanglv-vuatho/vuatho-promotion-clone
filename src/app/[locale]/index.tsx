@@ -53,16 +53,6 @@ export const PromotionsFooter = memo(() => {
       icon: <FacebookIcon size={20} />,
       link: 'https://www.facebook.com/vuathovietnam'
     },
-    // {
-    //   id: 'Tiktok',
-    //   icon: <TiktokIcon size={20} />,
-    //   link: '	https://www.tiktok.com/@vuatho.com',
-    // },
-    // {
-    //   id: 'Instagram',
-    //   icon: <InstaIcon size={24} />,
-    //   link: 'https://www.instagram.com/vuatho.official',
-    // },
     {
       id: 'Linkedin',
       icon: <LinkedinIcon size={20} />,
