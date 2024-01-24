@@ -38,9 +38,7 @@ export const WinderList = ({ data, onFetching }: { data: any; onFetching: boolea
   return (
     <div className='py-[110px] 3xl:py-[120px] bg-[url("/promotion/bg.webp")] bg-cover bg-no-repeat bg-center'>
       <div className='ct-container'>
-        <h3 className='ct-text-border text-[#FF4343] text-2xl md:text-4xl uppercase text-center font-bold'>
-          {td('text1')}
-        </h3>
+        <h3 className='ct-text-border text-[#FF4343] text-2xl md:text-4xl uppercase text-center font-bold'>{td('text1')}</h3>
         {onLoading && !!data.length ? (
           <div className='rounded-[20px] bg-white animate-pulse min-h-[300px] mt-5' />
         ) : (
@@ -51,17 +49,16 @@ export const WinderList = ({ data, onFetching }: { data: any; onFetching: boolea
                   initial={{ y: 100, opacity: 0 }}
                   animate={{ y: 0, opacity: 1 }}
                   transition={{ duration: 0.3, delay: 0.2 + (index + 1) * 0.1 }}
-                  key={item?.time?.public_at}
-                  className='rounded-[20px] bg-white p-3 md:p-5 flex flex-col gap-5 min-h-[300px] max-w-[400px] min-w-[90%] md:max-w-[820px] mx-auto'
+                  key={index}
+                  className='rounded-[20px] bg-white p-4 md:p-5 flex flex-col gap-5 min-h-[300px] w-full md:max-w-[820px] mx-auto'
                 >
                   <h4 className='text-primary-blue text-2xl font-bold'>
-                    {t('text31')} {item?.time?.round} - {t('text32')}{' '}
-                    {item?.time?.public_at}
+                    {t('text31')} {item?.time?.round} - {t('text32')} {item?.time?.public_at}
                   </h4>
                   <div className='flex flex-col gap-10'>
                     {item?.listUserWinners?.map((item: any, index: number) => (
-                      <div key={item.name} className='flex flex-col gap-2'>
-                        <div className='flex items-center justify-between md:grid md:grid-cols-3 gap-4 '>
+                      <div key={index} className='flex flex-col gap-2'>
+                        <div className='flex items-center justify-between xs:grid xs:grid-cols-3 gap-4 '>
                           <div className='flex items-center gap-2'>
                             <div>
                               <ImageFallback
@@ -72,18 +69,13 @@ export const WinderList = ({ data, onFetching }: { data: any; onFetching: boolea
                                 className='h-[45px] w-[35px] pointer-events-none select-none'
                               />
                             </div>
-                            <p className='md:text-xl font-normal max-w-none md:max-w-[140px] lg:max-w-none'>
-                              {item.name}
-                            </p>
+                            <p className='md:text-xl font-normal max-w-none md:max-w-[140px] lg:max-w-none'>{item.name}</p>
                           </div>
-                          <div className='w-full hidden md:flex items-center justify-center'>
+                          <div className='w-full hidden xs:flex items-center justify-center'>
                             <div className='items-center justify-center flex gap-4'>
                               {isInvite ? (
-                                item.bingo.map((item: any) => (
-                                  <div
-                                    key={item}
-                                    className='items-center justify-center flex gap-4'
-                                  >
+                                item.bingo.map((item: any, index: number) => (
+                                  <div key={index} className='items-center justify-center flex gap-4'>
                                     <p className='size-[40px] bg-[#F8F8F8] flex items-center justify-center rounded-full text-[#405AB7] font-semibold'>
                                       {item}
                                     </p>
@@ -97,33 +89,24 @@ export const WinderList = ({ data, onFetching }: { data: any; onFetching: boolea
                             </div>
                           </div>
                           <div className='flex items-center gap-2 justify-end'>
-                            <p className={`${!isInvite && 'hidden md:block'}`}>
-                              {listRank[index].title}
-                            </p>
+                            <p className={`${!isInvite && 'hidden xs:block'}`}>{listRank[index].title}</p>
                             <div className='hidden lg:block'>
                               <ImageFallback
                                 src={listRank[index].thumb}
-                                alt=''
-                                height={'72'}
-                                width={'100'}
-                                className='md:max-w-[100px] md:max-h-[80px] pointer-events-none select-none'
+                                alt={listRank[index].thumb}
+                                height={100}
+                                width={100}
+                                className='w-auto h-auto pointer-events-none object-cover max-h-[80px] max-w-[100px] select-none'
                               />
                             </div>
                           </div>
                         </div>
-                        <div
-                          className={`md:hidden flex items-center justify-center gap-4`}
-                        >
+                        <div className={`xs:hidden flex ${isInvite ? 'justify-center' : ''} items-center gap-4`}>
                           <div className='items-center justify-center flex gap-4'>
                             {isInvite ? (
-                              item.bingo.map((item: any) => (
-                                <div
-                                  key={item}
-                                  className='items-center justify-center flex gap-4'
-                                >
-                                  <p className='size-[40px] bg-[#F8F8F8] flex items-center justify-center rounded-full text-[#405AB7] font-semibold'>
-                                    {item}
-                                  </p>
+                              item.bingo.map((item: any, index: number) => (
+                                <div key={index} className='items-center justify-center flex gap-4'>
+                                  <p className='size-[40px] bg-[#F8F8F8] flex items-center justify-center rounded-full text-[#405AB7] font-semibold'>{item}</p>
                                 </div>
                               ))
                             ) : (

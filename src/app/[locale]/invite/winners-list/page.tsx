@@ -29,7 +29,7 @@ const WinnerListInvitePage = () => {
       ],
       time: {
         round: 1,
-        public_at: '123',
+        public_at: '135',
       },
     },
     {
@@ -51,8 +51,8 @@ const WinnerListInvitePage = () => {
         },
       ],
       time: {
-        round: 1,
-        public_at: '123',
+        round: 2,
+        public_at: '150',
       },
     },
     {
@@ -74,8 +74,8 @@ const WinnerListInvitePage = () => {
         },
       ],
       time: {
-        round: 1,
-        public_at: '123',
+        round: 3,
+        public_at: '1235',
       },
     },
   ]

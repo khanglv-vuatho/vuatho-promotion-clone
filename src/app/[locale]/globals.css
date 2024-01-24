@@ -9,7 +9,7 @@
 }
 
 .ct-container {
-  @apply mx-auto w-full max-w-[1600px] px-6 13inch:w-[1240px] 13inch:px-0;
+  @apply mx-auto w-full max-w-[1600px] px-4 13inch:w-[1240px] 13inch:px-0;
 }
 
 html *::-webkit-scrollbar {
