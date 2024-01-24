@@ -14,70 +14,70 @@ const WinnerListInvitePage = () => {
         {
           rank: 1,
           name: 'Lâm Hoài Bảo',
-          bingo: ['42', '12', '23', '45', '44', '63'],
+          bingo: ['42', '12', '23', '45', '44', '63']
         },
         {
           rank: 2,
           name: 'Trần Tấn Tính',
-          bingo: ['12', '45', '11', '54', '42', '54'],
+          bingo: ['12', '45', '11', '54', '42', '54']
         },
         {
           rank: 3,
           name: 'Nguyễn Trà Thanh Huy',
-          bingo: ['63', '54', '12', '65', '23', '45'],
-        },
+          bingo: ['63', '54', '12', '65', '23', '45']
+        }
       ],
       time: {
         round: 1,
-        public_at: '135',
-      },
+        public_at: '135'
+      }
     },
     {
       listUserWinners: [
         {
           rank: 1,
           name: 'Lâm  Bảo',
-          bingo: ['42', '12', '23', '45', '44', '63'],
+          bingo: ['42', '12', '23', '45', '44', '63']
         },
         {
           rank: 2,
           name: 'Trần Tấn ',
-          bingo: ['12', '45', '11', '54', '42', '54'],
+          bingo: ['12', '45', '11', '54', '42', '54']
         },
         {
           rank: 3,
           name: 'Nguyễn Huy',
-          bingo: ['63', '54', '12', '65', '23', '45'],
-        },
+          bingo: ['63', '54', '12', '65', '23', '45']
+        }
       ],
       time: {
         round: 2,
-        public_at: '150',
-      },
+        public_at: '150'
+      }
     },
     {
       listUserWinners: [
         {
           rank: 1,
           name: 'Lâm',
-          bingo: ['42', '12', '23', '45', '44', '63'],
+          bingo: ['42', '12', '23', '45', '44', '63']
         },
         {
           rank: 2,
           name: 'Tính',
-          bingo: ['12', '45', '11', '54', '42', '54'],
+          bingo: ['12', '45', '11', '54', '42', '54']
         },
         {
           rank: 3,
           name: 'Nguyễn',
-          bingo: ['63', '54', '12', '65', '23', '45'],
-        },
+          bingo: ['63', '54', '12', '65', '23', '45']
+        }
       ],
       time: {
         round: 3,
-        public_at: '1235',
-      },
-    },
+        public_at: '1235'
+      }
+    }
   ]
 
   const [dataInviteWinnerList, setDataInviteWinnerList] = useState([{}])
