@@ -1,0 +1,175 @@
+{
+  "Download": {
+    "download": "Download Now",
+    "download_now": "To experience the most advanced AI technology",
+    "download_appstore": "Download from",
+    "download_chplay": "Download from"
+  },
+  "Navbar": {
+    "become_employee": "Become a Worker",
+    "find_employee": "Find a Worker",
+    "store": "Uniforms",
+    "language": "Language",
+    "download": "Download Now",
+    "money": "Currency"
+  },
+  "Promotion": {
+    "PromotionsHeader": {
+      "text1": "Vua Thợ Technology Company Limited",
+      "text2": "Social Network",
+      "text3": "For any inquiries related to the promotion program, customers can contact the following address for guidance and clarification:",
+      "text4": "32/28, 35 Street, An Khanh Ward, Thu Duc City, Ho Chi Minh City",
+      "text5": "Hotline: 0912 426 404 or Email: Social@vuatho.com",
+      "RightHeader": {
+        "title1": "Lucky number to win electric scooters",
+        "title2": "Join Vua Thợ for a chance to win a Wave RSX",
+        "text3": "Promotion program",
+        "download": "Download the application"
+      }
+    },
+    "Hero": {
+      "text1": "Join the Vua Thợ ",
+      "text1-1": "Lucky Number Sequence ",
+      "text2": "Chance to Win Wave RSX",
+      "text2-1": "Win an Electric Motorcycle",
+      "text3": "1 Yamaha Wave RSX F1 will be given away for every 1,000 Service Providers who register through the lucky draw system",
+      "text3-1": "Service Provider will have a lucky number sequence, and an unlimited number of sequences will participate in the regular draw every month",
+      "text4": "Join now",
+      "text5": "People who have participated",
+      "text6": "Participation Information",
+      "text7": "1 Yamaha PG-1 motorcycle will be awarded every month to the Service Provider who registers through the lucky draw system",
+      "text8": "Win a Yamaha PG-1 motorcycle",
+      "text8-1": "Win a Wave RSX FI 110 motorcycle.",
+      "text9": "Program Rules",
+      "text10": "You haven't entered any numbers yet",
+      "text11": "Read the rules"
+    },
+    "GuidelinesPromotion": {
+      "text0": "Promotion Program Name",
+      "title": "Program Rules",
+      "text1": "Promotion Period:",
+      "text2": "From December 1, 2023, until further notice from Vua Thợ.",
+      "text3": "Promotion Scope:",
+      "text4": "Throughout the territory of Vietnam.",
+      "text5": "Promotion Method:",
+      "text6": "Online lucky draw.",
+      "text7": "Customers eligible for the promotion:",
+      "text8": "Applicable to all users aged 18 and above who successfully register as Service Provider on the application during the promotion period (Main Service Provider + Assistant Service Provider).",
+      "text8-1": "The Service Provider accounts have successfully referred 12 or more Master and Apprentice Service Provider."
+    },
+    "ProtocolsPromotion": {
+      "title": "How to Participate",
+      "desc": "Users download the Vua Thợ app on the App Store or Google Play and proceed to register an account as a Service Provider.",
+      "text1": "After successful registration, each Service Provider account will receive a reward code (also a referral code) randomly, and the system will automatically record it in the lucky draw program.",
+      "text2": "The program is divided into several draw phases. After every 1,000 Service Provider accounts successfully register, representatives of Vua Thợ Technology Company Limited will conduct a draw for the 'Reward Codes' in all the reward codes sent to Service Provider accounts. This will be done in the presence of representatives of Vua Thợ Technology Company Limited, representatives of relevant parties, and representatives of customers with reward codes participating in the 'Join the Vua Thợ Association - Chance to win Wave RSX' promotion program.",
+      "text3": "The system will automatically conduct the draw and select 03 reward codes to award First Prize - Second Prize - Third Prize. The program will be publicly announced online on Vua Thợ's media outlets.",
+      "text4": "Within 24 hours from the time the prize-winning results are determined, Vua Thợ will contact the Service Provider via the phone number provided to announce the prize and provide instructions on the time, location, and procedures for receiving the prize as prescribed. Each reward code is eligible for only one draw.",
+      "text5": "For reward codes that have participated in the first phase (from code 0001 - 0999), the system will automatically exclude them and they will not be eligible for the next draw phase.",
+      "text6": "Steps",
+      "text7": "Download now",
+      "text8": "Hire Service Provider, find jobs with AI technology",
+      "text9": "Or scan the QR code below",
+      "text10": "Download and install",
+      "text11": "Vua Thợ app",
+      "text12": "Register as a Service Provider",
+      "text13": "Wait for the draw results",
+      "text14": "Prize Structure",
+      "text15": "Second Prize",
+      "text16": "6 beer crates",
+      "text17": "First Prize",
+      "text18": "1 Wave RSX F1 motorbike",
+      "text18-1": "1 Yamaha PG-1 motorbike",
+      "text19": "Third Prize",
+      "text20": "3 beer crates",
+      "text21": "1 motorbike",
+      "text22": "valued at",
+      "text23": "100 motorbikes",
+      "text24": "Lasts until reaching 1,000,000 Service Provider accounts",
+      "text25": "Prizes",
+      "text26": "Prize details",
+      "text27": "Number of prizes",
+      "text28": "1 Honda Wave RSX FI 110 motorbike valued at 25,000,000 VND per draw",
+      "text28-1": "1 Yamaha PG-1 motorbike valued at 35,000,000 VND per draw",
+      "text29": "6 silver Tiger Beer crates per draw",
+      "text30": "3 silver Tiger Beer crates per draw",
+      "text31": "Batch",
+      "text32": "Date"
+    },
+    "Reward": {
+      "title": "Prize awarding procedure:",
+      "text1": "Upon receiving the prize, the winning must follow these procedures:",
+      "text2": "For the First Prize winner, they must be present directly at Vua Thợ Technology Company Limited.",
+      "text3": "Vua Thợ does not accept proxy prize acceptance.",
+      "text4": "Prizes will be sent to the prize-winning within 30 days from the date of receiving the prize draw result. In case Vua Thợ cannot contact the prize-winning Service Provider, or the prize-winning does not come to receive the prize within the specified time, the prize will be revoked by Vua Thợ, and the prize value will be converted into Vua Thợ's support funds.",
+      "text5": "The prize-winning must bear all travel expenses, transportation costs (if any) for receiving their prize."
+    },
+    "ConditionDetails": {
+      "title": "Details of applicable conditions:",
+      "text1": "Customers who win prizes, please contact the Hotline: 0912 426 404 or send a message directly on the Fanpage or Zalo Vua Thợ for instructions on receiving the prize.",
+      "text2": "The First Prize will be awarded at Vua Thợ Technology Company Limited, 32/28, 35 Street, An Khanh Ward, Thu Duc City, Ho Chi Minh City, or Vua Thợ will assist in sending it to the customer's home (if outside Ho Chi Minh City).",
+      "text3": "The organizer has the right to use the names, images of participants in the program on the program's information channels & other media.",
+      "text4": "In case of any disputes related to this promotion program, Vua Thợ Technology Company Limited will be directly responsible for resolution; if the dispute is not resolved by agreement, it will be handled according to the legal provisions.",
+      "text5": "Employees of Vua Thợ Technology Company Limited and administrative-business block employees at Pho Viet Manufacturing Trading Construction Company Limited are not allowed to participate in the program.",
+      "text6": "The program may end earlier than expected."
+    },
+    "ImportantNote": {
+      "title": "Important notes:",
+      "text1": "For the Wave RSX FI 110 prize (not convertible into cash):",
+      "text1-1": "For the Yamaha PG-1 motorcycle prize (not convertible to cash):",
+      "text2": "The vehicle value (25,000,000 VND) does not include registration fees and related fees; the prize-winning needs to pay the full amount according to current regulations (about 3,500,000 VND).",
+      "text2-1": "The vehicle value (35,000,000 VND) does not include registration fees and related fees; the prize-winning needs to pay the full amount according to current regulations (about 3,500,000 VND).",
+      "text3": "The prize winner must use the vehicle under the name of the Vua Thợ owner within 03 years for purposes related to services on the Vua Thợ application and is not allowed to buy, sell, exchange, or replace any vehicle parts or technical details without Vua Thợ's permission.",
+      "text4": "After 03 years from the date of receiving the vehicle, the prize winner can convert the vehicle ownership documents to their personal name without incurring any additional fees and can use it for other purposes.",
+      "text5": "For the Tiger Silver beer prize (can be converted into cash):",
+      "text5-1": "Award prizes to the account of the winning Artisan or transfer the equivalent amount of the prize value to the Artisan's wallet on the Vua Thợ app.",
+      "text6": "Take a confirmation photo of receiving the prize and send it to Vua Thợ (via Zalo Vua Thợ)."
+    },
+    "ProtocolsInvite": {
+      "title": "How to Participate",
+      "text1": "A Service Provider who successfully introduces 12 new Service Provider will receive 6 soccer balls (each soccer ball has 2 numbers corresponding to 02 Service Provider) through an online format right on the Vua Thợ app.",
+      "text2": "A valid sequence is a sequence that includes a complete set of 6 soccer balls (corresponding to 12 introduced Service Provider).",
+      "text3": "The program does not limit the number of new Service Provider introductions; the more you introduce, the more lucky sequences you will receive.",
+      "text4": "These sequences will accompany the Service Provider throughout the process and continue to participate in the draw in every subsequent month.",
+      "text5": "Each account can win multiple times throughout the program.",
+      "text6": "Account A introduces person B, person C registers as a Service Provider, then person A will receive 01 soccer ball with random numbers 3 and 5, forming the number pair 35. Likewise, if person A introduces 10 more people who successfully register as Service Provider, person A will receive 05 soccer balls with random number pairs 44, 82, 90, 61, 95. Person A has completed their first lucky sequence: '35, 44, 82, 90, 61, 95'.",
+      "text7": "Similarly, if person A successfully introduces 120 people, person A will have 10 lucky sequences, and there is no limit to the number of introductions. These sequences will accompany person A throughout the process and participate in the draws in the next rounds.",
+      "text8": "The program will start when the system records the first 100 lucky sequences regularly every month. Representatives of Vua Thợ Technology Company Limited will conduct a draw for all the prize-winning sequences sent to the introducing Service Provider's account. This will be done in the presence of representatives of Vua Thợ Technology Company Limited, representatives of relevant parties, and representatives of customers with reward codes participating in the 'Lucky Sequences' promotion program.",
+      "text9": "The system will automatically conduct the draw and select 03 sequences to award First Prize - Second Prize - Third Prize. The program will be publicly announced online on Vua Thợ's media outlets.",
+      "text10": "Within 24 hours from the time the prize-winning results are determined, Vua Thợ will contact to announce and provide instructions on the time, location, and procedures for receiving the prize as prescribed.",
+      "text12": "Example",
+      "text13": "Account A introduces person B, person C registers as a Service Provider, then person A will receive 01 soccer ball with random numbers 3 and 5, forming the number pair 35. Likewise, if person A introduces 10 more people who successfully register as Service Provider, person A will receive 05 soccer balls with random number pairs 44, 82, 90, 61, 95. Person A has completed their first lucky sequence: '35, 44, 82, 90, 61, 95'.",
+      "text14": "Similarly, if person A successfully introduces 120 people, person A will have 10 lucky sequences, and there is no limit to the number of introductions. These sequences will accompany person A throughout the process and participate in the draws in the next rounds.",
+      "text15": "The program will start when the system records the first 100 lucky sequences regularly every month. Representatives of Vua Thợ Technology Company Limited will conduct a draw for all the prize-winning sequences sent to the introducing Service Provider's account. This will be done in the presence of representatives of Vua Thợ Technology Company Limited, representatives of relevant parties, and representatives of Service Provider with reward codes participating in the 'Lucky Sequences' promotion program.",
+      "text16": "The system will automatically conduct the draw and select 03 sequences to award First Prize - Second Prize - Third Prize. The program will be publicly announced online on Vua Thợ's media outlets.",
+      "text17": "Within 24 hours from the time the prize-winning results are determined, Vua Thợ will contact to announce and provide instructions on the time, location, and procedures for receiving the prize as prescribed."
+    },
+    "menuPopup": {
+      "text1": "Prize Winners List",
+      "text2": "Vua Thợ Website",
+      "text3": "Program Rules",
+      "fanpage": "Fanpage"
+    },
+    "Toast": {
+      "text1": "Please agree to the rules",
+      "text2": "Invalid phone number or OTP",
+      "text3": "Invalid phone number or OTP.",
+      "text4": "Please enter your phone number",
+      "text5": "Invalid phone number",
+      "text6": "OTP code has been sent to you"
+    },
+    "placeHolder": {
+      "text1": "Phone Number",
+      "text2": "OTP Code"
+    },
+    "Form": {
+      "text1": "I have read and agree to the ",
+      "text2": " program rules",
+      "text3": "Send Code",
+      "text4": "Log In"
+    }
+  },
+  "NotFound": {
+    "text": "Page not found!",
+    "button": "BACK TO HOME"
+  }
+}

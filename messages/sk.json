@@ -1,0 +1,176 @@
+{
+  "Download": {
+    "download": "Stiahnuť teraz",
+    "download_now": "Na skúsenosť s najpokročilejšou AI technológiou",
+    "download_appstore": "Stiahnuť z",
+    "download_chplay": "Stiahnuť z"
+  },
+  "Navbar": {
+    "become_employee": "Staňte sa zamestnancom",
+    "find_employee": "Nájsť zamestnanca",
+    "store": "Uniformy",
+    "language": "Jazyk",
+    "download": "Stiahnuť teraz",
+    "money": "Peniaze"
+  },
+  "Promotion": {
+    "PromotionsHeader": {
+      "text1": "Spoločnosť s ručením obmedzeným pre technológiu Vua Thợ",
+      "text2": "Sociálna sieť",
+      "text3": "Všetky otázky týkajúce sa promočného programu riešte kontaktovaním zákazníckeho servisu na nasledujúcej adrese a získajte usmernenia a odpovede:",
+      "text4": "32/28, 35 Street, An Khanh Ward, Thu Duc City, Ho Chi Minh City",
+      "text5": "0912 426 404 alebo Email: Social@vuatho.com",
+      "RightHeader": {
+        "title1": "Rada šťastných čísel pre výhru elektrického skútra",
+        "title2": "Zapojte sa do skupiny Vua Thợ a máte šancu vyhrať skúter Wave RSX",
+        "text3": "Reklamný program",
+        "download": "Stiahnuť aplikáciu"
+      }
+    },
+    "Hero": {
+      "text1": "Zapojte sa do skupiny Vua Thợ",
+      "text1-1": "Rada šťastných čísel",
+      "text2": "Šanca na získanie skútra Wave RSX",
+      "text2-1": "Vyhrajte elektrický skúter",
+      "text3": "01 skúter Wave RSX F1 v každej 1 000 registráciách pracovníkov prostredníctvom online žrebovania zo systému",
+      "text3-1": "Pracovníci budú mať jedno šťastné číslo a neobmedzené množstvo šťastných čísiel, ktoré sa zúčastnia pravidelného žrebovania každý mesiac",
+      "text4": "Zúčastnite sa hneď",
+      "text5": "Ľudia, ktorí sa už zapojili",
+      "text6": "Informácie o účasti",
+      "text7": "01 skúter Yamaha PG-1 v každom mesiaci pre pracovníkov, ktorí sa zaregistrovali cez žrebovanie zo systému",
+      "text8": "Vyhrajte skúter Yamaha PG-1",
+      "text8-1": "Vyhrajte skúter Wave RSX FI 110.",
+      "text9": "Podmienky programu",
+      "text10": "Zatiaľ nemáte žiadne čísla.",
+      "text11": "Prečítajte si pravidlá."
+    },
+    "GuidelinesPromotion": {
+      "text0": "Názov promočného programu",
+      "title": "Podmienky promočného programu",
+      "text1": "Čas promočného programu:",
+      "text2": "Od 01.12.2023 do odvolania zo strany Vua Thợ.",
+      "text3": "Rozsah promočného programu:",
+      "text4": "Celé územie Vietnamu.",
+      "text5": "Spôsob promočného programu:",
+      "text6": "Online žrebovanie",
+      "text7": "Zákazníci promočného programu:",
+      "text8": "Platí pre všetkých používateľov vo veku 18 rokov a starších, ktorí sa úspešne zaregistrovali ako pracovníci v aplikácii počas promočného obdobia (Hlavný pracovník + Pracovník pomocný).",
+      "text8-1": "Úspešne predstavených 12 majstrov a pomocných majstrov do promočného programu."
+    },
+    "ProtocolsPromotion": {
+      "title": "Sposob účasti",
+      "desc": "Používatelia si stiahnu aplikáciu Vua Thợ z App Store alebo Google Play a zaregistrujú sa ako pracovníci.",
+      "text1": "Po úspešnej registrácii každý účet pracovníka obdrží náhodné registračné číslo (rovnaké ako kód odporúčania) a systém automaticky zaznamená tento kód do kolieskového programu.",
+      "text2": "Program je rozdelený do viacerých kolies, po každých 1 000 úspešných registráciách pracovníkov, zástupca spoločnosti Vua Thợ bude realizovať žrebovanie „Registračné kódy“ v celom súbore registrovaných kódov pre účty pracovníkov, za účasti zástupcu spoločnosti Vua Thợ, zástupcu príslušných strán a zástupcu zákazníkov s registračným kódom zúčastneným v promočnom programe „Zapojte sa do skupiny Vua Thợ - Šanca na výhru Wave RSX“.",
+      "text3": "Systém automaticky uskutoční žrebovanie a vyberie 03 registračné kódy na udelenie ceny postupne pre Prvé - Druhé - Tretie miesto, program bude verejne oznámený online na médiách Vua Thợ.",
+      "text4": "V priebehu 24 hodín od oznámenia výsledkov, Vua Thợ bude kontaktovať pracovníka na telefónnom čísle, ktoré pracovník poskytol pre oznamovanie cien a poskytne informácie o dátume, mieste a postupe pre prevzatie cien podľa predpisov. Každý registračný kód sa môže zúčastniť len jedného žrebovania.",
+      "text5": "Pre registračné kódy, ktoré sa zúčastnili kolieska 1 (od kódu 0001 - 0999), systém ich automaticky vylúči a nebudú sa zúčastňovať ďalšieho kola.",
+      "text6": "Kroky",
+      "text7": "Stiahnuť teraz",
+      "text8": "Najímajte alebo hľadajte prácu s pomocou AI technológie",
+      "text9": "Alebo naskenujte QR kód nižšie",
+      "text10": "Stiahnite si a nainštalujte",
+      "text11": "aplikáciu Vua Thợ",
+      "text12": "Zaregistrujte sa ako pracovník",
+      "text13": "Počkajte na výsledky žrebovania",
+      "text14": "Štruktúra cien",
+      "text15": "Druhá cena",
+      "text16": "6 sľúžok",
+      "text17": "Prvá cena",
+      "text18": "1 skúter Wave RSX F1",
+      "text18-1": "1 skúter Yamaha PG-1",
+      "text19": "Tretia cena",
+      "text20": "3 sľúžky",
+      "text21": "1 motocykel",
+      "text22": "hodnota",
+      "text23": "100 kusov",
+      "text24": "Pokračovať až do dosiahnutia 1 000 000 účtov pracovníkov",
+      "text25": "Ceny",
+      "text26": "Podrobnosti o cenách",
+      "text27": "Počet cien",
+      "text28": "1 motocykel Honda Wave RSX FI 110 v hodnote 25 000 000 VND",
+      "text28-1": "1 motocykel Yamaha PG-1 v hodnote 35 000 000 VND",
+      "text29": "Každý z 6 sľúžok každý kolobeh",
+      "text30": "Každý z 3 sľúžok každý kolobeh",
+      "text31": "Obdobie",
+      "text32": "Dátum"
+    },
+    "Reward": {
+      "title": "Postup udelenia cien:",
+      "text1": "Pri preberaní ceny musí víťaz dodržať nasledujúce postupy:",
+      "text2": "Pre držiteľa prvej ceny je potrebná osobná prítomnosť v spoločnosti Vua Thợ.",
+      "text3": "Vua Thợ neakceptuje prípady prijatia ceny prostredníctvom zástupcu.",
+      "text4": "Ceny sa odovzdávajú víťazom do 30 dní od dátumu žrebovania. V prípade, že Vua Thợ nemôže kontaktovať víťaza alebo ak víťaz nepríde prevziať cenu v stanovenom termíne, cena bude odobratá a hodnota ceny sa vymení za prostriedky na podporu Vua Thợ.",
+      "text5": "Víťaz ceny nesie všetky náklady na cestu a dopravu (ak je to potrebné) pre preberanie svojej ceny."
+    },
+    "ConditionDetails": {
+      "title": "Podrobnosti o podmienkach použitia:",
+      "text1": "Víťazi prosím kontaktujte infolinku: 0912 426 404 alebo zašlite správu priamo na Fanpage alebo Zalo Vua Thợ pre inštrukcie týkajúce sa prevzatia ceny.",
+      "text2": "Prvá cena bude udelená v sídle spoločnosti Vua Thợ, č. 32/28, ul. 35, obvod An Khánh, mesto Thủ Đức, Ho Chi Minh City alebo Vua Thợ poskytne pomoc s doručením až domov pre zákazníkov (ak sú mimo oblasti Ho Chi Minh City).",
+      "text3": "Organizátor si vyhradzuje právo používať mená, obrázky účastníkov programu na všetkých informačných kanáloch programu a iných médiách.",
+      "text4": "V prípade akéhokoľvek sporu alebo námietky súvisiacej s týmto promočným programom bude spoločnosť Vua Thợ zodpovedná za priamu riešenie, ak sa nespokojnosť nerozrieši, bude sa postupovať podľa ustanovení právnych predpisov.",
+      "text5": "Zamestnanci spoločnosti Vua Thợ a zamestnanci oddelenia administratívy a obchodu spoločnosti TNHH Sản xuất Thương mại - Xây dựng Phố Việt nie sú oprávnení zúčastňovať sa programu.",
+      "text6": "Program sa môže skončiť skôr ako je plánované."
+    },
+    "ImportantNote": {
+      "title": "Dôležité upozornenie:",
+      "text1": "Pre výhru skútra Wave RSX FI 110 (nie je možné ju vymeniť za hotovosť):",
+      "text1-1": "Pre víťazstvo v súťaži na motocykel Yamaha PG-1 (nemožno vymeniť za hotovosť):",
+      "text2": "Hodnota skútra (25.000.000 VND) nezahŕňa daň z premávky a prípadné ďalšie poplatky, víťaz musí uhradiť plnú sumu podľa platných predpisov (približne 3.500.000 VND).",
+      "text2-1": "Hodnota skútra (35.000.000 VND) nezahŕňa daň z premávky a prípadné ďalšie poplatky, víťaz musí uhradiť plnú sumu podľa platných predpisov (približne 3.500.000 VND).",
+      "text3": "Víťaz musí používať skúter na účely súvisiace s poskytovaním služieb na aplikácii Vua Thợ a nie je mu povolené kúpiť, predať alebo vymeniť akékoľvek súčiastky alebo technické časti skútra bez súhlasu Vua Thợ.",
+      "text4": "Počas troch rokov od prevzatia skútra môže víťaz zmeniť vlastníctvo skútra na svoje meno bez ďalších poplatkov a použiť ho podľa vlastného uváženia na iné účely.",
+      "text5": "Pre výhru súčiek Tiger Silver (možné ich vymeniť za hotovosť):",
+      "text5-1": "Vyhlásiť ceny pre šikovateľa v súlade s jeho účtom alebo previesť ekvivalentnú sumu výhry do peňaženky šikovateľa v aplikácii Vua Thợ.",
+      "text6": "Potvrdenie o prevzatí ceny treba odoslať späť Vua Thợ (cez Zalo Vua Thợ)."
+    },
+    "ProtocolsInvite": {
+      "title": "Postup účasti",
+      "text1": "Každý úspešným predstavením 12 nových Thợ získate 6 futbalových loptičiek (každá s dvoma číslami, ktoré zodpovedajú 02 Thợ) online priamo v aplikácii Vua Thợ.",
+      "text2": "Platná postupnosť čísel je postupnosť obsahujúca 6 futbalových loptičiek (čo zodpovedá 12 predstaveným osobám).",
+      "text3": "Program neobmedzuje počet predstavení nových Thợ, čím viac predstavíte, tým viac získate postupných šťastných postupností.",
+      "text4": "Tieto postupnosti budú sprevádzať Thợa počas celého priebehu a budú pokračovať v účasti v každom ďalšom mesiaci.",
+      "text5": "Každý účet môže vyhrať viackrát počas celej kampane.",
+      "text6": "Účet A predstaví osobu B, osoba C sa zaregistruje ako Thợ, takže osoba A získa 01 futbalovú loptičku s náhodným číslom 3 a 5, čo tvorí dvojicu čísiel 35. Takto osoba A predstaví ďalších 10 Thợov a získa 05 futbalových loptičiek s náhodnými dvojicami čísiel 44, 82, 90, 61, 95. Osoba A dokončila svoju prvú šťastnú postupnosť “35, 44, 82, 90, 61, 95”.",
+      "text7": "Ak osoba A predstaví 120 ľudí, získa 10 postupností a nemá obmedzený počet predstavení.",
+      "text8": "Tieto postupnosti budú sprevádzať osobu A počas celého priebehu a budú sa zúčastňovať ďalších kôl v každom nasledujúcom období.",
+      "text9": "Program sa spustí, keď systém zaznamená prvých 100 šťastných postupností pravidelne každý mesiac, zástupca spoločnosti Vua Thợ uskutoční žrebovanie medzi všetkými šťastnými postupnosťami, ktoré boli odoslané na účet Thợa predstavujúceho, za účasti zástupcu spoločnosti Vua Thợ, zástupcu príslušných strán a zástupcu zákazníka s dôverným kódom účastníka programu “Šťastné postupnosti”.",
+      "text10": "Systém bude automaticky vykonávať postupné žrebovanie a vyberie 03 postupnosti na odovzdanie cien v poradí Prvá - Druhá - Tretia, program bude verejne oznámený online prostredníctvom rôznych médií Vua Thợ.",
+      "text11": "Do 24 hodín od stanovenia výsledkov losovania sa spoločnosť Vua Thợ spojí s Thợom na oznámenie a poskytnutie informácií o čase, mieste a postupe pre prevzatie cien podľa predpisov.",
+      "text12": "Príklad",
+      "text13": " Účet A predstaví osobu B, osoba C sa zaregistruje ako Thợ, takže osoba A získa 01 futbalovú loptičku s náhodným číslom 3 a 5, čo tvorí dvojicu čísiel 35. Takto osoba A predstaví ďalších 10 Thợov a získa 05 futbalových loptičiek s náhodnými dvojicami čísiel 44, 82, 90, 61, 95. Osoba A dokončila svoju prvú šťastnú postupnosť “35, 44, 82, 90, 61, 95”.",
+      "text14": "Ak osoba A predstaví 120 ľudí, získa 10 postupností a nemá obmedzený počet predstavení. Tieto postupnosti budú sprevádzať osobu A počas celého priebehu a budú sa zúčastňovať ďalších kôl v každom nasledujúcom období.",
+      "text15": "Program sa spustí, keď systém zaznamená prvých 100 šťastných postupností pravidelne každý mesiac, zástupca spoločnosti Vua Thợ uskutoční žrebovanie medzi všetkými šťastnými postupnosťami, ktoré boli odoslané na účet Thợa predstavujúceho, za účasti zástupcu spoločnosti Vua Thợ, zástupcu príslušných strán a zástupcu Thợa s dôverným kódom účastníka programu “Šťastné postupnosti”.",
+      "text16": "Systém bude automaticky vykonávať postupné žrebovanie a vyberie 03 postupnosti na odovzdanie cien v poradí Prvá - Druhá - Tretia, program bude verejne oznámený online prostredníctvom rôznych médií Vua Thợ.",
+      "text17": "Do 24 hodín od stanovenia výsledkov losovania sa spoločnosť Vua Thợ spojí s Thợom na oznámenie a poskytnutie informácií o čase, mieste a postupe pre prevzatie cien podľa predpisov."
+    },
+    "menuPopup": {
+      "text1": "Zoznam víťazov",
+      "text2": "Webová stránka Vua Thợ",
+      "text3": "Pravidlá programu",
+      "fanpage": "Doplnok"
+    },
+    "Toast": {
+      "text1": "Prosím, súhlasíte s pravidlami",
+      "text2": "Neplatné telefónne číslo alebo OTP kód",
+      "text3": "Neplatné telefónne číslo alebo OTP kód.",
+      "text4": "Zadajte prosím telefónne číslo",
+      "text5": "Neplatné telefónne číslo",
+      "text6": "OTP kód bol odoslaný vám"
+    },
+    "placeHolder": {
+      "text1": "Telefónne číslo",
+      "text2": "OTP kód"
+    },
+    "Form": {
+      "text1": "Prečítal(a) som si a súhlasím s ",
+      "text2": " pravidlami programu",
+      "text3": "Odoslať kód",
+      "text4": "Prihlásiť sa"
+    }
+  },
+  "NotFound": {
+    "text": "Stránka sa nenašla!",
+    "button": "SPÄŤ NA HLAVNÚ STRÁNKU"
+  }
+}

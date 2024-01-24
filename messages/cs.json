@@ -1,0 +1,176 @@
+{
+  "Download": {
+    "download": "Stáhnout nyní",
+    "download_now": "Prožijte nejmodernější technologii AI",
+    "download_appstore": "Stáhnout z",
+    "download_chplay": "Stáhnout z"
+  },
+  "Navbar": {
+    "become_employee": "Staňte se zaměstnancem",
+    "find_employee": "Najděte zaměstnance",
+    "store": "Uniformy",
+    "language": "Jazyk",
+    "download": "Stáhnout nyní",
+    "money": "Peníze"
+  },
+  "Promotion": {
+    "PromotionsHeader": {
+      "text1": "Společnost s ručením omezeným Vua Thợ",
+      "text2": "Sociální síť",
+      "text3": "Pro veškeré dotazy týkající se promočního programu kontaktujte zákaznickou podporu na následující adrese pro pokyny a odpovědi:",
+      "text4": "32/28, 35 Street, An Khanh Ward, Thu Duc City, Ho Chi Minh City",
+      "text5": "Linka: 0912 426 404 nebo E-mail: Social@vuatho.com",
+      "RightHeader": {
+        "title1": "Šťastná čísla pro elektromobily",
+        "title2": "Vstup do světa Vua Thợ a šance na výhru Wave RSX",
+        "text3": "Promoční program",
+        "download": "Stáhnout aplikaci"
+      }
+    },
+    "Hero": {
+      "text1": "Vstup do světa Vua Thợ",
+      "text1-1": "Šťastná čísla",
+      "text2": "Šance na výhru Wave RSX",
+      "text2-1": "Vyhrajte elektromobil",
+      "text3": "1 motocykl Wave RSX F1 každých 1 000 nově přihlášených řemeslníků prostřednictvím online losování ze systému",
+      "text3-1": "Řemeslník obdrží šťastná čísla a může se zúčastnit pravidelného losování každý měsíc",
+      "text4": "Zúčastněte se hned teď",
+      "text5": "Lidé, kteří se účastnili",
+      "text6": "Informace o účasti",
+      "text7": "1 skútr Yamaha PG-1 každý měsíc pro každého řemeslníka přihlášeného prostřednictvím online losování ze systému",
+      "text8": "Vyhrajte skútr Yamaha PG-1",
+      "text8-1": "Vyhrajte skútr Wave RSX FI 110",
+      "text9": "Podmínky programu",
+      "text10": "Nemáte žádná čísla v řadě",
+      "text11": "Přečtěte si pravidla"
+    },
+    "GuidelinesPromotion": {
+      "text0": "Název promočního programu",
+      "title": "Podmínky programu",
+      "text1": "Doba promoce:",
+      "text2": "Od 01.12.2023 do odvolání od Vua Thợ.",
+      "text3": "Rozsah promoce:",
+      "text4": "Celé území Vietnamu.",
+      "text5": "Forma promoce:",
+      "text6": "Online losování.",
+      "text7": "Zákazníci promočního programu:",
+      "text8": "Platí pro všechny uživatele starší 18 let, kteří se úspěšně zaregistrovali jako řemeslníci v aplikaci během promoční doby (Hlavní řemeslník + Přidružený řemeslník).",
+      "text8-1": "Účetní mistr úspěšně představil 12 hlavních a vedlejších řemeslníků."
+    },
+    "ProtocolsPromotion": {
+      "title": "Způsob účasti",
+      "desc": "Uživatelé stáhnou aplikaci Vua Thợ z App Store nebo Google Play  a zaregistrují se jako řemeslníci.",
+      "text1": "Po úspěšné registraci každý řemeslník obdrží náhodné výherní číslo (také známé jako referenční číslo), které je automaticky zaznamenáno v systému pro účast ve výherním programu.",
+      "text2": "Program je rozdělen do několika kolo, po každých 1 000 úspěšně registrovaných řemeslníkůch, zástupce společnosti Vua Thợ bude provádět losování mezi všemi 'referenčními čísly' zaslánými řemeslníkům za účelem zúčastnění se promočního programu „Vstup do světa Vua Thợ - Šance na výhru Wave RSX“.",
+      "text3": "Systém provede automatické losování a vybere 03 výherní čísla pro postupné udělení cen První - Druhé - Třetí. Program bude oznámen online na všech médiích Vua Thợ.",
+      "text4": "V průběhu 24 hodin od stanovení výsledků losování, Vua Thợ se spojí s řemeslníkem na telefonním čísle, které řemeslník poskytl k oznámení výhry a pokynů ohledně času, místa a postupu převzetí ceny podle stanovených podmínek. Každé výherní číslo bude použito pouze pro jedno kolo losování.",
+      "text5": "Pro výherní čísla, která se zúčastnila prvního kola (od čísla 0001 do 0999), systém je automaticky vyloučí z účasti v následujícím kole losování.",
+      "text6": "Postup",
+      "text7": "Stáhnout hned",
+      "text8": "Zaregistrujte se jako řemeslník a hledejte práci s pomocí technologie AI",
+      "text9": "Nebo naskenujte níže uvedený QR kód",
+      "text10": "Stáhnout a nainstalovat",
+      "text11": "Aplikace Vua Thợ",
+      "text12": "Registrovat se jako řemeslník",
+      "text13": "Počkejte na výsledky losování",
+      "text14": "Struktura cen",
+      "text15": "Druhé místo",
+      "text17": "První místo",
+      "text18": "1 elektromobil Wave RSX F1",
+      "text18-1": "1 elektromobil Yamaha PG-1",
+      "text19": "Třetí místo",
+      "text16": "sud piva",
+      "text20": "sud piva",
+      "text21": "1 motocykl",
+      "text22": "v hodnotě",
+      "text23": "100 kusů",
+      "text24": "Pokračuje až do dosažení milníku 1 000 000 řemeslníků",
+      "text25": "Ceny",
+      "text26": "Podrobnosti o cenách",
+      "text27": "Počet cen",
+      "text28": "1 motocykl Honda Wave RSX FI 110 v hodnotě 25,000,000 VND",
+      "text28-1": "1 motocykl Yamaha PG-1 v hodnotě 35,000,000 VND",
+      "text29": "6 stříbrných lahví piva Tiger v každém kole",
+      "text30": "3 stříbrné lahve piva Tiger v každém kole",
+      "text31": "Období",
+      "text32": "Den"
+    },
+    "Reward": {
+      "title": "Postup při předávání cen:",
+      "text1": "Při přebírání ceny musí vítěz provést následující kroky:",
+      "text2": "Pro vítěze první ceny je nutné být osobně přítomen v sídle společnosti Vua Thợ.",
+      "text3": "Vua Thợ nepřijímá žádné případy získání ceny prostřednictvím zástupce.",
+      "text4": "Cena bude odeslána vítězi do 30 dní od data losování. V případě, že Vua Thợ nemůže kontaktovat vítěze nebo pokud vítěz neobdrží cenu v určené lhůtě, Vua Thợ si vyhrazuje právo odebrat cenu a hodnotu ceny převede na charitativní fondy Vua Thợ.",
+      "text5": "Vítězové jsou odpovědni za veškeré náklady na cestování a přepravu (pokud je to nutné) v souvislosti s převzetím ceny."
+    },
+    "ConditionDetails": {
+      "title": "Podrobnosti o podmínkách:",
+      "text1": "Výherci kontaktujte prosím Linku: 0912 426 404 nebo nám zašlete přímou zprávu na Fanpage nebo Zalo Vua Thợ pro pokyny k vyzvednutí ceny.",
+      "text2": "První cena bude předána v sídle společnosti Vua Thợ, č. 32/28, ulice 35, An Khánh, město Thủ Đức, Ho Či Minovo město, nebo Vua Thợ bude podporovat doručení výherce přímo do domu (pokud je mimo oblast města Ho Či Minovo).",
+      "text3": "Organizátor má plné právo používat jména a obrázky účastníků programu na všech kanálech informací o programu a v dalších mediálních prostředcích.",
+      "text4": "V případě jakéhokoli sporu nebo stížnosti týkající se této propagační akce bude společnost Vua Thợ odpovědná za přímé řešení. V případě, že se spor nedohodne, bude řešen v souladu s právními předpisy.",
+      "text5": "Zaměstnanci společnosti Vua Thợ a zaměstnanci správního a obchodního bloku společnosti TNHH Sản xuất Thương mại - Xây dựng Phố Việt nesmějí participovat v programu.",
+      "text6": "Program může skončit dříve než je plánováno."
+    },
+    "ImportantNote": {
+      "title": "Důležité upozornění:",
+      "text1": "Pro výherce, kteří získali cenu, kontaktujte Linku: 0912 426 404 nebo pošlete přímou zprávu na Fanpage nebo Zalo Vua Thợ pro pokyny k vyzvednutí ceny.",
+      "text1-1": "Pro cenu Yamaha PG-1 (není možné ji převést na hotovost):",
+      "text2": "Hodnota vozidla (25.000.000 Kč) nezahrnuje registrační poplatky a další související poplatky. Výherce musí uhradit všechny poplatky podle platných předpisů (přibližně 3.500.000 Kč).",
+      "text2-1": "Hodnota vozidla (35.000.000 Kč) nezahrnuje registrační poplatky a další související poplatky. Výherce musí uhradit všechny poplatky podle platných předpisů (přibližně 3.500.000 Kč).",
+      "text3": "Organizátor má plné právo používat jména a obrázky účastníků programu na všech kanálech informací o programu a v dalších mediálních prostředcích.",
+      "text4": "V případě jakéhokoli sporu nebo stížnosti týkající se této propagační akce bude společnost Vua Thợ odpovědná za přímé řešení. V případě, že se spor nedohodne, bude řešen v souladu s právními předpisy.",
+      "text5": "Zaměstnanci společnosti Vua Thợ a zaměstnanci správního a obchodního bloku společnosti TNHH Sản xuất Thương mại - Xây dựng Phố Việt nesmějí participovat v programu.",
+      "text5-1": "Cenu výhry připisujte na účet Šikovného, nebo převádějte ekvivalentní částku v hodnotě výhry do peněženky Šikovného v aplikaci Vua Šikovný.",
+      "text6": "Program může skončit dříve než je plánováno."
+    },
+    "ProtocolsInvite": {
+      "title": "Způsob účasti",
+      "text1": "kteří úspěšně představí 12 nových, obdrží 6 fotbalových míčů (každý s dvěma čísly odpovídajícími 02) online přímo v aplikaci Vua Thợ.",
+      "text2": "Platná řada je řada obsahující plných 6 fotbalových míčů (což odpovídá 12 představeným lidem).",
+      "text3": "Program neomezuje počet představení nových, čím více představíte, tím více dostanete šťastných řad čísel.",
+      "text4": "Tyto řady čísel budou doprovázet během celého průběhu a budou pokračovat v účasti ve výherních kolech každý měsíc v dalších fázích.",
+      "text5": "Každý účet může být oceněn vícekrát během celého programu.",
+      "text6": "Účet A představí osobu B, osoba C se zaregistruje jako , pak osoba A obdrží 01 fotbalový míč s náhodným číslem 3 a 5, vytvářející pár čísel 35. Takto účet A představí dalších 10 osob registrovaných a obdrží 05 fotbalových míčů s náhodnými páry čísel 44, 82, 90, 61, 95. Účet A dokončil svou první řadu šťastných čísel „35, 44, 82, 90, 61, 95“.",
+      "text7": "Stejným způsobem, pokud účet A představí 120 lidí, účet A bude mít 10 řad čísel a bez omezení představení.",
+      "text8": "Tyto řady čísel budou doprovázet účet A během celého průběhu a budou pokračovat v účasti ve výherních kolech v dalších fázích.",
+      "text9": "Program začne poté, co systém zaznamená prvních 100 šťastných řad čísel pravidelně každý měsíc, zástupce společnosti Vua Thợ provede losování všech řad čísel, které byly zaslány na účty představující, za přítomnosti zástupce společnosti Vua Thợ, zástupce všech příslušných stran a zástupce zákazníka s účastnickým číslem pro účast v promočním programu „Řady šťastných čísel“.",
+      "text10": "Systém automaticky provede kolo losování a vybere 03 řady čísel pro přidělení cen postupně první - druhé - třetí. Program bude oznámen veřejně online na všech mediálních prostředcích Vua Thợ.",
+      "text11": "V průběhu 24 hodin od stanovení výsledků losování bude Vua Thợ kontaktovat k oznámení a poskytnutí pokynů ohledně času, místa a postupu převzetí ceny podle stanovených podmínek.",
+      "text12": "Příklad",
+      "text13": " Účet A představí osobu B, osoba C se zaregistruje jako Thợ, pak osoba A obdrží 01 fotbalový míč s náhodným číslem 3 a 5, vytvářející pár čísel 35. Takto účet A představí dalších 10 osob registrovaných Thợ a obdrží 05 fotbalových míčů s náhodnými páry čísel 44, 82, 90, 61, 95. Účet A dokončil svou první řadu šťastných čísel „35, 44, 82, 90, 61, 95“.",
+      "text14": "Stejným způsobem, pokud účet A představí 120 lidí, účet A bude mít 10 řad čísel a bez omezení představení. Tyto řady čísel budou doprovázet účet A během celého průběhu a budou pokračovat v účasti ve výherních kolech v dalších fázích.",
+      "text15": "Program začne poté, co systém zaznamená prvních 100 šťastných řad čísel pravidelně každý měsíc, zástupce společnosti Vua Thợ provede losování všech řad čísel, které byly zaslány na účty představující, za přítomnosti zástupce společnosti Vua Thợ, zástupce všech příslušných stran a zástupce zákazníka s účastnickým číslem pro účast v promočním programu „Řady šťastných čísel“.",
+      "text16": "Systém automaticky provede kolo losování a vybere 03 řady čísel pro přidělení cen postupně první - druhé - třetí. Program bude oznámen veřejně online na všech mediálních prostředcích Vua Thợ.",
+      "text17": "V průběhu 24 hodin od stanovení výsledků losování bude Vua Thợ kontaktovat k oznámení a poskytnutí pokynů ohledně času, místa a postupu převzetí ceny podle stanovených podmínek."
+    },
+    "menuPopup": {
+      "text1": "Seznam výherců",
+      "text2": "Webové stránky Vua Thợ",
+      "text3": "Pravidla programu",
+      "fanpage": "Fanklub"
+    },
+    "Toast": {
+      "text1": "Prosím, souhlas s pravidly",
+      "text2": "Neplatné telefonní číslo nebo OTP",
+      "text3": "Neplatné telefonní číslo nebo OTP.",
+      "text4": "Zadejte prosím telefonní číslo",
+      "text5": "Neplatné telefonní číslo",
+      "text6": "Stáhnout nyní"
+    },
+    "placeHolder": {
+      "text1": "Telefonní číslo",
+      "text2": "OTP kód"
+    },
+    "Form": {
+      "text1": "Přečetl jsem a souhlasím s ",
+      "text2": " pravidly programu",
+      "text3": "Odeslat kód",
+      "text4": "Přihlásit se"
+    }
+  },
+  "NotFound": {
+    "text": "Stránka nenalezena!",
+    "button": "ZPĚT NA DOMOVSKOU STRÁNKU"
+  }
+}

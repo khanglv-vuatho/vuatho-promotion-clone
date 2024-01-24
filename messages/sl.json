@@ -1,0 +1,176 @@
+{
+  "Download": {
+    "download": "Prenesi zdaj",
+    "download_now": "Za doživetje najnaprednejše tehnologije AI",
+    "download_appstore": "Prenesite iz",
+    "download_chplay": "Prenesite iz"
+  },
+  "Navbar": {
+    "become_employee": "Postanite delavec",
+    "find_employee": "Najdite delavca",
+    "store": "Uniforme",
+    "language": "Jezik",
+    "download": "Prenesi zdaj",
+    "money": "Denar"
+  },
+  "Promotion": {
+    "PromotionsHeader": {
+      "text1": "Podjetje za tehnologijo Vua Tho",
+      "text2": "Družabno omrežje",
+      "text3": "Vsa vprašanja v zvezi s promocijskim programom lahko stranke naslovijo na spodnji naslov za navodila in pojasnila:",
+      "text4": "32/28, 35 Street, An Khanh Ward, Thu Duc City, Ho Chi Minh City",
+      "text5": "Telefon: 0912 426 404 ali E-pošta: Social@vuatho.com",
+      "RightHeader": {
+        "title1": "Srečne številke za električno kolo",
+        "title2": "Sodelujte v Vua Tho in osvojite Wave RSX",
+        "text3": "Promocijski program",
+        "download": "Prenesi aplikacijo"
+      }
+    },
+    "Hero": {
+      "text1": "Sodelujte v Vua Tho",
+      "text1-1": "Srečne številke",
+      "text2": "Osvojite Wave RSX",
+      "text2-1": "Zmaga z električnim kolesom",
+      "text3": "01 kolo Wave RSX F1 za vsakih 1.000 mojstrov, ki se prijavijo prek vrtljivega kolesa v sistemu",
+      "text3-1": "Mojstri bodo imeli srečne številke in neomejeno število srečk bo sodelovalo v rednih žrebanjih vsak mesec",
+      "text4": "Sodelujte zdaj",
+      "text5": "Udeleženci",
+      "text6": "Informacije o sodelovanju",
+      "text7": "01 kolo Yamaha PG-1 za vsak mesec mojstrov, ki se prijavijo prek vrtljivega kolesa v sistemu",
+      "text8": "Zmaga z Yamaha PG-1",
+      "text8-1": "Zmaga z Wave RSX FI 110.",
+      "text9": "Pravila programa",
+      "text10": "Še nimate nobenega zaporedja številk",
+      "text11": "Preberite pravila"
+    },
+    "GuidelinesPromotion": {
+      "text0": "Ime promocijskega programa",
+      "title": "Pravila programa",
+      "text1": "Čas promocije:",
+      "text2": "Od 01/12/2023 do obvestila Vua Tho o novostih.",
+      "text3": "Obseg promocije:",
+      "text4": "Celotno ozemlje Vietnama.",
+      "text5": "Način promocije:",
+      "text6": "Spletno žrebanje",
+      "text7": "Stranke promocijskega programa:",
+      "text8": "Velja za vse uporabnike, stare 18 let ali več, ki se uspešno registrirajo kot mojstri v aplikaciji v času promocije (osnovni mojster + pomočnik mojstra).",
+      "text8-1": "Uspešno smo predstavili 12 mojstrov in pomočnikov mojstrov preko referenčnih računov."
+    },
+    "ProtocolsPromotion": {
+      "title": "Načini sodelovanja",
+      "desc": "Uporabniki prenesejo aplikacijo Vua Tho iz trgovine App Store ali Androida in ustvarijo račun kot mojster.",
+      "text1": "Po uspešni registraciji vsak račun mojstra prejme naključno nagradno kodo (tudi referenčno kodo), ki jo sistem samodejno beleži v programu vrtljivega kolesa.",
+      "text2": "Program je razdeljen na več krogov vrtljivega kolesa; po vsaki uspešni registraciji 1.000 mojstrov bo predstavnik podjetja Vua Tho izvedel vrtljivo kolo za vse nagradne kode, ki so bile poslane na račune mojstrov, pod nadzorom predstavnika podjetja Vua Tho, predstavnika povezanih strani in predstavnika stranke s sodelujočo nagradno kodo v promociji 'Sodelujte v Vua Tho - Priložnost za osvojitev Wave RSX'.",
+      "text3": "Sistem bo samodejno izvedel vrtljivo kolo in izbral 03 nagradne kode za zaporedne nagrade Prvo - Drugo - Tretje mesto, program pa bo javno objavljen na spletu prek različnih medijskih platform Vua Tho.",
+      "text4": "Vua Tho bo v roku 24 ur po določitvi nagrajenca stopil v stik z mojstrom prek telefonske številke, ki jo je mojster posredoval, da sporoči nagrado in zagotovi navodila glede časa, kraja in postopka prevzema nagrade v skladu z določili. Vsaka nagradna koda se lahko vrti samo enkrat.",
+      "text5": "Za nagradne kode, ki so sodelovale v krogu 1 (od kode 0001 - 0999), bo sistem samodejno izločil, da ne bodo sodelovale v naslednjem krogu vrtljivega kolesa.",
+      "text6": "Koraki",
+      "text7": "Prenesi zdaj",
+      "text8": "Najdi mojstra ali se prijavi s tehnologijo AI",
+      "text9": "Ali skenirajte spodnjo QR kodo",
+      "text10": "Prenos in namestitev",
+      "text11": "aplikacije Vua Tho",
+      "text12": "Registracija kot mojster",
+      "text13": "Čakajte na rezultate vrtljivega kolesa",
+      "text14": "Struktura nagrad",
+      "text15": "Drugo mesto",
+      "text16": "6 zabojčkov",
+      "text17": "Prvo mesto",
+      "text18": "1 kolo Wave RSX F1",
+      "text18-1": "1 kolo Yamaha PG-1",
+      "text19": "Tretje mesto",
+      "text20": "3 zabojčki",
+      "text21": "1 kolo",
+      "text22": "vrednost",
+      "text23": "100 koles",
+      "text24": "Traja do dosega 1.000.000 mojstrov",
+      "text25": "Nagrade",
+      "text26": "Podrobnosti o nagradah",
+      "text27": "Število nagrad",
+      "text28": "1 kolo Honda Wave RSX FI 110 v vrednosti 25.000.000 VND",
+      "text28-1": "1 kolo Yamaha PG-1 v vrednosti 35.000.000 VND",
+      "text29": "Vsakokrat 6 zabojčkov",
+      "text30": "Vsakokrat 3 zabojčki",
+      "text31": "Obdobje",
+      "text32": "Datum"
+    },
+    "Reward": {
+      "title": "Postopek podeljevanja nagrad:",
+      "text1": "Ob prejemu nagrade mora nagrajeni mojster izvesti naslednje postopke:",
+      "text2": "Za prvega nagrajenca je treba biti prisoten osebno v podjetju Vua Tho.",
+      "text3": "Vua Tho ne sprejema primerov prevzema nagrad v imenu tretjih oseb.",
+      "text4": "Nagrade bodo poslane nagrajencem v roku 30 dni od dneva razglasitve rezultatov vrtljivega kolesa. V primeru, da Vua Tho ne more vzpostaviti stika z nagrajencem ali če nagrajenec ne pride prevzeti nagrade v določenem roku, bo Vua Tho nagrado odpoklical, vrednost nagrade pa se bo pretvorila v sredstva za podporo Vua Tho.",
+      "text5": "Nagrajenec mora kriti vse stroške potovanja, prevoza (če obstaja) za prevzem svoje nagrade."
+    },
+    "ConditionDetails": {
+      "title": "Podrobnosti o uporabniških pogojih:",
+      "text1": "Stranke, ki so prejele nagrado, naj pokličejo na telefonsko številko: 0912 426 404 ali pošljejo neposredno sporočilo na Fanpage ali Zalo Vua Tho za navodila o prevzemu nagrade.",
+      "text2": "Prva nagrada bo izročena v podjetju   Vua Tho, številka 32/28, ulica 35, četrt An Khanh, mesto Thu Duc, Ho Chi Minh City, ali Vua Tho bo pomagal pri dostavi do doma stranke (če je izven območja mesta Ho Chi Minh).",
+      "text3": "Organizator si pridržuje pravico do uporabe imena, slike udeležencev programa na vseh informacijskih kanalih programa in drugih medijskih sredstvih.",
+      "text4": "V primeru kakršnih koli pritožb ali sporov, povezanih s to promocijsko akcijo, bo podjetje   Vua Tho odgovorno za neposredno reševanje. Če se spor ne reši, bo obravnavan v skladu z zakonodajo.",
+      "text5": "Zaposleni v podjetju   Vua Tho in zaposleni v administrativno-poslovnem oddelku podjetja TNHH Sản xuất Thương mại - Xây dựng Phố Việt niso upravičeni do sodelovanja v programu.",
+      "text6": "Program se lahko konča predvidoma."
+    },
+    "ImportantNote": {
+      "title": "Pomembno obvestilo:",
+      "text1": "Za nagrado Honda Wave RSX FI 110 (ki je ni mogoče zamenjati za gotovino):",
+      "text1-1": "Za nagrado Yamaha PG-1 (ni zamenljivo za gotovino):",
+      "text2": "Vrednost kolesa (25.000.000 VND) ne vključuje davka in drugih povezanih stroškov. Nagrajenec mora poravnati vse takse v skladu z veljavnimi predpisi (približno 3.500.000 VND).",
+      "text2-1": "Vrednost kolesa (35.000.000 VND) ne vključuje davka in drugih povezanih stroškov. Nagrajenec mora poravnati vse takse v skladu z veljavnimi predpisi (približno 3.500.000 VND).",
+      "text3": "Nagrajenec mora uporabljati kolo na ime lastnika Vua Tho v roku 3 let za namene, povezane z dejavnostmi na aplikaciji Vua Tho, in ni dovoljeno kupovati, prodajati, menjavati ali zamenjevati katerih koli delov ali tehničnih podrobnosti kolesa brez dovoljenja Vua Tho.",
+      "text4": "Po 3 letih od prevzema kolesa lahko nagrajenec brez dodatnih stroškov prenese lastništvo kolesa na svoje ime in ga po želji uporablja za druge namene.",
+      "text5": "Za nagrado Tiger Silver (ki jo je mogoče zamenjati za gotovino):",
+      "text5-1": "Nagrada se izroči zmagovalnemu mojstru prek njegovega računa ali se znesek nagrade prenese v mojstrski denarnici na aplikaciji Vua Thợ.",
+      "text6": "Posnetek potrdila o prejemu nagrade pošljite na Vua Tho (prek Zalo Vua Tho)."
+    },
+    "ProtocolsInvite": {
+      "title": "Načini sodelovanja",
+      "text1": "Mojster, ki uspešno predstavi 12 novih mojstrov, bo prejel 6 žog (vsaka žoga ima 2 številki, ki ustrezata 02 mojstrom) prek spletne aplikacije Kralj Mojstrov.",
+      "text2": "Veljavna vrsta številk vključuje 6 žog (kar ustreza 12 predstavljenim mojstrom).",
+      "text3": "Program ne omejuje števila predstavljenih novih mojstrov. Več ko predstavite, več vrst srečnih številk boste prejeli.",
+      "text4": "Te številke bodo sledile mojstru med celotnim potekom in se bodo še naprej udeleževale vrtljajev vsak mesec v naslednjih krogih.",
+      "text5": "Vsak račun lahko med programom prejme več nagrad.",
+      "text6": "Račun A predstavi B, C se prijavi kot mojster, nato bo A prejel 01 žogo z naključnimi številkami 3 in 5, ki sestavljata par 35. Na ta način, ko A predstavi še 10 novih mojstrov, bo prejel 05 žog z naključnimi pari številk 44, 82, 90, 61, 95. A je tako zaključil svojo prvo srečno vrsto številk '35, 44, 82, 90, 61, 95'.",
+      "text7": "Na ta način, če A predstavi 120 ljudi, bo imel 10 vrst srečnih številk in neomejeno število predstavitev.",
+      "text8": "Te številke bodo spremljale A med celotnim potekom in se bodo udeležile naslednjih krogov vrtljajev.",
+      "text9": "Program se bo začel, ko sistem zabeleži prvih 100 vrst srečnih številk redno vsak mesec. Predstavnik podjetja Kralj Mojstrov bo izvedel vrtljaj v celotnem nizu nagrad, poslanem predstavljenemu mojstru, pod prisotnostjo predstavnika podjetja Kralj Mojstrov, predstavnika vseh zainteresiranih strani in predstavnika stranke z udeležbenim številom v programu promocije 'Srečne številke'.",
+      "text10": "Sistem bo samodejno izvajal vrtiljak po vrsti in izbral 03 vrste številk za zaporedno nagrado - Prva - Druga - Tretja. Program bo javno obveščen na spletu prek različnih medijskih kanalov Kralj Mojstrov.",
+      "text11": "V 24 urah po ugotovitvi rezultatov žrebanja bo Kralj Mojstrov stopil v stik za obvestilo in navodila o času, kraju in postopku prevzema nagrade v skladu s predpisi.",
+      "text12": "Primer",
+      "text13": "Račun A predstavi B, C se prijavi kot mojster, nato bo A prejel 01 žogo z naključnimi številkami 3 in 5, ki sestavljata par 35. Na ta način, ko A predstavi še 10 novih mojstrov, bo prejel 05 žog z naključnimi pari številk 44, 82, 90, 61, 95. A je tako zaključil svojo prvo srečno vrsto številk '35, 44, 82, 90, 61, 95'.",
+      "text14": "Na ta način, če A predstavi 120 ljudi, bo imel 10 vrst srečnih številk in neomejeno število predstavitev. Te številke bodo spremljale A med celotnim potekom in se bodo udeležile naslednjih krogov vrtljajev.",
+      "text15": "Program se bo začel, ko sistem zabeleži prvih 100 vrst srečnih številk redno vsak mesec. Predstavnik podjetja Kralj Mojstrov bo izvedel vrtljaj v celotnem nizu nagrad, poslanem predstavljenemu mojstru, pod prisotnostjo predstavnika podjetja Kralj Mojstrov, predstavnika vseh zainteresiranih strani in predstavnika mojstra z udeležbenim številom v programu promocije 'Srečne številke'.",
+      "text16": "Sistem bo samodejno izvajal vrtiljak po vrsti in izbral 03 vrste številk za zaporedno nagrado - Prva - Druga - Tretja. Program bo javno obveščen na spletu prek različnih medijskih kanalov Kralj Mojstrov.",
+      "text17": "V 24 urah po ugotovitvi rezultatov žrebanja bo Kralj Mojstrov stopil v stik za obvestilo in navodila o času, kraju in postopku prevzema nagrade v skladu s predpisi."
+    },
+    "menuPopup": {
+      "text1": "Seznam nagrajenih",
+      "text2": "Spletna stran Kralj Mojstrov",
+      "text3": "Pravila programa",
+      "fanpage": "Stránka fanúšikov"
+    },
+    "Toast": {
+      "text1": "Prosimo, potrdite pravila",
+      "text2": "Telefonska številka ali koda OTP ni veljavna",
+      "text3": "Telefonska številka ali koda OTP ni veljavna",
+      "text4": "Vnesite telefonsko številko, prosimo",
+      "text5": "Telefonska številka ni veljavna",
+      "text6": "Koda OTP vam je bila poslana"
+    },
+    "placeHolder": {
+      "text1": "Telefonska številka",
+      "text2": "Koda OTP"
+    },
+    "Form": {
+      "text1": "Prebral sem in se strinjam s ",
+      "text2": "pravili programa",
+      "text3": "Pošlji kodo",
+      "text4": "Prijava"
+    }
+  },
+  "NotFound": {
+    "text": "Stran ni najdena!",
+    "button": "NAZAJ NA DOMOV"
+  }
+}

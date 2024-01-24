@@ -1,0 +1,82 @@
+.rank1 {
+  transition: 5s;
+  animation: changeRank1 5s infinite;
+}
+
+.rank2 {
+  transition: 5s;
+  animation: changeRank2 5s infinite;
+}
+
+.rank3 {
+  transition: 5s;
+  animation: changeRank3 5s infinite;
+}
+
+@keyframes changeRank1 {
+  0%,
+  100% {
+    transform: scale(1);
+    z-index: 2;
+  }
+  33% {
+    transform: translate(75%, -20%) scale(0.5);
+    opacity: 0.5;
+    z-index: 1;
+  }
+  67% {
+    transform: translate(-75%, -20%) scale(0.5);
+    opacity: 0.5;
+    z-index: 1;
+  }
+}
+
+@keyframes changeRank2 {
+  0%,
+  100% {
+    transform: translate(75%, 27%) scale(0.5);
+    opacity: 0.5;
+    z-index: 1;
+  }
+  33% {
+    transform: translate(-75%, 27%) scale(0.5);
+    opacity: 0.5;
+    z-index: 1;
+  }
+  67% {
+    transform: translate(0%, 86%) scale(1);
+    opacity: 1;
+    z-index: 2;
+  }
+}
+
+@keyframes changeRank3 {
+  0%,
+  100% {
+    transform: translate(-75%, 41%) scale(0.5);
+    opacity: 0.5;
+    z-index: 1;
+  }
+  33% {
+    transform: translate(0%, 86%) scale(1);
+    opacity: 1;
+    z-index: 2;
+  }
+  67% {
+    transform: translate(75%, 41%) scale(0.5);
+    opacity: 0.5;
+    z-index: 1;
+  }
+}
+
+.ct-text-border {
+  text-shadow:
+    2px 0 #fff,
+    -2px 0 #fff,
+    0 2px #fff,
+    0 -2px #fff,
+    1px 1px #fff,
+    -1px -1px #fff,
+    1px -1px #fff,
+    -1px 1px #fff;
+}

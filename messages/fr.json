@@ -1,0 +1,176 @@
+{
+  "Download": {
+    "download": "Télécharger maintenant",
+    "download_now": "Pour découvrir la technologie IA la plus avancée",
+    "download_appstore": "Télécharger depuis",
+    "download_chplay": "Télécharger depuis"
+  },
+  "Navbar": {
+    "become_employee": "Devenir un travailleur",
+    "find_employee": "Trouver un travailleur",
+    "store": "Uniformes",
+    "language": "Langue",
+    "download": "Télécharger maintenant",
+    "money": "Argent"
+  },
+  "Promotion": {
+    "PromotionsHeader": {
+      "text1": "Société par actions simplifiée Vua Thợ",
+      "text2": "Réseau social",
+      "text3": "Pour toute question liée au programme promotionnel, les clients peuvent contacter à l'adresse suivante pour obtenir des instructions et des réponses:",
+      "text4": "32/28, 35 Street, An Khanh Ward, Thu Duc City, Ho Chi Minh City",
+      "text5": "Hotline : 0912 426 404 ou Email : Social@vuatho.com",
+      "RightHeader": {
+        "title1": "Série de numéros chanceux pour gagner une moto électrique",
+        "title2": "Rejoignez la communauté Vua Thợ pour avoir la chance de gagner une Wave RSX",
+        "text3": "Programme promotionnel",
+        "download": "Téléchargez l'application"
+      }
+    },
+    "Hero": {
+      "text1": "Rejoignez la communauté Vua Thợ",
+      "text1-1": "Série de numéros chanceux",
+      "text2": "Ayez la chance de gagner une Wave RSX",
+      "text2-1": "Gagnez une moto électrique",
+      "text3": "01 moto Wave RSX F1 pour chaque 1 000 artisans inscrits via la roue de la fortune du système",
+      "text3-1": "Les artisans auront une série de numéros chanceux, et il n'y a pas de limite au nombre de séries qu'ils peuvent posséder pour participer au tirage au sort régulier chaque mois",
+      "text4": "Participez maintenant",
+      "text5": "Personnes ayant déjà participé",
+      "text6": "Informations de participation",
+      "text7": "01 moto Yamaha PG-1 chaque mois pour les artisans inscrits via la roue de la fortune du système",
+      "text8": "Gagnez une moto Yamaha PG-1",
+      "text8-1": "Gagnez une moto Wave RSX FI 110.",
+      "text9": "Règles du programme",
+      "text10": "Vous n'avez pas encore de numéro de série",
+      "text11": "Lire le règlement"
+    },
+    "GuidelinesPromotion": {
+      "text0": "Nom du programme promotionnel",
+      "title": "Règles du programme",
+      "text1": "Période promotionnelle:",
+      "text2": "Du 01/12/2023 jusqu'à nouvel ordre de Vua Thợ.",
+      "text3": "Portée de la promotion:",
+      "text4": "Sur l'ensemble du territoire du Vietnam.",
+      "text5": "Forme de promotion:",
+      "text6": "Roue de la fortune en ligne.",
+      "text7": "Clients du programme promotionnel:",
+      "text8": "Applicable à tous les utilisateurs de 18 ans et plus, enregistrés en tant qu'artisans avec succès sur l'application pendant la période promotionnelle (Artisans principaux + Artisans assistants).",
+      "text8-1": "Les comptes Artisans ont réussi à parrainer avec succès 12 Artisans principaux et assistants ou plus."
+    },
+    "ProtocolsPromotion": {
+      "title": "Comment participer",
+      "desc": "Les utilisateurs téléchargent l'application Vua Thợ sur l'App Store ou Google Play et procèdent à l'inscription en tant qu'artisan.",
+      "text1": "Après une inscription réussie, chaque compte d'artisan recevra un code de tirage au sort (également appelé code de parrainage) attribué de manière aléatoire et automatiquement enregistré dans le programme de la roue de la fortune.",
+      "text2": "Le programme est divisé en plusieurs sessions de tirage au sort. Après chaque inscription réussie de 1 000 comptes artisans, un représentant de la Société par actions simplifiée Vua Thợ procédera au tirage des 'Codes de tirage au sort' dans tous les codes de tirage au sort qui ont été attribués aux comptes artisans. Cela se fera en présence d'un représentant de la Société par actions simplifiée Vua Thợ, de représentants des parties concernées et d'un représentant du client ayant un code de tirage au sort participant au programme promotionnel 'Rejoignez la communauté Vua Thợ - Ayez la chance de gagner une Wave RSX'.",
+      "text3": "Le système effectuera automatiquement le tirage au sort et sélectionnera 03 codes de tirage au sort pour attribuer les prix respectifs Premier - Deuxième - Troisième. Le programme sera annoncé publiquement en ligne sur les médias de Vua Thợ.",
+      "text4": "Dans les 24 heures suivant la détermination des résultats du tirage au sort, Vua Thợ contactera l'artisan via le numéro de téléphone fourni pour annoncer le prix et donner des instructions sur le moment, le lieu et les procédures de réception du prix conformément aux règlements. Chaque code de tirage au sort ne peut participer qu'à un seul tirage au sort.",
+      "text5": "Pour les codes de tirage au sort ayant participé à la session 1 (de 0001 à 0999), le système les exclura automatiquement et ils ne pourront pas participer à la session suivante.",
+      "text6": "Étapes",
+      "text7": "Téléchargez maintenant",
+      "text8": "Trouvez un artisan ou trouvez un emploi avec la technologie de l'IA",
+      "text9": "Ou scannez le code QR ci-dessous",
+      "text10": "Téléchargez et installez",
+      "text11": "l'application Vua Thợ",
+      "text12": "Inscrivez-vous en tant qu'artisan",
+      "text13": "Attendez les résultats du tirage au sort",
+      "text14": "Structure des récompenses",
+      "text15": "Deuxième prix",
+      "text16": "6 caisses de bière argentée",
+      "text17": "Premier prix",
+      "text18": "1 moto Wave RSX F1",
+      "text18-1": "1 moto Yamaha PG-1",
+      "text19": "Troisième prix",
+      "text20": "3 caisses de bière argentée",
+      "text21": "1 moto",
+      "text22": "d'une valeur de",
+      "text23": "100 motos",
+      "text24": "Jusqu'à atteindre 1 000 000 comptes artisans",
+      "text25": "Récompense",
+      "text26": "Détails de la récompense",
+      "text27": "Quantité de récompenses",
+      "text28": "1 moto Honda Wave RSX FI 110 d'une valeur de 25 000 000 VND",
+      "text28-1": "1 moto Yamaha PG-1 d'une valeur de 35 000 000 VND",
+      "text29": "6 caisses de bière Tiger argentée à chaque session",
+      "text30": "3 caisses de bière Tiger argentée à chaque session",
+      "text31": "Période",
+      "text32": "Jour"
+    },
+    "Reward": {
+      "title": "Procédure de remise des prix",
+      "text1": "Lors de la réception du prix, l'artisan gagnant doit suivre les procédures suivantes:",
+      "text2": "Pour le gagnant du premier prix, il doit être présent en personne à la Société par actions simplifiée Vua Thợ.",
+      "text3": "Vua Thợ n'accepte pas les cas de réception de prix par procuration.",
+      "text4": "Les prix seront envoyés au gagnant dans les 30 jours suivant la date de notification des résultats du tirage au sort. En cas d'impossibilité de contacter le gagnant par Vua Thợ, ou si le gagnant ne récupère pas le prix dans le délai imparti, le prix sera récupéré par Vua Thợ et la valeur du prix sera convertie en fonds de soutien de Vua Thợ.",
+      "text5": "Le gagnant doit supporter tous les frais de déplacement, les frais de transport (le cas échéant) pour la réception de son prix."
+    },
+    "ConditionDetails": {
+      "title": "Détails des conditions d'application",
+      "text1": "Les clients gagnants sont priés de contacter la Hotline au 0912 426 404 ou d'envoyer un message directement sur la Fanpage ou Zalo Vua Thợ pour obtenir des instructions sur la réception du prix.",
+      "text2": "Le premier prix sera remis à la Société par actions simplifiée Vua Thợ, au 32/28, rue 35, quartier An Khánh, ville Thủ Đức, Hô-Chi-Minh-Ville, ou Vua Thợ assistera à la livraison à domicile pour les clients (si en dehors de la région de Hô-Chi-Minh-Ville).",
+      "text3": "Les organisateurs ont le droit d'utiliser le nom, l'image des participants sur les canaux d'information du programme et d'autres médias.",
+      "text4": "En cas de réclamation ou de litige lié à ce programme promotionnel, la Société par actions simplifiée Vua Thợ assumera la responsabilité de la résolution directe. En l'absence d'un règlement mutuel, le litige sera traité conformément à la législation en vigueur.",
+      "text5": "Les employés de la Société par actions simplifiée Vua Thợ ainsi que les employés du bloc administratif-commercial de la Société par actions simplifiée de Production-Commerce-Construction Phố Việt ne sont pas autorisés à participer au programme.",
+      "text6": "Le programme peut se terminer plus tôt que prévu."
+    },
+    "ImportantNote": {
+      "title": "Note importante",
+      "text1": "Pour le prix de la moto Wave RSX FI 110 (non convertible en espèces) :",
+      "text1-1": "Pour le prix de la moto Yamaha PG-1 (non convertible en espèces) :",
+      "text2": "La valeur de la moto (25 000 000 VND) n'inclut pas les taxes et autres frais connexes. Le gagnant doit payer intégralement conformément aux réglementations en vigueur (environ 3 500 000 VND).",
+      "text2-1": "La valeur de la moto (35 000 000 VND) n'inclut pas les taxes et autres frais connexes. Le gagnant doit payer intégralement conformément aux réglementations en vigueur (environ 3 500 000 VND).",
+      "text3": "Le gagnant doit utiliser la moto au nom du propriétaire Vua Thợ pendant 03 ans à des fins professionnelles liées aux services sur l'application Vua Thợ et n'est pas autorisé à acheter, vendre, échanger ou remplacer des pièces ou des détails techniques de la moto sans l'autorisation de Vua Thợ.",
+      "text4": "Après 03 ans à compter de la date de réception de la moto, le gagnant peut convertir la propriété du véhicule à son nom sans frais supplémentaires et l'utiliser librement à d'autres fins.",
+      "text5": "Pour le prix de la bière Tiger argentée (pouvant être convertie en espèces) :",
+      "text5-1": "Attribution des prix au compte du Maître gagnant ou transfert du montant équivalent à la valeur du prix vers le portefeuille du Maître sur l'application Vua Thợ.",
+      "text6": "Prenez une photo confirmant la réception du prix et envoyez-la à Vua Thợ (via Zalo Vua Thợ)."
+    },
+    "ProtocolsInvite": {
+      "title": "Comment participer",
+      "text1": "Le professionnel qui réussit à présenter 12 nouveaux professionnels recevra 6 balles (chaque balle a 2 numéros correspondant à 02 professionnels) en ligne via l'application Vua Thợ.",
+      "text2": "Une série valide est une série comprenant 6 balles complètes (correspondant à 12 professionnels présentés).",
+      "text3": "Le programme ne limite pas le nombre de présentations de nouveaux professionnels. Plus vous en présentez, plus vous recevrez de séries de numéros chanceux.",
+      "text4": "Ces séries de numéros accompagneront le professionnel tout au long du processus et continueront à participer aux tirages au sort chaque mois lors des prochaines sessions.",
+      "text5": "Chaque compte peut remporter plusieurs prix tout au long du programme.",
+      "text6": "Le compte A présente B, C s'inscrit comme professionnel, le compte A recevra une balle avec les numéros aléatoires 3 et 5, formant la paire de numéros 35. Ainsi, le compte A présente 10 autres professionnels, il recevra 05 balles avec des paires de numéros aléatoires 44, 82, 90, 61, 95. Le compte A a complété sa première série de numéros chanceux, qui est \"35, 44, 82, 90, 61, 95\".",
+      "text7": "De cette manière, si le compte A présente 120 personnes, le compte A aura 10 séries de numéros et aucune limite de présentation. Ces séries de numéros accompagneront le compte A tout au long du processus et participeront aux tirages au sort des prochaines sessions.",
+      "text8": "Le programme commencera lorsque le système aura enregistré les 100 premières séries de numéros chanceux à intervalles réguliers chaque mois. Un représentant de la société par actions simplifiée Vua Thợ effectuera le tirage au sort de toutes les séries de numéros chanceux qui ont été envoyées au compte du professionnel présentateur, en présence d'un représentant de la société par actions simplifiée Vua Thợ, de représentants des parties concernées et du professionnel ayant le numéro de loterie participant au programme promotionnel \"Séries de numéros chanceux\".",
+      "text9": "Le système effectuera automatiquement les tirages au sort successifs et sélectionnera 03 séries de numéros pour remettre les prix successivement Première place - Deuxième place - Troisième place. Le programme sera ensuite annoncé publiquement en ligne sur les médias de Vua Thợ.",
+      "text10": "Dans les 24 heures suivant la détermination des résultats du tirage au sort, Vua Thợ contactera pour informer et donner des instructions sur le moment, le lieu et les procédures de réception des prix conformément à la réglementation.",
+      "text11": "Exemple",
+      "text12": "Le compte A présente B, C s'inscrit comme professionnel, le compte A recevra une balle avec les numéros aléatoires 3 et 5, formant la paire de numéros 35. Ainsi, le compte A présente 10 autres professionnels, il recevra 05 balles avec des paires de numéros aléatoires 44, 82, 90, 61, 95. Le compte A a complété sa première série de numéros chanceux, qui est \"35, 44, 82, 90, 61, 95\".",
+      "text13": "De cette manière, si le compte A présente 120 personnes, le compte A aura 10 séries de numéros et aucune limite de présentation. Ces séries de numéros accompagneront le compte A tout au long du processus et participeront aux tirages au sort des prochaines sessions.",
+      "text14": "Le programme commencera lorsque le système aura enregistré les 100 premières séries de numéros chanceux à intervalles réguliers chaque mois. Un représentant de la société par actions simplifiée Vua Thợ effectuera le tirage au sort de toutes les séries de numéros chanceux qui ont été envoyées au compte du professionnel présentateur, en présence d'un représentant de la société par actions simplifiée Vua Thợ, de représentants des parties concernées et du professionnel ayant le numéro de loterie participant au programme promotionnel \"Séries de numéros chanceux\".",
+      "text15": "Le système effectuera automatiquement les tirages au sort successifs et sélectionnera 03 séries de numéros pour remettre les prix successivement Première place - Deuxième place - Troisième place. Le programme sera ensuite annoncé publiquement en ligne sur les médias de Vua Thợ.",
+      "text16": "Dans les 24 heures suivant la détermination des résultats du tirage au sort, Vua Thợ contactera pour informer et donner des instructions sur le moment, le lieu et les procédures de réception des prix conformément à la réglementation.",
+      "text17": "Dans les 24 heures suivant la détermination des résultats du tirage au sort, Vua Thợ contactera pour informer et donner des instructions sur le moment, le lieu et les procédures de réception des prix conformément à la réglementation."
+    },
+    "menuPopup": {
+      "text1": "Liste des prix",
+      "text2": "Site Web Vua Thợ",
+      "text3": "Règlement du programme",
+      "fanpage": "Page de fan"
+    },
+    "Toast": {
+      "text1": "Veuillez accepter les règles",
+      "text2": "Numéro de téléphone ou OTP invalide",
+      "text3": "Numéro de téléphone ou OTP invalide",
+      "text4": "Veuillez entrer votre numéro de téléphone",
+      "text5": "Numéro de téléphone invalide",
+      "text6": "Le code OTP a été envoyé pour vous"
+    },
+    "placeHolder": {
+      "text1": "Numéro de téléphone",
+      "text2": "Code OTP"
+    },
+    "Form": {
+      "text1": "J'ai lu et accepté ",
+      "text2": "les règles du programme",
+      "text3": "Envoyer le code",
+      "text4": "Se connecter"
+    }
+  },
+  "NotFound": {
+    "text": "Page non trouvée !",
+    "button": "RETOUR À LA PAGE D'ACCUEIL"
+  }
+}

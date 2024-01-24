@@ -1,0 +1,176 @@
+{
+  "Download": {
+    "download": "Scarica Ora",
+    "download_now": "Per sperimentare la tecnologia AI più avanzata",
+    "download_appstore": "Scarica da",
+    "download_chplay": "Scarica da"
+  },
+  "Navbar": {
+    "become_employee": "Diventa un Lavoratore",
+    "find_employee": "Trova un Lavoratore",
+    "store": "Uniformi",
+    "language": "Lingua",
+    "download": "Scarica Ora",
+    "money": "Denaro"
+  },
+  "Promotion": {
+    "PromotionsHeader": {
+      "text1": "Azienda di tecnologia Vua Thợ",
+      "text2": "Social Network",
+      "text3": "Per domande relative al programma promozionale, i clienti possono contattare all'indirizzo seguente per assistenza e chiarimenti:",
+      "text4": "32/28, 35 Street, An Khanh Ward, Thu Duc City, Ho Chi Minh City",
+      "text5": "Hotline: 0912 426 404 o Email: Social@vuatho.com",
+      "RightHeader": {
+        "title1": "Serie di fortunati vincitori di moto elettriche",
+        "title2": "Partecipa al club Vua Thợ per l'opportunità di vincere una Wave RSX",
+        "text3": "Programma promozionale",
+        "download": "Scarica l'applicazione"
+      }
+    },
+    "Hero": {
+      "text1": "Partecipa al club Vua Thợ",
+      "text1-1": "Serie di fortunati",
+      "text2": "Opportunità di vincere una Wave RSX",
+      "text2-1": "Vinci una moto elettrica",
+      "text3": "01 scooter Wave RSX F1 per ogni 1.000 Artigiani che si registrano attraverso la ruota della fortuna dal sistema",
+      "text3-1": "Gli Artigiani avranno una serie di numeri fortunati e potranno partecipare a estrazioni periodiche ogni mese",
+      "text4": "Partecipa subito",
+      "text5": "Persone già iscritte",
+      "text6": "Informazioni di partecipazione",
+      "text7": "01 Yamaha PG-1 ogni mese per gli Artigiani che si registrano attraverso la ruota della fortuna dal sistema",
+      "text8": "Vinci una moto Yamaha PG-1",
+      "text8-1": "Vinci una moto Wave RSX FI 110.",
+      "text9": "Regole del programma",
+      "text10": "Non hai ancora nessuna sequenza di numeri",
+      "text11": "Leggi il regolamento"
+    },
+    "GuidelinesPromotion": {
+      "text0": "Nome del programma promozionale",
+      "title": "Regole del programma",
+      "text1": "Periodo promozionale:",
+      "text2": "Dal 01/12/2023 fino a nuove comunicazioni da parte di Vua Thợ.",
+      "text3": "Ambito promozionale:",
+      "text4": "Su tutto il territorio del Vietnam.",
+      "text5": "Forma di promozione:",
+      "text6": "Ruota della fortuna online.",
+      "text7": "Clienti del programma promozionale:",
+      "text8": "Applicabile a tutti gli utenti di almeno 18 anni che si registrano come Artigiani con successo sull'applicazione durante il periodo promozionale (Artigiano principale + Artigiano ausiliario).",
+      "text8-1": "Gli account degli Artigiani hanno introdotto con successo almeno 12 Artigiani Principali e Apprendisti."
+    },
+    "ProtocolsPromotion": {
+      "title": "Modalità di partecipazione",
+      "desc": "Gli utenti scaricano l'app Vua Thợ su App Store o Google Play e procedono con la registrazione dell'account con il ruolo di Artigiano.",
+      "text1": "Dopo una registrazione riuscita, ogni account Artigiano riceverà un codice premio (anche chiamato codice di riferimento) in modo casuale e verrà automaticamente registrato nel programma della ruota della fortuna.",
+      "text2": "Il programma è diviso in diverse fasi di gioco, dopo ogni 1.000 account Artigiano registrati con successo, un rappresentante della Azienda di Tecnologia Vua Thợ procederà con il giro dei 'Codici premio' tra tutti i codici premio inviati agli account Artigiano, alla presenza di un rappresentante dell'Azienda di Tecnologia Vua Thợ, rappresentanti delle parti interessate e rappresentanti dei clienti con codici premio partecipanti al programma promozionale 'Partecipa al club Vua Thợ - Opportunità di vincere una Wave RSX'.",
+      "text3": "Il sistema eseguirà automaticamente un giro e selezionerà 03 codici premio per assegnare i premi rispettivamente Primo - Secondo - Terzo, il programma sarà annunciato pubblicamente online sui mezzi di comunicazione di Vua Thợ.",
+      "text4": "Entro 24 ore dalla determinazione dei risultati del premio, Vua Thợ contatterà l'Artigiano tramite il numero di telefono fornito per comunicare il premio e fornire istruzioni su orari, luoghi e procedure di ritiro del premio. Ogni codice premio può partecipare solo a un giro.",
+      "text5": "Per i codici premio che hanno partecipato alla fase 1 (da 0001 a 0999), il sistema li escluderà automaticamente e non potranno partecipare alla fase successiva.",
+      "text6": "Passo",
+      "text7": "Scarica subito",
+      "text8": "Assumi un artigiano, cerca lavoro con tecnologia AI",
+      "text9": "O scansiona il codice QR qui sotto",
+      "text10": "Scarica e installa",
+      "text11": "l'app Vua Thợ",
+      "text12": "Registrati come artigiano",
+      "text13": "Aspetta il risultato dell'estrazione",
+      "text14": "Struttura dei premi",
+      "text15": "Secondo premio",
+      "text16": "6 casse di",
+      "text17": "Primo premio",
+      "text18": "1 moto Wave RSX F1",
+      "text18-1": "1 moto Yamaha PG-1",
+      "text19": "Terzo premio",
+      "text20": "3 casse di",
+      "text21": "1 motocicletta",
+      "text22": "del valore di",
+      "text23": "100 motociclette",
+      "text24": "Esteso fino a raggiungere 1.000.000 account Artigiano",
+      "text25": "Premio",
+      "text26": "Dettagli del premio",
+      "text27": "Quantità di premi",
+      "text28": "1 moto Honda Wave RSX FI 110 del valore di 25.000.000 VND",
+      "text28-1": "1 moto Yamaha PG-1 del valore di 35.000.000 VND",
+      "text29": "Ogni fase 6 casse di",
+      "text30": "Ogni fase 3 casse di",
+      "text31": "Fase",
+      "text32": "Giorno"
+    },
+    "Reward": {
+      "title": "Procedura di assegnazione dei premi:",
+      "text1": "Al momento del ritiro del premio, l'Artigiano vincitore deve seguire le seguenti procedure:",
+      "text2": "Per il vincitore del primo premio è necessario essere presente di persona presso l'Azienda di Tecnologia Vua Thợ.",
+      "text3": "Vua Thợ non accetterà premi ritirati da terzi.",
+      "text4": "I premi saranno inviati all'Artigiano vincitore entro 30 giorni dalla data di estrazione del premio. Nel caso in cui Vua Thợ non riesca a contattare l'Artigiano vincitore o se l'Artigiano vincitore non si presenta per ritirare il premio entro il periodo specificato, il premio sarà recuperato da Vua Thợ e il valore del premio sarà convertito in fondi di supporto di Vua Thợ.",
+      "text5": "L'Artigiano vincitore deve sopportare tutti i costi di spostamento e trasporto (se presenti) per il ritiro del suo premio."
+    },
+    "ConditionDetails": {
+      "title": "Dettagli delle condizioni di applicazione:",
+      "text1": "I clienti vincitori sono pregati di contattare la Hotline: 0912 426 404 o inviare un messaggio direttamente sulla Fanpage o Zalo di Vua Thợ per istruzioni sul ritiro del premio.",
+      "text2": "Il primo premio sarà consegnato presso l'Azienda di Tecnologia Vua Thợ, al numero 32/28, strada 35, quartiere An Khánh, Thủ Đức, Città di Ho Chi Minh, oppure Vua Thợ fornirà supporto per la consegna a domicilio ai clienti (al di fuori dell'area della Città di Ho Chi Minh).",
+      "text3": "L'organizzatore ha il pieno diritto di utilizzare il nome, l'immagine dei partecipanti al programma su tutti i canali informativi del programma e su altri mezzi di comunicazione.",
+      "text4": "In caso di eventuali reclami o dispute relativi a questa promozione, la Công ty   Vua Thợ sarà responsabile della risoluzione diretta. In caso di mancato accordo sulla disputa, questa verrà trattata conformemente alle leggi vigenti.",
+      "text5": "Il personale della Công ty   Vua Thợ e il personale dell'ufficio amministrativo-commerciale presso la Công ty TNHH Sản xuất Thương mại - Xây dựng Phố Việt non sono autorizzati a partecipare al programma.",
+      "text6": "Il programma potrebbe concludersi prima del previsto."
+    },
+    "ImportantNote": {
+      "title": "Nota importante:",
+      "text1": "Per il premio della moto Wave RSX FI 110 (non convertibile in denaro contante):",
+      "text1-1": "Per il premio della moto Yamaha PG-1 (non convertibile in denaro):",
+      "text2": "Il valore della moto (25.000.000 VND) non include tasse e spese correlate; il vincitore del premio deve pagare l'importo completo come previsto (circa 3.500.000 VND).",
+      "text2-1": "Il valore della moto (35.000.000 VND) non include tasse e spese correlate; il vincitore del premio deve pagare l'importo completo come previsto (circa 3.500.000 VND).",
+      "text3": "Il vincitore deve utilizzare la moto a nome del proprietario Vua Thợ per un periodo di 03 anni a scopo di servizio per le attività correlate ai servizi sull'applicazione Vua Thợ e non può vendere, scambiare o sostituire alcuna parte o componente tecnico della moto senza l'approvazione di Vua Thợ.",
+      "text4": "Dopo il periodo di 03 anni dalla data di ricezione della moto, il vincitore può convertire i documenti di proprietà della moto a proprio nome senza costi aggiuntivi e utilizzarli a suo piacimento per scopi diversi.",
+      "text5": "Per il premio delle casse di birra Tiger Silver (convertibile in denaro contante):",
+      "text5-1": "Assegnare il premio all'account del Lavoratore vincitore o trasferire l'importo equivalente al valore del premio nel portafoglio del Lavoratore sull'app Vua Thợ.",
+      "text6": "Inviare una foto di conferma del ritiro del premio a Vua Thợ (tramite Zalo Vua Thợ)."
+    },
+    "ProtocolsInvite": {
+      "title": "Modalità di partecipazione",
+      "text1": "Il successo nell'introdurre 12 nuovi Operatori ti garantirà 6 palline (ogni pallina corrisponde a 2 Operatori) in modalità online direttamente sull'app Vua Thợ.",
+      "text2": "Una sequenza valida è una sequenza completa di 6 palline (corrispondenti a 12 Operatori presentati).",
+      "text3": "Il programma non ha limiti di introduzione di nuovi Operatori; più Operatori presenti, più sequenze fortunate riceverai.",
+      "text4": "Queste sequenze accompagneranno l'Operatore durante tutto il processo e parteciperanno ai successivi giri mensili.",
+      "text5": "Ogni account può vincere più volte durante il programma.",
+      "text6": "L'account A presenta B, C diventa un Operatore, allora A riceverà una pallina con numeri casuali 3 e 5, formando la coppia 35. Così, presentando altri 10 nuovi Operatori, A riceverà 05 palline con coppie casuali 44, 82, 90, 61, 95. A ha completato la sua prima sequenza fortunata: '35, 44, 82, 90, 61, 95'.",
+      "text7": "Se A introduce con successo 120 persone, A avrà 10 sequenze e senza limiti di presentazione.",
+      "text8": "Queste sequenze accompagneranno A durante tutto il processo e parteciperanno ai successivi giri.",
+      "text9": "Il programma inizia quando il sistema registra i primi 100 sequenze fortunate in modo regolare ogni mese. Il rappresentante della King of Trades Tech LLC condurrà una rotazione per l'intera sequenza di premi inviata all'account dell'Operatore presentatore, alla presenza di rappresentanti di King of Trades Tech LLC, rappresentanti correlati e dell'Operatore con un codice di partecipazione al programma 'Sequenza Fortunata'.",
+      "text10": "Il sistema effettuerà automaticamente una rotazione in ordine e selezionerà 03 sequenze per assegnare i premi Uno - Due - Tre, il programma verrà annunciato pubblicamente online attraverso i mezzi di comunicazione di King of Trades.",
+      "text11": "Entro 24 ore dalla determinazione dei risultati vincenti, King of Trades contatterà per comunicare e fornire istruzioni su tempi, luoghi e procedure di ritiro del premio secondo le disposizioni.",
+      "text12": "Esempio",
+      "text13": "L'account A presenta B, C diventa un Operatore, allora A riceverà una pallina con numeri casuali 3 e 5, formando la coppia 35. Così, presentando altri 10 nuovi Operatori, A riceverà 05 palline con coppie casuali 44, 82, 90, 61, 95. A ha completato la sua prima sequenza fortunata: '35, 44, 82, 90, 61, 95'.",
+      "text14": "Cosi, se A introduce con successo 120 persone, A avrà 10 sequenze e senza limiti di presentazione. Queste sequenze accompagneranno A durante tutto il processo e parteciperanno ai successivi giri.",
+      "text15": "Il programma inizia quando il sistema registra i primi 100 sequenze fortunate in modo regolare ogni mese. Il rappresentante della King of Trades Tech LLC condurrà una rotazione per l'intera sequenza di premi inviata all'account dell'Operatore presentatore, alla presenza di rappresentanti di King of Trades Tech LLC, rappresentanti correlati e dell'Operatore con un codice di partecipazione al programma 'Sequenza Fortunata'.",
+      "text16": "Il sistema effettuerà automaticamente una rotazione in ordine e selezionerà 03 sequenze per assegnare i premi Uno - Due - Tre, il programma verrà annunciato pubblicamente online attraverso i mezzi di comunicazione di King of Trades.",
+      "text17": "Entro 24 ore dalla determinazione dei risultati vincenti, King of Trades contatterà per comunicare e fornire istruzioni su tempi, luoghi e procedure di ritiro del premio secondo le disposizioni."
+    },
+    "menuPopup": {
+      "text1": "Elenco dei premi",
+      "text2": "Sito web Vua Thợ",
+      "text3": "Regole del programma",
+      "fanpage": "Pagina dei fan"
+    },
+    "Toast": {
+      "text1": "Si prega di accettare le regole",
+      "text2": "Numero di telefono o codice OTP non valido",
+      "text3": "Numero di telefono o codice OTP non valido.",
+      "text4": "Si prega di inserire il numero di telefono",
+      "text5": "Numero di telefono non valido",
+      "text6": "Il codice OTP è stato inviato a te"
+    },
+    "placeHolder": {
+      "text1": "Numero di telefono",
+      "text2": "Codice OTP"
+    },
+    "Form": {
+      "text1": "Ho letto e accetto le ",
+      "text2": "regole del programma",
+      "text3": "Invia codice",
+      "text4": "Accedi"
+    }
+  },
+  "NotFound": {
+    "text": "Pagina non trovata!",
+    "button": "TORNA ALLA HOMEPAGE"
+  }
+}
