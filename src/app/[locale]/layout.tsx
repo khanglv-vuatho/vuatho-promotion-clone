@@ -13,22 +13,16 @@ import Providers from '@/components/Providers'
 
 const lexend = Lexend({
   subsets: ['latin'],
-  display: 'swap',
+  display: 'swap'
 })
 export const metadata: Metadata = {
   title: 'Promotion',
-  description: 'Promotion',
+  description: 'Promotion'
 }
 
 const timeZone = 'Asia/Ho_Chi_Minh'
 
-export default async function RootLayout({
-  children,
-  params,
-}: {
-  children: React.ReactNode
-  params: any
-}) {
+export default async function RootLayout({ children, params }: { children: React.ReactNode; params: any }) {
   const { locale } = params
 
   const isValidLocale = locales.some((cur) => cur === locale)

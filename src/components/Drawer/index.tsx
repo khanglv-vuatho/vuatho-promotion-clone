@@ -17,15 +17,7 @@ type DrawerType = {
   header: React.ReactNode
 }
 
-const Drawer: React.FC<DrawerType> = ({
-  isOpen,
-  setIsOpen,
-  title,
-  children,
-  onClose,
-  isBgWhite,
-  header,
-}) => {
+const Drawer: React.FC<DrawerType> = ({ isOpen, setIsOpen, title, children, onClose, isBgWhite, header }) => {
   useEffect(() => {
     const handleKeyDown = (event: any) => {
       if (event.nativeEvent) {
@@ -45,9 +37,7 @@ const Drawer: React.FC<DrawerType> = ({
 
   return (
     <div
-      className={`${
-        isOpen ? 'translate-y-[50%]' : 'translate-y-[100%]'
-      }  fixed bottom-0 right-0 top-0 z-10 flex w-full flex-col ${
+      className={`${isOpen ? 'translate-y-[50%]' : 'translate-y-[100%]'}  fixed bottom-0 right-0 top-0 z-10 flex w-full flex-col ${
         isBgWhite ? 'bg-white' : 'bg-[#4770FF]'
       } transition`}
     >

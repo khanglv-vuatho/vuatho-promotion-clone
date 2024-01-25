@@ -1,12 +1,12 @@
 import axios, { AxiosResponse } from 'axios'
 
 const apiConfig = {
-  baseUrl: `${process.env.NEXT_PUBLIC_API_URL}`,
+  baseUrl: `${process.env.NEXT_PUBLIC_API_URL}`
 }
 
 const instance = axios.create({
   baseURL: apiConfig.baseUrl,
-  timeout: 30000, // 30 seconds
+  timeout: 30000 // 30 seconds
 })
 
 const urlExceptAuthorization = ['Authenticate']
@@ -39,30 +39,22 @@ instance.interceptors.request.use(
 
       config.headers = {
         ...config.headers,
-        ...authHeader,
+        ...authHeader
       } as any
     }
     if (process.env.NODE_ENV !== 'production') {
-      console.log(
-        `%c Request: ${config?.method?.toUpperCase()} - ${getUrl(config)}:`,
-        'color: #0086b3; font-weight: bold',
-        config,
-      )
+      console.log(`%c Request: ${config?.method?.toUpperCase()} - ${getUrl(config)}:`, 'color: #0086b3; font-weight: bold', config)
     }
     return config
   },
-  (error: any) => Promise.reject(error),
+  (error: any) => Promise.reject(error)
 )
 
 // Intercept all responses
 instance.interceptors.response.use(
   (response: AxiosResponse) => {
     if (process.env.NODE_ENV !== 'production') {
-      console.log(
-        `%c Response: ${response?.status} - ${getUrl(response?.config)}:`,
-        'color: #008000; font-weight: bold',
-        response,
-      )
+      console.log(`%c Response: ${response?.status} - ${getUrl(response?.config)}:`, 'color: #008000; font-weight: bold', response)
     }
 
     return response.data
@@ -81,7 +73,7 @@ instance.interceptors.response.use(
     }
 
     return Promise.reject(error)
-  },
+  }
 )
 
 export default instance

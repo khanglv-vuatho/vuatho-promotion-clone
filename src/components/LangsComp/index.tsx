@@ -34,18 +34,14 @@ function LangsComp() {
     dispatch({ type: 'toggle_menu', payload: true })
 
     const arrayUrl = pathName?.split('/')
-    const urlReplace = arrayUrl
-      .map((item) => (item === arrayUrl[1] ? value.code : item))
-      .join('/')
+    const urlReplace = arrayUrl.map((item) => (item === arrayUrl[1] ? value.code : item)).join('/')
 
     const queryString = Object.keys(allQueryParams)
-      .map(
-        (key) => `${encodeURIComponent(key)}=${encodeURIComponent(allQueryParams[key])}`,
-      )
+      .map((key) => `${encodeURIComponent(key)}=${encodeURIComponent(allQueryParams[key])}`)
       .join('&')
 
     router.replace(urlReplace + (queryString !== null ? `?${queryString}` : ''), {
-      scroll: false,
+      scroll: false
     })
   }
 
@@ -72,7 +68,7 @@ function LangsComp() {
           isOpen={isOpen}
           onOpenChange={(open: any) => setIsOpen(open)}
           classNames={{
-            content: 'p-[16px] rounded-none',
+            content: 'p-[16px] rounded-none'
           }}
         >
           <PopoverTrigger>
@@ -84,19 +80,12 @@ function LangsComp() {
             </button>
           </PopoverTrigger>
           <PopoverContent>
-            <Button
-              isIconOnly
-              onPress={() => setIsOpen(false)}
-              variant='light'
-              className='absolute right-0 top-0 h-[48px] w-[56px]'
-            >
+            <Button isIconOnly onPress={() => setIsOpen(false)} variant='light' className='absolute right-0 top-0 h-[48px] w-[56px]'>
               <Add className='rotate-45  ' size={24} />
             </Button>
             <div className='col-span-1 flex flex-col gap-[8px]'>
               <div className='flex flex-col justify-between gap-[16px]'>
-                <h5 className='text-lg font-bold leading-normal text-primary-blue'>
-                  {t('language')}
-                </h5>
+                <h5 className='text-lg font-bold leading-normal text-primary-blue'>{t('language')}</h5>
                 <Input
                   variant='underlined'
                   value={searchLang}
@@ -109,30 +98,24 @@ function LangsComp() {
                     base: 'w-full',
                     input: 'text-lg text-[#C9C9C9]',
                     inputWrapper: 'h-[40px] pl-[12px]',
-                    innerWrapper: 'gap-[4px]',
+                    innerWrapper: 'gap-[4px]'
                   }}
                 />
               </div>
               <div className='grid max-h-[400px] grid-cols-1 gap-1 overflow-y-scroll py-2'>
                 {langs
-                  .filter((item) =>
-                    normalizeKeyword(item.label).includes(normalizeKeyword(searchLang)),
-                  )
+                  .filter((item) => normalizeKeyword(item.label).includes(normalizeKeyword(searchLang)))
                   .map((item) => (
                     <button
                       onClick={() => _HandleChangeLang(item)}
                       disabled={!item.active}
                       key={item.code}
                       className={`${
-                        lang === item
-                          ? 'bg-primary-blue-2 text-primary-blue'
-                          : 'hover:bg-base-gray disabled:hover:bg-transparent'
+                        lang === item ? 'bg-primary-blue-2 text-primary-blue' : 'hover:bg-base-gray disabled:hover:bg-transparent'
                       } flex items-center gap-2 whitespace-nowrap rounded-lg px-2 py-3 text-left text-lg`}
                     >
                       <span>{item.symbol}</span>
-                      <span className={`${item.active ? '' : 'text-black/30'}`}>
-                        {item.label}
-                      </span>
+                      <span className={`${item.active ? '' : 'text-black/30'}`}>{item.label}</span>
                     </button>
                   ))}
               </div>
@@ -143,9 +126,7 @@ function LangsComp() {
       <div className='mb:pb-0 block w-full pb-80 lg:hidden'>
         <div className=' overflow-y-scroll'>
           <div className='flex flex-col justify-between gap-[16px]'>
-            <h5 className='text-lg font-normal text-primary-blue py-3'>
-              {t('language')}
-            </h5>
+            <h5 className='text-lg font-normal text-primary-blue py-3'>{t('language')}</h5>
             <Input
               variant='underlined'
               value={searchLang}
@@ -158,30 +139,24 @@ function LangsComp() {
                 base: 'w-full',
                 input: 'text-lg text-[#C9C9C9]',
                 inputWrapper: 'h-[40px] pl-[12px]',
-                innerWrapper: 'gap-[4px]',
+                innerWrapper: 'gap-[4px]'
               }}
             />
           </div>
           <div className='grid max-h-[400px] grid-cols-1 gap-1 overflow-y-scroll py-2'>
             {langs
-              .filter((item) =>
-                normalizeKeyword(item.label).includes(normalizeKeyword(searchLang)),
-              )
+              .filter((item) => normalizeKeyword(item.label).includes(normalizeKeyword(searchLang)))
               .map((item) => (
                 <button
                   onClick={() => _HandleChangeLang(item)}
                   disabled={!item.active}
                   key={item.code}
                   className={`${
-                    lang === item
-                      ? 'bg-primary-blue-2 text-primary-blue'
-                      : 'hover:bg-base-gray disabled:hover:bg-transparent'
+                    lang === item ? 'bg-primary-blue-2 text-primary-blue' : 'hover:bg-base-gray disabled:hover:bg-transparent'
                   } flex items-center gap-2 whitespace-nowrap rounded-lg px-4 py-6 text-left text-lg`}
                 >
                   <span>{item.symbol}</span>
-                  <span className={`${item.active ? '' : 'text-black/30'}`}>
-                    {item.label}
-                  </span>
+                  <span className={`${item.active ? '' : 'text-black/30'}`}>{item.label}</span>
                 </button>
               ))}
           </div>

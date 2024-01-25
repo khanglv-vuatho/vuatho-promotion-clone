@@ -29,7 +29,7 @@ export const DefaultModal: React.FC<DefaultModal> = ({
   hiddenHeader,
   size,
   styleHeader,
-  className,
+  className
 }) => {
   return (
     <>
@@ -43,7 +43,7 @@ export const DefaultModal: React.FC<DefaultModal> = ({
         classNames={{
           body: 'p-0',
           header: 'p-0 pl-8',
-          base: 'rounded-[16px] max-w-[900px]',
+          base: 'rounded-[16px] max-w-[900px]'
         }}
         className={className}
       >
@@ -51,14 +51,7 @@ export const DefaultModal: React.FC<DefaultModal> = ({
           {(onClose) => (
             <>
               {!hiddenHeader && (
-                <ModalHeader
-                  className={twMerge(
-                    `relative flex items-center p-2 ${
-                      title ? 'justify-between' : 'justify-end'
-                    }`,
-                    styleHeader,
-                  )}
-                >
+                <ModalHeader className={twMerge(`relative flex items-center p-2 ${title ? 'justify-between' : 'justify-end'}`, styleHeader)}>
                   {title}
                   {!hiddenCloseBtn && (
                     <Button

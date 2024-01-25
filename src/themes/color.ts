@@ -33,7 +33,7 @@ export const colorsConfig: TColorsConfig = {
   'primary-orange': '#FF8F34',
   'primary-yellow': '#FCB813',
   danger: '#FF4343',
-  success: '#17D641',
+  success: '#17D641'
 }
 
 export const backgroudImageConfig = {}

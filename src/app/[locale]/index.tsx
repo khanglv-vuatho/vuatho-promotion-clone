@@ -14,7 +14,7 @@ import {
   Location as LocationIcon,
   Sms as MailIcon,
   HambergerMenu as MenuIcon,
-  Call as PhoneIcon,
+  Call as PhoneIcon
 } from 'iconsax-react'
 
 import { FacebookIcon, LinkedinIcon, YoutubeIcon } from '@/components/Icons'
@@ -46,12 +46,12 @@ export const PromotionsFooter = memo(() => {
     {
       id: 'Youtube',
       icon: <YoutubeIcon size={24} />,
-      link: 'https://www.youtube.com/@Vuatho.official',
+      link: 'https://www.youtube.com/@Vuatho.official'
     },
     {
       id: 'Facebook',
       icon: <FacebookIcon size={20} />,
-      link: 'https://www.facebook.com/vuathovietnam',
+      link: 'https://www.facebook.com/vuathovietnam'
     },
     // {
     //   id: 'Tiktok',
@@ -66,8 +66,8 @@ export const PromotionsFooter = memo(() => {
     {
       id: 'Linkedin',
       icon: <LinkedinIcon size={20} />,
-      link: 'https://www.linkedin.com/company/vuatho-vn',
-    },
+      link: 'https://www.linkedin.com/company/vuatho-vn'
+    }
   ]
   return (
     <footer className='ct-container grid grid-cols-1 gap-[40px] py-10 lg:grid-cols-5 lg:py-20 bg-white'>
@@ -86,7 +86,7 @@ export const PromotionsFooter = memo(() => {
         </div>
         <div className='flex flex-col gap-5'>
           <p className='font-light'>{t('text2')}</p>
-          <div className='flex w-full items-center justify-between gap-5 md:justify-normal'>
+          <div className='flex w-full items-center justify-between gap-5 md:gap-0 md:justify-normal'>
             {socialNetworkList.map((e) => (
               <a rel='noopener' key={e.id} href={e.link} target='_blank' title={e.id}>
                 <div className='flex items-center gap-2'>
@@ -152,9 +152,9 @@ const RightHeader = memo(() => {
     {
       id: 1,
       title: td('title1'),
-      url: `/${locale}/invite${_handleCheckWebView()}`,
+      url: `/${locale}/invite${_handleCheckWebView()}`
     },
-    { id: 2, title: td('title2'), url: `/${locale}` },
+    { id: 2, title: td('title2'), url: `/${locale}` }
   ]
 
   type TMenuPopup = {
@@ -174,13 +174,13 @@ const RightHeader = memo(() => {
       childrenTitle: [
         {
           title: td('title2'),
-          url: `/${locale}/winners-list`,
+          url: `/${locale}/winners-list`
         },
         {
           title: td('title1'),
-          url: `/${locale}/invite/winners-list`,
-        },
-      ],
+          url: `/${locale}/invite/winners-list`
+        }
+      ]
     },
     {
       id: 3,
@@ -190,13 +190,13 @@ const RightHeader = memo(() => {
       childrenTitle: [
         {
           title: td('title2'),
-          url: `/${locale}/rule`,
+          url: `/${locale}/rule`
         },
         {
           title: td('title1'),
-          url: `/${locale}/invite/rule`,
-        },
-      ],
+          url: `/${locale}/invite/rule`
+        }
+      ]
     },
     { id: 2, title: tt('text2'), url: 'https://vuatho.com' },
     {
@@ -209,7 +209,7 @@ const RightHeader = memo(() => {
           </div>
         </div>
       ),
-      url: 'https://www.facebook.com/vuathovietnam',
+      url: 'https://www.facebook.com/vuathovietnam'
     },
     {
       id: 5,
@@ -221,7 +221,7 @@ const RightHeader = memo(() => {
           </div>
         </div>
       ),
-      url: 'https://zalo.me/622166130485793859',
+      url: 'https://zalo.me/622166130485793859'
     },
     {
       id: 5,
@@ -233,28 +233,28 @@ const RightHeader = memo(() => {
           </div>
         </div>
       ),
-      url: 'https://zalo.me/622166130485793859',
-    },
+      url: 'https://zalo.me/622166130485793859'
+    }
   ]
 
   const menuVariants = {
     initial: {
-      scaleY: 0,
+      scaleY: 0
     },
     animate: {
       scaleY: 1,
       transiton: {
         duration: 0.5,
-        ease: [0.12, 0, 0.39, 0],
-      },
+        ease: [0.12, 0, 0.39, 0]
+      }
     },
     exit: {
       scaleY: 0,
       transiton: {
         duration: 0.5,
-        ease: [0.22, 1, 0.36, 1],
-      },
-    },
+        ease: [0.22, 1, 0.36, 1]
+      }
+    }
   }
 
   const _HandleToggleMenu = useCallback(() => {
@@ -431,10 +431,10 @@ export const Hero: React.FC<THero> = memo(({ thumb, thumb1, thumb2, thumb3, invi
           listNumber: [
             ['12', '31', '45', '21', '42', '44'],
             ['12', '32', '35', '98', '33', '75'],
-            ['12', '32', '12', '94', '86', '64'],
+            ['12', '32', '12', '94', '86', '64']
           ],
-          code: '000000',
-        },
+          code: '000000'
+        }
       })
     } catch (error) {
       console.log(error)
@@ -501,7 +501,7 @@ export const Hero: React.FC<THero> = memo(({ thumb, thumb1, thumb2, thumb3, invi
               transition={{ duration: 0.2, delay: 0.1 }}
               className='flex flex-col items-center'
             >
-              <ImageFallback src={thumb} alt={thumb} width={773} height={491} className='object-contain pointer-events-none select-none w-auto' />
+              <ImageFallback priority src={thumb} alt={thumb} width={773} height={491} className='object-contain pointer-events-none select-none w-auto' />
             </motion.div>
           </div>
           {!!isWebView && (
@@ -632,16 +632,16 @@ export const ProtocolsPromotion = memo(() => {
           {t('text11')}
         </div>
       ),
-      thumb: 'ProtocolsPromotion1.png',
+      thumb: 'ProtocolsPromotion1.png'
     },
     {
       desc: <p className='md:text-xl'>{t('text12')}</p>,
-      thumb: 'ProtocolsPromotion2.png',
+      thumb: 'ProtocolsPromotion2.png'
     },
     {
       desc: <p className='md:text-xl'>{t('text13')}</p>,
-      thumb: 'ProtocolsPromotion3.png',
-    },
+      thumb: 'ProtocolsPromotion3.png'
+    }
   ]
 
   return (
@@ -826,7 +826,7 @@ const MenuOptions = memo(({ infoUser, menuPopup }: { infoUser: any; menuPopup: a
         isOpen={isOpen}
         onOpenChange={handleOpen}
         classNames={{
-          content: 'rounded-[20px] p-0',
+          content: 'rounded-[20px] p-0'
         }}
       >
         <PopoverTrigger>

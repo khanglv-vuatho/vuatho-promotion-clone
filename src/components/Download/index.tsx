@@ -14,7 +14,7 @@ export const AndroidBtn: React.FC<{ style?: any }> = memo(({ style }) => {
       target='_blank'
       className={twMerge(
         'group relative flex w-full max-w-[180px] select-none items-center gap-2 overflow-hidden rounded-xl bg-black p-2 text-white 2xl:min-w-[180px] 3xl:min-w-[220px] 3xl:p-4',
-        style,
+        style
       )}
     >
       <GooglePlayIcon variant='Bold' size={36} />
@@ -37,7 +37,7 @@ export const IosBtn: React.FC<{ style?: any }> = memo(({ style }) => {
       target='_blank'
       className={twMerge(
         'group relative flex w-full max-w-[180px] select-none items-center gap-2 overflow-hidden rounded-xl bg-black p-2 text-white 2xl:min-w-[180px] 3xl:min-w-[220px] 3xl:p-4',
-        style,
+        style
       )}
     >
       <AppleIcon variant='Bold' size={36} />

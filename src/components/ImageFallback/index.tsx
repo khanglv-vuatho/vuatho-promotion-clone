@@ -8,33 +8,15 @@ interface ImageFallbackProps extends ImageProps {
 }
 
 const ImageFallback = forwardRef(
-  (
-    {
-      src,
-      alt,
-      className,
-      fallback: customFallback = '/default.webp',
-      ...props
-    }: ImageFallbackProps,
-    ref: Ref<HTMLImageElement>,
-  ) => {
+  ({ src, alt, className, fallback: customFallback = '/default.webp', ...props }: ImageFallbackProps, ref: Ref<HTMLImageElement>) => {
     const [fallback, setFallback] = useState<string>('')
 
     const handleError = () => {
       setFallback(customFallback)
     }
 
-    return (
-      <Image
-        className={className}
-        ref={ref}
-        src={fallback || src}
-        alt={alt}
-        {...props}
-        onError={handleError}
-      />
-    )
-  },
+    return <Image className={className} ref={ref} src={fallback || src} alt={alt} {...props} onError={handleError} />
+  }
 )
 
 export default ImageFallback

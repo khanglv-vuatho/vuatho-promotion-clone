@@ -15,70 +15,70 @@ const WinnerListPage = () => {
         {
           rank: 1,
           name: 'Lâm Hoài Bảo',
-          bingo: '0123',
+          bingo: '0123'
         },
         {
           rank: 2,
           name: 'Trần',
-          bingo: '3213',
+          bingo: '3213'
         },
         {
           rank: 3,
           name: 'Nguyễn Trà ',
-          bingo: '4231',
-        },
+          bingo: '4231'
+        }
       ],
       time: {
         round: 1,
-        public_at: '123',
-      },
+        public_at: '123'
+      }
     },
     {
       listUserWinners: [
         {
           rank: 1,
           name: ' Hoài Bảo',
-          bingo: '1235',
+          bingo: '1235'
         },
         {
           rank: 2,
           name: 'Tính',
-          bingo: '6453',
+          bingo: '6453'
         },
         {
           rank: 3,
           name: 'Nguyễn Tranh Huy',
-          bingo: '6531',
-        },
+          bingo: '6531'
+        }
       ],
       time: {
         round: 1,
-        public_at: '123',
-      },
+        public_at: '123'
+      }
     },
     {
       listUserWinners: [
         {
           rank: 1,
           name: 'Lâm  Bảo',
-          bingo: '5231',
+          bingo: '5231'
         },
         {
           rank: 2,
           name: 'Trần Tấn',
-          bingo: '8776',
+          bingo: '8776'
         },
         {
           rank: 3,
           name: 'Nguyễn Trà Tuy',
-          bingo: '4521',
-        },
+          bingo: '4521'
+        }
       ],
       time: {
         round: 1,
-        public_at: '123',
-      },
-    },
+        public_at: '123'
+      }
+    }
   ]
 
   const _HandleFetching = async () => {

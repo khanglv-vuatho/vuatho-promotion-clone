@@ -10,52 +10,38 @@ import { twMerge } from 'tailwind-merge'
 
 import ImageFallback from '../ImageFallback'
 
-export const HeaderWrapper = memo(
-  ({ children, style }: { children: React.ReactNode; style?: string }) => {
-    const openMenu = useSelector((state: any) => state.openMenu)
-    const [isHeaderVisible, setHeaderVisible] = useState(true)
+export const HeaderWrapper = memo(({ children, style }: { children: React.ReactNode; style?: string }) => {
+  const openMenu = useSelector((state: any) => state.openMenu)
+  const [isHeaderVisible, setHeaderVisible] = useState(true)
 
-    useEffect(() => {
-      let prevScrollPos = window.scrollY
-      const handleScroll = () => {
-        const currentScrollPos = window.scrollY
+  useEffect(() => {
+    let prevScrollPos = window.scrollY
+    const handleScroll = () => {
+      const currentScrollPos = window.scrollY
 
-        if (currentScrollPos > prevScrollPos && currentScrollPos > 60) {
-          setHeaderVisible(false)
-        } else {
-          setHeaderVisible(true)
-        }
-        prevScrollPos = currentScrollPos
+      if (currentScrollPos > prevScrollPos && currentScrollPos > 60) {
+        setHeaderVisible(false)
+      } else {
+        setHeaderVisible(true)
       }
+      prevScrollPos = currentScrollPos
+    }
 
-      window.addEventListener('scroll', handleScroll)
+    window.addEventListener('scroll', handleScroll)
 
-      return () => {
-        window.removeEventListener('scroll', handleScroll)
-      }
-    }, [])
+    return () => {
+      window.removeEventListener('scroll', handleScroll)
+    }
+  }, [])
 
-    return (
-      <header
-        id='header'
-        className={`header fixed top-0 left-0 right-0 z-[11] transition ${
-          isHeaderVisible ? 'translate-y-0' : '-translate-y-[100%]'
-        }`}
-      >
-        <div
-          className={twMerge(
-            `ct-container flex h-[70px] items-center justify-between 3xl:h-[80px] transition ${
-              openMenu ? 'bg-white ' : ''
-            }`,
-            style,
-          )}
-        >
-          {children}
-        </div>
-      </header>
-    )
-  },
-)
+  return (
+    <header id='header' className={`header fixed top-0 left-0 right-0 z-[11] transition ${isHeaderVisible ? 'translate-y-0' : '-translate-y-[100%]'}`}>
+      <div className={twMerge(`ct-container flex h-[70px] items-center justify-between 3xl:h-[80px] transition ${openMenu ? 'bg-white ' : ''}`, style)}>
+        {children}
+      </div>
+    </header>
+  )
+})
 
 export const Logo = memo(() => {
   const openMenu = useSelector((state: any) => state.openMenu)

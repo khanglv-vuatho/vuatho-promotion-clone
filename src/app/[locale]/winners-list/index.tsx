@@ -19,16 +19,16 @@ export const WinderList = ({ data, onFetching }: { data: any; onFetching: boolea
   const listRank = [
     {
       title: isInvite ? '1 Wave RSX F1' : '1 Yamaha PG-1',
-      thumb: isInvite ? '/promotion/invite-number1.png' : '/promotion/number1.png',
+      thumb: isInvite ? '/promotion/invite-number1.png' : '/promotion/number1.png'
     },
     {
       title: t('text16'),
-      thumb: '/promotion/number2.png',
+      thumb: '/promotion/number2.png'
     },
     {
       title: t('text20'),
-      thumb: '/promotion/number3.png',
-    },
+      thumb: '/promotion/number3.png'
+    }
   ]
 
   useEffect(() => {
@@ -58,7 +58,7 @@ export const WinderList = ({ data, onFetching }: { data: any; onFetching: boolea
                   <div className='flex flex-col gap-10'>
                     {item?.listUserWinners?.map((item: any, index: number) => (
                       <div key={index} className='flex flex-col gap-2'>
-                        <div className='flex items-center justify-between xs:grid xs:grid-cols-3 gap-4 '>
+                        <div className={`flex items-center justify-between ${isInvite ? 'md:grid md:grid-cols-3' : 'xs:grid xs:grid-cols-3'} gap-4 `}>
                           <div className='flex items-center gap-2'>
                             <div>
                               <ImageFallback
@@ -71,7 +71,7 @@ export const WinderList = ({ data, onFetching }: { data: any; onFetching: boolea
                             </div>
                             <p className='md:text-xl font-normal max-w-none md:max-w-[140px] lg:max-w-none'>{item.name}</p>
                           </div>
-                          <div className='w-full hidden xs:flex items-center justify-center'>
+                          <div className={`w-full hidden ${isInvite ? 'md:flex' : 'xs:flex'} items-center justify-center`}>
                             <div className='items-center justify-center flex gap-4'>
                               {isInvite ? (
                                 item.bingo.map((item: any, index: number) => (
@@ -89,7 +89,7 @@ export const WinderList = ({ data, onFetching }: { data: any; onFetching: boolea
                             </div>
                           </div>
                           <div className='flex items-center gap-2 justify-end'>
-                            <p className={`${!isInvite && 'hidden xs:block'}`}>{listRank[index].title}</p>
+                            <p className={`${!isInvite ? 'hidden xs:block' : ''}`}>{listRank[index].title}</p>
                             <div className='hidden lg:block'>
                               <ImageFallback
                                 src={listRank[index].thumb}
@@ -101,7 +101,7 @@ export const WinderList = ({ data, onFetching }: { data: any; onFetching: boolea
                             </div>
                           </div>
                         </div>
-                        <div className={`xs:hidden flex ${isInvite ? 'justify-center' : ''} items-center gap-4`}>
+                        <div className={` flex ${isInvite ? 'justify-center md:hidden' : 'xs:hidden'} items-center gap-4`}>
                           <div className='items-center justify-center flex gap-4'>
                             {isInvite ? (
                               item.bingo.map((item: any, index: number) => (

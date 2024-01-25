@@ -8,8 +8,8 @@ const DefaultValueState: any = {
     phone: '',
     id: '',
     listNumber: [],
-    code: '',
-  },
+    code: ''
+  }
 }
 
 function counterReducer(state: any = DefaultValueState, action: any) {

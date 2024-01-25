@@ -5,15 +5,7 @@ import { usePathname } from 'next/navigation'
 import { memo } from 'react'
 import { twMerge } from 'tailwind-merge'
 
-function InviteRule({
-  primaryText,
-  step6,
-  bottomText = '',
-}: {
-  primaryText: string
-  step6?: any
-  bottomText?: string
-}) {
+function InviteRule({ primaryText, step6, bottomText = '' }: { primaryText: string; step6?: any; bottomText?: string }) {
   const pathName = usePathname()
   const isInvite = pathName.includes('invite')
 
@@ -46,8 +38,7 @@ function InviteRule({
           4. {t('text5')} <span className='font-light'>{t('text6')}</span>
         </p>
         <p className={`${primaryText} font-semibold`}>
-          5. {t('text7')}{' '}
-          <span className='font-light'>{isInvite ? t('text8-1') : t('text8')}</span>
+          5. {t('text7')} <span className='font-light'>{isInvite ? t('text8-1') : t('text8')}</span>
         </p>
 
         <div className={primaryText}>
@@ -55,25 +46,17 @@ function InviteRule({
           <p className={`font-semibold`}>
             {tp('text17')}:{' '}
             <span className='font-light'>
-              {tp('text21')} {isInvite ? ' Yamaha PG-1' : ' Honda Wave RSX FI 110'}{' '}
-              {tp('text22')} {isInvite ? '35.000.000đ' : '25.000.000đ'}{' '}
+              {tp('text21')} {isInvite ? ' Yamaha PG-1' : ' Honda Wave RSX FI 110'} {tp('text22')} {isInvite ? '35.000.000VND' : '25.000.000VND'}{' '}
             </span>
-            <span className={twMerge('font-light text-[#969696]', bottomText)}>
-              ({tp('text23')}).
-            </span>
+            <span className={twMerge('font-light text-[#969696]', bottomText)}>({tp('text23')}).</span>
           </p>
           <p className={`font-semibold`}>
             {tp('text15')}: <span className='font-light'>0{tp('text16')} </span>
-            <span className={twMerge('font-light text-[#969696]', bottomText)}>
-              ({tp('text24')}).
-            </span>
+            <span className={twMerge('font-light text-[#969696]', bottomText)}>({tp('text24')}).</span>
           </p>
           <p className={`font-semibold`}>
             {tp('text19')}: <span className='font-light'>0{tp('text20')}</span>
-            <span className={twMerge('font-light text-[#969696]', bottomText)}>
-              {' '}
-              ({tp('text24')}).
-            </span>
+            <span className={twMerge('font-light text-[#969696]', bottomText)}> ({tp('text24')}).</span>
           </p>
           {step6 && step6}
         </div>
@@ -134,9 +117,7 @@ function InviteRule({
           <p>{ti('text6')}</p>
         </div>
         <div className={bottomText}>
-          <p className={twMerge('text-[#969696] font-light ', bottomText)}>
-            {tph('text3')}
-          </p>
+          <p className={twMerge('text-[#969696] font-light ', bottomText)}>{tph('text3')}</p>
           <p className='font-light'>{tph('text1')}</p>
           <p className='font-light'>{tph('text4')}</p>
           <p className='font-light'>{tph('text5')}</p>
