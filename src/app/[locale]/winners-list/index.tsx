@@ -19,15 +19,15 @@ export const WinderList = ({ data, onFetching }: { data: any; onFetching: boolea
   const listRank = [
     {
       title: isInvite ? '1 Wave RSX F1' : '1 Yamaha PG-1',
-      thumb: isInvite ? '/promotion/invite-number1.png' : '/promotion/number1.png'
+      thumb: isInvite ? '/promotion/invite-number1.webp' : '/promotion/number1.webp'
     },
     {
       title: t('text16'),
-      thumb: '/promotion/number2.png'
+      thumb: '/promotion/number2.webp'
     },
     {
       title: t('text20'),
-      thumb: '/promotion/number3.png'
+      thumb: '/promotion/number3.webp'
     }
   ]
 
@@ -62,7 +62,7 @@ export const WinderList = ({ data, onFetching }: { data: any; onFetching: boolea
                           <div className='flex items-center gap-2'>
                             <div>
                               <ImageFallback
-                                src={`/promotion/rank${item.rank}.png`}
+                                src={`/promotion/rank${item.rank}.webp`}
                                 alt={`image-${item.rank}`}
                                 height={100}
                                 width={100}

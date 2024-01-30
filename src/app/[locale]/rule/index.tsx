@@ -18,23 +18,15 @@ export const BodyRule = memo(() => {
       <div className='ct-container'>
         <div className='p-4 md:p-10 rounded-[20px] bg-gradient-to-b from-[#0D6DDE] to-[#A0CCFF]'>
           <div className='flex flex-col gap-5'>
-            <h3 className='md:text-4xl text-2xl text-white font-bold text-center'>
-              {t('text9')}
-            </h3>
+            <h3 className='md:text-4xl text-2xl text-white font-bold text-center'>{t('text9')}</h3>
             <div className='bg-gradient-to-br from-[#F4BF2B] to-[#FFF27E] w-full rounded-full px-4 py-2 md:px-6 md:py-4 text-center text-2xl md:text-4xl text-primary-blue'>
               <span>{isInvite ? t('text1-1') : t('text1')}</span>
-              <span className='font-bold'>
-                {isInvite ? ` - ${t('text8')} ` : ` - ${t('text2')}`}
-              </span>
+              <span className='font-bold'>{isInvite ? ` - ${t('text8')} ` : ` - ${t('text2')}`}</span>
             </div>
-            <InviteRule
-              primaryText='text-white'
-              step6={Step6()}
-              bottomText='text-white font-semibold'
-            />
+            <InviteRule primaryText='text-white' step6={Step6()} bottomText='text-white font-semibold' />
             <div className='w-full'>
               <ImageFallback
-                src={isInvite ? '/promotion/invite.png' : '/promotion/invite1.png'}
+                src={isInvite ? '/promotion/invite.webp' : '/promotion/invite1.webp'}
                 alt=''
                 width={2100}
                 height={500}
@@ -65,7 +57,7 @@ export const Step6 = () => {
           <div className='flex items-center gap-2 !pl-14'>
             <div>
               <ImageFallback
-                src='/promotion/rank1.png'
+                src='/promotion/rank1.webp'
                 alt='rank1'
                 width={45}
                 height={54}
@@ -77,7 +69,7 @@ export const Step6 = () => {
           <div className='flex items-center gap-2 !pl-14'>
             <div>
               <ImageFallback
-                src='/promotion/rank2.png'
+                src='/promotion/rank2.webp'
                 alt='rank2'
                 width={45}
                 height={54}
@@ -89,7 +81,7 @@ export const Step6 = () => {
           <div className='rounded-bl-xl flex items-center gap-2 !pl-14'>
             <div>
               <ImageFallback
-                src='/promotion/rank3.png'
+                src='/promotion/rank3.webp'
                 alt='rank3'
                 width={45}
                 height={54}

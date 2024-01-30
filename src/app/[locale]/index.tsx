@@ -53,6 +53,16 @@ export const PromotionsFooter = memo(() => {
       icon: <FacebookIcon size={20} />,
       link: 'https://www.facebook.com/vuathovietnam'
     },
+    // {
+    //   id: 'Tiktok',
+    //   icon: <TiktokIcon size={20} />,
+    //   link: '	https://www.tiktok.com/@vuatho.com',
+    // },
+    // {
+    //   id: 'Instagram',
+    //   icon: <InstaIcon size={24} />,
+    //   link: 'https://www.instagram.com/vuatho.official',
+    // },
     {
       id: 'Linkedin',
       icon: <LinkedinIcon size={20} />,
@@ -64,19 +74,13 @@ export const PromotionsFooter = memo(() => {
       <div className='col-span-1 flex flex-col gap-5 lg:col-span-2'>
         <div className='flex flex-col'>
           <div>
-            <ImageFallback
-              src={'/logo/textLogo.webp'}
-              alt='textLogo.webp'
-              width={84}
-              height={60}
-              className='h-[60px] w-[84px] pointer-events-none select-none'
-            />
+            <ImageFallback src={'/logo/textLogo.png'} alt='textLogo' width={84} height={60} className='h-[60px] w-[84px] pointer-events-none select-none' />
           </div>
           <p className='font-light'>{t('text1')}</p>
         </div>
         <div className='flex flex-col gap-5'>
           <p className='font-light'>{t('text2')}</p>
-          <div className='flex w-full items-center justify-between gap-5 md:gap-0 md:justify-normal'>
+          <div className='flex w-full items-center justify-between gap-5 md:justify-normal'>
             {socialNetworkList.map((e) => (
               <a rel='noopener' key={e.id} href={e.link} target='_blank' title={e.id}>
                 <div className='flex items-center gap-2'>
@@ -195,7 +199,7 @@ const RightHeader = memo(() => {
         <div className='flex items-center lg:justify-end gap-2 w-full'>
           <p className='text-semibold'>{tt('fanpage')} Vua Thợ</p>
           <div className='hidden lg:block'>
-            <ImageFallback alt='fb' src={'/logo/fb.png'} width={24} height={24} className='size-6 pointer-events-none select-none' />
+            <ImageFallback alt='fb' src={'/logo/fb.webp'} width={24} height={24} className='size-6 pointer-events-none select-none' />
           </div>
         </div>
       ),
@@ -207,7 +211,7 @@ const RightHeader = memo(() => {
         <div className='flex items-center lg:justify-end gap-2 w-full'>
           <p className='text-semibold'>Zalo Vua Thợ</p>
           <div className='hidden lg:block'>
-            <ImageFallback alt='zalo' src={'/logo/zalo.png'} width={24} height={24} className='size-6 pointer-events-none select-none' />
+            <ImageFallback alt='zalo' src={'/logo/zalo.webp'} width={24} height={24} className='size-6 pointer-events-none select-none' />
           </div>
         </div>
       ),
@@ -414,7 +418,7 @@ export const Hero: React.FC<THero> = memo(({ thumb, thumb1, thumb2, thumb3, invi
       dispatch({
         type: 'login',
         payload: {
-          thumb: '/promotion/number1.png',
+          thumb: '/promotion/number1.webp',
           name: '-----------',
           phone: '0000000',
           id: '3',
@@ -491,7 +495,9 @@ export const Hero: React.FC<THero> = memo(({ thumb, thumb1, thumb2, thumb3, invi
               transition={{ duration: 0.2, delay: 0.1 }}
               className='flex flex-col items-center'
             >
-              <ImageFallback priority src={thumb} alt={thumb} width={773} height={491} className='object-contain pointer-events-none select-none w-auto' />
+              <div className='max-w-[773px] max-h-[450px]'>
+                <ImageFallback priority src={thumb} alt={thumb} width={773} height={491} className='pointer-events-none select-none w-auto h-auto' />
+              </div>
             </motion.div>
           </div>
           {!!isWebView && (
@@ -622,15 +628,15 @@ export const ProtocolsPromotion = memo(() => {
           {t('text11')}
         </div>
       ),
-      thumb: 'ProtocolsPromotion1.png'
+      thumb: 'ProtocolsPromotion1.webp'
     },
     {
       desc: <p className='md:text-xl'>{t('text12')}</p>,
-      thumb: 'ProtocolsPromotion2.png'
+      thumb: 'ProtocolsPromotion2.webp'
     },
     {
       desc: <p className='md:text-xl'>{t('text13')}</p>,
-      thumb: 'ProtocolsPromotion3.png'
+      thumb: 'ProtocolsPromotion3.webp'
     }
   ]
 
@@ -657,8 +663,8 @@ export const ProtocolsPromotion = memo(() => {
               <ImageFallback
                 src={`/promotion/${item.thumb}`}
                 alt='ProtocolsPromotion1'
-                width={1000}
-                height={1000}
+                width={360}
+                height={360}
                 className='w-full pointer-events-none select-none'
               />
             </div>
@@ -727,7 +733,7 @@ export const GuidelinesPromotion = memo(() => {
             <p>{t('text16')}</p>
           </div>
           <div>
-            <ImageFallback src={'/promotion/number2.png'} alt='' width={300} height={112} className='pointer-events-none select-none w-auto' />
+            <ImageFallback src={'/promotion/number2.webp'} alt='' width={300} height={112} className='pointer-events-none select-none w-auto' />
           </div>
         </div>
         <div className='order-1 md:order-2'>
@@ -737,7 +743,7 @@ export const GuidelinesPromotion = memo(() => {
           </div>
           <div>
             <ImageFallback
-              src={isInvite ? '/promotion/invite-number1.png' : '/promotion/number1.png'}
+              src={isInvite ? '/promotion/invite-number1.webp' : '/promotion/number1.webp'}
               alt=''
               width={300}
               height={340}
@@ -751,7 +757,7 @@ export const GuidelinesPromotion = memo(() => {
             <p>{t('text20')}</p>
           </div>
           <div>
-            <ImageFallback src={'/promotion/number3.png'} alt='' width={300} height={112} className='pointer-events-none select-none w-auto' />
+            <ImageFallback src={'/promotion/number3.webp'} alt='' width={300} height={112} className='pointer-events-none select-none w-auto' />
           </div>
         </div>
       </motion.div>
@@ -813,13 +819,15 @@ const MenuOptions = memo(({ infoUser, menuPopup }: { infoUser: any; menuPopup: a
     <div className='lg:block hidden'>
       <Popover
         placement='bottom-end'
+        role='button'
+        aria-roledescription='button'
         isOpen={isOpen}
         onOpenChange={handleOpen}
         classNames={{
           content: 'rounded-[20px] p-0'
         }}
       >
-        <PopoverTrigger>
+        <PopoverTrigger role='button' aria-roledescription='button'>
           <div className='size-[60px] rounded-full bg-white flex items-center justify-center shadow-[0px_8px_16px_0px_rgba(0,0,0,0.16)] cursor-pointer'>
             {!!infoUser.id ? (
               <ImageFallback
@@ -830,11 +838,11 @@ const MenuOptions = memo(({ infoUser, menuPopup }: { infoUser: any; menuPopup: a
                 className='size-[90%] rounded-full pointer-events-none select-none'
               />
             ) : (
-              <HambergerMenu className='text-base-black-1' />
+              <HambergerMenu aria-label='open' className='text-base-black-1' />
             )}
           </div>
         </PopoverTrigger>
-        <PopoverContent>
+        <PopoverContent aria-label='content'>
           <div className='rounded-[20px] bg-white py-2 flex flex-col items-end min-w-[240px]'>
             {menuPopup.map((item: any) => {
               return <LinkItem key={item.id} item={item} handleClick={HandleCloseMenuMoblie} />
